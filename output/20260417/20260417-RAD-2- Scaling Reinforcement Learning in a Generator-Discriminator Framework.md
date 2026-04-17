@@ -1,4 +1,4 @@
-# RAD-2：在生成器與判別器框架下大規模擴展強化學習
+RAD-2- Scaling Reinforcement Learning in a Generator-Discriminator Framework
 
 RAD-2：在生成器與判別器框架下大規模擴展強化學習
 👇

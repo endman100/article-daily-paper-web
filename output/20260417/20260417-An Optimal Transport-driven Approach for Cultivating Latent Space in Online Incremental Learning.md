@@ -1,4 +1,4 @@
-# 以最佳運輸理論指導線上增量學習中的潛在空間構建
+An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning
 
 以最佳運輸理論指導線上增量學習中的潛在空間構建
 👇

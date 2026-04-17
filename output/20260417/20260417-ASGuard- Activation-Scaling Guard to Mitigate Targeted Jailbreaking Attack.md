@@ -1,4 +1,4 @@
-# ASGuard：以激活值縮放為核心的守門員用來緩解針對性越獄攻擊
+ASGuard- Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack
 
 ASGuard：以激活值縮放為核心的守門員用來緩解針對性越獄攻擊
 👇

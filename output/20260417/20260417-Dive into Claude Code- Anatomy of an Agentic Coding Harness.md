@@ -1,4 +1,4 @@
-# 解剖 Claude Code：代理式寫程式骨架的內部構造
+Dive into Claude Code- Anatomy of an Agentic Coding Harness
 
 解剖 Claude Code：代理式寫程式骨架的內部構造
 👇

@@ -1,4 +1,4 @@
-# 透過位元組層介面實現跨分詞器的 LLM 知識蒸餾
+Cross-Tokenizer LLM Distillation through a Byte-Level Interface
 
 透過位元組層介面實現跨分詞器的 LLM 知識蒸餾
 👇

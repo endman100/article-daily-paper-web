@@ -1,4 +1,4 @@
-# RadAgent：用代理式強化學習做放射科報告的歧義感知錨定
+RadAgent- Ambiguity-Aware Report Grounding in Radiology via Agentic Reinforcement Learning
 
 RadAgent：用代理式強化學習做放射科報告的歧義感知錨定
 👇

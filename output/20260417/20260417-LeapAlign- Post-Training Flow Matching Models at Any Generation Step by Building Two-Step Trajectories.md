@@ -1,4 +1,4 @@
-# LeapAlign：用兩步軌跡在任意生成步對齊流匹配模型的後訓練方法
+LeapAlign- Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories
 
 LeapAlign：用兩步軌跡在任意生成步對齊流匹配模型的後訓練方法
 👇

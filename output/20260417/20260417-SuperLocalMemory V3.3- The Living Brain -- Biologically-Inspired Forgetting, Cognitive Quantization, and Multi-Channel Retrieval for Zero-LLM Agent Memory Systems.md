@@ -1,4 +1,4 @@
-# SuperLocalMemory V3.3 活腦架構：零 LLM 代理人記憶系統的生物啟發式遺忘、認知量化與多通道檢索
+SuperLocalMemory V3.3- The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems
 
 SuperLocalMemory V3.3 活腦架構：零 LLM 代理人記憶系統的生物啟發式遺忘、認知量化與多通道檢索
 👇

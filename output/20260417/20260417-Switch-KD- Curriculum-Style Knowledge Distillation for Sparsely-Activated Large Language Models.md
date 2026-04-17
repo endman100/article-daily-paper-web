@@ -1,4 +1,4 @@
-# Switch-KD：針對稀疏激活大型語言模型的課程式知識蒸餾
+Switch-KD- Curriculum-Style Knowledge Distillation for Sparsely-Activated Large Language Models
 
 Switch-KD：針對稀疏激活大型語言模型的課程式知識蒸餾
 👇

@@ -1,4 +1,4 @@
-# 表示優於像素：讓擴散模型真正看見語義的新方法
+Representations Before Pixels- Making Diffusion Models See
 
 表示優於像素：讓擴散模型真正看見語義的新方法
 👇

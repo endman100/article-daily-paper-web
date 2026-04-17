@@ -1,4 +1,4 @@
-# GlobalSplat：以全局場景代幣實現高效率的前向式三維高斯潑濺
+GlobalSplat- Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens
 
 GlobalSplat：以全局場景代幣實現高效率的前向式三維高斯潑濺
 👇

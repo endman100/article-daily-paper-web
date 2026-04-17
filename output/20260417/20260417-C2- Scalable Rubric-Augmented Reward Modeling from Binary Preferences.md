@@ -1,4 +1,4 @@
-# C2：把二元偏好升級為可擴展且帶量尺增強的獎勵建模
+C2- Scalable Rubric-Augmented Reward Modeling from Binary Preferences
 
 C2：把二元偏好升級為可擴展且帶量尺增強的獎勵建模
 👇

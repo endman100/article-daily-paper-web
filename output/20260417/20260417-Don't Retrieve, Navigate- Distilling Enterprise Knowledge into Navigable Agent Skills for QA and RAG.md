@@ -1,4 +1,4 @@
-# 無須檢索，主動導航：將企業知識蒸餾為可導航代理人技能以支援問答與檢索增強生成
+Don't Retrieve, Navigate- Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG
 
 無須檢索，主動導航：將企業知識蒸餾為可導航代理人技能以支援問答與檢索增強生成
 👇

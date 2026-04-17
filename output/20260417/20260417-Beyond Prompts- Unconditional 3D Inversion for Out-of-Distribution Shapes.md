@@ -1,4 +1,4 @@
-# 超越提示詞 面向分佈外形狀的無條件三維反演
+Beyond Prompts- Unconditional 3D Inversion for Out-of-Distribution Shapes
 
 超越提示詞 面向分佈外形狀的無條件三維反演
 👇

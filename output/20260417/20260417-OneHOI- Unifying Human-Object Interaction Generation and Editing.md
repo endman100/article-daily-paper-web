@@ -1,4 +1,4 @@
-# OneHOI：人物物件互動的生成與編輯統一框架
+OneHOI- Unifying Human-Object Interaction Generation and Editing
 
 OneHOI：人物物件互動的生成與編輯統一框架
 👇

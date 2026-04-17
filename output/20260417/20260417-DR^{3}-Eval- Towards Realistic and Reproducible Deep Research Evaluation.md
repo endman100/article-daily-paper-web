@@ -1,4 +1,4 @@
-# DR^{3}-Eval：打造真實且可重現的深度研究評估基準
+DR^{3}-Eval- Towards Realistic and Reproducible Deep Research Evaluation
 
 DR^{3}-Eval：打造真實且可重現的深度研究評估基準
 👇

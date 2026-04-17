@@ -1,4 +1,4 @@
-# 三階段 Transformer 動力學：LLM 訓練湧現現象的統一理論
+Three-Phase Transformer Dynamics- A Unified Theory of Emergence in LLM Training
 
 三階段 Transformer 動力學：LLM 訓練湧現現象的統一理論
 👇

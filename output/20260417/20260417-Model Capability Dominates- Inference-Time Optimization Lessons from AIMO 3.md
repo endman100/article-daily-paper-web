@@ -1,4 +1,4 @@
-# 模型能力主導：從 AIMO 3 看推論期最佳化的真相
+Model Capability Dominates- Inference-Time Optimization Lessons from AIMO 3
 
 模型能力主導：從 AIMO 3 看推論期最佳化的真相
 👇

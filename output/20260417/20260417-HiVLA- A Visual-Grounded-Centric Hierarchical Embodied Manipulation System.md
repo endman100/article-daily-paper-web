@@ -1,4 +1,4 @@
-# HiVLA：以視覺錨定為中心的分層具身操作系統
+HiVLA- A Visual-Grounded-Centric Hierarchical Embodied Manipulation System
 
 HiVLA：以視覺錨定為中心的分層具身操作系統
 👇

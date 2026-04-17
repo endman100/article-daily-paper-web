@@ -1,4 +1,4 @@
-# 如何微調推理模型：師生協作框架合成貼近學生風格的 SFT 資料
+How to Fine-Tune a Reasoning Model- A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data
 
 如何微調推理模型：師生協作框架合成貼近學生風格的 SFT 資料
 👇

@@ -1,4 +1,4 @@
-# LongAct：善用內在激活模式助力長上下文強化學習
+LongAct- Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning
 
 LongAct：善用內在激活模式助力長上下文強化學習
 👇
