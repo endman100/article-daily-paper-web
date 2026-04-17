@@ -1,7 +1,7 @@
 # An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning
 
 An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning
-以最佳運輸為核心的方法 在線上增量學習中培育潛在空間
+An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning：以最佳運輸為核心的方法 在線上增量學習中培育潛在空間
 線上增量學習面臨一道頑固的技術難關
 資料流源源不斷地流入，樣本分佈持續演變
 曾經看過的資料實在難以重新啟用於模型訓練

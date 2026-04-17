@@ -1,7 +1,7 @@
 [
   [
     "Dive into Claude Code: Anatomy of an Agentic Coding Harness",
-    "解剖 Claude Code 這種代理式寫程式骨架的內部構造",
+    "Dive into Claude Code：解剖 Claude Code 這種代理式寫程式骨架的內部構造",
     "Claude Code 不只是個編輯工具，它能跑 shell 還能改檔案與呼叫外部服務",
     "背後是公開的 TypeScript 源碼，讓人看清楚 AI 代理的運作邏輯",
     "這篇論文做了個有趣的對照：它拿 Claude Code 跟開源代理人 OpenClaw 放在一起",

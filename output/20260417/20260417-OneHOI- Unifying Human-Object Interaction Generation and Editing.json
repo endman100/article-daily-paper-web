@@ -1,7 +1,7 @@
 [
   [
     "OneHOI: Unifying Human-Object Interaction Generation and Editing",
-    "把人物物件互動的生成與編輯統一在同一框架",
+    "OneHOI：把人物物件互動的生成與編輯統一在同一框架",
     "HOI 研究一直存在結構性分化，一方專注生成，一方聚焦編輯",
     "OneHOI 將兩條平行線匯聚成同一個條件去噪流程",
     "若干人同時拿起不同物件互動的情境，這套系統如何精準解析每一個動作意圖",

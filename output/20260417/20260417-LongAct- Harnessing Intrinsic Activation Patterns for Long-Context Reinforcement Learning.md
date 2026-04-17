@@ -1,7 +1,7 @@
 # LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning
 
 LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning
-善用內在激活模式來強化長上下文強化學習
+LongAct：善用內在激活模式來強化長上下文強化學習
 強化學習正在成為推升 LLM 推理能力的關鍵力量
 多數研究者聚焦在調整獎勵設計與合成訓練資料，卻忽視了模型內部結構本身的可能性
 這項研究從模型的內在表徵特徵出發，發現了一個有趣的現象

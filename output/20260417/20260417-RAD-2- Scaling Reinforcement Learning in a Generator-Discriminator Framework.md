@@ -1,7 +1,7 @@
 # RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework
 
 RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework
-在生成器與判別器框架下大規模擴展強化學習
+RAD-2：在生成器與判別器框架下大規模擴展強化學習
 自駕車規劃一直卡在兩個需求之間：要能想像未來很多種可能，又要在閉環中保持穩定
 擴散式規劃器能畫出豐富的未來軌跡，但純粹用模仿學習訓練時容易抖動
 純擴散規劃也沒有負向反饋，錯過了就錯過了

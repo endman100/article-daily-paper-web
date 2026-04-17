@@ -1,7 +1,7 @@
 [
   [
     "Three-Phase Transformer",
-    "三相 Transformer 為殘差流注入結構先驗",
+    "Three-Phase Transformer：三相 Transformer 為殘差流注入結構先驗",
     "Transformer 的殘差流是整個模型的資訊主幹，但它通常沒有任何結構設計",
     "這篇論文在 SwiGLU 搭配 RMSNorm 還有 RoPE 與 GQA 的架構上，加入一種三相結構的先驗",
     "使殘差流具備對稱性，進而自我穩定形成幾何平衡",

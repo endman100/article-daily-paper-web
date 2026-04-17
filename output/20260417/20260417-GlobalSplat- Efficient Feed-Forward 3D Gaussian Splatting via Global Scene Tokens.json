@@ -1,7 +1,7 @@
 [
   [
     "GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
-    "以全局場景 token 實現高效率的前向式 3D 高斯潑濺",
+    "GlobalSplat：以全局場景 token 實現高效率的前向式 3D 高斯潑濺",
     "在 3D 高斯潑濺裡，怎麼配置高斯原子直接決定品質與速度與模型大小",
     "現行做法多半是像素對齐或體素對齊，每新增一張輸入視角就多一堆原子",
     "結果是表示越來越臃腫，跨視角一致性也越來越脆弱",

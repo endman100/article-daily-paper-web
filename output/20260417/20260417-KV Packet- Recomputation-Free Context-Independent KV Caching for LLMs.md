@@ -1,7 +1,7 @@
 # KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs
 
 KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs
-免重算且情境無關的 LLM KV 快取機制
+KV Packet：免重算且情境無關的 LLM KV 快取機制
 LLM 推論速度很大程度靠 KV 快取撐著
 但傳統 KV 快取是情境相依的
 同一份文件換個上下文就得重算 KV

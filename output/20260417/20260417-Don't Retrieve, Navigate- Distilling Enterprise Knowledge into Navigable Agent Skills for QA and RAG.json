@@ -1,7 +1,7 @@
 [
   [
     "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
-    "不要只檢索而是導航 把企業知識蒸餾成可導航的代理人技能以支援 QA 與 RAG",
+    "Don't Retrieve, Navigate：不要只檢索而是導航 把企業知識蒸餾成可導航的代理人技能以支援 QA 與 RAG",
     "傳統 RAG 把模型當成被動消費者，丟一批檢索結果進去，期望它湊出答案",
     "模型根本看不到整個語料如何組織，也看不到還有什麼被遺漏",
     "Corpus2Skill 改變了這個做法，讓代理人主動導航而非被動接收",

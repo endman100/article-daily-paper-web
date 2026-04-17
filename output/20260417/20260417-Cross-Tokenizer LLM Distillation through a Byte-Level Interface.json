@@ -1,7 +1,7 @@
 [
   [
     "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
-    "透過位元組層介面實現跨分詞器的 LLM 知識蒸餾",
+    "Cross-Tokenizer LLM Distillation through a Byte-Level Interface：透過位元組層介面實現跨分詞器的 LLM 知識蒸餾",
     "跨分詞器蒸餾始終卡在一個根本困境",
     "當老師模型和學生模型採用不同的分詞器，兩套詞彙表無法對應",
     "現有方法全靠繁複的啟發式對齊技巧",

@@ -1,7 +1,7 @@
 # Representations Before Pixels: A Perceptual Loss Rooted in Vision Foundation Models
 
 Representations Before Pixels: A Perceptual Loss Rooted in Vision Foundation Models
-讓表徵先於像素 以視覺基礎模型為根基的感知損失
+Representations Before Pixels：讓表徵先於像素 以視覺基礎模型為根基的感知損失
 準確預測未來影片，既要畫面逼真，也要場景語意前後連貫
 自駕這類動態複雜場景，預測偏差會直接破壞整套決策鏈條
 Re2Pix 的核心洞察是把預測拆成兩個環節

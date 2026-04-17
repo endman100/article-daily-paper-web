@@ -1,7 +1,7 @@
 # RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography
 
 RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography
-使用工具逐步判讀胸部電腦斷層的 AI 代理人
+RadAgent：使用工具逐步判讀胸部電腦斷層的 AI 代理人
 視覺語言模型現在能自動寫 CT 報告，但臨床醫師面對它時通常只能看最後結果
 報告從何而來，推理過程如何，完全看不到
 整個解讀變成一個密閉的黑盒

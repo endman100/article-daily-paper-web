@@ -1,7 +1,7 @@
 [
   [
     "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
-    "活腦架構 用仿生遺忘與認知量化還有多通道檢索為代理人記憶系統打造零 LLM 方案",
+    "SuperLocalMemory V3.3：活腦架構 用仿生遺忘與認知量化還有多通道檢索為代理人記憶系統打造零 LLM 方案",
     "代理人有個深層矛盾",
     "它掌握巨量參數知識，卻對一小時前的對話毫無記憶",
     "存儲向量加上單通道檢索再依賴雲端 LLM，人腦的遺忘機制與聯想能力幾乎未曾被實現",

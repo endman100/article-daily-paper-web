@@ -1,7 +1,7 @@
 # HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System
 
 HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System
-以視覺錨定為中心的分層具身操作系統
+HiVLA：以視覺錨定為中心的分層具身操作系統
 端到端的視覺語言動作模型有個令人困擾的現象
 當你在窄資料上微調低階控制時，它從 VLM 繼承的推理能力會慢慢消失
 機器人會變得很會做訓練過的動作，卻開始看不懂新場景

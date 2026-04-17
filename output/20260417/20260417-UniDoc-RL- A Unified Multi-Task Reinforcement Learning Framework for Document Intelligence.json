@@ -1,7 +1,7 @@
 [
   [
     "UniDoc-RL: A Unified Multi-Task Reinforcement Learning Framework for Document Intelligence",
-    "為文件智慧打造的統一多任務強化學習框架",
+    "UniDoc-RL：為文件智慧打造的統一多任務強化學習框架",
     "把外部視覺知識接到大型視覺語言模型上聽起來很美，但實際上現行視覺 RAG 常靠通用檢索訊號",
     "那些訊號看不清楚文件裡真正關鍵的細節",
     "UniDoc-RL 用強化學習把檢索與重排序還有主動感知和推理四件事合成一個統一代理人",
