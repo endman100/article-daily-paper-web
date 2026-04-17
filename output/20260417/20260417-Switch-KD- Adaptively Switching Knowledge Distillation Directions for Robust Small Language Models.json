@@ -1,7 +1,7 @@
 [
   [
     "Switch-KD: Adaptively Switching Knowledge Distillation Directions for Robust Small Language Models",
-    "為視覺語言模型打造的視覺切換式知識蒸餾",
+    "自適應切換知識蒸餾方向以打造更穩健的小型語言模型",
     "視覺語言模型能力越強部署成本越高",
     "知識蒸餾讓小模型吸收大模型的能力而不增加模型規模",
     "VLM 的知識融合在語言空間內，現行方法卻分別監督兩種模態，導致跨模態知識傳遞不一致",

@@ -1,7 +1,7 @@
 [
   [
     "How to Fine-Tune a Reasoning Model: A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
-    "讓師生合作合成貼近學生風格的 SFT 資料",
+    "如何微調推理模型 用師生合作框架合成貼近學生風格的 SFT 資料",
     "常見做法是拿更強的模型生成資料，再做監督式微調",
     "但在新一代推理模型上，這招常常失靈，甚至讓表現倒退",
     "同一份高品質資料，換個學生就完全不吃",

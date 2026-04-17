@@ -1,7 +1,7 @@
 # ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack
 
 ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack
-以機制可解釋性強化 LLM 安全的激活縮放守門員
+以激活值縮放為核心的守門員 用來緩解針對性越獄攻擊
 把「如何製作」改成「過去是如何製作的」，安全對齊過的 LLM 常常就被繞過
 這種時態越獄攻擊揭露了一個尷尬的事實：現行對齊方法脆弱得像玻璃
 問題是我們其實不太知道內部到底怎麼壞掉

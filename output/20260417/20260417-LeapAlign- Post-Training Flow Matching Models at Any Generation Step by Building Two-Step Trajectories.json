@@ -1,7 +1,7 @@
 [
   [
     "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
-    "以兩步軌跡在任意生成步對齊流匹配模型",
+    "用兩步軌跡在任意生成步對齊流匹配模型的後訓練方法",
     "流匹配模型要和人類偏好對齊，最直白的想法就是把獎勵梯度倒傳回可微生成流程",
     "可惜軌跡太長，梯度會爆炸，記憶體吃不消",
     "早期生成步幾乎改不了，但早期決定了圖像的全局結構",

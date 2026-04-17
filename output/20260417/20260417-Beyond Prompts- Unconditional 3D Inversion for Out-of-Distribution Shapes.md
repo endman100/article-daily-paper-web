@@ -1,7 +1,7 @@
 # Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes
 
 Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes
-面向分佈外形狀的無條件三維反演
+超越提示詞 面向分佈外形狀的無條件三維反演
 文字驅動反演操控生成模型早已成為主流
 編輯與風格遷移還有反演問題都仰賴這類方法
 前提是生成模型對自然語言提示保持敏感
