@@ -1,0 +1,190 @@
+[
+  {
+    "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
+    "arxiv": "https://arxiv.org/abs/2604.08570"
+  },
+  {
+    "title": "The Past Is Not Past: Memory-Enhanced Dynamic Reward Shaping",
+    "arxiv": "https://arxiv.org/abs/2604.11297"
+  },
+  {
+    "title": "Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation",
+    "arxiv": "https://arxiv.org/abs/2604.10098"
+  },
+  {
+    "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.11804"
+  },
+  {
+    "title": "Strips as Tokens: Artist Mesh Generation with Native UV Segmentation",
+    "arxiv": "https://arxiv.org/abs/2604.09132"
+  },
+  {
+    "title": "Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator",
+    "arxiv": "https://arxiv.org/abs/2604.08121"
+  },
+  {
+    "title": "Pseudo-Unification: Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models",
+    "arxiv": "https://arxiv.org/abs/2604.10949"
+  },
+  {
+    "title": "CodeTracer: Towards Traceable Agent States",
+    "arxiv": "https://arxiv.org/abs/2604.11641"
+  },
+  {
+    "title": "CocoaBench: Evaluating Unified Digital Agents in the Wild",
+    "arxiv": "https://arxiv.org/abs/2604.11201"
+  },
+  {
+    "title": "Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation and Editing",
+    "arxiv": "https://arxiv.org/abs/2604.10708"
+  },
+  {
+    "title": "Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music",
+    "arxiv": "https://arxiv.org/abs/2604.10905"
+  },
+  {
+    "title": "Introspective Diffusion Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.11035"
+  },
+  {
+    "title": "Tracing the Roots: A Multi-Agent Framework for Uncovering Data Lineage in Post-Training LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.10480"
+  },
+  {
+    "title": "Efficient RL Training for LLMs with Experience Replay",
+    "arxiv": "https://arxiv.org/abs/2604.08706"
+  },
+  {
+    "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+    "arxiv": "https://arxiv.org/abs/2604.11805"
+  },
+  {
+    "title": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+    "arxiv": "https://arxiv.org/abs/2604.11753"
+  },
+  {
+    "title": "Prompt Relay: Inference-Time Temporal Control for Multi-Event Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.10030"
+  },
+  {
+    "title": "TRACE: Capability-Targeted Agentic Training",
+    "arxiv": "https://arxiv.org/abs/2604.05336"
+  },
+  {
+    "title": "Mobile GUI Agent Privacy Personalization with Trajectory Induced Preference Optimization",
+    "arxiv": "https://arxiv.org/abs/2604.11259"
+  },
+  {
+    "title": "From Reasoning to Agentic: Credit Assignment in Reinforcement Learning for Large Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.09459"
+  },
+  {
+    "title": "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+    "arxiv": "https://arxiv.org/abs/2604.09557"
+  },
+  {
+    "title": "General365: Benchmarking General Reasoning in Large Language Models Across Diverse and Challenging Tasks",
+    "arxiv": "https://arxiv.org/abs/2604.11778"
+  },
+  {
+    "title": "SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
+    "arxiv": "https://arxiv.org/abs/2604.10688"
+  },
+  {
+    "title": "Not All Denoising Steps Are Equal: Model Scheduling for Faster Masked Diffusion Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.02340"
+  },
+  {
+    "title": "Zero-shot World Models Are Developmentally Efficient Learners",
+    "arxiv": "https://arxiv.org/abs/2604.10333"
+  },
+  {
+    "title": "Continuous Adversarial Flow Models",
+    "arxiv": "https://arxiv.org/abs/2604.11521"
+  },
+  {
+    "title": "TorchUMM: A Unified Multimodal Model Codebase for Evaluation, Analysis, and Post-training",
+    "arxiv": "https://arxiv.org/abs/2604.10784"
+  },
+  {
+    "title": "Learning Long-term Motion Embeddings for Efficient Kinematics Generation",
+    "arxiv": "https://arxiv.org/abs/2604.11737"
+  },
+  {
+    "title": "Eliciting Medical Reasoning with Knowledge-enhanced Data Synthesis: A Semi-Supervised Reinforcement Learning Approach",
+    "arxiv": "https://arxiv.org/abs/2604.11547"
+  },
+  {
+    "title": "Advancing Polish Language Modeling through Tokenizer Optimization in the Bielik v3 7B and 11B Series",
+    "arxiv": "https://arxiv.org/abs/2604.10799"
+  },
+  {
+    "title": "Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind",
+    "arxiv": "https://arxiv.org/abs/2604.11666"
+  },
+  {
+    "title": "SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context",
+    "arxiv": "https://arxiv.org/abs/2604.11716"
+  },
+  {
+    "title": "Low-rank Optimization Trajectories Modeling for LLM RLVR Acceleration",
+    "arxiv": "https://arxiv.org/abs/2604.11446"
+  },
+  {
+    "title": "BMdataset: A Musicologically Curated LilyPond Dataset",
+    "arxiv": "https://arxiv.org/abs/2604.10628"
+  },
+  {
+    "title": "DiningBench: A Hierarchical Multi-view Benchmark for Perception and Reasoning in the Dietary Domain",
+    "arxiv": "https://arxiv.org/abs/2604.10425"
+  },
+  {
+    "title": "SciPredict: Can LLMs Predict the Outcomes of Scientific Experiments in Natural Sciences?",
+    "arxiv": "https://arxiv.org/abs/2604.10718"
+  },
+  {
+    "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
+    "arxiv": "https://arxiv.org/abs/2604.08921"
+  },
+  {
+    "title": "Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory",
+    "arxiv": "https://arxiv.org/abs/2604.11544"
+  },
+  {
+    "title": "Panoptic Pairwise Distortion Graph",
+    "arxiv": "https://arxiv.org/abs/2604.11004"
+  },
+  {
+    "title": "Polyglot Teachers: Evaluating Language Models for Multilingual Synthetic Data Generation",
+    "arxiv": "https://arxiv.org/abs/2604.11290"
+  },
+  {
+    "title": "ADD for Multi-Bit Image Watermarking",
+    "arxiv": "https://arxiv.org/abs/2604.11491"
+  },
+  {
+    "title": "IceCache: Memory-efficient KV-cache Management for Long-Sequence LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.10539"
+  },
+  {
+    "title": "Counting to Four is still a Chore for VLMs",
+    "arxiv": "https://arxiv.org/abs/2604.10039"
+  },
+  {
+    "title": "SPASM: Stable Persona-driven Agent Simulation for Multi-turn Dialogue Generation",
+    "arxiv": "https://arxiv.org/abs/2604.09212"
+  },
+  {
+    "title": "How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.04385"
+  },
+  {
+    "title": "SHARE: Social-Humanities AI for Research and Education",
+    "arxiv": "https://arxiv.org/abs/2604.11152"
+  },
+  {
+    "title": "ATANT: An Evaluation Framework for AI Continuity",
+    "arxiv": "https://arxiv.org/abs/2604.06710"
+  }
+]

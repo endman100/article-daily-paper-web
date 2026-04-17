@@ -1,0 +1,162 @@
+[
+  {
+    "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+    "arxiv": "https://arxiv.org/abs/2604.11784"
+  },
+  {
+    "title": "KnowRL: Boosting LLM Reasoning via Reinforcement Learning with Minimal-Sufficient Knowledge Guidance",
+    "arxiv": "https://arxiv.org/abs/2604.12627"
+  },
+  {
+    "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+    "arxiv": "https://arxiv.org/abs/2604.13016"
+  },
+  {
+    "title": "Toward Autonomous Long-Horizon Engineering for ML Research",
+    "arxiv": "https://arxiv.org/abs/2604.13018"
+  },
+  {
+    "title": "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
+    "arxiv": "https://arxiv.org/abs/2604.09574"
+  },
+  {
+    "title": "Lyra 2.0: Explorable Generative 3D Worlds",
+    "arxiv": "https://arxiv.org/abs/2604.13036"
+  },
+  {
+    "title": "SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks",
+    "arxiv": "https://arxiv.org/abs/2604.08865"
+  },
+  {
+    "title": "Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+    "arxiv": "https://arxiv.org/abs/2604.12374"
+  },
+  {
+    "title": "BERT-as-a-Judge: A Robust Alternative to Lexical Methods for Efficient Reference-Based LLM Evaluation",
+    "arxiv": "https://arxiv.org/abs/2604.09497"
+  },
+  {
+    "title": "The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents",
+    "arxiv": "https://arxiv.org/abs/2604.10577"
+  },
+  {
+    "title": "Towards Long-horizon Agentic Multimodal Search",
+    "arxiv": "https://arxiv.org/abs/2604.12890"
+  },
+  {
+    "title": "Many-Tier Instruction Hierarchy in LLM Agents",
+    "arxiv": "https://arxiv.org/abs/2604.09443"
+  },
+  {
+    "title": "Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting",
+    "arxiv": "https://arxiv.org/abs/2604.12626"
+  },
+  {
+    "title": "Self-Adversarial One Step Generation via Condition Shifting",
+    "arxiv": "https://arxiv.org/abs/2604.12322"
+  },
+  {
+    "title": "Rethinking the Diffusion Model from a Langevin Perspective",
+    "arxiv": "https://arxiv.org/abs/2604.10465"
+  },
+  {
+    "title": "Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective",
+    "arxiv": "https://arxiv.org/abs/2604.14025"
+  },
+  {
+    "title": "LARY: A Latent Action Representation Yielding Benchmark for Generalizable Vision-to-Action Alignment",
+    "arxiv": "https://arxiv.org/abs/2604.11689"
+  },
+  {
+    "title": "Generative Refinement Networks for Visual Synthesis",
+    "arxiv": "https://arxiv.org/abs/2604.13030"
+  },
+  {
+    "title": "Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation",
+    "arxiv": "https://arxiv.org/abs/2604.13010"
+  },
+  {
+    "title": "You Only Judge Once: Multi-response Reward Modeling in a Single Forward Pass",
+    "arxiv": "https://arxiv.org/abs/2604.10966"
+  },
+  {
+    "title": "Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.09687"
+  },
+  {
+    "title": "Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness",
+    "arxiv": "https://arxiv.org/abs/2604.12373"
+  },
+  {
+    "title": "Do Thought Streams Matter? Evaluating Reasoning in Gemini Vision-Language Models for Video Scene Understanding",
+    "arxiv": "https://arxiv.org/abs/2604.11177"
+  },
+  {
+    "title": "Accelerating Speculative Decoding with Block Diffusion Draft Trees",
+    "arxiv": "https://arxiv.org/abs/2604.12989"
+  },
+  {
+    "title": "GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts",
+    "arxiv": "https://arxiv.org/abs/2604.12978"
+  },
+  {
+    "title": "VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization",
+    "arxiv": "https://arxiv.org/abs/2604.12887"
+  },
+  {
+    "title": "Hierarchical SVG Tokenization: Learning Compact Visual Programs for Scalable Vector Graphics Modeling",
+    "arxiv": "https://arxiv.org/abs/2604.05072"
+  },
+  {
+    "title": "Parcae: Scaling Laws For Stable Looped Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.12946"
+  },
+  {
+    "title": "LASA: Language-Agnostic Semantic Alignment at the Semantic Bottleneck for LLM Safety",
+    "arxiv": "https://arxiv.org/abs/2604.12710"
+  },
+  {
+    "title": "Spec Kit Agents: Context-Grounded Agentic Workflows",
+    "arxiv": "https://arxiv.org/abs/2604.05278"
+  },
+  {
+    "title": "Learning Versatile Humanoid Manipulation with Touch Dreaming",
+    "arxiv": "https://arxiv.org/abs/2604.13015"
+  },
+  {
+    "title": "Domain-Specific Latent Representations Improve the Fidelity of Diffusion-Based Medical Image Super-Resolution",
+    "arxiv": "https://arxiv.org/abs/2604.12152"
+  },
+  {
+    "title": "PokeRL: Reinforcement Learning for Pokemon Red",
+    "arxiv": "https://arxiv.org/abs/2604.10812"
+  },
+  {
+    "title": "Beyond Perception Errors: Semantic Fixation in Large Vision-Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.12119"
+  },
+  {
+    "title": "Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions",
+    "arxiv": "https://arxiv.org/abs/2604.11579"
+  },
+  {
+    "title": "3DTV: A Feedforward Interpolation Network for Real-Time View Synthesis",
+    "arxiv": "https://arxiv.org/abs/2604.11211"
+  },
+  {
+    "title": "When Reasoning Models Hurt Behavioral Simulation: A Solver-Sampler Mismatch in Multi-Agent LLM Negotiation",
+    "arxiv": "https://arxiv.org/abs/2604.11840"
+  },
+  {
+    "title": "CONSCIENTIA: Can LLM Agents Learn to Strategize? Emergent Deception and Trust in a Multi-Agent NYC Simulation",
+    "arxiv": "https://arxiv.org/abs/2604.09746"
+  },
+  {
+    "title": "Spatial Competence Benchmark",
+    "arxiv": "https://arxiv.org/abs/2604.09594"
+  },
+  {
+    "title": "SpotSound: Enhancing Large Audio-Language Models with Fine-Grained Temporal Grounding",
+    "arxiv": "https://arxiv.org/abs/2604.13023"
+  }
+]

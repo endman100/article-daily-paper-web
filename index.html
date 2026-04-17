@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Paper Reader</title>
+<style>
+:root {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --surface2: #242424;
+  --border: #333;
+  --text: #e8e8e8;
+  --text2: #999;
+  --accent: #6c9eff;
+  --accent2: #4a7adf;
+  --hover: #2a2a2a;
+  --card-bg: #1e1e1e;
+}
+[data-theme="light"] {
+  --bg: #f5f5f7;
+  --surface: #ffffff;
+  --surface2: #f0f0f2;
+  --border: #e0e0e0;
+  --text: #1d1d1f;
+  --text2: #6e6e73;
+  --accent: #0066cc;
+  --accent2: #004999;
+  --hover: #f0f0f2;
+  --card-bg: #ffffff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Layout */
+.app { display: flex; height: 100vh; }
+.sidebar {
+  width: 360px; min-width: 360px;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.resizer {
+  width: 5px; flex-shrink: 0; cursor: col-resize;
+  background: transparent; transition: background .15s;
+  position: relative; z-index: 10;
+}
+.resizer:hover, .resizer.dragging { background: var(--accent); }
+.main { flex: 1; overflow-y: auto; scroll-behavior: smooth; min-width: 0; }
+
+/* Sidebar header */
+.sidebar-header { padding: 20px; border-bottom: 1px solid var(--border); }
+.sidebar-header h1 {
+  font-size: 18px; font-weight: 700; margin-bottom: 12px;
+  display: flex; align-items: center; gap: 8px;
+}
+.search-box {
+  width: 100%; padding: 8px 12px;
+  border: 1px solid var(--border); border-radius: 8px;
+  background: var(--surface2); color: var(--text);
+  font-size: 14px; outline: none; transition: border-color .2s;
+}
+.search-box:focus { border-color: var(--accent); }
+
+/* Date tabs — carousel */
+.date-tabs-wrapper {
+  position: relative;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface2);
+  flex-shrink: 0;
+}
+.date-tabs-arrow {
+  position: absolute; top: 0; bottom: 0; width: 28px; z-index: 2;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface2); border: none; color: var(--text2);
+  cursor: pointer; font-size: 14px; transition: color .2s;
+}
+.date-tabs-arrow:hover { color: var(--text); }
+.date-tabs-arrow.left { left: 0; }
+.date-tabs-arrow.right { right: 0; }
+.date-tabs-arrow.edge { color: var(--border); cursor: default; opacity: .4; }
+.date-tabs {
+  display: flex; gap: 0;
+  overflow-x: auto; scroll-behavior: smooth;
+  margin: 0 28px; /* 留空間給箭頭 */
+  -ms-overflow-style: none; scrollbar-width: none;
+}
+.date-tabs::-webkit-scrollbar { display: none; }
+.date-tab {
+  flex: 0 0 auto; padding: 10px 14px; text-align: center;
+  font-size: 13px; font-weight: 500; color: var(--text2);
+  cursor: pointer; border-bottom: 2px solid transparent;
+  transition: all .2s; user-select: none; white-space: nowrap;
+}
+.date-tab.end-marker {
+  color: var(--border); cursor: default; font-size: 12px;
+  padding: 10px 8px; pointer-events: none;
+}
+.date-tab:hover { color: var(--text); background: var(--hover); }
+.date-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.date-tab .count { display: block; font-size: 11px; color: var(--text2); margin-top: 2px; }
+
+/* Article list */
+.article-list { flex: 1; overflow-y: auto; padding: 8px; }
+.article-item {
+  padding: 12px; border-radius: 8px; cursor: pointer;
+  transition: background .15s; margin-bottom: 2px;
+}
+.article-item:hover { background: var(--hover); }
+.article-item.active {
+  background: var(--surface2);
+  border-left: 3px solid var(--accent); padding-left: 9px;
+}
+.article-item .a-title {
+  font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 4px;
+}
+.article-item .a-subtitle {
+  font-size: 12px; color: var(--text2); line-height: 1.4;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+/* Main content */
+.main-empty {
+  display: flex; align-items: center; justify-content: center;
+  height: 100%; color: var(--text2); font-size: 16px;
+  flex-direction: column; gap: 8px;
+}
+.main-empty .hint { font-size: 13px; }
+.loading { color: var(--text2); text-align: center; padding: 60px 0; font-size: 15px; }
+
+.article-view { max-width: 720px; margin: 0 auto; padding: 48px 32px 80px; }
+.article-view h2 { font-size: 28px; font-weight: 700; line-height: 1.35; margin-bottom: 8px; }
+.article-meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  margin-bottom: 32px; color: var(--text2); font-size: 13px;
+}
+.article-meta a { color: var(--accent); text-decoration: none; }
+.article-meta a:hover { text-decoration: underline; }
+
+.paragraph-block {
+  margin-bottom: 28px; padding: 20px 24px;
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: 12px; line-height: 1.8;
+}
+.paragraph-block.first { border-left: 3px solid var(--accent); }
+.paragraph-block p { margin-bottom: 8px; font-size: 15.5px; }
+.paragraph-block p:last-child { margin-bottom: 0; }
+.paragraph-block p.link-line { margin-top: 4px; }
+.paragraph-block p.link-line a {
+  color: var(--accent); text-decoration: none; font-size: 14px;
+}
+.paragraph-block p.link-line a:hover { text-decoration: underline; }
+
+/* Nav */
+.article-nav { display: flex; justify-content: space-between; margin-top: 40px; gap: 16px; }
+.article-nav button {
+  flex: 1; padding: 12px 16px;
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); cursor: pointer;
+  font-size: 13px; transition: background .15s;
+}
+.article-nav button:hover { background: var(--hover); }
+.article-nav button:disabled { opacity: .3; cursor: default; }
+
+/* Theme toggle */
+.theme-toggle {
+  position: fixed; top: 16px; right: 16px; z-index: 100;
+  padding: 8px 12px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); cursor: pointer; font-size: 14px;
+}
+
+/* Stats */
+.stats-bar {
+  padding: 8px 20px; font-size: 12px; color: var(--text2);
+  border-top: 1px solid var(--border); background: var(--surface2); flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar { width: 100%; min-width: 100%; max-height: 50vh; }
+  .app { flex-direction: column; }
+  .article-view { padding: 24px 16px 60px; }
+  .article-view h2 { font-size: 22px; }
+  .kbd-hint { display: none; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text2); }
+
+.kbd-hint {
+  position: fixed; bottom: 16px; right: 16px;
+  font-size: 11px; color: var(--text2); background: var(--surface);
+  border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px;
+}
+kbd {
+  display: inline-block; padding: 1px 5px;
+  border: 1px solid var(--border); border-radius: 3px;
+  font-size: 11px; background: var(--surface2);
+}
+
+/* Error */
+.error-msg {
+  color: #ff6b6b; background: #2a1515; border: 1px solid #4a2020;
+  padding: 16px 20px; border-radius: 8px; margin: 40px auto; max-width: 600px;
+  text-align: center; font-size: 14px;
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>📄 Daily Paper Reader</h1>
+      <input class="search-box" type="text" placeholder="搜尋文章標題或內容…" id="search">
+    </div>
+    <div class="date-tabs-wrapper">
+      <button class="date-tabs-arrow left" id="tabArrowLeft" onclick="scrollTabs(-1)">◀</button>
+      <div class="date-tabs" id="dateTabs"></div>
+      <button class="date-tabs-arrow right" id="tabArrowRight" onclick="scrollTabs(1)">▶</button>
+    </div>
+    <div class="article-list" id="articleList"></div>
+    <div class="stats-bar" id="statsBar"></div>
+  </aside>
+  <div class="resizer" id="resizer"></div>
+  <main class="main" id="mainArea">
+    <div class="main-empty">
+      <span>📄 Daily Paper Reader</span>
+      <span class="hint">載入中…</span>
+    </div>
+  </main>
+</div>
+<button class="theme-toggle" id="themeToggle" title="切換深色/淺色主題">🌙</button>
+<div class="kbd-hint"><kbd>↑</kbd><kbd>↓</kbd> 切換文章 &nbsp; <kbd>Esc</kbd> 回列表</div>
+
+<script>
+// ---- State ----
+let INDEX = {};        // { date: [{ slug, title, link }] }
+let articleCache = {}; // slug -> paragraphs (loaded on demand)
+let dates = [];
+let currentDate = '';
+let currentIdx = -1;
+let filteredArticles = [];
+
+// ---- DOM ----
+const dateTabs = document.getElementById('dateTabs');
+const articleList = document.getElementById('articleList');
+const mainArea = document.getElementById('mainArea');
+const searchInput = document.getElementById('search');
+const statsBar = document.getElementById('statsBar');
+const themeToggle = document.getElementById('themeToggle');
+
+// ---- Theme ----
+let darkMode = localStorage.getItem('theme') !== 'light';
+applyTheme();
+themeToggle.addEventListener('click', () => {
+  darkMode = !darkMode;
+  localStorage.setItem('theme', darkMode ? 'dark' : 'light');
+  applyTheme();
+});
+function applyTheme() {
+  document.documentElement.setAttribute('data-theme', darkMode ? '' : 'light');
+  themeToggle.textContent = darkMode ? '🌙' : '☀️';
+}
+
+// ---- Init ----
+(async () => {
+  try {
+    const res = await fetch('index.json');
+    if (res.ok) {
+      INDEX = await res.json();
+      boot();
+      enrichTitlesInBackground();
+      return;
+    }
+  } catch {}
+
+  // 載入失敗
+  mainArea.innerHTML = `<div class="error-msg">
+    無法載入文章索引<br>
+    <small>請先執行：<code>python build_index.py && python -m http.server</code></small>
+  </div>`;
+})();
+
+function boot() {
+  dates = Object.keys(INDEX).sort((a, b) => {
+    const aNum = /^\d+$/.test(a);
+    const bNum = /^\d+$/.test(b);
+    if (aNum && bNum) return b.localeCompare(a); // 日期：新到舊
+    if (aNum !== bNum) return aNum ? -1 : 1;      // 數字優先
+    return a.localeCompare(b);                     // 文字：字母序
+  });
+  currentDate = dates[0] || '';
+  renderDateTabs();
+  renderList();
+  if (filteredArticles.length > 0) selectArticle(0); else showEmpty();
+}
+
+async function enrichTitlesInBackground() {
+  // 逐日期批次載入文章 JSON 以取得真實標題
+  for (const date of dates) {
+    const articles = INDEX[date];
+    const promises = articles.map(async (a) => {
+      try {
+        const res = await fetch(`output/${date}/${a.slug}.json`);
+        if (!res.ok) return;
+        const paragraphs = await res.json();
+        articleCache[a.slug] = paragraphs;
+        if (paragraphs[0] && paragraphs[0][0]) a.title = paragraphs[0][0];
+        if (paragraphs[0] && paragraphs[0].length > 1) a.summary = paragraphs[0][1] || '';
+        // 取 arXiv 連結
+        const last = paragraphs[paragraphs.length - 1] || [];
+        const lastLine = last[last.length - 1] || '';
+        const urlM = lastLine.match(/https?:\/\/arxiv\.org\/abs\/[\w.]+/);
+        if (urlM) a.link = urlM[0];
+      } catch {}
+    });
+    await Promise.all(promises);
+    // 每完成一個日期就刷新 UI
+    if (date === currentDate) renderList();
+    renderDateTabs();
+  }
+}
+
+// ---- 搜尋過濾：計算每個日期的符合數量 ----
+function getFilteredCountPerDate() {
+  const query = searchInput.value.trim().toLowerCase();
+  const counts = {};
+  for (const d of dates) {
+    const articles = INDEX[d] || [];
+    counts[d] = query
+      ? articles.filter(a => (a.title + ' ' + a.summary).toLowerCase().includes(query)).length
+      : articles.length;
+  }
+  return counts;
+}
+
+// ---- Render date tabs (carousel) ----
+function renderDateTabs() {
+  const counts = getFilteredCountPerDate();
+  const visibleDates = dates.filter(d => counts[d] > 0);
+
+  dateTabs.innerHTML = '';
+  // 左端標記
+  const startMark = document.createElement('div');
+  startMark.className = 'date-tab end-marker';
+  startMark.textContent = '✕';
+  dateTabs.appendChild(startMark);
+
+  // 如果 currentDate 被過濾掉了，切到第一個有結果的
+  if (visibleDates.length > 0 && !visibleDates.includes(currentDate)) {
+    currentDate = visibleDates[0];
+  }
+
+  visibleDates.forEach(d => {
+    const tab = document.createElement('div');
+    tab.className = 'date-tab' + (d === currentDate ? ' active' : '');
+    tab.dataset.date = d;
+    tab.innerHTML = `${formatDate(d)}<span class="count">${counts[d]} 篇</span>`;
+    tab.onclick = () => { currentDate = d; currentIdx = -1; renderDateTabs(); renderList(); if (filteredArticles.length > 0) selectArticle(0); else showEmpty(); scrollTabToCenter(d); };
+    dateTabs.appendChild(tab);
+  });
+
+  // 右端標記
+  const endMark = document.createElement('div');
+  endMark.className = 'date-tab end-marker';
+  endMark.textContent = '✕';
+  dateTabs.appendChild(endMark);
+
+  updateStats();
+  updateArrows();
+  requestAnimationFrame(() => scrollTabToCenter(currentDate));
+}
+
+function scrollTabToCenter(dateKey) {
+  const tab = dateTabs.querySelector(`[data-date="${dateKey}"]`);
+  if (!tab) return;
+  const container = dateTabs;
+  const scrollLeft = tab.offsetLeft - container.clientWidth / 2 + tab.clientWidth / 2;
+  container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+}
+
+function scrollTabs(dir) {
+  dateTabs.scrollBy({ left: dir * 120, behavior: 'smooth' });
+}
+
+function updateArrows() {
+  const el = dateTabs;
+  const leftBtn = document.getElementById('tabArrowLeft');
+  const rightBtn = document.getElementById('tabArrowRight');
+  leftBtn.classList.toggle('edge', el.scrollLeft <= 0);
+  rightBtn.classList.toggle('edge', el.scrollLeft + el.clientWidth >= el.scrollWidth - 1);
+}
+dateTabs.addEventListener('scroll', updateArrows);
+
+function formatDate(d) {
+  // 純數字 8 碼視為日期，否則原樣顯示
+  if (/^\d{8}$/.test(d)) return `${d.slice(0,4)}/${d.slice(4,6)}/${d.slice(6)}`;
+  return d;
+}
+
+// ---- Render article list ----
+function renderList() {
+  const query = searchInput.value.trim().toLowerCase();
+  const articles = INDEX[currentDate] || [];
+  filteredArticles = query
+    ? articles.filter(a => ((a.title || '') + ' ' + (a.summary || '')).toLowerCase().includes(query))
+    : articles;
+
+  articleList.innerHTML = '';
+
+  if (filteredArticles.length === 0) {
+    // 檢查是否全域都沒結果
+    const counts = getFilteredCountPerDate();
+    const totalFiltered = Object.values(counts).reduce((s, n) => s + n, 0);
+    if (totalFiltered === 0 && query) {
+      articleList.innerHTML = `<div style="padding:24px 16px;text-align:center;color:var(--text2);font-size:14px;">🔍 找不到「${esc(query)}」相關的文章<br><small>試試其他關鍵字</small></div>`;
+    } else {
+      articleList.innerHTML = '<div style="padding:24px 16px;text-align:center;color:var(--text2);font-size:14px;">此分類沒有符合的文章</div>';
+    }
+  } else {
+    filteredArticles.forEach((a, i) => {
+      const item = document.createElement('div');
+      item.className = 'article-item' + (i === currentIdx ? ' active' : '');
+      item.innerHTML = `<div class="a-title">${esc(a.title || a.slug.replace(/^\d{8}-/, ''))}</div><div class="a-subtitle">${esc(a.summary)}</div>`;
+      item.onclick = () => selectArticle(i);
+      articleList.appendChild(item);
+    });
+  }
+  updateStats();
+}
+
+// ---- Select & load article ----
+async function selectArticle(idx) {
+  if (idx < 0 || idx >= filteredArticles.length) return;
+  currentIdx = idx;
+  renderList();
+  const meta = filteredArticles[idx];
+
+  // 顯示 loading
+  mainArea.innerHTML = '<div class="loading">載入中…</div>';
+
+  // 從 cache 或 fetch
+  let paragraphs;
+  if (articleCache[meta.slug]) {
+    paragraphs = articleCache[meta.slug];
+  } else {
+    try {
+      const res = await fetch(`output/${currentDate}/${meta.slug}.json`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      paragraphs = await res.json();
+      articleCache[meta.slug] = paragraphs;
+    } catch (e) {
+      mainArea.innerHTML = `<div class="error-msg">無法載入文章：${esc(meta.slug)}</div>`;
+      return;
+    }
+  }
+
+  renderArticle(meta, paragraphs, idx);
+}
+
+// ---- Render article ----
+function renderArticle(meta, paragraphs, idx) {
+  let html = `<div class="article-view">`;
+  html += `<h2>${esc(paragraphs[0] && paragraphs[0][0] || meta.slug)}</h2>`;
+  html += `<div class="article-meta">`;
+  html += `<span>${formatDate(currentDate)}</span>`;
+  if (meta.link) html += `<a href="${esc(meta.link)}" target="_blank" rel="noopener">📎 arXiv</a>`;
+  html += `<span>${paragraphs.length} 段</span>`;
+  html += `</div>`;
+
+  paragraphs.forEach((para, pi) => {
+    html += `<div class="paragraph-block${pi === 0 ? ' first' : ''}">`;
+    para.forEach((line, li) => {
+      const urlMatch = line.match(/https?:\/\/[^\s]+/);
+      if (urlMatch && line.startsWith('連結')) {
+        html += `<p class="link-line"><a href="${esc(urlMatch[0])}" target="_blank" rel="noopener">🔗 ${esc(urlMatch[0])}</a></p>`;
+      } else {
+        html += `<p>${esc(line)}</p>`;
+      }
+    });
+    html += `</div>`;
+  });
+
+  html += `<div class="article-nav">`;
+  html += `<button ${idx <= 0 ? 'disabled' : ''} onclick="navArticle(${idx - 1})">← 上一篇</button>`;
+  html += `<button ${idx >= filteredArticles.length - 1 ? 'disabled' : ''} onclick="navArticle(${idx + 1})">下一篇 →</button>`;
+  html += `</div></div>`;
+
+  mainArea.innerHTML = html;
+  mainArea.scrollTop = 0;
+}
+
+function navArticle(idx) { selectArticle(idx); }
+
+function showEmpty() {
+  mainArea.innerHTML = '<div class="main-empty"><span>← 選擇一篇文章開始閱讀</span></div>';
+}
+
+function updateStats() {
+  const total = Object.values(INDEX).reduce((s, a) => s + a.length, 0);
+  const counts = getFilteredCountPerDate();
+  const totalFiltered = Object.values(counts).reduce((s, n) => s + n, 0);
+  const query = searchInput.value.trim();
+  if (query) {
+    statsBar.textContent = `搜尋結果：${totalFiltered} / ${total} 篇 · 當前分類 ${filteredArticles.length} 篇`;
+  } else {
+    statsBar.textContent = `共 ${total} 篇文章 · 當前分類 ${filteredArticles.length} 篇`;
+  }
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s || '';
+  return d.innerHTML;
+}
+
+// ---- Search ----
+searchInput.addEventListener('input', () => { currentIdx = -1; renderDateTabs(); renderList(); });
+
+// ---- Resizable sidebar ----
+(function() {
+  const resizer = document.getElementById('resizer');
+  const sidebar = document.getElementById('sidebar');
+  const MIN_W = 200, MAX_W = 700;
+  let startX, startW;
+
+  resizer.addEventListener('mousedown', (e) => {
+    startX = e.clientX;
+    startW = sidebar.getBoundingClientRect().width;
+    resizer.classList.add('dragging');
+    document.body.style.userSelect = 'none';
+    document.body.style.cursor = 'col-resize';
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!resizer.classList.contains('dragging')) return;
+    const w = Math.min(MAX_W, Math.max(MIN_W, startW + e.clientX - startX));
+    sidebar.style.width = w + 'px';
+    sidebar.style.minWidth = w + 'px';
+  });
+
+  document.addEventListener('mouseup', () => {
+    if (!resizer.classList.contains('dragging')) return;
+    resizer.classList.remove('dragging');
+    document.body.style.userSelect = '';
+    document.body.style.cursor = '';
+  });
+})();
+
+// ---- Keyboard ----
+document.addEventListener('keydown', (e) => {
+  if (e.target === searchInput) return;
+  if (e.key === 'ArrowDown' || e.key === 'j') { e.preventDefault(); selectArticle(currentIdx + 1); }
+  else if (e.key === 'ArrowUp' || e.key === 'k') { e.preventDefault(); selectArticle(currentIdx - 1); }
+  else if (e.key === 'Escape') { currentIdx = -1; renderList(); showEmpty(); searchInput.focus(); }
+});
+</script>
+</body>
+</html>

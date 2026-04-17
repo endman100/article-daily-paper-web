@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "向長視野多模態搜尋邁進：LMM-Searcher 框架",
+    "english_title": "Towards Long-horizon Agentic Multimodal Search",
+    "arxiv_id": "2604.12890",
+    "arxiv_url": "https://arxiv.org/abs/2604.12890",
+    "publication_date": "2026-04-14",
+    "date_label": "20260415",
+    "research_areas": [
+      "Computer Vision",
+      "Artificial Intelligence",
+      "Multimodal Learning"
+    ],
+    "content_type": "Threads Post Article"
+  },
+  "article_summary": {
+    "core_problem": [
+      "Context explosion from multimodal inputs over long horizons",
+      "Loss of crucial visual signals",
+      "High token costs management"
+    ],
+    "solution_name": "LMM-Searcher",
+    "innovation_type": "Long-horizon Agentic Multimodal Search Framework"
+  },
+  "key_innovations": {
+    "visual_representation": {
+      "mechanism": "File-based visual representation with UIDs",
+      "description": "Visual assets offloaded to external file system, mapped to lightweight textual identifiers",
+      "benefit": "Mitigates context overhead while preserving multimodal information"
+    },
+    "fetch_image_tool": {
+      "purpose": "Progressive, on-demand visual loading",
+      "strategy": "Active perception with intelligent asset retrieval"
+    },
+    "data_synthesis_pipeline": {
+      "purpose": "Generate queries requiring complex cross-modal multi-hop reasoning",
+      "output": "12K high-quality trajectories for model fine-tuning"
+    }
+  },
+  "model_specifications": {
+    "base_model": "Qwen3-VL-Thinking-30A3B",
+    "training_trajectories": "12K high-quality trajectories",
+    "specialization": "Multimodal deep search agent"
+  },
+  "experimental_results": {
+    "search_horizons": "Successfully scales to 100-turn search horizons",
+    "performance": "State-of-the-art among open-source models",
+    "benchmarks": [
+      "MM-BrowseComp",
+      "MMSearch-Plus",
+      "And others"
+    ],
+    "generalization": "Strong across different base models"
+  },
+  "technical_highlights": {
+    "traditional_vs_innovation": {
+      "visual_management": {
+        "traditional": "Full multimodal inputs",
+        "innovation": "File-based + UID mapping"
+      },
+      "token_cost": {
+        "traditional": "Increases with sequence length",
+        "innovation": "Consistently low"
+      },
+      "visual_quality": {
+        "traditional": "May lose details",
+        "innovation": "Complete preservation"
+      },
+      "search_depth": {
+        "traditional": "Limited by token budget",
+        "innovation": "100+ turns possible"
+      }
+    }
+  },
+  "potential_applications": [
+    "Long-horizon visual reasoning",
+    "Multimodal question-answering systems",
+    "Autonomous agents for complex scenarios",
+    "Next-generation visual search engines"
+  ],
+  "research_insights": {
+    "core_philosophy": "Rather than stuffing all information into the model, design intelligent systems that 'retrieve' needed information on-demand",
+    "architectural_significance": "File-based visual representation mechanism represents important paradigm shift for AI system design",
+    "implications": "Efficiency and quality of heterogeneous information handling will directly impact agent capability ceiling"
+  },
+  "key_takeaways": [
+    "Long-horizon multimodal search is no longer a technical bottleneck",
+    "Lightweight identifiers + on-demand loading = new AI system design paradigm",
+    "Open-source models can achieve SOTA performance",
+    "Data synthesis + model fine-tuning = new path to specialized agents"
+  ],
+  "references": {
+    "source": "arXiv:2604.12890",
+    "publication_date": "2026-04-14",
+    "code_repository": "GitHub - RUCAIBox/LMM-Searcher",
+    "subject_classification": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  "article_structure": {
+    "sections": [
+      "Header",
+      "Core Research Problem",
+      "Innovation Solution (LMM-Searcher)",
+      "Method Innovation (Data Synthesis Pipeline)",
+      "Experimental Results",
+      "Technical Highlights",
+      "Application Prospects",
+      "Deep Thinking",
+      "Technical Details Overview",
+      "Information Links",
+      "Key Takeaways"
+    ],
+    "format": "Threads Post Format with Visual Hierarchy",
+    "tone": "Technical yet Accessible",
+    "target_audience": "AI Researchers, ML Engineers, Multimodal AI Enthusiasts"
+  },
+  "threads_post_specifications": {
+    "structure": "Multi-section hierarchical post",
+    "formatting": "Markdown with emoji for visual engagement",
+    "content_flow": "Problem → Solution → Innovation → Results → Implications",
+    "engagement_elements": [
+      "Emoji headers",
+      "Comparative tables",
+      "Analogies for complex concepts",
+      "Thinking prompts"
+    ]
+  },
+  "quality_metrics": {
+    "content_depth": "Comprehensive technical overview",
+    "accessibility": "Balances technical accuracy with understandable explanations",
+    "engagement": "High with emoji, structure, and varied formatting",
+    "accuracy": "Based on official arXiv abstract and research specifications",
+    "completeness": "Covers methodology, results, and implications"
+  }
+}

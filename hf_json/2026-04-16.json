@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
+    "arxiv": "https://arxiv.org/abs/2604.14148"
+  },
+  {
+    "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+    "arxiv": "https://arxiv.org/abs/2604.07429"
+  },
+  {
+    "title": "RationalRewards: Reasoning Rewards Scale Visual Generation Both Training and Test Time",
+    "arxiv": "https://arxiv.org/abs/2604.11626"
+  },
+  {
+    "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+    "arxiv": "https://arxiv.org/abs/2604.14144"
+  },
+  {
+    "title": "OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
+    "arxiv": "https://arxiv.org/abs/2604.10866"
+  },
+  {
+    "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+    "arxiv": "https://arxiv.org/abs/2604.14004"
+  },
+  {
+    "title": "From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space",
+    "arxiv": "https://arxiv.org/abs/2604.14142"
+  },
+  {
+    "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+    "arxiv": "https://arxiv.org/abs/2604.13151"
+  },
+  {
+    "title": "Target Policy Optimization",
+    "arxiv": "https://arxiv.org/abs/2604.06159"
+  },
+  {
+    "title": "Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
+    "arxiv": "https://arxiv.org/abs/2604.11045"
+  },
+  {
+    "title": "SemaClaw: A Step Towards General-Purpose Personal AI Agents through Harness Engineering",
+    "arxiv": "https://arxiv.org/abs/2604.11548"
+  },
+  {
+    "title": "Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself",
+    "arxiv": "https://arxiv.org/abs/2604.14048"
+  },
+  {
+    "title": "LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling",
+    "arxiv": "https://arxiv.org/abs/2604.11748"
+  },
+  {
+    "title": "TIP: Token Importance in On-Policy Distillation",
+    "arxiv": "https://arxiv.org/abs/2604.14084"
+  },
+  {
+    "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+    "arxiv": "https://arxiv.org/abs/2604.14116"
+  },
+  {
+    "title": "UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
+    "arxiv": "https://arxiv.org/abs/2604.14113"
+  },
+  {
+    "title": "ReconPhys: Reconstruct Appearance and Physical Attributes from Single Video",
+    "arxiv": "https://arxiv.org/abs/2604.07882"
+  },
+  {
+    "title": "MERRIN: A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments",
+    "arxiv": "https://arxiv.org/abs/2604.13418"
+  },
+  {
+    "title": "Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision",
+    "arxiv": "https://arxiv.org/abs/2604.12002"
+  },
+  {
+    "title": "Narrative-Driven Paper-to-Slide Generation via ArcDeck",
+    "arxiv": "https://arxiv.org/abs/2604.11969"
+  },
+  {
+    "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+    "arxiv": "https://arxiv.org/abs/2604.13822"
+  },
+  {
+    "title": "Anthropogenic Regional Adaptation in Multimodal Vision-Language Model",
+    "arxiv": "https://arxiv.org/abs/2604.11490"
+  },
+  {
+    "title": "SkVM: Compiling Skills for Efficient Execution Everywhere",
+    "arxiv": "https://arxiv.org/abs/2604.03088"
+  },
+  {
+    "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+    "arxiv": "https://arxiv.org/abs/2604.14141"
+  },
+  {
+    "title": "Do AI Coding Agents Log Like Humans? An Empirical Study",
+    "arxiv": "https://arxiv.org/abs/2604.09409"
+  },
+  {
+    "title": "ROSE: Retrieval-Oriented Segmentation Enhancement",
+    "arxiv": "https://arxiv.org/abs/2604.14147"
+  },
+  {
+    "title": "InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis",
+    "arxiv": "https://arxiv.org/abs/2604.13201"
+  },
+  {
+    "title": "Mobile GUI Agents under Real-world Threats: Are We There Yet?",
+    "arxiv": "https://arxiv.org/abs/2507.04227"
+  },
+  {
+    "title": "HDR Video Generation via Latent Alignment with Logarithmic Encoding",
+    "arxiv": "https://arxiv.org/abs/2604.11788"
+  },
+  {
+    "title": "What do Language Models Learn and When? The Implicit Curriculum Hypothesis",
+    "arxiv": "https://arxiv.org/abs/2604.08510"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "title": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+    "arxiv": "https://arxiv.org/abs/2604.08626"
+  },
+  {
+    "title": "FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios",
+    "arxiv": "https://arxiv.org/abs/2604.07413"
+  },
+  {
+    "title": "EXAONE 4.5 Technical Report",
+    "arxiv": "https://arxiv.org/abs/2604.08644"
+  },
+  {
+    "title": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory",
+    "arxiv": "https://arxiv.org/abs/2604.08995"
+  },
+  {
+    "title": "RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details",
+    "arxiv": "https://arxiv.org/abs/2604.06870"
+  },
+  {
+    "title": "Multi-User Large Language Model Agents",
+    "arxiv": "https://arxiv.org/abs/2604.08567"
+  },
+  {
+    "title": "ECHO: Efficient Chest X-ray Report Generation with One-step Block Diffusion",
+    "arxiv": "https://arxiv.org/abs/2604.09450"
+  },
+  {
+    "title": "ELT: Elastic Looped Transformers for Visual Generation",
+    "arxiv": "https://arxiv.org/abs/2604.09168"
+  },
+  {
+    "title": "AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents",
+    "arxiv": "https://arxiv.org/abs/2603.27490"
+  },
+  {
+    "title": "Backdoor Attacks on Decentralised Post-Training",
+    "arxiv": "https://arxiv.org/abs/2604.02372"
+  },
+  {
+    "title": "Envisioning the Future, One Step at a Time",
+    "arxiv": "https://arxiv.org/abs/2604.09527"
+  },
+  {
+    "title": "ScheMatiQ: From Research Question to Structured Data through Interactive Schema Discovery",
+    "arxiv": "https://arxiv.org/abs/2604.09237"
+  },
+  {
+    "title": "Structured Causal Video Reasoning via Multi-Objective Alignment",
+    "arxiv": "https://arxiv.org/abs/2604.04415"
+  },
+  {
+    "title": "VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images",
+    "arxiv": "https://arxiv.org/abs/2604.09531"
+  },
+  {
+    "title": "p1: Better Prompt Optimization with Fewer Prompts",
+    "arxiv": "https://arxiv.org/abs/2604.08801"
+  },
+  {
+    "title": "Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism",
+    "arxiv": "https://arxiv.org/abs/2604.09544"
+  },
+  {
+    "title": "Large Language Models Align with the Human Brain during Creative Thinking",
+    "arxiv": "https://arxiv.org/abs/2604.03480"
+  },
+  {
+    "title": "Process Reward Agents for Steering Knowledge-Intensive Reasoning",
+    "arxiv": "https://arxiv.org/abs/2604.09482"
+  },
+  {
+    "title": "Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.02315"
+  },
+  {
+    "title": "Semantic Richness or Geometric Reasoning? The Fragility of VLM's Visual Invariance",
+    "arxiv": "https://arxiv.org/abs/2604.01848"
+  },
+  {
+    "title": "EquiformerV3: Scaling Efficient, Expressive, and General SE(3)-Equivariant Graph Attention Transformers",
+    "arxiv": "https://arxiv.org/abs/2604.09130"
+  },
+  {
+    "title": "On Semiotic-Grounded Interpretive Evaluation of Generative Art",
+    "arxiv": "https://arxiv.org/abs/2604.08641"
+  },
+  {
+    "title": "Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video",
+    "arxiv": "https://arxiv.org/abs/2604.07786"
+  },
+  {
+    "title": "Robust Reasoning Benchmark",
+    "arxiv": "https://arxiv.org/abs/2604.08571"
+  },
+  {
+    "title": "MixFlow: Mixed Source Distributions Improve Rectified Flows",
+    "arxiv": "https://arxiv.org/abs/2604.09181"
+  },
+  {
+    "title": "AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.08540"
+  },
+  {
+    "title": "Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling",
+    "arxiv": "https://arxiv.org/abs/2604.04987"
+  },
+  {
+    "title": "CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.09201"
+  },
+  {
+    "title": "Initialisation Determines the Basin: Efficient Codebook Optimisation for Extreme LLM Quantization",
+    "arxiv": "https://arxiv.org/abs/2604.08118"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  [
+    "p1: Better Prompt Optimization with Fewer Prompts",
+    "p1：用更少提示做更好的提示最佳化",
+    "Prompt optimization 是一種不改模型權重就能提升 LLM 表現的方法",
+    "但它的效果在不同任務上差異很大，有時候管用有時候完全沒用",
+    "這篇研究找到了原因，而且發現一個反直覺的結論：用更少的 prompt 反而效果更好",
+    "prompt 太多居然會傷害優化效果，這是怎麼回事 👇"
+  ],
+  [
+    "研究團隊分析了 system prompt 的 reward 變異來源",
+    "這個變異可以拆成兩個部分：response 之間的變異和 system prompt 之間的變異",
+    "response 變異反映的是生成的隨機性，system prompt 變異反映的是不同 prompt 的品質差異",
+    "prompt optimization 要成功，system prompt 之間的變異必須夠大",
+    "如果 response 變異蓋過了 system prompt 變異，優化就會失敗"
+  ],
+  [
+    "更令人意外的發現是 scaling 到更多 user prompt 反而可能傷害優化效果",
+    "原因是在異質的資料集上，不同的 user prompt 偏好不同的 system prompt",
+    "把所有 user prompt 混在一起會抵消掉 system prompt 之間的品質差異",
+    "這讓優化器更難分辨哪個 system prompt 比較好",
+    "資料越多反而訊號越弱，這跟一般對 scaling 的直覺完全相反"
+  ],
+  [
+    "基於這個觀察，研究團隊提出了 p1 這個方法",
+    "p1 會從所有 user prompt 中篩選出一小部分在不同 system prompt 下表現差異最大的",
+    "用這個子集來做 system prompt 的優化，而不是用全部資料",
+    "因為這些 prompt 最能區分好的和差的 system prompt",
+    "在推理基準測試上，p1 大幅超越了用完整資料集做優化的結果"
+  ],
+  [
+    "一個很誇張的實驗是只用 AIME 24 裡的兩個 prompt 來訓練",
+    "產出的 system prompt 竟然能泛化到其他推理基準上",
+    "這說明少量但精選的 prompt 比大量但混雜的 prompt 更有優化價值",
+    "p1 同時也超越了 GEPA 等強基線方法",
+    "這個研究改變了我們對 prompt optimization 中資料量的理解",
+    "連結：https://arxiv.org/abs/2604.08801"
+  ]
+]

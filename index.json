@@ -1,0 +1,694 @@
+{
+  "20260413": [
+    {
+      "slug": "20260413-AgentSwing",
+      "link": "https://arxiv.org/abs/2603.27490"
+    },
+    {
+      "slug": "20260413-AVGenBench",
+      "link": "https://arxiv.org/abs/2604.08540"
+    },
+    {
+      "slug": "20260413-BackdoorAttacks",
+      "link": "https://arxiv.org/abs/2604.02372"
+    },
+    {
+      "slug": "20260413-BeyondAssistantTurn",
+      "link": "https://arxiv.org/abs/2604.02315"
+    },
+    {
+      "slug": "20260413-Cactus",
+      "link": "https://arxiv.org/abs/2604.04987"
+    },
+    {
+      "slug": "20260413-CausalVideoReasoning",
+      "link": "https://arxiv.org/abs/2604.04415"
+    },
+    {
+      "slug": "20260413-CMET",
+      "link": "https://arxiv.org/abs/2604.07786"
+    },
+    {
+      "slug": "20260413-CodebookQuant",
+      "link": "https://arxiv.org/abs/2604.08118"
+    },
+    {
+      "slug": "20260413-CT1",
+      "link": "https://arxiv.org/abs/2604.09201"
+    },
+    {
+      "slug": "20260413-ECHO",
+      "link": "https://arxiv.org/abs/2604.09450"
+    },
+    {
+      "slug": "20260413-ELT",
+      "link": "https://arxiv.org/abs/2604.09168"
+    },
+    {
+      "slug": "20260413-EnvisionFuture",
+      "link": "https://arxiv.org/abs/2604.09527"
+    },
+    {
+      "slug": "20260413-EquiformerV3",
+      "link": "https://arxiv.org/abs/2604.09130"
+    },
+    {
+      "slug": "20260413-EXAONE45",
+      "link": "https://arxiv.org/abs/2604.08644"
+    },
+    {
+      "slug": "20260413-FORGE",
+      "link": "https://arxiv.org/abs/2604.07413"
+    },
+    {
+      "slug": "20260413-LLMBrainCreativity",
+      "link": "https://arxiv.org/abs/2604.03480"
+    },
+    {
+      "slug": "20260413-LLMHarmMechanism",
+      "link": "https://arxiv.org/abs/2604.09544"
+    },
+    {
+      "slug": "20260413-MatrixGame3",
+      "link": "https://arxiv.org/abs/2604.08995"
+    },
+    {
+      "slug": "20260413-MixFlow",
+      "link": "https://arxiv.org/abs/2604.09181"
+    },
+    {
+      "slug": "20260413-MultiUserLLM",
+      "link": "https://arxiv.org/abs/2604.08567"
+    },
+    {
+      "slug": "20260413-p1",
+      "link": "https://arxiv.org/abs/2604.08801"
+    },
+    {
+      "slug": "20260413-ProcessRewardAgents",
+      "link": "https://arxiv.org/abs/2604.09482"
+    },
+    {
+      "slug": "20260413-RefineAnything",
+      "link": "https://arxiv.org/abs/2604.06870"
+    },
+    {
+      "slug": "20260413-RobustReasoning",
+      "link": "https://arxiv.org/abs/2604.08571"
+    },
+    {
+      "slug": "20260413-ScheMatiQ",
+      "link": "https://arxiv.org/abs/2604.09237"
+    },
+    {
+      "slug": "20260413-SemJudge",
+      "link": "https://arxiv.org/abs/2604.08641"
+    },
+    {
+      "slug": "20260413-VisionFoundry",
+      "link": "https://arxiv.org/abs/2604.09531"
+    },
+    {
+      "slug": "20260413-VLMInvariance",
+      "link": "https://arxiv.org/abs/2604.01848"
+    },
+    {
+      "slug": "20260413-WildDet3D",
+      "link": "https://arxiv.org/abs/2604.08626"
+    }
+  ],
+  "20260414": [
+    {
+      "slug": "20260414-ADD",
+      "link": "https://arxiv.org/abs/2604.11491"
+    },
+    {
+      "slug": "20260414-AlignmentRoutes",
+      "link": "https://arxiv.org/abs/2604.04385"
+    },
+    {
+      "slug": "20260414-ATANT",
+      "link": "https://arxiv.org/abs/2604.06710"
+    },
+    {
+      "slug": "20260414-AttentionSink",
+      "link": "https://arxiv.org/abs/2604.10098"
+    },
+    {
+      "slug": "20260414-AudioFlamingoNext",
+      "link": "https://arxiv.org/abs/2604.10905"
+    },
+    {
+      "slug": "20260414-AudioOmni",
+      "link": "https://arxiv.org/abs/2604.10708"
+    },
+    {
+      "slug": "20260414-BMdataset",
+      "link": "https://arxiv.org/abs/2604.10628"
+    },
+    {
+      "slug": "20260414-CocoaBench",
+      "link": "https://arxiv.org/abs/2604.11201"
+    },
+    {
+      "slug": "20260414-CodeTracer",
+      "link": "https://arxiv.org/abs/2604.11641"
+    },
+    {
+      "slug": "20260414-CreditAssignment",
+      "link": "https://arxiv.org/abs/2604.09459"
+    },
+    {
+      "slug": "20260414-DataLineage",
+      "link": "https://arxiv.org/abs/2604.10480"
+    },
+    {
+      "slug": "20260414-DenoisingSchedule",
+      "link": "https://arxiv.org/abs/2604.02340"
+    },
+    {
+      "slug": "20260414-DiningBench",
+      "link": "https://arxiv.org/abs/2604.10425"
+    },
+    {
+      "slug": "20260414-General365",
+      "link": "https://arxiv.org/abs/2604.11778"
+    },
+    {
+      "slug": "20260414-IceCache",
+      "link": "https://arxiv.org/abs/2604.10539"
+    },
+    {
+      "slug": "20260414-IDLM",
+      "link": "https://arxiv.org/abs/2604.11035"
+    },
+    {
+      "slug": "20260414-PseudoUnification",
+      "link": "https://arxiv.org/abs/2604.10949"
+    },
+    {
+      "slug": "20260414-QuanBench+",
+      "link": "https://arxiv.org/abs/2604.08570"
+    },
+    {
+      "slug": "20260414-RoMem",
+      "link": "https://arxiv.org/abs/2604.11544"
+    },
+    {
+      "slug": "20260414-SATO",
+      "link": "https://arxiv.org/abs/2604.09132"
+    },
+    {
+      "slug": "20260414-SciPredict",
+      "link": "https://arxiv.org/abs/2604.10718"
+    },
+    {
+      "slug": "20260414-SCOPE",
+      "link": "https://arxiv.org/abs/2604.10688"
+    },
+    {
+      "slug": "20260414-SHARE",
+      "link": "https://arxiv.org/abs/2604.11152"
+    },
+    {
+      "slug": "20260414-SPASM",
+      "link": "https://arxiv.org/abs/2604.09212"
+    },
+    {
+      "slug": "20260414-SPEEDBench",
+      "link": "https://arxiv.org/abs/2604.09557"
+    },
+    {
+      "slug": "20260414-SWEAGILE",
+      "link": "https://arxiv.org/abs/2604.11716"
+    },
+    {
+      "slug": "20260414-TAIHRI",
+      "link": "https://arxiv.org/abs/2604.08921"
+    },
+    {
+      "slug": "20260414-TIPO",
+      "link": "https://arxiv.org/abs/2604.11259"
+    },
+    {
+      "slug": "20260414-TorchUMM",
+      "link": "https://arxiv.org/abs/2604.10784"
+    },
+    {
+      "slug": "20260414-TRACE",
+      "link": "https://arxiv.org/abs/2604.05336"
+    },
+    {
+      "slug": "20260414-UniViGU",
+      "link": "https://arxiv.org/abs/2604.08121"
+    },
+    {
+      "slug": "20260414-ZeroShotWorldModel",
+      "link": "https://arxiv.org/abs/2604.10333"
+    }
+  ],
+  "20260415": [
+    {
+      "slug": "20260415-3DTV",
+      "link": "https://arxiv.org/abs/2604.11211"
+    },
+    {
+      "slug": "20260415-AiScientist",
+      "link": "https://arxiv.org/abs/2604.13018"
+    },
+    {
+      "slug": "20260415-APEX",
+      "link": "https://arxiv.org/abs/2604.12322"
+    },
+    {
+      "slug": "20260415-BERTJudge",
+      "link": "https://arxiv.org/abs/2604.09497"
+    },
+    {
+      "slug": "20260415-BlindSpotAgentSafety",
+      "link": ""
+    },
+    {
+      "slug": "20260415-ClawGUI",
+      "link": "https://arxiv.org/abs/2604.11784"
+    },
+    {
+      "slug": "20260415-CONSCIENTIA",
+      "link": "https://arxiv.org/abs/2604.09746"
+    },
+    {
+      "slug": "20260415-DDTree",
+      "link": "https://arxiv.org/abs/2604.12989"
+    },
+    {
+      "slug": "20260415-FeedForward3DScene",
+      "link": ""
+    },
+    {
+      "slug": "20260415-GlotOCRBench",
+      "link": "https://arxiv.org/abs/2604.12978"
+    },
+    {
+      "slug": "20260415-Grid2Matrix",
+      "link": ""
+    },
+    {
+      "slug": "20260415-GRN",
+      "link": "https://arxiv.org/abs/2604.13030"
+    },
+    {
+      "slug": "20260415-HabitatGS",
+      "link": "https://arxiv.org/abs/2604.12626"
+    },
+    {
+      "slug": "20260415-HiVG",
+      "link": "https://arxiv.org/abs/2604.05072"
+    },
+    {
+      "slug": "20260415-KnowRL",
+      "link": "https://arxiv.org/abs/2604.12627"
+    },
+    {
+      "slug": "20260415-LangevinDiffusion",
+      "link": "https://arxiv.org/abs/2604.10465"
+    },
+    {
+      "slug": "20260415-LARY",
+      "link": "https://arxiv.org/abs/2604.11689"
+    },
+    {
+      "slug": "20260415-LASA",
+      "link": ""
+    },
+    {
+      "slug": "20260415-LightningOPD",
+      "link": "https://arxiv.org/abs/2604.13010"
+    },
+    {
+      "slug": "20260415-LMMSearcher",
+      "link": "https://arxiv.org/abs/2604.12890"
+    },
+    {
+      "slug": "20260415-Lyra2",
+      "link": "https://arxiv.org/abs/2604.13036"
+    },
+    {
+      "slug": "20260415-ManyIH",
+      "link": "https://arxiv.org/abs/2604.09443"
+    },
+    {
+      "slug": "20260415-MaskedConsensus",
+      "link": "https://arxiv.org/abs/2604.12373"
+    },
+    {
+      "slug": "20260415-MedicalSR",
+      "link": "https://arxiv.org/abs/2604.12152"
+    },
+    {
+      "slug": "20260415-Nemotron3Super",
+      "link": "https://arxiv.org/abs/2604.12374"
+    },
+    {
+      "slug": "20260415-OnPolicyDistill",
+      "link": "https://arxiv.org/abs/2604.13016"
+    },
+    {
+      "slug": "20260415-Parcae",
+      "link": ""
+    },
+    {
+      "slug": "20260415-PokeRL",
+      "link": ""
+    },
+    {
+      "slug": "20260415-ReasoningNegotiation",
+      "link": "https://arxiv.org/abs/2604.11840"
+    },
+    {
+      "slug": "20260415-Rethinking_On_Policy_Distillation_of_Large_Language_Models",
+      "link": ""
+    },
+    {
+      "slug": "20260415-SeeingThroughTouch",
+      "link": "https://arxiv.org/abs/2604.11579"
+    },
+    {
+      "slug": "20260415-SemanticFixation",
+      "link": "https://arxiv.org/abs/2604.12119"
+    },
+    {
+      "slug": "20260415-SpatialCompetence",
+      "link": "https://arxiv.org/abs/2604.09594"
+    },
+    {
+      "slug": "20260415-SpecKitAgents",
+      "link": ""
+    },
+    {
+      "slug": "20260415-SpotSound",
+      "link": "https://arxiv.org/abs/2604.13023"
+    },
+    {
+      "slug": "20260415-SPPO",
+      "link": "https://arxiv.org/abs/2604.08865"
+    },
+    {
+      "slug": "20260415-SPPO_Sequence_Level_PPO_for_Long_Horizon_Reasoning_Tasks",
+      "link": ""
+    },
+    {
+      "slug": "20260415-ThoughtStreams",
+      "link": ""
+    },
+    {
+      "slug": "20260415-TouchDreaming",
+      "link": ""
+    },
+    {
+      "slug": "20260415-Turing_Test_on_Screen_A_Benchmark_for_Mobile_GUI_Agent_Humanization",
+      "link": ""
+    },
+    {
+      "slug": "20260415-TuringTestGUI",
+      "link": "https://arxiv.org/abs/2604.09574"
+    },
+    {
+      "slug": "20260415-VideoFlexTok",
+      "link": "https://arxiv.org/abs/2604.12887"
+    },
+    {
+      "slug": "20260415-YOJO",
+      "link": "https://arxiv.org/abs/2604.10966"
+    }
+  ],
+  "20260416": [
+    {
+      "slug": "20260416-Anthropogenic Regional Adaptation in Multimodal Vision-Language Model",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Do AI Coding Agents Log Like Humans- An Empirical Study",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Free Geometry- Refining 3D Reconstruction from Longer Versions of Itself",
+      "link": ""
+    },
+    {
+      "slug": "20260416-From P(y-x) to P(y)- Investigating Reinforcement Learning in Pre-train Space",
+      "link": ""
+    },
+    {
+      "slug": "20260416-GameWorld- Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Geometric Context Transformer for Streaming 3D Reconstruction",
+      "link": ""
+    },
+    {
+      "slug": "20260416-HDR Video Generation via Latent Alignment with Logarithmic Encoding",
+      "link": ""
+    },
+    {
+      "slug": "20260416-InfiniteScienceGym- An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis",
+      "link": ""
+    },
+    {
+      "slug": "20260416-LangFlow- Continuous Diffusion Rivals Discrete in Language Modeling",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Memory Transfer Learning- How Memories are Transferred Across Domains in Coding Agents",
+      "link": ""
+    },
+    {
+      "slug": "20260416-MERRIN- A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Mobile GUI Agents under Real-world Threats- Are We There Yet-",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Narrative-Driven Paper-to-Slide Generation via ArcDeck",
+      "link": ""
+    },
+    {
+      "slug": "20260416-OccuBench- Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
+      "link": ""
+    },
+    {
+      "slug": "20260416-RationalRewards- Reasoning Rewards Scale Visual Generation Both Training and Test Time",
+      "link": ""
+    },
+    {
+      "slug": "20260416-ReconPhys- Reconstruct Appearance and Physical Attributes from Single Video",
+      "link": ""
+    },
+    {
+      "slug": "20260416-ROSE- Retrieval-Oriented Segmentation Enhancement",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Seedance 2.0- Advancing Video Generation for World Complexity",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Self-Distillation Zero- Self-Revision Turns Binary Rewards into Dense Supervision",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Sema Code- Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
+      "link": ""
+    },
+    {
+      "slug": "20260416-SemaClaw- A Step Towards General-Purpose Personal AI Agents through Harness Engineering",
+      "link": ""
+    },
+    {
+      "slug": "20260416-SkVM- Compiling Skills for Efficient Execution Everywhere",
+      "link": ""
+    },
+    {
+      "slug": "20260416-SpatialEvo- Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Target Policy Optimization",
+      "link": ""
+    },
+    {
+      "slug": "20260416-TIP- Token Importance in On-Policy Distillation",
+      "link": ""
+    },
+    {
+      "slug": "20260416-TREX- Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "link": ""
+    },
+    {
+      "slug": "20260416-UI-Copilot- Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+      "link": ""
+    },
+    {
+      "slug": "20260416-UI-Zoomer- Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
+      "link": ""
+    },
+    {
+      "slug": "20260416-What do Language Models Learn and When- The Implicit Curriculum Hypothesis",
+      "link": ""
+    }
+  ],
+  "CharacterEval": [
+    {
+      "slug": "AtomicPersona",
+      "link": ""
+    },
+    {
+      "slug": "CharacterBench",
+      "link": ""
+    },
+    {
+      "slug": "CharacterBox",
+      "link": ""
+    },
+    {
+      "slug": "CharacterEval",
+      "link": ""
+    },
+    {
+      "slug": "InCharacter",
+      "link": ""
+    },
+    {
+      "slug": "PersonaGym",
+      "link": ""
+    },
+    {
+      "slug": "PersonalityInfused",
+      "link": ""
+    },
+    {
+      "slug": "RoleLLM",
+      "link": ""
+    },
+    {
+      "slug": "RolePlayEval",
+      "link": ""
+    }
+  ],
+  "ImageQualityMetrics": [
+    {
+      "slug": "20260416-BLIP-ITC-ITM",
+      "link": ""
+    },
+    {
+      "slug": "20260416-cFreD",
+      "link": "https://arxiv.org/abs/2308.09928"
+    },
+    {
+      "slug": "20260416-CLIPScore",
+      "link": ""
+    },
+    {
+      "slug": "20260416-CMMD",
+      "link": ""
+    },
+    {
+      "slug": "20260416-DAScore",
+      "link": ""
+    },
+    {
+      "slug": "20260416-DistilledMLLMJudge",
+      "link": ""
+    },
+    {
+      "slug": "20260416-EloRating",
+      "link": ""
+    },
+    {
+      "slug": "20260416-FID",
+      "link": "https://arxiv.org/abs/1706.08500"
+    },
+    {
+      "slug": "20260416-FWD",
+      "link": ""
+    },
+    {
+      "slug": "20260416-GenEval",
+      "link": ""
+    },
+    {
+      "slug": "20260416-GPT4oJudge",
+      "link": ""
+    },
+    {
+      "slug": "20260416-HPS",
+      "link": ""
+    },
+    {
+      "slug": "20260416-ImageReward",
+      "link": ""
+    },
+    {
+      "slug": "20260416-IS",
+      "link": ""
+    },
+    {
+      "slug": "20260416-KID",
+      "link": "https://arxiv.org/abs/1801.01401"
+    },
+    {
+      "slug": "20260416-LikertScale",
+      "link": ""
+    },
+    {
+      "slug": "20260416-MiFID",
+      "link": ""
+    },
+    {
+      "slug": "20260416-MOS",
+      "link": ""
+    },
+    {
+      "slug": "20260416-MosaiCLIP",
+      "link": ""
+    },
+    {
+      "slug": "20260416-NegCLIP",
+      "link": ""
+    },
+    {
+      "slug": "20260416-PairwisePreference",
+      "link": ""
+    },
+    {
+      "slug": "20260416-PickScore",
+      "link": ""
+    },
+    {
+      "slug": "20260416-Ranking",
+      "link": ""
+    },
+    {
+      "slug": "20260416-TIFA",
+      "link": ""
+    },
+    {
+      "slug": "20260416-VIEScore",
+      "link": ""
+    },
+    {
+      "slug": "20260416-VISOR",
+      "link": ""
+    },
+    {
+      "slug": "20260416-VQAScore",
+      "link": ""
+    }
+  ]
+}
