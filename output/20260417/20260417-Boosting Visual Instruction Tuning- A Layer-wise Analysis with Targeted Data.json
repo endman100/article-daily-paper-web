@@ -1,6 +1,6 @@
 [
   [
-    "Boosting Visual Instruction Tuning",
+    "Boosting Visual Instruction Tuning: A Layer-wise Analysis with Targeted Data",
     "用自監督引導強化視覺指令微調",
     "多模態大模型在許多任務上展現亮眼成績，卻在視覺推理密集的問題上頻頻失利",
     "研究團隊揭示癥結並非視覺編碼能力不足，而源於指令微調階段的視覺資訊被嚴重低估",

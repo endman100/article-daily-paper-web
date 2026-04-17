@@ -1,6 +1,6 @@
 [
   [
-    "ASGuard",
+    "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
     "以機制可解釋性強化 LLM 安全的激活縮放守門員",
     "把「如何製作」改成「過去是如何製作的」，安全對齊過的 LLM 常常就被繞過",
     "這種時態越獄攻擊揭露了一個尷尬的事實：現行對齊方法脆弱得像玻璃",

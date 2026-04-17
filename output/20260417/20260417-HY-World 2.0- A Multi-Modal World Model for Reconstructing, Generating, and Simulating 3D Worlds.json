@@ -1,6 +1,6 @@
 [
   [
-    "HY-World 2.0",
+    "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
     "多模態 3D 世界模型能做重建與生成還有模擬",
     "文字與單張圖還有多張圖以及一段影片，全都能塞進同一個模型，然後吐出一整個可以走動的 3D 場景",
     "這代表 3D 世界建構從此不再被限制在特定的輸入格式",

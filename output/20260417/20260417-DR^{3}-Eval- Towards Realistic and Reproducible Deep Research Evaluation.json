@@ -1,6 +1,6 @@
 [
   [
-    "DR³-Eval",
+    "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
     "面向深度研究代理人的真實且可重現評估基準",
     "Deep Research Agents 要做的事情很難：規劃與檢索還有多模態理解以及最後寫成報告",
     "但評估這種代理人一直是個頭痛問題，因為網路內容會變與任務定義又模糊",

@@ -1,6 +1,6 @@
 [
   [
-    "Dive into Claude Code",
+    "Dive into Claude Code: Anatomy of an Agentic Coding Harness",
     "今日與未來 AI 代理人系統的設計空間",
     "Claude Code 不只是個編輯工具，它能跑 shell 還能改檔案與呼叫外部服務",
     "背後是公開的 TypeScript 源碼，讓人看清楚 AI 代理的運作邏輯",

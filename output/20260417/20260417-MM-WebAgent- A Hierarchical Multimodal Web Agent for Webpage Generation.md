@@ -1,6 +1,6 @@
 # MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation
 
-MM-WebAgent
+MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation
 為網頁生成而生的分層多模態網頁代理人
 AIGC 讓圖片與影片還有各類視覺元素能按需生成
 這對現代 UI/UX 帶來了前所未有的靈活性

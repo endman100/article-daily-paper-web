@@ -1,6 +1,6 @@
 [
   [
-    "Representations Before Pixels",
+    "Representations Before Pixels: A Perceptual Loss Rooted in Vision Foundation Models",
     "語意先行的分層影片預測",
     "準確預測未來影片，既要畫面逼真，也要場景語意前後連貫",
     "自駕這類動態複雜場景，預測偏差會直接破壞整套決策鏈條",

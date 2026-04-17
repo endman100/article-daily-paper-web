@@ -1,6 +1,6 @@
 [
   [
-    "C2",
+    "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
     "從二元偏好擴展出量尺增強的獎勵建模",
     "用評分量尺引導獎勵模型判斷會更可靠",
     "但標註量尺的成本極高，而且低品質的量尺會反過來誤導模型",

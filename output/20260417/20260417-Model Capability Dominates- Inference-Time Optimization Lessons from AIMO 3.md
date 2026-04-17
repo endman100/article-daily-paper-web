@@ -1,6 +1,6 @@
 # Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3
 
-Model Capability Dominates
+Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3
 AIMO 3 給我們的推論期最佳化教訓
 多次取樣再投票通常能提升數學推理表現，但隱藏著不為人知的陷阱
 當模型的錯誤彼此相關時，再多的取樣也無法真正增加有效樣本

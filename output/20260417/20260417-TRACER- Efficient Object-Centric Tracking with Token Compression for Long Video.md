@@ -1,6 +1,6 @@
 # TRACER: Efficient Object-Centric Tracking with Token Compression for Long Video
 
-TRACER
+TRACER: Efficient Object-Centric Tracking with Token Compression for Long Video
 以生產軌跡為基礎的成本自適應 LLM 分類路由
 每次呼叫 LLM 做分類時，輸入和輸出其實都被記錄下來
 這些紀錄本身就是一份免費又不斷長大的訓練資料

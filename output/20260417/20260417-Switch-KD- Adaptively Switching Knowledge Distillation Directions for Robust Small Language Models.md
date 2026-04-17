@@ -1,6 +1,6 @@
 # Switch-KD: Adaptively Switching Knowledge Distillation Directions for Robust Small Language Models
 
-Switch-KD
+Switch-KD: Adaptively Switching Knowledge Distillation Directions for Robust Small Language Models
 為視覺語言模型打造的視覺切換式知識蒸餾
 視覺語言模型能力越強部署成本越高
 知識蒸餾讓小模型吸收大模型的能力而不增加模型規模

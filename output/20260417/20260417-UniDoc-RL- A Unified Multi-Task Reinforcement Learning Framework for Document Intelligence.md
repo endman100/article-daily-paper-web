@@ -1,6 +1,6 @@
 # UniDoc-RL: A Unified Multi-Task Reinforcement Learning Framework for Document Intelligence
 
-UniDoc-RL
+UniDoc-RL: A Unified Multi-Task Reinforcement Learning Framework for Document Intelligence
 具階層動作與密集獎勵的粗細視覺 RAG 框架
 把外部視覺知識接到大型視覺語言模型上聽起來很美，但實際上現行視覺 RAG 常靠通用檢索訊號
 那些訊號看不清楚文件裡真正關鍵的細節

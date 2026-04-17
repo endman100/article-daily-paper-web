@@ -1,6 +1,6 @@
 [
   [
-    "Don't Retrieve, Navigate",
+    "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
     "把企業知識蒸餾成可導航的 agent skill",
     "傳統 RAG 把模型當成被動消費者，丟一批檢索結果進去，期望它湊出答案",
     "模型根本看不到整個語料如何組織，也看不到還有什麼被遺漏",
