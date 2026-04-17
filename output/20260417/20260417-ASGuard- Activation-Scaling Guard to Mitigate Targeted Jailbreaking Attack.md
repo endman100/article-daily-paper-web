@@ -1,5 +1,6 @@
 ASGuard- Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack
 
+ASGuard- Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack
 ASGuard：以激活值縮放為核心的守門員用來緩解針對性越獄攻擊
 👇
 把提示詞中的現在式改成過去式時，安全對齊過的 LLM 反覆失守

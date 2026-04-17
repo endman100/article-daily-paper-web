@@ -1,5 +1,6 @@
 Model Capability Dominates- Inference-Time Optimization Lessons from AIMO 3
 
+Model Capability Dominates- Inference-Time Optimization Lessons from AIMO 3
 模型能力主導：從 AIMO 3 看推論期最佳化的真相
 👇
 在數學競賽問題上，透過多次取樣後再投票來提升準確性是常見做法

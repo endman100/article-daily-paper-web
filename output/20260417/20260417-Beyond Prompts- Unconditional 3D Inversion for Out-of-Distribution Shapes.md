@@ -1,5 +1,6 @@
 Beyond Prompts- Unconditional 3D Inversion for Out-of-Distribution Shapes
 
+Beyond Prompts- Unconditional 3D Inversion for Out-of-Distribution Shapes
 超越提示詞 面向分佈外形狀的無條件三維反演
 👇
 文字驅動的三維生成模型已成為影像合成與編輯的核心工具

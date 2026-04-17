@@ -1,5 +1,6 @@
 UniDoc-RL- Reinforcement Learning Unifying Visual and Textual Modalities for Visual Document Understanding
 
+UniDoc-RL- Reinforcement Learning Unifying Visual and Textual Modalities for Visual Document Understanding
 UniDoc-RL：以強化學習統一視覺與文字模態的視覺文件理解
 👇
 視覺文件理解要求模型同時掌握文字辨識與語意推理兩種能力

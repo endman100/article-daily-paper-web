@@ -1,5 +1,6 @@
 [
   [
+    "C2- Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
     "C2：把二元偏好升級為可擴展且帶量尺增強的獎勵建模",
     "👇",
     "獎勵模型在大模型訓練中扮演著指揮官的角色，直接影響輸出品質",

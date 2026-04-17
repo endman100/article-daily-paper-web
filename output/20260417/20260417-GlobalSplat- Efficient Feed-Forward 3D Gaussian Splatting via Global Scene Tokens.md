@@ -1,5 +1,6 @@
 GlobalSplat- Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens
 
+GlobalSplat- Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens
 GlobalSplat：以全局場景代幣實現高效率的前向式三維高斯潑濺
 👇
 三維高斯潑濺的品質、速度、模型規模往往取決於如何配置高斯原子

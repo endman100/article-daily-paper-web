@@ -1,5 +1,6 @@
 LeapAlign- Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories
 
+LeapAlign- Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories
 LeapAlign：用兩步軌跡在任意生成步對齊流匹配模型的後訓練方法
 👇
 流匹配模型若要與人類偏好對齊，最直接的方式就是把獎勵梯度反傳到可微分的生成流程中

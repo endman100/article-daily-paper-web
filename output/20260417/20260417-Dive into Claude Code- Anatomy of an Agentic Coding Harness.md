@@ -1,5 +1,6 @@
 Dive into Claude Code- Anatomy of an Agentic Coding Harness
 
+Dive into Claude Code- Anatomy of an Agentic Coding Harness
 解剖 Claude Code：代理式寫程式骨架的內部構造
 👇
 Claude Code 是一個真實運作的 AI 編程代理系統

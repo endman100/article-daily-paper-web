@@ -1,5 +1,6 @@
 Representations Before Pixels- Making Diffusion Models See
 
+Representations Before Pixels- Making Diffusion Models See
 表示優於像素：讓擴散模型真正看見語義的新方法
 👇
 擴散模型的訓練過程存在一個深刻的結構性矛盾
