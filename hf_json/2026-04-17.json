@@ -1,0 +1,114 @@
+[
+  {
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+    "arxiv": "https://arxiv.org/abs/2604.14268"
+  },
+  {
+    "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+    "arxiv": "https://arxiv.org/abs/2604.15308"
+  },
+  {
+    "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+    "arxiv": "https://arxiv.org/abs/2604.14683"
+  },
+  {
+    "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+    "arxiv": "https://arxiv.org/abs/2604.14125"
+  },
+  {
+    "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+    "arxiv": "https://arxiv.org/abs/2509.25843"
+  },
+  {
+    "title": "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+    "arxiv": "https://arxiv.org/abs/2604.14164"
+  },
+  {
+    "title": "GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
+    "arxiv": "https://arxiv.org/abs/2604.15284"
+  },
+  {
+    "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+    "arxiv": "https://arxiv.org/abs/2604.14967"
+  },
+  {
+    "title": "Switch-KD: Visual-Switch Knowledge Distillation for Vision-Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.14629"
+  },
+  {
+    "title": "TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
+    "arxiv": "https://arxiv.org/abs/2604.14531"
+  },
+  {
+    "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+    "arxiv": "https://arxiv.org/abs/2604.14228"
+  },
+  {
+    "title": "Boosting Visual Instruction Tuning with Self-Supervised Guidance",
+    "arxiv": "https://arxiv.org/abs/2604.12966"
+  },
+  {
+    "title": "Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction",
+    "arxiv": "https://arxiv.org/abs/2604.11707"
+  },
+  {
+    "title": "Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes",
+    "arxiv": "https://arxiv.org/abs/2604.14914"
+  },
+  {
+    "title": "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography",
+    "arxiv": "https://arxiv.org/abs/2604.15231"
+  },
+  {
+    "title": "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
+    "arxiv": "https://arxiv.org/abs/2604.14572"
+  },
+  {
+    "title": "LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+    "arxiv": "https://arxiv.org/abs/2604.14922"
+  },
+  {
+    "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.13226"
+  },
+  {
+    "title": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+    "arxiv": "https://arxiv.org/abs/2604.07466"
+  },
+  {
+    "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+    "arxiv": "https://arxiv.org/abs/2604.15311"
+  },
+  {
+    "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
+    "arxiv": "https://arxiv.org/abs/2604.14062"
+  },
+  {
+    "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
+    "arxiv": "https://arxiv.org/abs/2604.04514"
+  },
+  {
+    "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+    "arxiv": "https://arxiv.org/abs/2604.15309"
+  },
+  {
+    "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+    "arxiv": "https://arxiv.org/abs/2604.11661"
+  },
+  {
+    "title": "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
+    "arxiv": "https://arxiv.org/abs/2211.16780"
+  },
+  {
+    "title": "Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3",
+    "arxiv": "https://arxiv.org/abs/2603.27844"
+  },
+  {
+    "title": "Three-Phase Transformer",
+    "arxiv": "https://arxiv.org/abs/2604.14430"
+  },
+  {
+    "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+    "arxiv": "https://arxiv.org/abs/2604.13618"
+  }
+]

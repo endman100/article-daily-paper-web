@@ -543,6 +543,120 @@
       "link": ""
     }
   ],
+  "20260417": [
+    {
+      "slug": "20260417-An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
+      "link": ""
+    },
+    {
+      "slug": "20260417-ASGuard- Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Beyond Prompts- Unconditional 3D Inversion for Out-of-Distribution Shapes",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Boosting Visual Instruction Tuning with Self-Supervised Guidance",
+      "link": ""
+    },
+    {
+      "slug": "20260417-C2- Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Dive into Claude Code- The Design Space of Today's and Future AI Agent Systems",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Don't Retrieve, Navigate- Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
+      "link": ""
+    },
+    {
+      "slug": "20260417-DR^{3}-Eval- Towards Realistic and Reproducible Deep Research Evaluation",
+      "link": ""
+    },
+    {
+      "slug": "20260417-GlobalSplat- Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
+      "link": ""
+    },
+    {
+      "slug": "20260417-HiVLA- A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+      "link": ""
+    },
+    {
+      "slug": "20260417-How to Fine-Tune a Reasoning Model- A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+      "link": ""
+    },
+    {
+      "slug": "20260417-HY-World 2.0- A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "link": ""
+    },
+    {
+      "slug": "20260417-KV Packet- Recomputation-Free Context-Independent KV Caching for LLMs",
+      "link": ""
+    },
+    {
+      "slug": "20260417-LeapAlign- Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+      "link": ""
+    },
+    {
+      "slug": "20260417-LongAct- Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+      "link": ""
+    },
+    {
+      "slug": "20260417-MM-WebAgent- A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Model Capability Dominates- Inference-Time Optimization Lessons from AIMO 3",
+      "link": ""
+    },
+    {
+      "slug": "20260417-OneHOI- Unifying Human-Object Interaction Generation and Editing",
+      "link": ""
+    },
+    {
+      "slug": "20260417-RAD-2- Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "link": ""
+    },
+    {
+      "slug": "20260417-RadAgent- A tool-using AI agent for stepwise interpretation of chest computed tomography",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Representations Before Pixels- Semantics-Guided Hierarchical Video Prediction",
+      "link": ""
+    },
+    {
+      "slug": "20260417-SuperLocalMemory V3.3- The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Switch-KD- Visual-Switch Knowledge Distillation for Vision-Language Models",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Three-Phase Transformer",
+      "link": ""
+    },
+    {
+      "slug": "20260417-Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+      "link": ""
+    },
+    {
+      "slug": "20260417-TRACER- Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
+      "link": ""
+    },
+    {
+      "slug": "20260417-UniDoc-RL- Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+      "link": ""
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",
