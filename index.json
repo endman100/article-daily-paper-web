@@ -1,4 +1,46 @@
 {
+  "20260410": [
+    {
+      "slug": "20260410-Beyond Stochastic Exploration",
+      "title": "Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search",
+      "title_zh": "超越隨機探索：HiExp 如何讓 AI 搜尋智能體從經驗中學習"
+    },
+    {
+      "slug": "20260410-Global Photometric Alignment",
+      "title": "On the Global Photometric Alignment for Low-Level Vision",
+      "title_zh": "低階視覺任務的全域光度對齊方法"
+    },
+    {
+      "slug": "20260410-Graph of Skills",
+      "title": "Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills",
+      "title_zh": "Graph of Skills：依賴感知的結構化檢索，解決海量 Agent 技能難題"
+    },
+    {
+      "slug": "20260410-KnowU-Bench",
+      "title": "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
+      "title_zh": "KnowU-Bench：邁向互動，主動與個性化的手機 Agent 評測"
+    },
+    {
+      "slug": "20260410-MegaStyle",
+      "title": "MegaStyle: Constructing Diverse and Scalable Style Dataset via Consistent Text-to-Image Style Mapping",
+      "title_zh": "MegaStyle：透過一致的 Text-to-Image 風格映射，打造多元大規模風格資料集"
+    },
+    {
+      "slug": "20260410-Rethinking Generalization in Reasoning SFT",
+      "title": "Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability",
+      "title_zh": "重新思考 Reasoning SFT 中的泛化：基於優化、數據與模型能力的條件性分析"
+    },
+    {
+      "slug": "20260410-The Master Key Hypothesis",
+      "title": "The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment",
+      "title_zh": "主鑰匙假說：透過線性子空間對齊解鎖跨模型能力遷移"
+    },
+    {
+      "slug": "20260410-When Numbers Speak",
+      "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
+      "title_zh": "當數字說話：對齊文字轉影片擴散模型中的數字描述與視覺實例"
+    }
+  ],
   "20260413": [
     {
       "slug": "20260413-AgentSwing",
