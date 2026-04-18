@@ -764,6 +764,26 @@
       "title_zh": "ASGuard：時態一換就能繞過 AI 安全護欄，電路分析找到了根源"
     },
     {
+      "slug": "20260417-Beyond Prompts- Unconditional 3D Inversion for Out-of-Distribution Shapes",
+      "title": "Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes",
+      "title_zh": "說了等於沒說？當文字指令無法控制 3D AI 的真相與突破"
+    },
+    {
+      "slug": "20260417-Boosting Visual Instruction Tuning with Self-Supervised Guidance",
+      "title": "Boosting Visual Instruction Tuning with Self-Supervised Guidance",
+      "title_zh": "AI 其實根本沒在看你的圖？三個「防作弊」任務讓視覺模型真正開眼"
+    },
+    {
+      "slug": "20260417-C2- Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+      "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+      "title_zh": "AI 批改老師進化了！讓獎勵模型自己學會「挑剔地合作」"
+    },
+    {
+      "slug": "20260417-Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+      "title": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+      "title_zh": "語言模型「雞同鴨講」的終極解法：回到最底層的位元組，讓 AI 知識自由流通"
+    },
+    {
       "slug": "20260417-Dive into Claude Code- The Design Space of Today's and Future AI Agent Systems",
       "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
       "title_zh": "深入 Claude Code：當代與未來 AI Agent 系統的設計空間"
@@ -799,6 +819,11 @@
       "title_zh": "HY-World 2.0：一張圖變整個 3D 世界，騰訊混元的世界模型究竟做了什麼？"
     },
     {
+      "slug": "20260417-KV Packet- Recomputation-Free Context-Independent KV Caching for LLMs",
+      "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+      "title_zh": "AI 讀文件再也不用重算了！KV Packet 讓大語言模型的快取真正「一次算好，隨處可用」"
+    },
+    {
       "slug": "20260417-LeapAlign- Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
       "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
       "title_zh": "LeapAlign：在任意生成步驟建構兩步軌跡以後訓練 Flow Matching 模型"
@@ -814,6 +839,11 @@
       "title_zh": "MM-WebAgent：用階層式多模態AI代理，一口氣生出風格一致的完整網頁"
     },
     {
+      "slug": "20260417-Model Capability Dominates- Inference-Time Optimization Lessons from AIMO 3",
+      "title": "Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3",
+      "title_zh": "Prompt 工程全軍覆沒：AI 解奧數競賽告訴你，模型能力才是一切"
+    },
+    {
       "slug": "20260417-OneHOI- Unifying Human-Object Interaction Generation and Editing",
       "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
       "title_zh": "一模搞定！OneHOI 把人物互動的生成與編輯合而為一"
@@ -827,6 +857,11 @@
       "slug": "20260417-RadAgent- A tool-using AI agent for stepwise interpretation of chest computed tomography",
       "title": "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography",
       "title_zh": "RadAgent：一步一步拆解胸部CT，讓AI判讀過程變得透明可查"
+    },
+    {
+      "slug": "20260417-Reinforcement Learning via Value Gradient Flow",
+      "title": "Reinforcement Learning via Value Gradient Flow",
+      "title_zh": "讓 AI 不再「鑽空子」！用數學搬運砂粒的強化學習新招式"
     },
     {
       "slug": "20260417-Representations Before Pixels- Semantics-Guided Hierarchical Video Prediction",
