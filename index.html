@@ -135,7 +135,10 @@ body {
 .loading { color: var(--text2); text-align: center; padding: 60px 0; font-size: 15px; }
 
 .article-view { max-width: 720px; margin: 0 auto; padding: 48px 32px 80px; }
-.article-view h2 { font-size: 28px; font-weight: 700; line-height: 1.35; margin-bottom: 8px; }
+.article-view h2 { font-size: 28px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; }
+.article-title-zh {
+  font-size: 16px; font-weight: 500; color: var(--text2); margin-bottom: 16px; line-height: 1.5;
+}
 .article-meta {
   display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
   margin-bottom: 32px; color: var(--text2); font-size: 13px;
@@ -277,8 +280,13 @@ function applyTheme() {
     const res = await fetch('index.json');
     if (res.ok) {
       INDEX = await res.json();
+      // index.json 已含 title / title_zh，直接用來顯示側邊欄
+      for (const date of Object.keys(INDEX)) {
+        for (const a of INDEX[date]) {
+          a.summary = a.title_zh || '';
+        }
+      }
       boot();
-      enrichTitlesInBackground();
       return;
     }
   } catch {}
@@ -302,32 +310,6 @@ function boot() {
   renderDateTabs();
   renderList();
   if (filteredArticles.length > 0) selectArticle(0); else showEmpty();
-}
-
-async function enrichTitlesInBackground() {
-  // 逐日期批次載入文章 JSON 以取得真實標題
-  for (const date of dates) {
-    const articles = INDEX[date];
-    const promises = articles.map(async (a) => {
-      try {
-        const res = await fetch(`output/${date}/${a.slug}.json`);
-        if (!res.ok) return;
-        const paragraphs = await res.json();
-        articleCache[a.slug] = paragraphs;
-        if (paragraphs[0] && paragraphs[0][0]) a.title = paragraphs[0][0];
-        if (paragraphs[0] && paragraphs[0].length > 1) a.summary = paragraphs[0][1] || '';
-        // 取 arXiv 連結
-        const last = paragraphs[paragraphs.length - 1] || [];
-        const lastLine = last[last.length - 1] || '';
-        const urlM = lastLine.match(/https?:\/\/arxiv\.org\/abs\/[\w.]+/);
-        if (urlM) a.link = urlM[0];
-      } catch {}
-    });
-    await Promise.all(promises);
-    // 每完成一個日期就刷新 UI
-    if (date === currentDate) renderList();
-    renderDateTabs();
-  }
 }
 
 // ---- 搜尋過濾：計算每個日期的符合數量 ----
@@ -468,18 +450,22 @@ async function selectArticle(idx) {
 }
 
 // ---- Render article ----
-function renderArticle(meta, paragraphs, idx) {
+function renderArticle(meta, articleObj, idx) {
+  const titleEn = articleObj.title || meta.title || meta.slug;
+  const titleZh = articleObj.title_zh || meta.title_zh || '';
+  const paragraphs = articleObj.data || [];
   let html = `<div class="article-view">`;
-  html += `<h2>${esc(paragraphs[0] && paragraphs[0][0] || meta.slug)}</h2>`;
+  html += `<h2>${esc(titleEn)}</h2>`;
+  if (titleZh) html += `<div class="article-title-zh">${esc(titleZh)}</div>`;
   html += `<div class="article-meta">`;
   html += `<span>${formatDate(currentDate)}</span>`;
-  if (meta.link) html += `<a href="${esc(meta.link)}" target="_blank" rel="noopener">📎 arXiv</a>`;
   html += `<span>${paragraphs.length} 段</span>`;
   html += `</div>`;
 
   paragraphs.forEach((para, pi) => {
+    if (!para || para.length === 0) return;
     html += `<div class="paragraph-block${pi === 0 ? ' first' : ''}">`;
-    para.forEach((line, li) => {
+    para.forEach((line) => {
       const urlMatch = line.match(/https?:\/\/[^\s]+/);
       if (urlMatch && line.startsWith('連結')) {
         html += `<p class="link-line"><a href="${esc(urlMatch[0])}" target="_blank" rel="noopener">🔗 ${esc(urlMatch[0])}</a></p>`;

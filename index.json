@@ -2,807 +2,1055 @@
   "20260413": [
     {
       "slug": "20260413-AgentSwing",
-      "link": "https://arxiv.org/abs/2603.27490"
+      "title": "AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents",
+      "title_zh": "AgentSwing：用於長程網頁代理的自適應平行上下文管理路由"
     },
     {
       "slug": "20260413-AVGenBench",
-      "link": "https://arxiv.org/abs/2604.08540"
+      "title": "AVGen-Bench: A Comprehensive Benchmark for Text-to-Audio-Video Generation",
+      "title_zh": "AVGen-Bench：文字轉音頻影片生成的綜合評測基準"
     },
     {
       "slug": "20260413-BackdoorAttacks",
-      "link": "https://arxiv.org/abs/2604.02372"
+      "title": "Backdoor Attacks on Decentralised Post-Training",
+      "title_zh": "後門攻擊去中心化後訓練"
     },
     {
       "slug": "20260413-BeyondAssistantTurn",
-      "link": "https://arxiv.org/abs/2604.02315"
+      "title": "Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness",
+      "title_zh": "超越助手輪次：以使用者輪次生成作為互動意識探針"
     },
     {
       "slug": "20260413-Cactus",
-      "link": "https://arxiv.org/abs/2604.04987"
+      "title": "Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling",
+      "title_zh": "Cactus：以約束接受投機採樣加速自回歸解碼"
     },
     {
       "slug": "20260413-CausalVideoReasoning",
-      "link": "https://arxiv.org/abs/2604.04415"
+      "title": "Structured Causal Video Reasoning via Multi-Objective Alignment",
+      "title_zh": "結構化因果影片推理透過多目標對齊"
     },
     {
       "slug": "20260413-CMET",
-      "link": "https://arxiv.org/abs/2604.07786"
+      "title": "C-MET: Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video",
+      "title_zh": "C-MET：跨模態情緒轉換用於說話臉部影片情緒編輯"
     },
     {
       "slug": "20260413-CodebookQuant",
-      "link": "https://arxiv.org/abs/2604.08118"
+      "title": "Initialisation Determines the Basin: Efficient Codebook Optimisation for Extreme LLM Quantization",
+      "title_zh": "初始化決定盆地：極端 LLM 量化的高效碼本最佳化"
     },
     {
       "slug": "20260413-CT1",
-      "link": "https://arxiv.org/abs/2604.09201"
+      "title": "CT-1: Vision-Language-Camera Models for Camera-Controllable Video Generation",
+      "title_zh": "CT-1：用於攝影機可控影片生成的視覺-語言-攝影機模型"
     },
     {
       "slug": "20260413-ECHO",
-      "link": "https://arxiv.org/abs/2604.09450"
+      "title": "ECHO: Efficient Chest X-ray Report Generation with One-step Block Diffusion",
+      "title_zh": "ECHO：利用單步區塊擴散的高效胸部 X 光報告生成"
     },
     {
       "slug": "20260413-ELT",
-      "link": "https://arxiv.org/abs/2604.09168"
+      "title": "ELT: Elastic Looped Transformers for Visual Generation",
+      "title_zh": "ELT：用於視覺生成的彈性循環 Transformer"
     },
     {
       "slug": "20260413-EnvisionFuture",
-      "link": "https://arxiv.org/abs/2604.09527"
+      "title": "Envisioning the Future, One Step at a Time",
+      "title_zh": "逐步預見未來"
     },
     {
       "slug": "20260413-EquiformerV3",
-      "link": "https://arxiv.org/abs/2604.09130"
+      "title": "EquiformerV3: Scaling SE(3)-Equivariant Graph Attention Transformers",
+      "title_zh": "EquiformerV3：擴展 SE(3)-等變圖注意力 Transformer"
     },
     {
       "slug": "20260413-EXAONE45",
-      "link": "https://arxiv.org/abs/2604.08644"
+      "title": "EXAONE 4.5 Technical Report",
+      "title_zh": "EXAONE 4.5 技術報告"
     },
     {
       "slug": "20260413-FORGE",
-      "link": "https://arxiv.org/abs/2604.07413"
+      "title": "FORGE: Fine-grained Multimodal Evaluation for Manufacturing Scenarios",
+      "title_zh": "FORGE：製造業場景的細粒度多模態評估"
     },
     {
       "slug": "20260413-LLMBrainCreativity",
-      "link": "https://arxiv.org/abs/2604.03480"
+      "title": "Large Language Models Align with the Human Brain during Creative Thinking",
+      "title_zh": "大型語言模型在創意思考中與人腦對齊"
     },
     {
       "slug": "20260413-LLMHarmMechanism",
-      "link": "https://arxiv.org/abs/2604.09544"
+      "title": "Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism",
+      "title_zh": "大型語言模型透過獨特統一機制生成有害內容"
     },
     {
       "slug": "20260413-MatrixGame3",
-      "link": "https://arxiv.org/abs/2604.08995"
+      "title": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory",
+      "title_zh": "Matrix-Game 3.0：具長期記憶的即時串流互動世界模型"
     },
     {
       "slug": "20260413-MixFlow",
-      "link": "https://arxiv.org/abs/2604.09181"
+      "title": "MixFlow: Mixed Source Distributions Improve Rectified Flows",
+      "title_zh": "MixFlow：混合來源分佈改善校正流"
     },
     {
       "slug": "20260413-MultiUserLLM",
-      "link": "https://arxiv.org/abs/2604.08567"
+      "title": "Multi-User Large Language Model Agents",
+      "title_zh": "多使用者大型語言模型代理"
     },
     {
       "slug": "20260413-p1",
-      "link": "https://arxiv.org/abs/2604.08801"
+      "title": "p1: Better Prompt Optimization with Fewer Prompts",
+      "title_zh": "p1：用更少提示做更好的提示最佳化"
     },
     {
       "slug": "20260413-ProcessRewardAgents",
-      "link": "https://arxiv.org/abs/2604.09482"
+      "title": "Process Reward Agents for Steering Knowledge-Intensive Reasoning",
+      "title_zh": "過程獎勵代理用於引導知識密集推理"
     },
     {
       "slug": "20260413-RefineAnything",
-      "link": "https://arxiv.org/abs/2604.06870"
+      "title": "RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details",
+      "title_zh": "RefineAnything：用於完美局部細節的多模態區域特定精化"
     },
     {
       "slug": "20260413-RobustReasoning",
-      "link": "https://arxiv.org/abs/2604.08571"
+      "title": "Robust Reasoning Benchmark: Are LLMs Really Good at Reasoning?",
+      "title_zh": "穩健推理基準：LLM 真的擅長推理嗎？"
     },
     {
       "slug": "20260413-ScheMatiQ",
-      "link": "https://arxiv.org/abs/2604.09237"
+      "title": "ScheMatiQ: From Research Question to Structured Data through Interactive Schema Discovery",
+      "title_zh": "ScheMatiQ：透過互動式 Schema 探索從研究問題到結構化資料"
     },
     {
       "slug": "20260413-SemJudge",
-      "link": "https://arxiv.org/abs/2604.08641"
+      "title": "On Semiotic-Grounded Interpretive Evaluation of Generative Art",
+      "title_zh": "論生成藝術的符號學詮釋性評估"
     },
     {
       "slug": "20260413-VisionFoundry",
-      "link": "https://arxiv.org/abs/2604.09531"
+      "title": "VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images",
+      "title_zh": "VisionFoundry：用合成影像教導 VLM 視覺感知"
     },
     {
       "slug": "20260413-VLMInvariance",
-      "link": "https://arxiv.org/abs/2604.01848"
+      "title": "Semantic Richness or Geometric Reasoning? The Fragility of VLM's Visual Invariance",
+      "title_zh": "語意豐富度還是幾何推理？VLM 視覺不變性的脆弱性"
     },
     {
       "slug": "20260413-WildDet3D",
-      "link": "https://arxiv.org/abs/2604.08626"
+      "title": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+      "title_zh": "WildDet3D：擴展野外可提示 3D 偵測"
     }
   ],
   "20260414": [
     {
       "slug": "20260414-ADD",
-      "link": "https://arxiv.org/abs/2604.11491"
+      "title": "ADD for Multi-Bit Image Watermarking",
+      "title_zh": "ADD：用於多位元圖像浮水印"
+    },
+    {
+      "slug": "20260414-AdversarialFlow",
+      "title": "Continuous Adversarial Flow Models",
+      "title_zh": "AdversarialFlow：連續對抗流模型"
+    },
+    {
+      "slug": "20260414-AggAgent",
+      "title": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+      "title_zh": "AggAgent：代理聚合用於長程代理任務的平行擴展"
     },
     {
       "slug": "20260414-AlignmentRoutes",
-      "link": "https://arxiv.org/abs/2604.04385"
+      "title": "How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models",
+      "title_zh": "對齊如何路由：定位、擴展與控制語言模型中的策略電路"
     },
     {
       "slug": "20260414-ATANT",
-      "link": "https://arxiv.org/abs/2604.06710"
+      "title": "ATANT: An Evaluation Framework for AI Continuity",
+      "title_zh": "ATANT：AI 連續性評估框架"
     },
     {
       "slug": "20260414-AttentionSink",
-      "link": "https://arxiv.org/abs/2604.10098"
+      "title": "Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation",
+      "title_zh": "Transformer 中的注意力沉澄：利用、詮釋與緩解調查"
     },
     {
       "slug": "20260414-AudioFlamingoNext",
-      "link": "https://arxiv.org/abs/2604.10905"
+      "title": "Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music",
+      "title_zh": "Audio Flamingo Next：適用於語音、聲音與音樂的下一代開放音頻語言模型"
     },
     {
       "slug": "20260414-AudioOmni",
-      "link": "https://arxiv.org/abs/2604.10708"
+      "title": "Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation and Editing",
+      "title_zh": "Audio-Omni：將多模態理解延伸至多功能音頻生成與編輯"
+    },
+    {
+      "slug": "20260414-Bielik",
+      "title": "Advancing Polish Language Modeling through Tokenizer Optimization in the Bielik v3 7B and 11B Series",
+      "title_zh": "Bielik：透過 Bielik v3 7B 和 11B 系列的分詞器最佳化推進波蘭語語言建模"
     },
     {
       "slug": "20260414-BMdataset",
-      "link": "https://arxiv.org/abs/2604.10628"
+      "title": "BMdataset: A Musicologically Curated LilyPond Dataset",
+      "title_zh": "BMdataset：音樂學精心策劃的 LilyPond 資料集"
     },
     {
       "slug": "20260414-CocoaBench",
-      "link": "https://arxiv.org/abs/2604.11201"
+      "title": "CocoaBench: Evaluating Unified Digital Agents in the Wild",
+      "title_zh": "CocoaBench：在真實環境中評估統一數位代理"
     },
     {
       "slug": "20260414-CodeTracer",
-      "link": "https://arxiv.org/abs/2604.11641"
+      "title": "CodeTracer: Towards Traceable Agent States",
+      "title_zh": "CodeTracer：邁向可追蹤的代理狀態"
+    },
+    {
+      "slug": "20260414-CountingVLM",
+      "title": "Counting to Four is still a Chore for VLMs",
+      "title_zh": "CountingVLM：對 VLM 來說數到四仍是苦差"
     },
     {
       "slug": "20260414-CreditAssignment",
-      "link": "https://arxiv.org/abs/2604.09459"
+      "title": "From Reasoning to Agentic: Credit Assignment in Reinforcement Learning for Large Language Models",
+      "title_zh": "從推理到代理：LLM 強化學習中的信用分配"
     },
     {
       "slug": "20260414-DataLineage",
-      "link": "https://arxiv.org/abs/2604.10480"
+      "title": "Tracing the Roots: A Multi-Agent Framework for Uncovering Data Lineage in Post-Training LLMs",
+      "title_zh": "追湯根源：揭示後訓練 LLM 資料譜系的多代理框架"
     },
     {
       "slug": "20260414-DenoisingSchedule",
-      "link": "https://arxiv.org/abs/2604.02340"
+      "title": "Not All Denoising Steps Are Equal: Model Scheduling for Faster Masked Diffusion Language Models",
+      "title_zh": "並非所有去噪步驟都相同：加速遠罩擴散語言模型的模型排程"
     },
     {
       "slug": "20260414-DiningBench",
-      "link": "https://arxiv.org/abs/2604.10425"
+      "title": "DiningBench: A Hierarchical Multi-view Benchmark for Perception and Reasoning in the Dietary Domain",
+      "title_zh": "DiningBench：飲食領域感知與推理的層次化多視角基準"
+    },
+    {
+      "slug": "20260414-ExperienceReplay",
+      "title": "Efficient RL Training for LLMs with Experience Replay",
+      "title_zh": "ExperienceReplay：LLM 的高效強化學習訓練透過經驗回放"
     },
     {
       "slug": "20260414-General365",
-      "link": "https://arxiv.org/abs/2604.11778"
+      "title": "General365: Benchmarking General Reasoning in Large Language Models Across Diverse and Challenging Tasks",
+      "title_zh": "General365：跨多樣且具挑戰性任務評測大型語言模型通用推理"
     },
     {
       "slug": "20260414-IceCache",
-      "link": "https://arxiv.org/abs/2604.10539"
+      "title": "IceCache: Memory-efficient KV-cache Management for Long-Sequence LLMs",
+      "title_zh": "IceCache：長序列 LLM 的記憶體高效 KV 快取管理"
     },
     {
       "slug": "20260414-IDLM",
-      "link": "https://arxiv.org/abs/2604.11035"
+      "title": "Introspective Diffusion Language Models",
+      "title_zh": "IDLM：內省擴散語言模型"
+    },
+    {
+      "slug": "20260414-MEDS",
+      "title": "The Past Is Not Past: Memory-Enhanced Dynamic Reward Shaping",
+      "title_zh": "MEDS：記憶增強動態獎勵塑形"
+    },
+    {
+      "slug": "20260414-MedSSR",
+      "title": "Eliciting Medical Reasoning with Knowledge-enhanced Data Synthesis: A Semi-Supervised Reinforcement Learning Approach",
+      "title_zh": "MedSSR：以知識增強資料合成激發醫療推理的半監督強化學習方法"
+    },
+    {
+      "slug": "20260414-MotionEmbeddings",
+      "title": "Learning Long-term Motion Embeddings for Efficient Kinematics Generation",
+      "title_zh": "MotionEmbeddings：學習長期運動嵌入用於高效運動學生成"
+    },
+    {
+      "slug": "20260414-NExt",
+      "title": "Low-rank Optimization Trajectories Modeling for LLM RLVR Acceleration",
+      "title_zh": "NExt：低秩最佳化軌跡建模用於 LLM RLVR 加速"
+    },
+    {
+      "slug": "20260414-OmniShow",
+      "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+      "title_zh": "OmniShow：統一多模態條件用於人物與物件互動影片生成"
+    },
+    {
+      "slug": "20260414-PandaDistortion",
+      "title": "Panoptic Pairwise Distortion Graph",
+      "title_zh": "PandaDistortion：全景成對失真圖"
+    },
+    {
+      "slug": "20260414-PhysicsOlympiad",
+      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+      "title_zh": "PhysicsOlympiad：透過物理模擬器上的強化學習解決物理奧林匹亞"
+    },
+    {
+      "slug": "20260414-PlayingAlong",
+      "title": "Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind",
+      "title_zh": "PlayingAlong：透過心智理論學習雙重代理防禦者進行信念引導"
+    },
+    {
+      "slug": "20260414-PolyglotTeachers",
+      "title": "Polyglot Teachers: Evaluating Language Models for Multilingual Synthetic Data Generation",
+      "title_zh": "PolyglotTeachers：評估語言模型用於多語言合成資料生成"
+    },
+    {
+      "slug": "20260414-PromptRelay",
+      "title": "Prompt Relay: Inference-Time Temporal Control for Multi-Event Video Generation",
+      "title_zh": "PromptRelay：多事件影片生成的推理時時間控制"
     },
     {
       "slug": "20260414-PseudoUnification",
-      "link": "https://arxiv.org/abs/2604.10949"
+      "title": "Pseudo-Unification: Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models",
+      "title_zh": "PseudoUnification：熵探測揭示統一多模態模型中的差異資訊模式"
     },
     {
       "slug": "20260414-QuanBench+",
-      "link": "https://arxiv.org/abs/2604.08570"
+      "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
+      "title_zh": "QuanBench+：基於 LLM 的量子程式碼生成統一多框架基準"
     },
     {
       "slug": "20260414-RoMem",
-      "link": "https://arxiv.org/abs/2604.11544"
+      "title": "Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory",
+      "title_zh": "RoMem：時態知識圖譜與代理記憶的連續相位旋轉"
     },
     {
       "slug": "20260414-SATO",
-      "link": "https://arxiv.org/abs/2604.09132"
+      "title": "Strips as Tokens: Artist Mesh Generation with Native UV Segmentation",
+      "title_zh": "藝術家手工建模的 3D 網格有一個共同特徵：邊線整齊、面片規律、UV 展開乾淨"
     },
     {
       "slug": "20260414-SciPredict",
-      "link": "https://arxiv.org/abs/2604.10718"
+      "title": "SciPredict: Can LLMs Predict the Outcomes of Scientific Experiments in Natural Sciences?",
+      "title_zh": "SciPredict：LLM 能夠預測自然科學實驗結果嗎？"
     },
     {
       "slug": "20260414-SCOPE",
-      "link": "https://arxiv.org/abs/2604.10688"
+      "title": "SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
+      "title_zh": "SCOPE：雙路徑自適應加權的信號校準在策略蔓陶增強"
     },
     {
       "slug": "20260414-SHARE",
-      "link": "https://arxiv.org/abs/2604.11152"
+      "title": "SHARE: Social-Humanities AI for Research and Education",
+      "title_zh": "SHARE：用於研究與教育的社會-人文 AI"
     },
     {
       "slug": "20260414-SPASM",
-      "link": "https://arxiv.org/abs/2604.09212"
+      "title": "SPASM: Stable Persona-driven Agent Simulation for Multi-turn Dialogue Generation",
+      "title_zh": "SPASM：穩健人設驅動代理模擬用於多輪對話生成"
     },
     {
       "slug": "20260414-SPEEDBench",
-      "link": "https://arxiv.org/abs/2604.09557"
+      "title": "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+      "title_zh": "SPEEDBench：推測解碼的統一多元基準"
     },
     {
       "slug": "20260414-SWEAGILE",
-      "link": "https://arxiv.org/abs/2604.11716"
+      "title": "SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context",
+      "title_zh": "SWEAGILE：高效管理動態推理上下文的軟體代理框架"
     },
     {
       "slug": "20260414-TAIHRI",
-      "link": "https://arxiv.org/abs/2604.08921"
+      "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
+      "title_zh": "TAIHRI：任務感知 3D 人體關鍵點定位用於近距離人機互動"
     },
     {
       "slug": "20260414-TIPO",
-      "link": "https://arxiv.org/abs/2604.11259"
+      "title": "Mobile GUI Agent Privacy Personalization with Trajectory Induced Preference Optimization",
+      "title_zh": "TIPO：軌跡誘導偏好最佳化的行動裝置 GUI 代理隱私個人化"
     },
     {
       "slug": "20260414-TorchUMM",
-      "link": "https://arxiv.org/abs/2604.10784"
+      "title": "TorchUMM: A Unified Multimodal Model Codebase for Evaluation, Analysis, and Post-training",
+      "title_zh": "TorchUMM：用於評估、分析與後訓練的統一多模態模型程式碼庫"
     },
     {
       "slug": "20260414-TRACE",
-      "link": "https://arxiv.org/abs/2604.05336"
+      "title": "TRACE: Capability-Targeted Agentic Training",
+      "title_zh": "訓練 LLM Agent 時，一個長期存在的困境是：模型在某些任務上反覆失敗，但訓練資料卻沒有針對這些具體的失敗做修正"
     },
     {
       "slug": "20260414-UniViGU",
-      "link": "https://arxiv.org/abs/2604.08121"
+      "title": "Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator",
+      "title_zh": "UniViGU：基於擴散式影片生成器邁向統一影片生成與理解"
     },
     {
       "slug": "20260414-ZeroShotWorldModel",
-      "link": "https://arxiv.org/abs/2604.10333"
+      "title": "Zero-shot World Models Are Developmentally Efficient Learners",
+      "title_zh": "ZeroShotWorldModel：零樣本世界模型是發展上高效的學習者"
     }
   ],
   "20260415": [
     {
       "slug": "20260415-3DTV",
-      "link": "https://arxiv.org/abs/2604.11211"
+      "title": "3DTV: A Feedforward Interpolation Network for Real-Time View Synthesis",
+      "title_zh": "3DTV：用於即時視圖合成的前饵插値網路"
     },
     {
       "slug": "20260415-AiScientist",
-      "link": "https://arxiv.org/abs/2604.13018"
+      "title": "Toward Autonomous Long-Horizon Engineering for ML Research",
+      "title_zh": "AiScientist：邁向 ML 研究的自主長程工程"
     },
     {
       "slug": "20260415-APEX",
-      "link": "https://arxiv.org/abs/2604.12322"
+      "title": "Self-Adversarial One Step Generation via Condition Shifting",
+      "title_zh": "APEX：透過條件位移的自對抗單步生成"
     },
     {
       "slug": "20260415-BERTJudge",
-      "link": "https://arxiv.org/abs/2604.09497"
+      "title": "BERT-as-a-Judge: A Robust Alternative to Lexical Methods for Efficient Reference-Based LLM Evaluation",
+      "title_zh": "BERTJudge：BERT 作為評判者用於高效參考型 LLM 評估的髙健替代方案"
     },
     {
       "slug": "20260415-BlindSpotAgentSafety",
-      "link": ""
+      "title": "The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents",
+      "title_zh": "AI Agent 安全的盲點：善意指令如何暴露電腦操作 Agent 的致命弱點"
     },
     {
       "slug": "20260415-ClawGUI",
-      "link": "https://arxiv.org/abs/2604.11784"
+      "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+      "title_zh": "ClawGUI：訓練、評估與部署 GUI 代理的統一框架"
     },
     {
       "slug": "20260415-CONSCIENTIA",
-      "link": "https://arxiv.org/abs/2604.09746"
+      "title": "CONSCIENTIA: Can LLM Agents Learn to Strategize? Emergent Deception and Trust in a Multi-Agent NYC Simulation",
+      "title_zh": "CONSCIENTIA：LLM 代理能學會策略制定嗎？多代理模擬中的新興欺騙與信任"
     },
     {
       "slug": "20260415-DDTree",
-      "link": "https://arxiv.org/abs/2604.12989"
+      "title": "Accelerating Speculative Decoding with Block Diffusion Draft Trees",
+      "title_zh": "DDTree：用區塊擴散草稿樹加速推測解碼"
     },
     {
       "slug": "20260415-FeedForward3DScene",
-      "link": ""
+      "title": "Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective",
+      "title_zh": "前饋式三維場景建模，以問題驅動的視角"
     },
     {
       "slug": "20260415-GlotOCRBench",
-      "link": "https://arxiv.org/abs/2604.12978"
+      "title": "GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts",
+      "title_zh": "GlotOCRBench：OCR 模型在少數 Unicode 字集之外仍舉步維蠧"
     },
     {
       "slug": "20260415-Grid2Matrix",
-      "link": ""
+      "title": "Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models",
+      "title_zh": "Grid2Matrix：揭露視覺語言模型中的數位失認症"
     },
     {
       "slug": "20260415-GRN",
-      "link": "https://arxiv.org/abs/2604.13030"
+      "title": "Generative Refinement Networks for Visual Synthesis",
+      "title_zh": "GRN：視覺合成的生成精化網路"
     },
     {
       "slug": "20260415-HabitatGS",
-      "link": "https://arxiv.org/abs/2604.12626"
+      "title": "Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting",
+      "title_zh": "HabitatGS：以動態高斯散染的高保真導航模擬器"
     },
     {
       "slug": "20260415-HiVG",
-      "link": "https://arxiv.org/abs/2604.05072"
+      "title": "Hierarchical SVG Tokenization: Learning Compact Visual Programs for Scalable Vector Graphics Modeling",
+      "title_zh": "HiVG：層次化 SVG 分詞：學習可縮放向量圖形建模的緊湊視覺程式"
     },
     {
       "slug": "20260415-KnowRL",
-      "link": "https://arxiv.org/abs/2604.12627"
+      "title": "KnowRL: Boosting LLM Reasoning via Reinforcement Learning with Minimal-Sufficient Knowledge Guidance",
+      "title_zh": "KnowRL：透過最小充分知識引導的強化學習提升 LLM 推理"
     },
     {
       "slug": "20260415-LangevinDiffusion",
-      "link": "https://arxiv.org/abs/2604.10465"
+      "title": "Rethinking the Diffusion Model from a Langevin Perspective",
+      "title_zh": "LangevinDiffusion：從朗之萬視角重新思考擴散模型"
     },
     {
       "slug": "20260415-LARY",
-      "link": "https://arxiv.org/abs/2604.11689"
+      "title": "LARY: A Latent Action Representation Yielding Benchmark for Generalizable Vision-to-Action Alignment",
+      "title_zh": "LARY：用於可泛化視覺到動作對齊的潛在動作表示生成基準"
     },
     {
       "slug": "20260415-LASA",
-      "link": ""
+      "title": "LASA：Language-Agnostic Semantic Alignment at the Semantic Bottleneck for LLM Safety",
+      "title_zh": "語言無關語義對齊：在語義瓶頸處強化 LLM 安全性"
     },
     {
       "slug": "20260415-LightningOPD",
-      "link": "https://arxiv.org/abs/2604.13010"
+      "title": "Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation",
+      "title_zh": "LightningOPD：以離線在策略蔓陶對大型推理模型的高效後訓練"
     },
     {
       "slug": "20260415-LMMSearcher",
-      "link": "https://arxiv.org/abs/2604.12890"
+      "title": "Towards Long-horizon Agentic Multimodal Search",
+      "title_zh": "LMMSearcher：邁向長程代理式多模態搜尋"
     },
     {
       "slug": "20260415-Lyra2",
-      "link": "https://arxiv.org/abs/2604.13036"
+      "title": "Lyra 2.0: Explorable Generative 3D Worlds",
+      "title_zh": "Lyra2：可探索的生成式 3D 世界"
     },
     {
       "slug": "20260415-ManyIH",
-      "link": "https://arxiv.org/abs/2604.09443"
+      "title": "Many-Tier Instruction Hierarchy in LLM Agents",
+      "title_zh": "ManyIH：LLM 代理中的多層指令層次"
     },
     {
       "slug": "20260415-MaskedConsensus",
-      "link": "https://arxiv.org/abs/2604.12373"
+      "title": "Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness",
+      "title_zh": "MaskedConsensus：透過共識去管翣分離 LLM 正確性中的特權知識"
     },
     {
       "slug": "20260415-MedicalSR",
-      "link": "https://arxiv.org/abs/2604.12152"
+      "title": "Domain-Specific Latent Representations Improve the Fidelity of Diffusion-Based Medical Image Super-Resolution",
+      "title_zh": "MedicalSR：領域特定潛在表示改善擴散式醫學影像超解析度的保真度"
     },
     {
       "slug": "20260415-Nemotron3Super",
-      "link": "https://arxiv.org/abs/2604.12374"
+      "title": "Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+      "title_zh": "Nemotron3Super：開放高效的混合專家 Mamba-Transformer 模型用於代理推理"
     },
     {
       "slug": "20260415-OnPolicyDistill",
-      "link": "https://arxiv.org/abs/2604.13016"
+      "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+      "title_zh": "OnPolicyDistill：重新思考大型語言模型的在策略蔓陶：現象、機制與方絕"
     },
     {
       "slug": "20260415-Parcae",
-      "link": ""
+      "title": "Parcae: Scaling Laws For Stable Looped Language Models",
+      "title_zh": "Parcae：穩定循環語言模型的縮放定律"
     },
     {
       "slug": "20260415-PokeRL",
-      "link": ""
+      "title": "PokeRL: Reinforcement Learning for Pokemon Red",
+      "title_zh": "強化學習挑戰精靈寶可夢紅版"
     },
     {
       "slug": "20260415-ReasoningNegotiation",
-      "link": "https://arxiv.org/abs/2604.11840"
+      "title": "When Reasoning Models Hurt Behavioral Simulation: A Solver-Sampler Mismatch in Multi-Agent LLM Negotiation",
+      "title_zh": "ReasoningNegotiation：当推理模型損害行為模擬：多代理 LLM 談判中的求解器-採樣器不匹配"
     },
     {
       "slug": "20260415-Rethinking_On_Policy_Distillation_of_Large_Language_Models",
-      "link": ""
+      "title": "重新思考大語言模型的在策略蒸餾：現象學、機制與實踐方法",
+      "title_zh": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe"
     },
     {
       "slug": "20260415-SeeingThroughTouch",
-      "link": "https://arxiv.org/abs/2604.11579"
+      "title": "Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions",
+      "title_zh": "SeeingThroughTouch：透過觸覺看見：材料區域的觸覺驅動視覺定位"
     },
     {
       "slug": "20260415-SemanticFixation",
-      "link": "https://arxiv.org/abs/2604.12119"
+      "title": "Beyond Perception Errors: Semantic Fixation in Large Vision-Language Models",
+      "title_zh": "SemanticFixation：超越感知錯誤：大型視覺語言模型中的語意固著"
     },
     {
       "slug": "20260415-SpatialCompetence",
-      "link": "https://arxiv.org/abs/2604.09594"
+      "title": "Spatial Competence Benchmark",
+      "title_zh": "SpatialCompetence：空間能力基準"
     },
     {
       "slug": "20260415-SpecKitAgents",
-      "link": ""
+      "title": "Spec Kit Agents: Context-Grounded Agentic Workflows",
+      "title_zh": "規格套件代理，以情境為基礎的 AI 代理工作流程"
     },
     {
       "slug": "20260415-SpotSound",
-      "link": "https://arxiv.org/abs/2604.13023"
+      "title": "SpotSound: Enhancing Large Audio-Language Models with Fine-Grained Temporal Grounding",
+      "title_zh": "SpotSound：以細粒度時間定位增強大型音頻語言模型"
     },
     {
       "slug": "20260415-SPPO",
-      "link": "https://arxiv.org/abs/2604.08865"
+      "title": "SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks",
+      "title_zh": "SPPO：用於長程推理任務的序列級 PPO"
     },
     {
       "slug": "20260415-SPPO_Sequence_Level_PPO_for_Long_Horizon_Reasoning_Tasks",
-      "link": ""
+      "title": "SPPO：序列級 PPO 的長視野推理突破",
+      "title_zh": "Sequence-Level PPO for Long-Horizon Reasoning Tasks"
     },
     {
       "slug": "20260415-ThoughtStreams",
-      "link": ""
+      "title": "Do Thought Streams Matter? Evaluating Reasoning in Gemini Vision-Language Models for Video Scene Understanding",
+      "title_zh": "思維流有用嗎？評估 Gemini VLM 在影片場景理解中的推理能力"
     },
     {
       "slug": "20260415-TouchDreaming",
-      "link": ""
+      "title": "Learning Versatile Humanoid Manipulation with Touch Dreaming",
+      "title_zh": "用觸覺夢想學習多才多藝的人形機器人操控"
     },
     {
       "slug": "20260415-Turing_Test_on_Screen_A_Benchmark_for_Mobile_GUI_Agent_Humanization",
-      "link": ""
+      "title": "屏幕上的图灵测试来了，你的AI代理能骗过手机系统吗",
+      "title_zh": "移动GUI代理正在改变人们与手机的交互方式，但平台防御也在升级"
     },
     {
       "slug": "20260415-TuringTestGUI",
-      "link": "https://arxiv.org/abs/2604.09574"
+      "title": "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
+      "title_zh": "TuringTestGUI：螢幕上的圖靈測試：行動裝置 GUI 代理人性化基準"
     },
     {
       "slug": "20260415-VideoFlexTok",
-      "link": "https://arxiv.org/abs/2604.12887"
+      "title": "VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization",
+      "title_zh": "VideoFlexTok：彈性長度粗到細的影片分詞"
     },
     {
       "slug": "20260415-YOJO",
-      "link": "https://arxiv.org/abs/2604.10966"
+      "title": "You Only Judge Once: Multi-response Reward Modeling in a Single Forward Pass",
+      "title_zh": "YOJO：只判斷一次：單次前向傳播中的多回應獎勵建模"
     }
   ],
   "20260416": [
     {
       "slug": "20260416-Anthropogenic Regional Adaptation in Multimodal Vision-Language Model",
-      "link": ""
+      "title": "Anthropogenic Regional Adaptation in Multimodal Vision-Language Model",
+      "title_zh": "多模態視覺語言模型中的人為區域適應"
     },
     {
       "slug": "20260416-Do AI Coding Agents Log Like Humans- An Empirical Study",
-      "link": ""
+      "title": "Do AI Coding Agents Log Like Humans? An Empirical Study",
+      "title_zh": "《AI 程式碼代理的日誌行為與人類相同嗎？一項實證研究》"
     },
     {
       "slug": "20260416-Exploration and Exploitation Errors Are Measurable for Language Model Agents",
-      "link": ""
+      "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+      "title_zh": "探索與利用錯誤，在語言模型 Agent 中是可量化的"
     },
     {
       "slug": "20260416-Free Geometry- Refining 3D Reconstruction from Longer Versions of Itself",
-      "link": ""
+      "title": "Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself",
+      "title_zh": "從更長版本的自身精煉三維重建"
     },
     {
       "slug": "20260416-From P(y-x) to P(y)- Investigating Reinforcement Learning in Pre-train Space",
-      "link": ""
+      "title": "From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space",
+      "title_zh": "從條件分佈到邊際分佈，探索強化學習在預訓練空間的潛力"
     },
     {
       "slug": "20260416-GameWorld- Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
-      "link": ""
+      "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+      "title_zh": "《GameWorld：走向多模態遊戲代理的標準化與可驗證評估》"
     },
     {
       "slug": "20260416-Geometric Context Transformer for Streaming 3D Reconstruction",
-      "link": ""
+      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+      "title_zh": "幾何脈絡轉換器於串流式 3D 重建"
     },
     {
       "slug": "20260416-HDR Video Generation via Latent Alignment with Logarithmic Encoding",
-      "link": ""
+      "title": "HDR Video Generation via Latent Alignment with Logarithmic Encoding",
+      "title_zh": "高動態範圍影片生成：潛在空間對齊與對數編碼的新突破"
     },
     {
       "slug": "20260416-InfiniteScienceGym- An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis",
-      "link": ""
+      "title": "InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis",
+      "title_zh": "InfiniteScienceGym：一個無邊界、程序生成的科學分析評測基準"
     },
     {
       "slug": "20260416-LangFlow- Continuous Diffusion Rivals Discrete in Language Modeling",
-      "link": ""
+      "title": "LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling",
+      "title_zh": "連續擴散挑戰離散——語言建模的新典範"
     },
     {
       "slug": "20260416-Memory Transfer Learning- How Memories are Transferred Across Domains in Coding Agents",
-      "link": ""
+      "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+      "title_zh": "記憶遷移學習：程式碼 Agent 如何跨領域轉移記憶"
     },
     {
       "slug": "20260416-MERRIN- A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments",
-      "link": ""
+      "title": "MERRIN: A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments",
+      "title_zh": "中文譯為多模態證據檢索與推理基準，這是一套評測 AI 搜尋代理在嘈雜網路環境中跨模態推理能力的全新基準測試"
     },
     {
       "slug": "20260416-Mobile GUI Agents under Real-world Threats- Are We There Yet-",
-      "link": ""
+      "title": "Mobile GUI Agents under Real-world Threats: Are We There Yet?",
+      "title_zh": "行動裝置圖形介面代理在真實世界威脅下：我們準備好了嗎"
     },
     {
       "slug": "20260416-Narrative-Driven Paper-to-Slide Generation via ArcDeck",
-      "link": ""
+      "title": "Narrative-Driven Paper-to-Slide Generation via ArcDeck",
+      "title_zh": "敘事驅動的論文轉投影片生成方法 ArcDeck"
     },
     {
       "slug": "20260416-OccuBench- Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
-      "link": ""
+      "title": "OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
+      "title_zh": "OccuBench：以語言世界模型評估 AI 代理人在真實職業任務的表現"
     },
     {
       "slug": "20260416-RationalRewards- Reasoning Rewards Scale Visual Generation Both Training and Test Time",
-      "link": ""
+      "title": "RationalRewards: Reasoning Rewards Scale Visual Generation Both Training and Test Time",
+      "title_zh": "中文可以理解為理性獎勵，研究推理型獎勵如何在訓練與測試兩個階段同步提升視覺生成效果"
     },
     {
       "slug": "20260416-ReconPhys- Reconstruct Appearance and Physical Attributes from Single Video",
-      "link": ""
+      "title": "ReconPhys: Reconstruct Appearance and Physical Attributes from Single Video",
+      "title_zh": "從單一影片重建外觀與物理屬性"
     },
     {
       "slug": "20260416-ROSE- Retrieval-Oriented Segmentation Enhancement",
-      "link": ""
+      "title": "ROSE: Retrieval-Oriented Segmentation Enhancement",
+      "title_zh": "ROSE：檢索導向分割增強"
     },
     {
       "slug": "20260416-Seedance 2.0- Advancing Video Generation for World Complexity",
-      "link": ""
+      "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
+      "title_zh": "推進世界複雜度的影片生成技術"
     },
     {
       "slug": "20260416-Self-Distillation Zero- Self-Revision Turns Binary Rewards into Dense Supervision",
-      "link": ""
+      "title": "Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision",
+      "title_zh": "自蒸餾零——自我修訂將二元獎勵轉化為密集監督"
     },
     {
       "slug": "20260416-Sema Code- Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
-      "link": ""
+      "title": "Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
+      "title_zh": "Sema Code：將 AI 程式代理人解耦為可程式化、可嵌入的基礎設施"
     },
     {
       "slug": "20260416-SemaClaw- A Step Towards General-Purpose Personal AI Agents through Harness Engineering",
-      "link": ""
+      "title": "SemaClaw: A Step Towards General-Purpose Personal AI Agents through Harness Engineering",
+      "title_zh": "SemaClaw：邁向通用型個人 AI 代理的關鍵——Harness 工程"
     },
     {
       "slug": "20260416-SkVM- Compiling Skills for Efficient Execution Everywhere",
-      "link": ""
+      "title": "SkVM: Compiling Skills for Efficient Execution Everywhere",
+      "title_zh": "SkVM：讓技能高效執行於各種環境"
     },
     {
       "slug": "20260416-SpatialEvo- Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
-      "link": ""
+      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+      "title_zh": "空間自我進化，透過確定性幾何環境實現空間智能的持續演化"
     },
     {
       "slug": "20260416-Target Policy Optimization",
-      "link": ""
+      "title": "Target Policy Optimization",
+      "title_zh": "目標策略最佳化"
     },
     {
       "slug": "20260416-TIP- Token Importance in On-Policy Distillation",
-      "link": ""
+      "title": "TIP: Token Importance in On-Policy Distillation",
+      "title_zh": "政策蒸餾中的 Token 重要性"
     },
     {
       "slug": "20260416-TREX- Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
-      "link": ""
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "title_zh": "TREX 透過 Agent 驅動的樹狀探索，自動化 LLM 微調全流程"
     },
     {
       "slug": "20260416-UI-Copilot- Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
-      "link": ""
+      "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+      "title_zh": "UI-Copilot：以工具整合政策優化推進長期 GUI 自動化"
     },
     {
       "slug": "20260416-UI-Zoomer- Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
-      "link": ""
+      "title": "UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
+      "title_zh": "不確定性驅動的自適應放大介面定位框架"
     },
     {
       "slug": "20260416-What do Language Models Learn and When- The Implicit Curriculum Hypothesis",
-      "link": ""
+      "title": "What do Language Models Learn and When? The Implicit Curriculum Hypothesis",
+      "title_zh": "語言模型學習了什麼？又是何時學會的？隱性課程假說"
     }
   ],
   "20260417": [
     {
       "slug": "20260417-An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
-      "link": ""
+      "title": "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
+      "title_zh": "透過最優傳輸方法在線增量學習中培育潛在空間"
     },
     {
       "slug": "20260417-ASGuard- Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
-      "link": ""
+      "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+      "title_zh": "ASGuard：時態一換就能繞過 AI 安全護欄，電路分析找到了根源"
     },
     {
-      "slug": "20260417-Beyond Prompts- Unconditional 3D Inversion for Out-of-Distribution Shapes",
-      "link": ""
-    },
-    {
-      "slug": "20260417-Boosting Visual Instruction Tuning- A Layer-wise Analysis with Targeted Data",
-      "link": ""
-    },
-    {
-      "slug": "20260417-C2- Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
-      "link": ""
-    },
-    {
-      "slug": "20260417-Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
-      "link": ""
-    },
-    {
-      "slug": "20260417-Dive into Claude Code- Anatomy of an Agentic Coding Harness",
-      "link": ""
+      "slug": "20260417-Dive into Claude Code- The Design Space of Today's and Future AI Agent Systems",
+      "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+      "title_zh": "深入 Claude Code：當代與未來 AI Agent 系統的設計空間"
     },
     {
       "slug": "20260417-Don't Retrieve, Navigate- Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
-      "link": ""
+      "title": "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
+      "title_zh": "別再用搜尋了，讓 AI 自己去導航：把企業知識庫變成可探索的技能樹"
     },
     {
-      "slug": "20260417-DR^{3}-Eval- Towards Realistic and Reproducible Deep Research Evaluation",
-      "link": ""
+      "slug": "20260417-DR3-Eval- Towards Realistic and Reproducible Deep Research Evaluation",
+      "title": "DR3-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+      "title_zh": "AI 做研究到底行不行？DR³-Eval 打造可重現的深度研究評估基準"
     },
     {
       "slug": "20260417-GlobalSplat- Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
-      "link": ""
+      "title": "GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
+      "title_zh": "GlobalSplat：透過全局場景標記實現高效前向推理的三維高斯渲染技術"
     },
     {
       "slug": "20260417-HiVLA- A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
-      "link": ""
+      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+      "title_zh": "HiVLA：以視覺為中心的階層式具身操控系統"
     },
     {
       "slug": "20260417-How to Fine-Tune a Reasoning Model- A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
-      "link": ""
+      "title": "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+      "title_zh": "強模型教弱模型，為什麼越教越爛？TESSY 框架揭開 AI 微調的隱藏陷阱"
     },
     {
       "slug": "20260417-HY-World 2.0- A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
-      "link": ""
-    },
-    {
-      "slug": "20260417-KV Packet- Recomputation-Free Context-Independent KV Caching for LLMs",
-      "link": ""
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "title_zh": "HY-World 2.0：一張圖變整個 3D 世界，騰訊混元的世界模型究竟做了什麼？"
     },
     {
       "slug": "20260417-LeapAlign- Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
-      "link": ""
+      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+      "title_zh": "LeapAlign：在任意生成步驟建構兩步軌跡以後訓練 Flow Matching 模型"
     },
     {
       "slug": "20260417-LongAct- Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
-      "link": ""
+      "title": "LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+      "title_zh": "LongAct：挖掘模型內部激活規律，解鎖長文本強化學習新突破"
     },
     {
       "slug": "20260417-MM-WebAgent- A Hierarchical Multimodal Web Agent for Webpage Generation",
-      "link": ""
-    },
-    {
-      "slug": "20260417-Model Capability Dominates- Inference-Time Optimization Lessons from AIMO 3",
-      "link": ""
+      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "title_zh": "MM-WebAgent：用階層式多模態AI代理，一口氣生出風格一致的完整網頁"
     },
     {
       "slug": "20260417-OneHOI- Unifying Human-Object Interaction Generation and Editing",
-      "link": ""
+      "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
+      "title_zh": "一模搞定！OneHOI 把人物互動的生成與編輯合而為一"
     },
     {
       "slug": "20260417-RAD-2- Scaling Reinforcement Learning in a Generator-Discriminator Framework",
-      "link": ""
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "title_zh": "RAD-2：用「生成器＋判別器」框架，讓自動駕駛碰撞率暴降 56%"
     },
     {
-      "slug": "20260417-RadAgent- Ambiguity-Aware Report Grounding in Radiology via Agentic Reinforcement Learning",
-      "link": ""
+      "slug": "20260417-RadAgent- A tool-using AI agent for stepwise interpretation of chest computed tomography",
+      "title": "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography",
+      "title_zh": "RadAgent：一步一步拆解胸部CT，讓AI判讀過程變得透明可查"
     },
     {
-      "slug": "20260417-Representations Before Pixels- Making Diffusion Models See",
-      "link": ""
+      "slug": "20260417-Representations Before Pixels- Semantics-Guided Hierarchical Video Prediction",
+      "title": "Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction",
+      "title_zh": "先想清楚再下筆：Re2Pix 用語意引導 AI 預測未來影片"
     },
     {
       "slug": "20260417-SuperLocalMemory V3.3- The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
-      "link": ""
+      "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
+      "title_zh": "AI 的「活腦」來了：讓 Agent 學會遺忘、壓縮記憶、七管道同時撈資料"
     },
     {
-      "slug": "20260417-Switch-KD- Curriculum-Style Knowledge Distillation for Sparsely-Activated Large Language Models",
-      "link": ""
+      "slug": "20260417-Switch-KD- Visual-Switch Knowledge Distillation for Vision-Language Models",
+      "title": "Switch-KD: Visual-Switch Knowledge Distillation for Vision-Language Models",
+      "title_zh": "Switch-KD：視覺切換蒸餾，讓小模型真正學會看圖說話"
     },
     {
-      "slug": "20260417-Three-Phase Transformer Dynamics- A Unified Theory of Emergence in LLM Training",
-      "link": ""
+      "slug": "20260417-Three-Phase Transformer",
+      "title": "Three-Phase Transformer",
+      "title_zh": "三相 Transformer"
     },
     {
       "slug": "20260417-Towards Autonomous Mechanistic Reasoning in Virtual Cells",
-      "link": ""
+      "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+      "title_zh": "邁向虛擬細胞中的自主機制推理"
     },
     {
-      "slug": "20260417-TRACER- Trajectory-Aware Critique Evaluation for Multi-Turn Agentic RL with LLM Judges",
-      "link": ""
+      "slug": "20260417-TRACER- Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
+      "title": "TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
+      "title_zh": "TRACER：讓生產日誌變成免費訓練資料，大幅降低 LLM 分類成本的智慧路由系統"
     },
     {
-      "slug": "20260417-UniDoc-RL- Reinforcement Learning Unifying Visual and Textual Modalities for Visual Document Understanding",
-      "link": ""
+      "slug": "20260417-UniDoc-RL- Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+      "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+      "title_zh": "AI 偵探上線！一套讓機器從粗到細主動搜圖的強化學習新框架"
     }
   ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",
-      "link": ""
+      "title": "評估 LLM 的角色扮演能力，能不能像化學一樣拆到原子層級？",
+      "title_zh": "傳統的角色扮演評測通常把人格當成一個整體來看，給一個總分就結束了"
     },
     {
       "slug": "CharacterBench",
-      "link": ""
+      "title": "現有的角色扮演評測，大多只看幾個面向就打分，CharacterBench 想做到真正的全面體檢",
+      "title_zh": "角色扮演 LLM 的評測標準一直缺乏共識，不同研究用的指標差異極大"
     },
     {
       "slug": "CharacterBox",
-      "link": ""
+      "title": "CharacterBox: Evaluating the Role-Playing Capabilities of LLMs in Grounded Settings",
+      "title_zh": "CharacterBox：評估 LLM 在接地設定中的角色扭演能力"
     },
     {
       "slug": "CharacterEval",
-      "link": ""
+      "title": "CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation",
+      "title_zh": "CharacterEval：角色扭演對話代理評估的中文基準"
     },
     {
       "slug": "InCharacter",
-      "link": ""
+      "title": "LLM 扮演的角色，性格真的像原作嗎？有人決定用心理學量表來驗證這件事",
+      "title_zh": "角色扮演 Agent 越來越流行，但過去的評測大多只看知識和語言風格"
     },
     {
       "slug": "PersonaGym",
-      "link": ""
+      "title": "LLM 被賦予一個人設之後，它到底有多入戲？PersonaGym 用 10K 道題來找答案",
+      "title_zh": "Persona Agent 是一種被設定為特定人設的 LLM 應用，從教育導師到醫療助理都在用"
     },
     {
       "slug": "PersonalityInfused",
-      "link": ""
+      "title": "如果 AI 聊天夥伴沒有個性，對話體驗就像跟一台自動販賣機互動",
+      "title_zh": "角色扮演 Agent 的核心挑戰之一，就是如何把個性注入到對話生成中"
     },
     {
       "slug": "RoleLLM",
-      "link": ""
+      "title": "讓 LLM 扮演 100 個角色，最後連開源小模型也能演得跟 GPT-4 一樣好",
+      "title_zh": "RoleLLM 不只是一個 Benchmark，而是一套從建構角色到訓練模型的完整框架"
     },
     {
       "slug": "RolePlayEval",
-      "link": ""
+      "title": "RolePlayEval: Evaluating Role-Playing Ability of Large Language Models",
+      "title_zh": "RolePlayEval：評估大型語言模型的角色扮演能力"
     }
   ],
   "ImageQualityMetrics": [
     {
       "slug": "20260416-BLIP-ITC-ITM",
-      "link": ""
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "title_zh": "BLIP-ITC-ITM：BLIP：用於統一視覺語言理解與生成的自舉語言-圖像預訓練"
     },
     {
       "slug": "20260416-cFreD",
-      "link": "https://arxiv.org/abs/2308.09928"
+      "title": "cFreD: Conditional Fréchet Distance for Evaluating Text-to-Image Generation",
+      "title_zh": "cFreD：條件弗雷歇距離用於評估文字轉圖像生成"
     },
     {
       "slug": "20260416-CLIPScore",
-      "link": ""
+      "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+      "title_zh": "CLIPScore：用於圖像字幕的無參考評估指標"
     },
     {
       "slug": "20260416-CMMD",
-      "link": ""
+      "title": "Rethinking FID: Towards a Better Evaluation Metric for Image Generation",
+      "title_zh": "CMMD：重新思考 FID：邁向更好的圖像生成評估指標"
     },
     {
       "slug": "20260416-DAScore",
-      "link": ""
+      "title": "Divide, Evaluate, and Refine: Evaluating and Improving Text-to-Image Alignment with Iterative VQA Feedback",
+      "title_zh": "DAScore：分割、評估與精化：以迭代 VQA 反饋評估並改善文字到圖像對齊"
     },
     {
       "slug": "20260416-DistilledMLLMJudge",
-      "link": ""
+      "title": "Distilled Multimodal Large Language Model as Judge for Text-to-Image Evaluation",
+      "title_zh": "DistilledMLLMJudge：蔓陶多模態大型語言模型作為文字轉圖像評估裁判"
     },
     {
       "slug": "20260416-EloRating",
-      "link": ""
+      "title": "Elo Rating-based Evaluation for Text-to-Image Generation",
+      "title_zh": "EloRating：基於 Elo 評分的文字轉圖像生成評估"
     },
     {
       "slug": "20260416-FID",
-      "link": "https://arxiv.org/abs/1706.08500"
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "title_zh": "FID：以雙時間尺度更新規則訓練的 GAN 收斂到局部納什均衡"
     },
     {
       "slug": "20260416-FWD",
-      "link": ""
+      "title": "Fréchet Wavelet Distance: A Domain-Agnostic Metric for Image Generation",
+      "title_zh": "FWD：弗雷歇小波距離：圖像生成的領域無關指標"
     },
     {
       "slug": "20260416-GenEval",
-      "link": ""
+      "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
+      "title_zh": "GenEval：以物件為中心的文字到圖像對齊評估框架"
     },
     {
       "slug": "20260416-GPT4oJudge",
-      "link": ""
+      "title": "GPT-4o as a Judge for Text-to-Image Evaluation",
+      "title_zh": "GPT4oJudge：GPT-4o 作為文字轉圖像評估的裁判"
     },
     {
       "slug": "20260416-HPS",
-      "link": ""
+      "title": "Human Preference Score: Better Aligning Text-to-Image Models with Human Preference",
+      "title_zh": "HPS：人類偏好分數：更好地將文字到圖像模型與人類偏好對齊"
     },
     {
       "slug": "20260416-ImageReward",
-      "link": ""
+      "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
+      "title_zh": "ImageReward：學習與評估文字轉圖像生成的人類偏好"
     },
     {
       "slug": "20260416-IS",
-      "link": ""
+      "title": "Improved Techniques for Training GANs",
+      "title_zh": "IS：改善 GAN 訓練技術"
     },
     {
       "slug": "20260416-KID",
-      "link": "https://arxiv.org/abs/1801.01401"
+      "title": "Demystifying MMD GANs",
+      "title_zh": "KID：揭開 MMD GAN 的神秘面紗"
     },
     {
       "slug": "20260416-LikertScale",
-      "link": ""
+      "title": "Likert Scale-based Subjective Evaluation for Text-to-Image Generation",
+      "title_zh": "LikertScale：基於李克特量表的文字轉圖像生成主觀評估"
     },
     {
       "slug": "20260416-MiFID",
-      "link": ""
+      "title": "Memorization-informed Fréchet Inception Distance",
+      "title_zh": "MiFID：記憶感知弗雷歇初始距離"
     },
     {
       "slug": "20260416-MOS",
-      "link": ""
+      "title": "Mean Opinion Score for Subjective Quality Assessment of Image Generation",
+      "title_zh": "MOS：圖像生成主觀品質評估的平均意見分數"
     },
     {
       "slug": "20260416-MosaiCLIP",
-      "link": ""
+      "title": "MosaiCLIP: Improving CLIP via Fusing Multiple Aligned Modalities",
+      "title_zh": "MosaiCLIP：透過融合多個對齊模態改善 CLIP"
     },
     {
       "slug": "20260416-NegCLIP",
-      "link": ""
+      "title": "When and Why Vision-Language Models Behave like Bags-of-Words, and What to Do About It?",
+      "title_zh": "NegCLIP：視覺語言模型何時及為何像詞裋一樣行為，以及該怎麼做？"
     },
     {
       "slug": "20260416-PairwisePreference",
-      "link": ""
+      "title": "Pairwise Preference-based Evaluation for Text-to-Image Generation",
+      "title_zh": "PairwisePreference：文字轉圖像生成的成對偏好評估"
     },
     {
       "slug": "20260416-PickScore",
-      "link": ""
+      "title": "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation",
+      "title_zh": "PickScore：用於文字轉圖像生成的開放使用者偏好資料集"
     },
     {
       "slug": "20260416-Ranking",
-      "link": ""
+      "title": "Ranking-based Evaluation for Text-to-Image Generation",
+      "title_zh": "Ranking：文字轉圖像生成的排名評估"
+    },
+    {
+      "slug": "20260416-SoftTIFA",
+      "title": "SoftTIFA: Soft Text-Image Faithfulness Alignment",
+      "title_zh": "SoftTIFA：軟文字-圖像忠實度對齊"
     },
     {
       "slug": "20260416-TIFA",
-      "link": ""
+      "title": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
+      "title_zh": "TIFA：以問答進行準確且可解釋的文字到圖像忠實度評估"
     },
     {
       "slug": "20260416-VIEScore",
-      "link": ""
+      "title": "VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation",
+      "title_zh": "VIEScore：邁向條件圖像合成評估的可解釋指標"
     },
     {
       "slug": "20260416-VISOR",
-      "link": ""
+      "title": "VISOR: Visual Similarity-based Outlier Rejection for Image Generation Evaluation",
+      "title_zh": "VISOR：圖像生成評估的視覺相似度外點拒絕"
     },
     {
       "slug": "20260416-VQAScore",
-      "link": ""
+      "title": "Evaluating Text-to-Visual Generation with Image-to-Text Generation",
+      "title_zh": "VQAScore：以圖像到文字生成評估文字到視覺生成"
     }
   ]
 }
