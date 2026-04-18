@@ -160,6 +160,31 @@ body {
 }
 .paragraph-block p.link-line a:hover { text-decoration: underline; }
 
+.figure-block {
+  margin: -8px 0 28px;
+  padding: 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.figure-block a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.figure-block img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: var(--surface2);
+}
+.figure-caption {
+  margin-top: 10px;
+  color: var(--text2);
+  font-size: 12px;
+}
+
 /* Nav */
 .article-nav { display: flex; justify-content: space-between; margin-top: 40px; gap: 16px; }
 .article-nav button {
@@ -454,12 +479,15 @@ function renderArticle(meta, articleObj, idx) {
   const titleEn = articleObj.title || meta.title || meta.slug;
   const titleZh = articleObj.title_zh || meta.title_zh || '';
   const paragraphs = articleObj.data || [];
+  const figures = Array.isArray(articleObj.figures) ? articleObj.figures : [];
+  const figureCount = figures.filter(Boolean).length;
   let html = `<div class="article-view">`;
   html += `<h2>${esc(titleEn)}</h2>`;
   if (titleZh) html += `<div class="article-title-zh">${esc(titleZh)}</div>`;
   html += `<div class="article-meta">`;
   html += `<span>${formatDate(currentDate)}</span>`;
   html += `<span>${paragraphs.length} 段</span>`;
+  if (figureCount > 0) html += `<span>${figureCount} 圖</span>`;
   html += `</div>`;
 
   paragraphs.forEach((para, pi) => {
@@ -474,7 +502,30 @@ function renderArticle(meta, articleObj, idx) {
       }
     });
     html += `</div>`;
+
+    const figureUrl = figures[pi];
+    if (figureUrl) {
+      html += `<div class="figure-block">`;
+      html += `<a href="${esc(figureUrl)}" target="_blank" rel="noopener">`;
+      html += `<img src="${esc(figureUrl)}" alt="${esc(titleEn)} figure ${pi + 1}" loading="lazy">`;
+      html += `<div class="figure-caption">Figure ${pi + 1}</div>`;
+      html += `</a>`;
+      html += `</div>`;
+    }
   });
+
+  if (figures.length > paragraphs.length) {
+    figures.slice(paragraphs.length).forEach((figureUrl, extraIdx) => {
+      if (!figureUrl) return;
+      const figureNumber = paragraphs.length + extraIdx + 1;
+      html += `<div class="figure-block">`;
+      html += `<a href="${esc(figureUrl)}" target="_blank" rel="noopener">`;
+      html += `<img src="${esc(figureUrl)}" alt="${esc(titleEn)} figure ${figureNumber}" loading="lazy">`;
+      html += `<div class="figure-caption">Figure ${figureNumber}</div>`;
+      html += `</a>`;
+      html += `</div>`;
+    });
+  }
 
   html += `<div class="article-nav">`;
   html += `<button ${idx <= 0 ? 'disabled' : ''} onclick="navArticle(${idx - 1})">← 上一篇</button>`;
