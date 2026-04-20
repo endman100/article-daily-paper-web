@@ -941,6 +941,128 @@
       "title_zh": "AI 偵探上線！一套讓機器從粗到細主動搜圖的強化學習新框架"
     }
   ],
+  "20260420": [
+    {
+      "slug": "20260420-1D Ordered Tokens Enable Efficient Test-Time Search",
+      "title": "(1D) Ordered Tokens Enable Efficient Test-Time Search",
+      "title_zh": "(1D) 有序 Token 實現高效測試時搜索"
+    },
+    {
+      "slug": "20260420-AccelOpt A Self-Improving LLM Agentic System",
+      "title": "AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization",
+      "title_zh": "AccelOpt，AI 加速器 Kernel 優化的自我改進型 LLM 代理系統"
+    },
+    {
+      "slug": "20260420-ArtifactNet Detecting AI-Generated Music",
+      "title": "ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics",
+      "title_zh": "ArtifactNet：用法醫殘差物理學偵測 AI 生成音樂"
+    },
+    {
+      "slug": "20260420-Can Large Language Models Reinvent Foundational Algorithms",
+      "title": "Can Large Language Models Reinvent Foundational Algorithms?",
+      "title_zh": "LLM 能重新發明基礎演算法嗎？"
+    },
+    {
+      "slug": "20260420-Cut Your Losses Learning to Prune Paths Early",
+      "title": "Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning",
+      "title_zh": "及早止損！學習在 Parallel Reasoning 中提前剪枝"
+    },
+    {
+      "slug": "20260420-DiPO Disentangled Perplexity Policy Optimization",
+      "title": "DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off",
+      "title_zh": "DiPO：用解耦困惑度策略優化實現細粒度探索利用平衡"
+    },
+    {
+      "slug": "20260420-EdgeDetect Importance-Aware Gradient Compression",
+      "title": "EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection",
+      "title_zh": "EdgeDetect：聯邦入侵偵測中的重要性感知梯度壓縮與同態聚合"
+    },
+    {
+      "slug": "20260420-Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
+      "title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
+      "title_zh": "解析 Diffusion Probabilistic Models 的 SNR-t Bias"
+    },
+    {
+      "slug": "20260420-GTA-2 Benchmarking General Tool Agents",
+      "title": "GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows",
+      "title_zh": "GTA-2：從原子工具使用到開放式工作流程的通用工具代理評測基準"
+    },
+    {
+      "slug": "20260420-Hierarchical Codec Diffusion for Video-to-Speech Generation",
+      "title": "Hierarchical Codec Diffusion for Video-to-Speech Generation",
+      "title_zh": "層次化編解碼器擴散模型的影片轉語音生成"
+    },
+    {
+      "slug": "20260420-Learning Adaptive Reasoning Paths for Efficient Visual Reasoning",
+      "title": "Learning Adaptive Reasoning Paths for Efficient Visual Reasoning",
+      "title_zh": "學習自適應推理路徑以實現高效視覺推理"
+    },
+    {
+      "slug": "20260420-Maximal Brain Damage Without Data or Optimization",
+      "title": "Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips",
+      "title_zh": "無需資料與優化的最大腦損傷：透過符號位元翻轉癱瘓神經網路"
+    },
+    {
+      "slug": "20260420-NTIRE 2026 Challenge on Video Saliency Prediction",
+      "title": "NTIRE 2026 Challenge on Video Saliency Prediction: Methods and Results",
+      "title_zh": "NTIRE 2026 視頻顯著性預測競賽：方法與結果"
+    },
+    {
+      "slug": "20260420-PersonaVLM Long-Term Personalized Multimodal LLMs",
+      "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "title_zh": "PersonaVLM：長期個性化多模態 LLMs"
+    },
+    {
+      "slug": "20260420-PRL-Bench A Comprehensive Benchmark",
+      "title": "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+      "title_zh": "PRL-Bench：全面評測 LLM 前沿物理研究能力的基準測試"
+    },
+    {
+      "slug": "20260420-QuantCode-Bench",
+      "title": "QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies",
+      "title_zh": "QuantCode-Bench：評測大型語言模型生成可執行演算法交易策略能力的基準"
+    },
+    {
+      "slug": "20260420-Qwen3.5-Omni Technical Report",
+      "title": "Qwen3.5-Omni Technical Report",
+      "title_zh": "Qwen3.5-Omni 技術報告"
+    },
+    {
+      "slug": "20260420-Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "title_zh": "重新利用三維生成模型實現自迴歸場景佈局生成"
+    },
+    {
+      "slug": "20260420-RoboLab A High-Fidelity Simulation Benchmark",
+      "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+      "title_zh": "RoboLab：用於分析任務通才策略的高擬真模擬基準測試框架"
+    },
+    {
+      "slug": "20260420-TIPSv2 Advancing Vision-Language Pretraining",
+      "title": "TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment",
+      "title_zh": "TIPSv2：以強化區塊文字對齊推進視覺語言預訓練"
+    },
+    {
+      "slug": "20260420-TwinTrack Post-hoc Multi-Rater Calibration",
+      "title": "TwinTrack: Post-hoc Multi-Rater Calibration for Medical Image Segmentation",
+      "title_zh": "TwinTrack：醫學影像分割的後處理多標註者校準框架"
+    },
+    {
+      "slug": "20260420-VEFX-Bench A Holistic Benchmark for Generic Video Editing",
+      "title": "VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects",
+      "title_zh": "VEFX-Bench：通用影片編輯與視覺特效的全方位評測基準"
+    },
+    {
+      "slug": "20260420-Web Retrieval-Aware Chunking W-RAC",
+      "title": "Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems",
+      "title_zh": "Web Retrieval-Aware Chunking（W-RAC）：高效且低成本的 RAG 分塊新框架"
+    },
+    {
+      "slug": "20260420-Where does output diversity collapse in post-training",
+      "title": "Where does output diversity collapse in post-training?",
+      "title_zh": "Post-training 的哪個階段導致輸出多樣性崩潰？"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",
@@ -1128,6 +1250,11 @@
       "slug": "20260416-VQAScore",
       "title": "Evaluating Text-to-Visual Generation with Image-to-Text Generation",
       "title_zh": "VQAScore：以圖像到文字生成評估文字到視覺生成"
+    },
+    {
+      "slug": "20260420-wise",
+      "title": "WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation",
+      "title_zh": "WISE：面向 Text-to-Image 生成的世界知識語意評估"
     }
   ]
 }

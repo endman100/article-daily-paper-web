@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
+    "arxiv": "https://arxiv.org/abs/2604.16044"
+  },
+  {
+    "title": "Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips",
+    "arxiv": "https://arxiv.org/abs/2502.07408"
+  },
+  {
+    "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.13074"
+  },
+  {
+    "title": "Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems",
+    "arxiv": "https://arxiv.org/abs/2604.04936"
+  },
+  {
+    "title": "Qwen3.5-Omni Technical Report",
+    "arxiv": "https://arxiv.org/abs/2604.15804"
+  },
+  {
+    "title": "Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning",
+    "arxiv": "https://arxiv.org/abs/2604.16029"
+  },
+  {
+    "title": "(1D) Ordered Tokens Enable Efficient Test-Time Search",
+    "arxiv": "https://arxiv.org/abs/2604.15453"
+  },
+  {
+    "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+    "arxiv": "https://arxiv.org/abs/2604.16299"
+  },
+  {
+    "title": "Where does output diversity collapse in post-training?",
+    "arxiv": "https://arxiv.org/abs/2604.16027"
+  },
+  {
+    "title": "QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies",
+    "arxiv": "https://arxiv.org/abs/2604.15151"
+  },
+  {
+    "title": "Learning Adaptive Reasoning Paths for Efficient Visual Reasoning",
+    "arxiv": "https://arxiv.org/abs/2604.14568"
+  },
+  {
+    "title": "Can Large Language Models Reinvent Foundational Algorithms?",
+    "arxiv": "https://arxiv.org/abs/2604.05716"
+  },
+  {
+    "title": "TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment",
+    "arxiv": "https://arxiv.org/abs/2604.12012"
+  },
+  {
+    "title": "GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows",
+    "arxiv": "https://arxiv.org/abs/2604.15715"
+  },
+  {
+    "title": "EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection",
+    "arxiv": "https://arxiv.org/abs/2604.14663"
+  },
+  {
+    "title": "AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization",
+    "arxiv": "https://arxiv.org/abs/2511.15915"
+  },
+  {
+    "title": "Hierarchical Codec Diffusion for Video-to-Speech Generation",
+    "arxiv": "https://arxiv.org/abs/2604.15923"
+  },
+  {
+    "title": "TwinTrack: Post-hoc Multi-Rater Calibration for Medical Image Segmentation",
+    "arxiv": "https://arxiv.org/abs/2604.15950"
+  },
+  {
+    "title": "NTIRE 2026 Challenge on Video Saliency Prediction: Methods and Results",
+    "arxiv": "https://arxiv.org/abs/2604.14816"
+  },
+  {
+    "title": "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+    "arxiv": "https://arxiv.org/abs/2604.15411"
+  },
+  {
+    "title": "DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off",
+    "arxiv": "https://arxiv.org/abs/2604.13902"
+  },
+  {
+    "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+    "arxiv": "https://arxiv.org/abs/2604.09860"
+  },
+  {
+    "title": "ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics",
+    "arxiv": "https://arxiv.org/abs/2604.16254"
+  },
+  {
+    "title": "VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects",
+    "arxiv": "https://arxiv.org/abs/2604.16272"
+  }
+]
