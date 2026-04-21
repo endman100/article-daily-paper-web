@@ -179,6 +179,14 @@ body {
   border-radius: 10px;
   background: var(--surface2);
 }
+.figure-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  border: none;
+  background: #000;
+}
 .figure-caption {
   margin-top: 10px;
   color: var(--text2);
@@ -504,26 +512,13 @@ function renderArticle(meta, articleObj, idx) {
     html += `</div>`;
 
     const figureUrl = figures[pi];
-    if (figureUrl) {
-      html += `<div class="figure-block">`;
-      html += `<a href="${esc(figureUrl)}" target="_blank" rel="noopener">`;
-      html += `<img src="${esc(figureUrl)}" alt="${esc(titleEn)} figure ${pi + 1}" loading="lazy">`;
-      html += `<div class="figure-caption">Figure ${pi + 1}</div>`;
-      html += `</a>`;
-      html += `</div>`;
-    }
+    if (figureUrl) html += renderFigure(figureUrl, titleEn, pi + 1);
   });
 
   if (figures.length > paragraphs.length) {
     figures.slice(paragraphs.length).forEach((figureUrl, extraIdx) => {
       if (!figureUrl) return;
-      const figureNumber = paragraphs.length + extraIdx + 1;
-      html += `<div class="figure-block">`;
-      html += `<a href="${esc(figureUrl)}" target="_blank" rel="noopener">`;
-      html += `<img src="${esc(figureUrl)}" alt="${esc(titleEn)} figure ${figureNumber}" loading="lazy">`;
-      html += `<div class="figure-caption">Figure ${figureNumber}</div>`;
-      html += `</a>`;
-      html += `</div>`;
+      html += renderFigure(figureUrl, titleEn, paragraphs.length + extraIdx + 1);
     });
   }
 
@@ -534,6 +529,20 @@ function renderArticle(meta, articleObj, idx) {
 
   mainArea.innerHTML = html;
   mainArea.scrollTop = 0;
+}
+
+function renderFigure(url, titleEn, num) {
+  let inner = '';
+  const ytMatch = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/);
+  const isGhVideo = /github\.com\/user-attachments\/assets\/[0-9a-f-]{36}$/i.test(url);
+  if (ytMatch) {
+    inner = `<iframe class="figure-video" src="https://www.youtube.com/embed/${esc(ytMatch[1])}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+  } else if (/\.(mp4|webm|ogv)(\?.*)?$/i.test(url) || isGhVideo) {
+    inner = `<video class="figure-video" controls preload="none"><source src="${esc(url)}"></video>`;
+  } else {
+    inner = `<a href="${esc(url)}" target="_blank" rel="noopener"><img src="${esc(url)}" alt="${esc(titleEn)} figure ${num}" loading="lazy"></a>`;
+  }
+  return `<div class="figure-block">${inner}<div class="figure-caption">Figure ${num}</div></div>`;
 }
 
 function navArticle(idx) { selectArticle(idx); }
