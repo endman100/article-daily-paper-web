@@ -192,6 +192,17 @@ body {
   color: var(--text2);
   font-size: 12px;
 }
+.video-fallback-link {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: var(--accent);
+  font-size: 14px;
+  text-decoration: none;
+  background: var(--surface2);
+  border-radius: 10px;
+}
+.video-fallback-link:hover { text-decoration: underline; }
 
 /* Nav */
 .article-nav { display: flex; justify-content: space-between; margin-top: 40px; gap: 16px; }
@@ -538,7 +549,9 @@ function renderFigure(url, titleEn, num) {
   if (ytMatch) {
     inner = `<iframe class="figure-video" src="https://www.youtube.com/embed/${esc(ytMatch[1])}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   } else if (/\.(mp4|webm|ogv)(\?.*)?$/i.test(url) || isGhVideo) {
-    inner = `<video class="figure-video" controls preload="none"><source src="${esc(url)}"></video>`;
+    const mimeType = isGhVideo || /\.mp4(\?|$)/i.test(url) ? ' type="video/mp4"' : '';
+    const escUrl = esc(url);
+    inner = `<video class="figure-video" controls preload="metadata" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><source src="${escUrl}"${mimeType}></video><a href="${escUrl}" target="_blank" rel="noopener" class="video-fallback-link" style="display:none">▶ 在新分頁播放影片</a>`;
   } else {
     inner = `<a href="${esc(url)}" target="_blank" rel="noopener"><img src="${esc(url)}" alt="${esc(titleEn)} figure ${num}" loading="lazy"></a>`;
   }
