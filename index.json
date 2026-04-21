@@ -1256,5 +1256,17 @@
       "title": "WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation",
       "title_zh": "WISE：面向 Text-to-Image 生成的世界知識語意評估"
     }
+  ],
+  "other": [
+    {
+      "slug": "20260420-seedance2",
+      "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
+      "title_zh": "Seedance 2.0 技術報告解讀，多模態影片生成的統一架構"
+    },
+    {
+      "slug": "20260421-claude-opus-4-7",
+      "title": "Claude Opus 4.7",
+      "title_zh": "Claude Opus 4.7，Anthropic 最新旗艦混合推理模型"
+    }
   ]
 }
