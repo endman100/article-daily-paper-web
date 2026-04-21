@@ -1063,6 +1063,223 @@
       "title_zh": "Post-training 的哪個階段導致輸出多樣性崩潰？"
     }
   ],
+  "20260421": [
+    {
+      "slug": "20260421-Agent-World Learning World Models in Embodied Agents with Language-driven World Feedback",
+      "title": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+      "title_zh": "Agent-World：透過可擴展真實環境合成進化通用 Agent 智能"
+    },
+    {
+      "slug": "20260421-Agents Explore but Agents Ignore LLMs Lack Environmental Curiosity",
+      "title": "Agents Explore but Agents Ignore: LLMs Lack Environmental Curiosity",
+      "title_zh": "代理探索卻忽視：大型語言模型缺乏環境好奇心"
+    },
+    {
+      "slug": "20260421-Back to Repair A Minimal Denoising Network for Time Series Anomaly Detection",
+      "title": "Back to Repair: A Minimal Denoising Network\\ for Time Series Anomaly Detection",
+      "title_zh": "回歸修復：時間序列異常偵測的極簡去噪網路"
+    },
+    {
+      "slug": "20260421-Beyond Text-Dominance Understanding Modality Preference of Omni-modal Large Language Models",
+      "title": "Beyond Text-Dominance: Understanding Modality Preference of Omni-modal Large Language Models",
+      "title_zh": "超越文字主導：理解全模態 LLM 的模態偏好"
+    },
+    {
+      "slug": "20260421-ClawEnvKit Automatic Environment Generation for Claw-Like Agents",
+      "title": "ClawEnvKit: Automatic Environment Generation for Claw-Like Agents",
+      "title_zh": "ClawEnvKit：爪型代理的自動環境生成工具包"
+    },
+    {
+      "slug": "20260421-Concrete Jungle Towards Concreteness Paved Contrastive Negative Mining for Compositional Understanding",
+      "title": "Concrete Jungle: Towards Concreteness Paved Contrastive Negative Mining for Compositional Understanding",
+      "title_zh": "Concrete Jungle：以具體性鋪就的對比負例挖掘促進組合理解"
+    },
+    {
+      "slug": "20260421-Crowded in B-Space Calibrating Shared Directions for LoRA Merging",
+      "title": "Crowded in B-Space: Calibrating Shared Directions for LoRA Merging",
+      "title_zh": "B 空間裡的擁擠：校準 LoRA 合併中的共享方向"
+    },
+    {
+      "slug": "20260421-EasyVideoR1 Easier RL for Video Understanding",
+      "title": "EasyVideoR1: Easier RL for Video Understanding",
+      "title_zh": "EasyVideoR1：更簡單的影片理解強化學習"
+    },
+    {
+      "slug": "20260421-EvoMaster A Foundational Agent Framework for Building Evolving Autonomous Scientific Agents at Scale",
+      "title": "EvoMaster: A Foundational Agent Framework for Building Evolving Autonomous Scientific Agents at Scale",
+      "title_zh": "EvoMaster：建構大規模進化自主科學 Agent 的基礎框架"
+    },
+    {
+      "slug": "20260421-Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation",
+      "title": "Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation",
+      "title_zh": "透過判別式文字表示將一步圖像生成從類別標籤延伸至文字"
+    },
+    {
+      "slug": "20260421-Forge-UGC FX optimization and register-graph engine for universal graph compiler",
+      "title": "Forge-UGC: FX optimization and register-graph engine for universal graph compiler",
+      "title_zh": "Forge-UGC：通用圖形編譯器的 FX 優化與暫存器圖形引擎"
+    },
+    {
+      "slug": "20260421-GenericAgent A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)",
+      "title": "GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)",
+      "title_zh": "GenericAgent：透過情境資訊密度最大化的高效自我進化 LLM Agent"
+    },
+    {
+      "slug": "20260421-Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
+      "title": "Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
+      "title_zh": "單細胞 CRISPR 擾動的幾何一致性揭示調控架構並預測細胞壓力"
+    },
+    {
+      "slug": "20260421-GFT From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification",
+      "title": "GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification",
+      "title_zh": "GFT：從模仿到獎勵微調，無偏組優勢與動態係數修正"
+    },
+    {
+      "slug": "20260421-HSG Hyperbolic Scene Graph",
+      "title": "HSG: Hyperbolic Scene Graph",
+      "title_zh": "HSG：雙曲空間場景圖"
+    },
+    {
+      "slug": "20260421-Latent Preference Modeling for Cross-Session Personalized Tool Calling",
+      "title": "Latent Preference Modeling for Cross-Session Personalized Tool Calling",
+      "title_zh": "跨會話個性化工具呼叫的潛在偏好建模"
+    },
+    {
+      "slug": "20260421-MathNet a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+      "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+      "title_zh": "MathNet：全球多模態數學推理與檢索基準"
+    },
+    {
+      "slug": "20260421-MedConclusion A Benchmark for Biomedical Conclusion Generation from Structured Abstracts",
+      "title": "MedConclusion: A Benchmark for Biomedical Conclusion Generation from Structured Abstracts",
+      "title_zh": "MedConclusion：從結構化摘要生成生醫結論的基準測試"
+    },
+    {
+      "slug": "20260421-Meta-learning In-Context Enables Training-Free Cross Subject Brain Decoding",
+      "title": "Meta-learning In-Context Enables Training-Free Cross Subject Brain Decoding",
+      "title_zh": "Meta-learning In-Context 實現免訓練跨受試者腦部解碼"
+    },
+    {
+      "slug": "20260421-MNAFT modality neuron-aware fine-tuning of multimodal large language models for image translation",
+      "title": "MNAFT: modality neuron-aware fine-tuning of multimodal large language models for image translation",
+      "title_zh": "MNAFT：面向圖像翻譯的多模態大型語言模型模態神經元感知微調"
+    },
+    {
+      "slug": "20260421-Modeling Multiple Support Strategies within a Single Turn for Emotional Support Conversations",
+      "title": "Modeling Multiple Support Strategies within a Single Turn for Emotional Support Conversations",
+      "title_zh": "在情感支持對話的單次回合中建模多重支持策略"
+    },
+    {
+      "slug": "20260421-Modeling Sparse and Bursty Vulnerability Sightings Forecasting Under Data Constraints",
+      "title": "Modeling Sparse and Bursty Vulnerability Sightings: Forecasting Under Data Constraints",
+      "title_zh": "稀疏突發型漏洞目擊建模：數據限制下的預測"
+    },
+    {
+      "slug": "20260421-MTR-DuplexBench Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models",
+      "title": "MTR-DuplexBench: Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models",
+      "title_zh": "MTR-DuplexBench：邁向全雙工語音語言模型多輪對話的全面評測"
+    },
+    {
+      "slug": "20260421-Multiplication in Multimodal LLMs Computation with Text, Image, and Audio Inputs",
+      "title": "Multiplication in Multimodal LLMs: Computation with Text, Image, and Audio Inputs",
+      "title_zh": "多模態大型語言模型中的乘法運算：文字、圖像與音訊輸入的計算能力"
+    },
+    {
+      "slug": "20260421-MultiWorld Scalable Multi-Agent Multi-View Video World Models",
+      "title": "MultiWorld: Scalable Multi-Agent Multi-View Video World Models",
+      "title_zh": "MultiWorld：可擴展的多智能體多視角影像世界模型"
+    },
+    {
+      "slug": "20260421-OmniScript Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+      "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+      "title_zh": "OmniScript：面向長片電影視訊的視聽腳本生成"
+    },
+    {
+      "slug": "20260421-On the Reliability of Computer Use Agents",
+      "title": "On the Reliability of Computer Use Agents",
+      "title_zh": "論 Computer Use Agent 的穩定性"
+    },
+    {
+      "slug": "20260421-On the Robustness of LLM-Based Dense Retrievers A Systematic Analysis of Generalizability and Stability",
+      "title": "On the Robustness of LLM-Based Dense Retrievers: A Systematic Analysis of Generalizability and Stability",
+      "title_zh": "基於大型語言模型的密集檢索器的魯棒性：泛化性與穩定性的系統性分析"
+    },
+    {
+      "slug": "20260421-OneVL One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+      "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+      "title_zh": "OneVL：單步潛在推理與視覺語言解釋規劃"
+    },
+    {
+      "slug": "20260421-OpenGame Open Agentic Coding for Games",
+      "title": "OpenGame: Open Agentic Coding for Games",
+      "title_zh": "OpenGame：專為遊戲而生的開放式 Agentic 程式框架"
+    },
+    {
+      "slug": "20260421-Precise Debugging Benchmark Is Your Model Debugging or Regenerating",
+      "title": "Precise Debugging Benchmark: Is Your Model Debugging or Regenerating?",
+      "title_zh": "精準除錯基準：你的模型是在除錯，還是在重生？"
+    },
+    {
+      "slug": "20260421-Protecting Language Models Against Unauthorized Distillation through Trace Rewriting",
+      "title": "Protecting Language Models Against Unauthorized Distillation through Trace Rewriting",
+      "title_zh": "透過 Trace Rewriting 保護語言模型免受未授權蒸餾"
+    },
+    {
+      "slug": "20260421-Revisiting a Pain in the Neck A Semantic Reasoning Benchmark for Language Models",
+      "title": "Revisiting a Pain in the Neck: A Semantic Reasoning Benchmark for Language Models",
+      "title_zh": "重訪 Pain in the Neck：語言模型語意推理基準 SemanticQA"
+    },
+    {
+      "slug": "20260421-Significance and Stability Analysis of Gene-Environment Interaction using RGxEStat",
+      "title": "Significance and Stability Analysis of Gene-Environment Interaction using RGxEStat",
+      "title_zh": "使用 RGxEStat 進行基因型與環境互作的顯著性與穩定性分析"
+    },
+    {
+      "slug": "20260421-SkillFlowBenchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents",
+      "title": "SkillFlow:Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents",
+      "title_zh": "SkillFlow：自主代理終身技能發現與演化的基準測試"
+    },
+    {
+      "slug": "20260421-Stratagem Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play",
+      "title": "Stratagem: Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play",
+      "title_zh": "Stratagem：透過軌跡調製遊戲自我對弈學習可遷移推理"
+    },
+    {
+      "slug": "20260421-The Continuity Layer Why Intelligence Needs an Architecture for What It Carries Forward",
+      "title": "The Continuity Layer: Why Intelligence Needs an Architecture for What It Carries Forward",
+      "title_zh": "Continuity Layer：為什麼智能需要一個承載所學的架構"
+    },
+    {
+      "slug": "20260421-The Geometric Canary Predicting Steerability and Detecting Drift via Representational Stability",
+      "title": "The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability",
+      "title_zh": "幾何金絲雀：透過表示穩定性預測可導向性與偵測漂移"
+    },
+    {
+      "slug": "20260421-The Illusion of Certainty Decoupling Capability and Calibration in On-Policy Distillation",
+      "title": "The Illusion of Certainty: Decoupling Capability and Calibration in On-Policy Distillation",
+      "title_zh": "確定性的幻覺：解耦在策略蒸餾中的能力與校準"
+    },
+    {
+      "slug": "20260421-Training LLM Agents for Spontaneous, Reward-Free Self-Evolution via World Knowledge Exploration",
+      "title": "Training LLM Agents for Spontaneous, Reward-Free Self-Evolution via World Knowledge Exploration",
+      "title_zh": "訓練 LLM Agents 透過世界知識探索實現自發且無獎勵的自我進化"
+    },
+    {
+      "slug": "20260421-VoxMind An End-to-End Agentic Spoken Dialogue System",
+      "title": "VoxMind: An End-to-End Agentic Spoken Dialogue System",
+      "title_zh": "VoxMind：端到端代理語音對話系統"
+    },
+    {
+      "slug": "20260421-WebCompass Towards Multimodal Web Coding Evaluation for Code Language Models",
+      "title": "WebCompass: Towards Multimodal Web Coding Evaluation for Code Language Models",
+      "title_zh": "WebCompass：面向 Code Language Models 的多模態網頁開發評估基準"
+    },
+    {
+      "slug": "20260421-When Can LLMs Learn to Reason with Weak Supervision",
+      "title": "When Can LLMs Learn to Reason with Weak Supervision?",
+      "title_zh": "LLM 何時能在弱監督下學會推理？"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",

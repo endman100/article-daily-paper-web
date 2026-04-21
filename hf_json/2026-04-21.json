@@ -1,0 +1,174 @@
+[
+  {
+    "title": "Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation",
+    "arxiv": "https://arxiv.org/abs/2604.18168"
+  },
+  {
+    "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+    "arxiv": "https://arxiv.org/abs/2604.18486"
+  },
+  {
+    "title": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+    "arxiv": "https://arxiv.org/abs/2604.18292"
+  },
+  {
+    "title": "OpenGame: Open Agentic Coding for Games",
+    "arxiv": "https://arxiv.org/abs/2604.18394"
+  },
+  {
+    "title": "MultiWorld: Scalable Multi-Agent Multi-View Video World Models",
+    "arxiv": "https://arxiv.org/abs/2604.18564"
+  },
+  {
+    "title": "EasyVideoR1: Easier RL for Video Understanding",
+    "arxiv": "https://arxiv.org/abs/2604.16893"
+  },
+  {
+    "title": "When Can LLMs Learn to Reason with Weak Supervision?",
+    "arxiv": "https://arxiv.org/abs/2604.18574"
+  },
+  {
+    "title": "GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification",
+    "arxiv": "https://arxiv.org/abs/2604.14258"
+  },
+  {
+    "title": "WebCompass: Towards Multimodal Web Coding Evaluation for Code Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.18224"
+  },
+  {
+    "title": "ClawEnvKit: Automatic Environment Generation for Claw-Like Agents",
+    "arxiv": "https://arxiv.org/abs/2604.18543"
+  },
+  {
+    "title": "SkillFlow:Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents",
+    "arxiv": "https://arxiv.org/abs/2604.17308"
+  },
+  {
+    "title": "Crowded in B-Space: Calibrating Shared Directions for LoRA Merging",
+    "arxiv": "https://arxiv.org/abs/2604.16826"
+  },
+  {
+    "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "arxiv": "https://arxiv.org/abs/2604.18584"
+  },
+  {
+    "title": "Concrete Jungle: Towards Concreteness Paved Contrastive Negative Mining for Compositional Understanding",
+    "arxiv": "https://arxiv.org/abs/2604.13313"
+  },
+  {
+    "title": "GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)",
+    "arxiv": "https://arxiv.org/abs/2604.17091"
+  },
+  {
+    "title": "VoxMind: An End-to-End Agentic Spoken Dialogue System",
+    "arxiv": "https://arxiv.org/abs/2604.15710"
+  },
+  {
+    "title": "On the Reliability of Computer Use Agents",
+    "arxiv": "https://arxiv.org/abs/2604.17849"
+  },
+  {
+    "title": "Agents Explore but Agents Ignore: LLMs Lack Environmental Curiosity",
+    "arxiv": "https://arxiv.org/abs/2604.17609"
+  },
+  {
+    "title": "The Illusion of Certainty: Decoupling Capability and Calibration in On-Policy Distillation",
+    "arxiv": "https://arxiv.org/abs/2604.16830"
+  },
+  {
+    "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+    "arxiv": "https://arxiv.org/abs/2604.11102"
+  },
+  {
+    "title": "Training LLM Agents for Spontaneous, Reward-Free Self-Evolution via World Knowledge Exploration",
+    "arxiv": "https://arxiv.org/abs/2604.18131"
+  },
+  {
+    "title": "Stratagem: Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play",
+    "arxiv": "https://arxiv.org/abs/2604.17696"
+  },
+  {
+    "title": "Meta-learning In-Context Enables Training-Free Cross Subject Brain Decoding",
+    "arxiv": "https://arxiv.org/abs/2604.08537"
+  },
+  {
+    "title": "Multiplication in Multimodal LLMs: Computation with Text, Image, and Audio Inputs",
+    "arxiv": "https://arxiv.org/abs/2604.18203"
+  },
+  {
+    "title": "Revisiting a Pain in the Neck: A Semantic Reasoning Benchmark for Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.16593"
+  },
+  {
+    "title": "Precise Debugging Benchmark: Is Your Model Debugging or Regenerating?",
+    "arxiv": "https://arxiv.org/abs/2604.17338"
+  },
+  {
+    "title": "Beyond Text-Dominance: Understanding Modality Preference of Omni-modal Large Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.16902"
+  },
+  {
+    "title": "MedConclusion: A Benchmark for Biomedical Conclusion Generation from Structured Abstracts",
+    "arxiv": "https://arxiv.org/abs/2604.06505"
+  },
+  {
+    "title": "Modeling Multiple Support Strategies within a Single Turn for Emotional Support Conversations",
+    "arxiv": "https://arxiv.org/abs/2604.17972"
+  },
+  {
+    "title": "The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability",
+    "arxiv": "https://arxiv.org/abs/2604.17698"
+  },
+  {
+    "title": "EvoMaster: A Foundational Agent Framework for Building Evolving Autonomous Scientific Agents at Scale",
+    "arxiv": "https://arxiv.org/abs/2604.17406"
+  },
+  {
+    "title": "MNAFT: modality neuron-aware fine-tuning of multimodal large language models for image translation",
+    "arxiv": "https://arxiv.org/abs/2604.16943"
+  },
+  {
+    "title": "Modeling Sparse and Bursty Vulnerability Sightings: Forecasting Under Data Constraints",
+    "arxiv": "https://arxiv.org/abs/2604.16038"
+  },
+  {
+    "title": "Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
+    "arxiv": "https://arxiv.org/abs/2604.16642"
+  },
+  {
+    "title": "MTR-DuplexBench: Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models",
+    "arxiv": "https://arxiv.org/abs/2511.10262"
+  },
+  {
+    "title": "Forge-UGC: FX optimization and register-graph engine for universal graph compiler",
+    "arxiv": "https://arxiv.org/abs/2604.16498"
+  },
+  {
+    "title": "Latent Preference Modeling for Cross-Session Personalized Tool Calling",
+    "arxiv": "https://arxiv.org/abs/2604.17886"
+  },
+  {
+    "title": "The Continuity Layer: Why Intelligence Needs an Architecture for What It Carries Forward",
+    "arxiv": "https://arxiv.org/abs/2604.17273"
+  },
+  {
+    "title": "Back to Repair: A Minimal Denoising Network\\ for Time Series Anomaly Detection",
+    "arxiv": "https://arxiv.org/abs/2604.17388"
+  },
+  {
+    "title": "HSG: Hyperbolic Scene Graph",
+    "arxiv": "https://arxiv.org/abs/2604.17454"
+  },
+  {
+    "title": "On the Robustness of LLM-Based Dense Retrievers: A Systematic Analysis of Generalizability and Stability",
+    "arxiv": "https://arxiv.org/abs/2604.16576"
+  },
+  {
+    "title": "Protecting Language Models Against Unauthorized Distillation through Trace Rewriting",
+    "arxiv": "https://arxiv.org/abs/2602.15143"
+  },
+  {
+    "title": "Significance and Stability Analysis of Gene-Environment Interaction using RGxEStat",
+    "arxiv": "https://arxiv.org/abs/2604.03337"
+  }
+]
