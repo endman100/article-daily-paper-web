@@ -1,0 +1,85 @@
+{
+  "title": "Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
+  "title_zh": "理解並強制執行 Task Arithmetic 中的權重解耦",
+  "data": [
+    [
+      "把多個 AI 模型的技能合在一起，聽起來像在講科幻小說",
+      "Task Arithmetic 是一個真實存在的技術，讓你直接用加減法合成新模型",
+      "問題是，這個方法為什麼有時候有效，有時候又讓模型一塌糊塗",
+      "研究者提出了 weight disentanglement 這個概念，說這是有效合成的關鍵條件",
+      "但這等於是說飛機能飛是因為有升力，你還是不知道升力怎麼來的",
+      "CVPR 2026 有一篇 Oral 論文，把這個懸了很久的問題的答案搞清楚了",
+      "順帶提出了一個訓練技巧，簡單到讓人有點難相信",
+      "只需要在 loss 函數加一個額外的項，就能讓 model merging 的效果明顯提升"
+    ],
+    [
+      "Task Arithmetic 的操作邏輯非常直觀",
+      "把微調後的模型減去預訓練模型，得到代表學到什麼的差值，這叫做任務向量",
+      "多個任務向量直接相加，理論上就能合成同時具備多個能力的模型",
+      "不需要重新訓練，這是最吸引人的地方",
+      "但實際測試下來，任意兩個任務向量相加常常出問題",
+      "因為兩個任務可能都對模型裡的同一組參數做出了修改",
+      "一旦修改方向衝突，相加的結果就亂了",
+      "weight disentanglement 就是在描述一個理想狀態，讓不同任務的參數修改互不干擾"
+    ],
+    [
+      "論文的核心理論貢獻叫做 Task-Feature Specialization，縮寫 TFS",
+      "TFS 描述的是模型有沒有能力，把自己的內部特徵分配給不同的任務用",
+      "不同任務佔用不同的特徵空間，互相不重疊",
+      "研究團隊嚴格證明，只要模型具備 TFS，weight disentanglement 就一定會發生",
+      "這讓 TFS 成為 weight disentanglement 的充分條件，有了紮實的理論支撐",
+      "更重要的發現是，TFS 還會帶出一個可以觀察的幾何性質",
+      "不同任務的權重向量之間，會自然形成正交的幾何關係，這叫做 Weight Vector Orthogonality",
+      "這條線索讓看不見的特徵分配，和可測量的幾何性質之間，建立了直接聯繫"
+    ],
+    [
+      "TFS → Weight Vector Orthogonality → Weight Disentanglement，這條因果鏈讓整個機制有了理論解釋",
+      "正交性在幾何上就是兩個向量垂直，彼此不重疊",
+      "在模型參數空間裡，正交的任務向量代表不同任務在完全不同的方向上修改了權重",
+      "方向不重疊，相加就不會互相干擾",
+      "但 TFS 本身非常抽象，沒辦法在訓練過程中直接操控",
+      "研究團隊的做法是，既然無法直接強制 TFS，那就強制它的幾何後果",
+      "讓訓練過程中的權重更新保持正交，TFS 的效果就會自然浮現",
+      "這個迂迴策略，成了 OrthoReg 的設計核心"
+    ],
+    [
+      "OrthoReg 是一個正則化項，直接加在微調的損失函數裡",
+      "它要求每一層的權重更新矩陣 ΔW，讓 ΔW^T 乘以 ΔW 盡量接近單位矩陣 I",
+      "這個條件就是要求 ΔW 的各列向量彼此正交",
+      "實作上只需要幾行程式碼，任何現有的微調流程都可以直接套用",
+      "λ 是控制正交化強度的超參數，可以根據任務靈活調整",
+      "相比之前的 TTA 方法，TTA 需要計算成本很高的 Jacobian 矩陣",
+      "OrthoReg 完全迴避了這個瓶頸，只有一個輕量的正則化項",
+      "研究團隊也從理論上證明了，OrthoReg 確實能促進 weight disentanglement"
+    ],
+    [
+      "實驗覆蓋了 8 個圖像分類資料集，這是 model merging 研究的標準測試台",
+      "三個規模的 ViT 模型都測了，從 ViT-B-32 到 ViT-L-14，跨越不同的參數量",
+      "OrthoReg 在所有測試組合上，相比基準都有穩定且顯著的提升",
+      "task addition 的效果提升尤其明顯，把多個任務合在一起用，精度更高了",
+      "task negation 也有改善，讓模型選擇性遺忘某個任務，對其他任務的副作用很小",
+      "不管搭配哪種基礎訓練方式，從 Non-linear FT 到 LoRA，加上 OrthoReg 都能帶來增益",
+      "這種普遍性說明正交性確實觸及了 model merging 的核心問題",
+      "所有模型 checkpoint 都公開在 HuggingFace，可以直接下載驗證"
+    ],
+    [
+      "這篇論文打通了一個懸了很久的理論問題，但有幾個值得留意的地方",
+      "TFS 是 weight disentanglement 的充分條件，但研究者沒有證明它是必要條件",
+      "這代表現實中可能存在其他路徑，同樣能達到良好的 model merging 效果",
+      "目前所有實驗都在視覺模型 ViT 上進行，語言模型的情況完全沒有被驗證",
+      "任務向量在語言任務中的干擾模式可能和視覺任務很不一樣",
+      "LoRA 版本的完整程式碼也尚未釋出，paper 裡部分結果還要等等才能獨立複現",
+      "OrthoReg 最終只是一個代理目標，正交的 ΔW 和真正的 TFS 之間的距離，仍然是個開放問題",
+      "不過一個有理論支撐且實驗全面的 model merging 方法，在這個領域還是不常見的"
+    ]
+  ],
+  "figures": [
+    "",
+    "",
+    "https://arxiv.org/html/2604.17078v1/x1.png",
+    "https://raw.githubusercontent.com/RL-MIND/OrthoReg/main/assets/WVO-WD-TFS.png",
+    "https://raw.githubusercontent.com/RL-MIND/OrthoReg/main/assets/orthoreg_loss.png",
+    "",
+    ""
+  ]
+}

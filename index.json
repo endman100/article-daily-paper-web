@@ -1280,6 +1280,183 @@
       "title_zh": "LLM 何時能在弱監督下學會推理？"
     }
   ],
+  "20260422": [
+    {
+      "slug": "20260422-Accurate and scalable exchange-correlation with deep learning",
+      "title": "Accurate and scalable exchange-correlation with deep learning",
+      "title_zh": "以深度學習實現精確可擴展的交換關聯計算"
+    },
+    {
+      "slug": "20260422-AgentSPEX- An Agent SPecification and EXecution Language",
+      "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+      "title_zh": "AgentSPEX：Agent 規格與執行語言"
+    },
+    {
+      "slug": "20260422-AJ-Bench- Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation",
+      "title": "AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation",
+      "title_zh": "AJ-Bench：Agent-as-a-Judge 環境感知評測基準"
+    },
+    {
+      "slug": "20260422-AnyRecon- Arbitrary-View 3D Reconstruction with Video Diffusion Model",
+      "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
+      "title_zh": "AnyRecon：任意視角 3D 重建與 Video Diffusion Model"
+    },
+    {
+      "slug": "20260422-Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs",
+      "title": "Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs",
+      "title_zh": "Chain-of-Thought 削弱多模態 LLM 的視覺空間推理能力"
+    },
+    {
+      "slug": "20260422-Chat2Workflow- A Benchmark for Generating Executable Visual Workflows with Natural Language",
+      "title": "Chat2Workflow: A Benchmark for Generating Executable Visual Workflows with Natural Language",
+      "title_zh": "Chat2Workflow：以自然語言生成可執行視覺工作流的基準"
+    },
+    {
+      "slug": "20260422-CityRAG- Stepping Into a City via Spatially-Grounded Video Generation",
+      "title": "CityRAG: Stepping Into a City via Spatially-Grounded Video Generation",
+      "title_zh": "CityRAG：透過空間錨定影片生成走進城市"
+    },
+    {
+      "slug": "20260422-ClawNet- Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation",
+      "title": "ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation",
+      "title_zh": "ClawNet：人類共生 Agent 網路實現跨用戶自主協作"
+    },
+    {
+      "slug": "20260422-Code-Switching Information Retrieval- Benchmarks, Analysis, and the Limits of Current Retrievers",
+      "title": "Code-Switching Information Retrieval: Benchmarks, Analysis, and the Limits of Current Retrievers",
+      "title_zh": "Code-Switching 資訊檢索：基準測試，分析與現有檢索器的侷限"
+    },
+    {
+      "slug": "20260422-CoInteract- Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+      "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+      "title_zh": "CoInteract：透過 Spatially-Structured Co-Generation 實現物理一致的人物商品互動影片生成"
+    },
+    {
+      "slug": "20260422-Contrastive Attribution in the Wild- An Interpretability Analysis of LLM Failures on Realistic Benchmarks",
+      "title": "Contrastive Attribution in the Wild: An Interpretability Analysis of LLM Failures on Realistic Benchmarks",
+      "title_zh": "野外環境的 Contrastive Attribution：LLM 在真實 Benchmark 上失敗的可解釋性分析"
+    },
+    {
+      "slug": "20260422-Dual-View Training for Instruction-Following Information Retrieval",
+      "title": "Dual-View Training for Instruction-Following Information Retrieval",
+      "title_zh": "雙視角訓練用於遵循指令的資訊檢索"
+    },
+    {
+      "slug": "20260422-Evaluation-driven Scaling for Scientific Discovery",
+      "title": "Evaluation-driven Scaling for Scientific Discovery",
+      "title_zh": "評估驅動的科學發現擴展框架"
+    },
+    {
+      "slug": "20260422-HP-Edit- A Human-Preference Post-Training Framework for Image Editing",
+      "title": "HP-Edit: A Human-Preference Post-Training Framework for Image Editing",
+      "title_zh": "HP-Edit：圖像編輯的人類偏好後訓練框架"
+    },
+    {
+      "slug": "20260422-LoopCTR- Unlocking the Loop Scaling Power for Click-Through Rate Prediction",
+      "title": "LoopCTR: Unlocking the Loop Scaling Power for Click-Through Rate Prediction",
+      "title_zh": "LoopCTR：解鎖 CTR 預測的 Loop Scaling 力量"
+    },
+    {
+      "slug": "20260422-Micro Language Models Enable Instant Responses",
+      "title": "Micro Language Models Enable Instant Responses",
+      "title_zh": "Micro Language Models 實現即時回應"
+    },
+    {
+      "slug": "20260422-Mind's Eye- A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+      "title": "Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+      "title_zh": "Mind's Eye：多模態 LLM 的視覺抽象、轉換與組合基準"
+    },
+    {
+      "slug": "20260422-Mitigating Multimodal Hallucination via Phase-wise Self-reward",
+      "title": "Mitigating Multimodal Hallucination via Phase-wise Self-reward",
+      "title_zh": "透過分階段自我獎勵緩解多模態幻覺"
+    },
+    {
+      "slug": "20260422-MM-JudgeBias- A Benchmark for Evaluating Compositional Biases in MLLM-as-a-Judge",
+      "title": "MM-JudgeBias: A Benchmark for Evaluating Compositional Biases in MLLM-as-a-Judge",
+      "title_zh": "MM-JudgeBias：評估 MLLM-as-a-Judge 中組合偏差的基準測試集"
+    },
+    {
+      "slug": "20260422-MoVE- Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation",
+      "title": "MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation",
+      "title_zh": "MoVE：透過混合發音專家在語音轉語音翻譯中傳遞笑聲與淚聲"
+    },
+    {
+      "slug": "20260422-PlayCoder- Making LLM-Generated GUI Code Playable",
+      "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+      "title_zh": "PlayCoder：讓 LLM 生成的 GUI 程式碼真正可用"
+    },
+    {
+      "slug": "20260422-Predicting integers from continuous parameters",
+      "title": "Predicting integers from continuous parameters",
+      "title_zh": "從連續參數預測整數"
+    },
+    {
+      "slug": "20260422-RDP LoRA- Geometry-Driven Identification for Parameter-Efficient Adaptation in Large Language Models",
+      "title": "RDP LoRA: Geometry-Driven Identification for Parameter-Efficient Adaptation in Large Language Models",
+      "title_zh": "RDP LoRA：幾何驅動的 LLM 參數高效微調層識別"
+    },
+    {
+      "slug": "20260422-ShadowPEFT- Shadow Network for Parameter-Efficient Fine-Tuning",
+      "title": "ShadowPEFT: Shadow Network for Parameter-Efficient Fine-Tuning",
+      "title_zh": "ShadowPEFT：用於參數高效微調的影子網路"
+    },
+    {
+      "slug": "20260422-SmartPhotoCrafter- Unified Reasoning, Generation and Optimization for Automatic Photographic Image Editing",
+      "title": "SmartPhotoCrafter: Unified Reasoning, Generation and Optimization for Automatic Photographic Image Editing",
+      "title_zh": "SmartPhotoCrafter：統一推理、生成與最佳化的自動攝影圖像編輯"
+    },
+    {
+      "slug": "20260422-Speculative Decoding for Autoregressive Video Generation",
+      "title": "Speculative Decoding for Autoregressive Video Generation",
+      "title_zh": "Speculative Decoding 應用於自迴歸視頻生成"
+    },
+    {
+      "slug": "20260422-SPRITE- From Static Mockups to Engine-Ready Game UI",
+      "title": "SPRITE: From Static Mockups to Engine-Ready Game UI",
+      "title_zh": "SPRITE: 從靜態設計稿到引擎就緒的遊戲 UI"
+    },
+    {
+      "slug": "20260422-Target-Oriented Pretraining Data Selection via Neuron-Activated Graph",
+      "title": "Target-Oriented Pretraining Data Selection via Neuron-Activated Graph",
+      "title_zh": "利用 Neuron-Activated Graph 的目標導向預訓練數據選擇"
+    },
+    {
+      "slug": "20260422-TEMPO- Scaling Test-time Training for Large Reasoning Models",
+      "title": "TEMPO: Scaling Test-time Training for Large Reasoning Models",
+      "title_zh": "TEMPO：擴展大型推理模型的測試時訓練"
+    },
+    {
+      "slug": "20260422-The Cognitive Penalty- Ablating System 1 and System 2 Reasoning in Edge-Native SLMs for Decentralized Consensus",
+      "title": "The Cognitive Penalty: Ablating System 1 and System 2 Reasoning in Edge-Native SLMs for Decentralized Consensus",
+      "title_zh": "認知代價：在去中心化共識場景下消融 Edge-Native SLMs 的 System 1 與 System 2 推理"
+    },
+    {
+      "slug": "20260422-Tstars-Tryon 1.0- Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+      "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+      "title_zh": "Tstars-Tryon 1.0：多樣時尚品類的穩健逼真虛擬試衣系統"
+    },
+    {
+      "slug": "20260422-UDM-GRPO- Stable and Efficient Group Relative Policy Optimization for Uniform Discrete Diffusion Models",
+      "title": "UDM-GRPO: Stable and Efficient Group Relative Policy Optimization for Uniform Discrete Diffusion Models",
+      "title_zh": "UDM-GRPO：Uniform Discrete Diffusion Models 的穩定高效 Group Relative Policy Optimization"
+    },
+    {
+      "slug": "20260422-Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
+      "title": "Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
+      "title_zh": "理解並強制執行 Task Arithmetic 中的權重解耦"
+    },
+    {
+      "slug": "20260422-UniMesh- Unifying 3D Mesh Understanding and Generation",
+      "title": "UniMesh: Unifying 3D Mesh Understanding and Generation",
+      "title_zh": "UniMesh：統一 3D Mesh 理解與生成"
+    },
+    {
+      "slug": "20260422-What Makes an LLM a Good Optimizer A Trajectory Analysis of LLM-Guided Evolutionary Search",
+      "title": "What Makes an LLM a Good Optimizer? A Trajectory Analysis of LLM-Guided Evolutionary Search",
+      "title_zh": "什麼讓 LLM 成為好的優化器？LLM 引導演化搜尋的軌跡分析"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",
@@ -1484,6 +1661,11 @@
       "slug": "20260421-claude-opus-4-7",
       "title": "Claude Opus 4.7",
       "title_zh": "Claude Opus 4.7，Anthropic 最新旗艦混合推理模型"
+    },
+    {
+      "slug": "20260422-gpt-image-2",
+      "title": "gpt-image-2 vs Nano Banana: what it does, where it wins, and the prompts that unlock it",
+      "title_zh": "gpt-image-2 對上 Nano Banana，它能幹嘛，贏在哪，prompt 怎麼寫"
     }
   ]
 }
