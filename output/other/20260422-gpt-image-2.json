@@ -1,0 +1,90 @@
+{
+  "title": "gpt-image-2 vs Nano Banana: what it does, where it wins, and the prompts that unlock it",
+  "title_zh": "gpt-image-2 對上 Nano Banana，它能幹嘛，贏在哪，prompt 怎麼寫",
+  "data": [
+    [
+      "OpenAI 這週把 gpt-image-2 推上線",
+      "Google 的 Nano Banana 系列終於碰到第一個真正等級的對手",
+      "這篇直接把 gpt-image-2 能做什麼拆開給你看",
+      "順便把它跟 Nano Banana 正面比一次",
+      "重點放在產出結果的差異與 prompt 技巧",
+      "第一，gpt-image-2 的尺寸自由度與編輯精度比對手更彈性",
+      "第二，它有三個 Nano Banana 沒有的功能會影響實際交付",
+      "第三，寫 prompt 有幾個固定寫法，能讓產出品質直接跳一級",
+      "看完就能判斷哪個模型該用在哪類任務"
+    ],
+    [
+      "gpt-image-2 的核心能力可以切成三塊",
+      "第一塊是文字生圖，從草稿小圖到 4K 成品素材都能跑",
+      "第二塊是圖像編輯，可以做整張重繪，也可以用 mask 定位局部替換",
+      "第三塊是多圖融合，一個請求可以吃多張參考圖合成一張新圖",
+      "在 Responses API 裡還能把這三種能力串成同一段對話流",
+      "意思是同一段對話可以先文字生圖，再請模型改那張圖，再把它當參考產第三張",
+      "所有輸入圖都自動走高保真處理，不需要額外開關",
+      "模型會自動幫你重寫 prompt，重寫後的版本可以從回應的 revised_prompt 欄位直接讀出來"
+    ],
+    [
+      "先看解析度與尺寸這一塊",
+      "Nano Banana 2 跟 Pro 都能輸出到 4K，解析度上基本打平",
+      "差別在尺寸的自由度",
+      "Nano Banana 只支援官方列好的固定長寬比，大約十多種，例如 1 比 1 或 16 比 9",
+      "gpt-image-2 沒有這種清單限制，只要每條邊是 16 的倍數，比例不超過 3 比 1 就行",
+      "對廣告橫幅，手機版型，電子報圖這種有特定尺寸需求的場景，差距就跑出來了",
+      "另一個差異是浮水印",
+      "Nano Banana 所有產出都會自動掛上 SynthID 的隱形浮水印",
+      "gpt-image-2 沒有強制浮水印，放進商業素材時彈性更大"
+    ],
+    [
+      "第二個差異是編輯精度",
+      "Nano Banana 的局部修改靠 prompt 文字描述來做語意遮罩",
+      "做法是寫出要改的區塊，並明確交代其他地方不要動",
+      "gpt-image-2 支援像素級的 mask 檔案輸入",
+      "需要準確定義編輯範圍時，mask 會比純文字指令穩很多",
+      "第三個差異是 streaming 部分預覽",
+      "gpt-image-2 能在生成途中吐出 0 到 3 張中間圖，讓使用者提前判斷方向對不對",
+      "Nano Banana 目前沒有相同的 partial 回傳機制",
+      "第四個差異是 revised_prompt 回讀，讓你看到模型怎麼重新理解輸入，對 debug prompt 非常有用"
+    ],
+    [
+      "寫 gpt-image-2 的 prompt 最大原則是用敘事式描述",
+      "把主體，場景，風格，構圖這四個維度分段講清楚",
+      "主體要具體到可視化",
+      "只寫 陶藝家 太抽象，改成 一位戴金框眼鏡的陶藝家雙手沾泥 會穩很多",
+      "場景補氣氛跟時間，例如 清晨薄霧下的工作室，桌上有白瓷茶杯",
+      "風格寫攝影或藝術術語，像是 35mm 電影底片感，或 studio softbox 光源",
+      "構圖用鏡頭語言控制，例如 close-up，wide shot，low angle",
+      "要在圖上寫字，用英文雙引號把要繪出來的字框起來，再寫清楚位置跟字型風格",
+      "範例寫法是 render the text \"Open Tonight\" in the top-left corner with a serif handwritten font"
+    ],
+    [
+      "做編輯時 prompt 要改寫成對話式指令",
+      "例如 換掉這張圖的沙發顏色為深綠色，其餘保持一致",
+      "要保留某個關鍵元素就明確寫 keep the logo intact 或 preserve the facial features",
+      "多圖合成時，把想保留的元素放在第一張或第二張輸入",
+      "gpt-image-2 對輸入順序敏感，前面的圖權重比後面高",
+      "做角色一致性最穩的做法是把該角色的所有生成放在同一段對話串",
+      "每輪 prompt 重複釘住視覺特徵，例如 same character as before, same red scarf and round glasses",
+      "這條路線跟 Nano Banana 在 Gemini 3 系列支援的多張角色參考圖是兩種不同做法"
+    ],
+    [
+      "產出結果的風格比對可以快速歸納幾條",
+      "gpt-image-2 在文字渲染跟商業產品攝影題目表現特別穩，杯身浮雕跟 logo 對齊都處理得乾淨",
+      "多圖融合場景，例如把客戶的產品放進禮物籃情境照，輸出會自動對齊光線與陰影",
+      "multi-turn 改圖的保真度也夠用，做寫實化或風格換皮不太會掉細節",
+      "Nano Banana Pro 因為內建思考模式，對複雜多元素排版跟分鏡類任務有優勢",
+      "需要精準 mask 編輯，客製尺寸，或不帶浮水印的產出時，gpt-image-2 最直接",
+      "任務得依賴 Google 即時搜尋做事實基準，Nano Banana Pro 的搜尋 grounding 是目前唯一解",
+      "高頻低延遲的內部出圖，Nano Banana 2 仍然最划算",
+      "兩邊都把 prompt 工程當成競爭壁壘，寫得準的人能在任一邊都拿到最好結果"
+    ]
+  ],
+  "figures": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "https://cdn.openai.com/API/docs/images/bath-set-result.png"
+  ]
+}
