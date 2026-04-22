@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+    "arxiv": "https://arxiv.org/abs/2604.19748"
+  },
+  {
+    "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+    "arxiv": "https://arxiv.org/abs/2604.19636"
+  },
+  {
+    "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+    "arxiv": "https://arxiv.org/abs/2604.13346"
+  },
+  {
+    "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
+    "arxiv": "https://arxiv.org/abs/2604.19747"
+  },
+  {
+    "title": "TEMPO: Scaling Test-time Training for Large Reasoning Models",
+    "arxiv": "https://arxiv.org/abs/2604.19295"
+  },
+  {
+    "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+    "arxiv": "https://arxiv.org/abs/2604.19742"
+  },
+  {
+    "title": "ShadowPEFT: Shadow Network for Parameter-Efficient Fine-Tuning",
+    "arxiv": "https://arxiv.org/abs/2604.19254"
+  },
+  {
+    "title": "Chat2Workflow: A Benchmark for Generating Executable Visual Workflows with Natural Language",
+    "arxiv": "https://arxiv.org/abs/2604.19667"
+  },
+  {
+    "title": "AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation",
+    "arxiv": "https://arxiv.org/abs/2604.18240"
+  },
+  {
+    "title": "Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
+    "arxiv": "https://arxiv.org/abs/2604.17078"
+  },
+  {
+    "title": "Dual-View Training for Instruction-Following Information Retrieval",
+    "arxiv": "https://arxiv.org/abs/2604.18845"
+  },
+  {
+    "title": "Code-Switching Information Retrieval: Benchmarks, Analysis, and the Limits of Current Retrievers",
+    "arxiv": "https://arxiv.org/abs/2604.17632"
+  },
+  {
+    "title": "Speculative Decoding for Autoregressive Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.17397"
+  },
+  {
+    "title": "Target-Oriented Pretraining Data Selection via Neuron-Activated Graph",
+    "arxiv": "https://arxiv.org/abs/2604.15706"
+  },
+  {
+    "title": "CityRAG: Stepping Into a City via Spatially-Grounded Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.19741"
+  },
+  {
+    "title": "UniMesh: Unifying 3D Mesh Understanding and Generation",
+    "arxiv": "https://arxiv.org/abs/2604.17472"
+  },
+  {
+    "title": "SmartPhotoCrafter: Unified Reasoning, Generation and Optimization for Automatic Photographic Image Editing",
+    "arxiv": "https://arxiv.org/abs/2604.19587"
+  },
+  {
+    "title": "RDP LoRA: Geometry-Driven Identification for Parameter-Efficient Adaptation in Large Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.19321"
+  },
+  {
+    "title": "LoopCTR: Unlocking the Loop Scaling Power for Click-Through Rate Prediction",
+    "arxiv": "https://arxiv.org/abs/2604.19550"
+  },
+  {
+    "title": "HP-Edit: A Human-Preference Post-Training Framework for Image Editing",
+    "arxiv": "https://arxiv.org/abs/2604.19406"
+  },
+  {
+    "title": "MM-JudgeBias: A Benchmark for Evaluating Compositional Biases in MLLM-as-a-Judge",
+    "arxiv": "https://arxiv.org/abs/2604.18164"
+  },
+  {
+    "title": "UDM-GRPO: Stable and Efficient Group Relative Policy Optimization for Uniform Discrete Diffusion Models",
+    "arxiv": "https://arxiv.org/abs/2604.18518"
+  },
+  {
+    "title": "Accurate and scalable exchange-correlation with deep learning",
+    "arxiv": "https://arxiv.org/abs/2506.14665"
+  },
+  {
+    "title": "Contrastive Attribution in the Wild: An Interpretability Analysis of LLM Failures on Realistic Benchmarks",
+    "arxiv": "https://arxiv.org/abs/2604.17761"
+  },
+  {
+    "title": "What Makes an LLM a Good Optimizer? A Trajectory Analysis of LLM-Guided Evolutionary Search",
+    "arxiv": "https://arxiv.org/abs/2604.19440"
+  },
+  {
+    "title": "ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation",
+    "arxiv": "https://arxiv.org/abs/2604.19211"
+  },
+  {
+    "title": "Evaluation-driven Scaling for Scientific Discovery",
+    "arxiv": "https://arxiv.org/abs/2604.19341"
+  },
+  {
+    "title": "Micro Language Models Enable Instant Responses",
+    "arxiv": "https://arxiv.org/abs/2604.19642"
+  },
+  {
+    "title": "Mitigating Multimodal Hallucination via Phase-wise Self-reward",
+    "arxiv": "https://arxiv.org/abs/2604.17982"
+  },
+  {
+    "title": "Predicting integers from continuous parameters",
+    "arxiv": "https://arxiv.org/abs/2602.10751"
+  },
+  {
+    "title": "MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation",
+    "arxiv": "https://arxiv.org/abs/2604.17435"
+  },
+  {
+    "title": "The Cognitive Penalty: Ablating System 1 and System 2 Reasoning in Edge-Native SLMs for Decentralized Consensus",
+    "arxiv": "https://arxiv.org/abs/2604.16913"
+  },
+  {
+    "title": "Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.16060"
+  },
+  {
+    "title": "Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.16054"
+  },
+  {
+    "title": "SPRITE: From Static Mockups to Engine-Ready Game UI",
+    "arxiv": "https://arxiv.org/abs/2604.18591"
+  }
+]

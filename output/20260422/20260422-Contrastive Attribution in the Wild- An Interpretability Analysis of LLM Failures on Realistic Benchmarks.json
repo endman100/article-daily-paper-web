@@ -1,0 +1,89 @@
+{
+  "title": "Contrastive Attribution in the Wild: An Interpretability Analysis of LLM Failures on Realistic Benchmarks",
+  "title_zh": "野外環境的 Contrastive Attribution：LLM 在真實 Benchmark 上失敗的可解釋性分析",
+  "data": [
+    [
+      "LLM 答錯了，我們習慣去看答案，卻很少追問它的決策過程到底發生了什麼",
+      "行為分析可以找出哪類題目容易失敗，但對於為什麼失敗這個問題，它基本上沉默",
+      "interpretability 工具理論上更有力，但這些工具幾乎只在短 prompt 或精心設計的玩具場景下被驗證過",
+      "真實 benchmark 的長輸入和複雜任務，一直是個沒有被正面觸碰的場景",
+      "這份研究直接把 interpretability 分析工具丟進四個主流 benchmark，做壓力測試",
+      "核心方法叫 Contrastive Attribution，把 logit 差值反向傳播，找出每個 token 對失敗的貢獻度",
+      "研究覆蓋四個方向，分別是指令跟隨，長上下文 agentic 任務，數學推理，程式碼生成",
+      "結論很直白：有用，但不是每次都管用，兩種情況的邊界比預期中清晰"
+    ],
+    [
+      "LLM 的失敗分析目前有兩條主要路徑",
+      "第一條是行為分析，透過觀察輸入輸出以及對輸入擾動的反應，從外部推測模型的弱點",
+      "這種分析在找出失敗類型、量化弱點分布這件事上很有效",
+      "但行為分析有個根本限制，它只能說什麼在失敗，說不了為什麼失敗",
+      "第二條是 interpretability 分析，試圖進入模型內部，追蹤注意力和梯度訊號，找出決策的根源",
+      "interpretability 工具理論上能回答為什麼，但實際驗證幾乎都停留在短 prompt 或人工設計的情境",
+      "真實 benchmark 的輸入可以從幾百到幾萬個 token，遠超多數工具的設計假設",
+      "這造成了一個明顯的缺口：interpretability 工具在真實場景中到底有多少實用性，至今缺乏系統性的驗證"
+    ],
+    [
+      "研究核心方法是 Contrastive Attribution",
+      "基本邏輯很直覺：模型選擇了錯誤答案，代表錯誤答案的 logit 值高過了正確答案",
+      "Contrastive Attribution 把這個 logit 差值當成需要解釋的訊號，反向傳播進模型每一層",
+      "最終每個輸入 token 都拿到一個分數，代表它對模型偏向選錯的貢獻程度",
+      "分數為正代表這個 token 在推模型走向錯誤，分數為負代表它在把模型拉回正確方向",
+      "基礎實作使用的是 AttnLRP，一套專為 Transformer 設計的層級相關性傳播框架",
+      "AttnLRP 嚴謹地把注意力機制的非線性也納入傳播過程，避免了簡化假設帶來的偏差",
+      "研究進一步引入了半自動化的 target-contrast token 對標注流程，讓分析可以批量處理數百個真實失敗案例"
+    ],
+    [
+      "真實 benchmark 的長輸入是第一個需要解決的技術障礙",
+      "GAIA2 的 agentic 任務平均輸入長度超過 1 萬個 token，遠超多數 interpretability 工具的設計上限",
+      "標準做法需要對每個目標 token 跑一次完整的反向傳播，計算複雜度隨輸入長度線性增長",
+      "研究提出了 Batch-Packed Multi-Target Backpropagation，把多個歸因目標打包進同一個 batch",
+      "這樣做充分利用 GPU 的向量化特性，讓計算複雜度從線性降到線性除以 batch size",
+      "這個效率突破讓研究可以為長上下文輸入建構完整的跨層歸因圖",
+      "跨層歸因圖比輸入層 heatmap 更細緻，可以看到相關性在哪幾層哪個位置發生了關鍵轉折",
+      "分析粒度因此從哪個輸入 token 有問題，進一步細化到模型內部哪幾層出了差錯",
+      "對於輸入層分析找不到解釋的失敗案例，歸因圖提供了更深一層的診斷線索"
+    ],
+    [
+      "研究辨識出兩種主要的失敗模式，並在所有 benchmark 中對失敗案例進行了系統性分類",
+      "第一種是 URT，也就是 Underweight Relevant Tokens，模型對本應關注的關鍵 token 給予了過少的注意力",
+      "在跟隨指令的任務中，指令裡明確寫了加逗號這個要求，但模型在生成時低估了這個指令 token 的重要性",
+      "第二種是 OIT，也就是 Overweight Irrelevant Tokens，模型對不相關的 token 給予了過多的注意力",
+      "某些情況下兩種模式同時出現，無關資訊搶走了注意力，關鍵資訊卻被忽略",
+      "URT 是所有 benchmark 中最主流的失敗模式，在指令跟隨，長上下文任務，程式碼生成上都是主要問題",
+      "這兩種模式的區分，對後續的 prompt 調試有直接的實務意義",
+      "如果是 URT，可以嘗試在 prompt 裡強化關鍵資訊的呈現，讓模型更難忽略它",
+      "如果是 OIT，需要排查是哪些無關內容干擾了模型，考慮簡化輸入或過濾雜訊"
+    ],
+    [
+      "研究把 Contrastive Attribution 進一步用在兩個比較問題上",
+      "第一個是模型規模的影響：當更大的模型糾正了較小模型的錯誤，這個糾正在歸因層面長什麼樣子",
+      "結果顯示大多數情況下，更大的模型確實糾正了較小模型的失敗",
+      "歸因分析找到了可解釋的系統性變化：更大的模型對指令相關 token 的負相關性顯著增加",
+      "這代表更大的模型學會了更準確地降低錯誤方向上的 token 權重，決策更加收斂在正確的資訊上",
+      "第二個問題是訓練過程的影響：歸因模式如何在不同訓練階段演化",
+      "研究追蹤了 Olmo3-7B-Think 在 SFT，DPO，RLVR 三個訓練階段的歸因模式變化",
+      "最大的歸因變化發生在早期 SFT 階段，DPO 和 RLVR 帶來的是進一步的微調",
+      "這表示 interpretability 分析可以成為監控訓練效果的訊號，追蹤每個訓練階段真正改變了什麼"
+    ],
+    [
+      "方法的邊界在這份研究裡說得很清楚",
+      "四個 benchmark 中，MATH 數學推理任務的失敗有相當高比例在輸入層歸因分析後仍找不到清楚解釋",
+      "跨層歸因圖雖然多提供了一些線索，但數學推理失敗的相當一部分仍然沒有可用的歸因訊號",
+      "這指向一個現實：某些失敗的根源可能藏在更細粒度的 neuron 層級，token 層級的分析暫時無法觸及",
+      "target-contrast token 對的選取，在實際操作中也需要一定的人工判斷，不是完全自動化的流程",
+      "在非常長的上下文下，即使有效率擴展，完整歸因圖的計算仍需要相當的計算資源",
+      "研究對這些限制的描述很直接，沒有把工具的邊界說得比實際更寬",
+      "這份研究真正有用的地方，是明確畫出了 Contrastive Attribution 能走進哪個場景，在哪裡會遇到瓶頸",
+      "對想把 interpretability 工具引入 LLM 診斷流程的研究者或工程師，這條邊界線的參考價值更高"
+    ]
+  ],
+  "figures": [
+    "https://jzxycsjzy.github.io/Debug-XAI/video/demo.mp4",
+    "",
+    "",
+    "https://jzxycsjzy.github.io/Debug-XAI/static/figures/AG_exp_cropped.png",
+    "https://jzxycsjzy.github.io/Debug-XAI/static/figures/examples.png",
+    "https://jzxycsjzy.github.io/Debug-XAI/static/figures/evaluation_summary_total.png",
+    "https://jzxycsjzy.github.io/Debug-XAI/static/figures/checkpoints_logit_diff.png"
+  ]
+}
