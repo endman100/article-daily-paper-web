@@ -1611,6 +1611,258 @@
       "title_zh": "RolePlayEval：評估大型語言模型的角色扮演能力"
     }
   ],
+  "ImageQualityAssessment": [
+    {
+      "slug": "20260423-Adaptive-IQA",
+      "title": "Adaptive Multi-modal Cross-Entropy Loss for Stereo Image Quality Assessment",
+      "title_zh": "用於立體圖像品質評估的自適應多模態交叉熵損失"
+    },
+    {
+      "slug": "20260423-AesBench",
+      "title": "AesBench: An Expert Benchmark for Multimodal Large Language Models on Image Aesthetics Perception",
+      "title_zh": "AesBench：多模態大型語言模型圖像美學感知專家基準測試"
+    },
+    {
+      "slug": "20260423-AesExpert",
+      "title": "AesExpert: Towards Multi-Modality Foundation Model for Image Aesthetics Perception",
+      "title_zh": "AesExpert：邁向圖像美學感知的多模態基礎模型"
+    },
+    {
+      "slug": "20260423-Aesthetic-Camera-3D",
+      "title": "Aesthetic Camera Viewpoint Suggestion with 3D Aesthetic Field",
+      "title_zh": "利用 3D 美學場進行美學相機視角建議"
+    },
+    {
+      "slug": "20260423-ARNIQA",
+      "title": "ARNIQA: Learning Distortion Manifold for Image Quality Assessment",
+      "title_zh": "ARNIQA：學習失真流形用於圖像品質評估"
+    },
+    {
+      "slug": "20260423-ArtiMuse",
+      "title": "ArtiMuse: Fine-Grained Image Aesthetics Assessment with Joint Scoring and Expert-Level Understanding",
+      "title_zh": "ArtiMuse：結合評分與專家級理解的細粒度圖像美學評估"
+    },
+    {
+      "slug": "20260423-ArtQuant",
+      "title": "Bridging Cognitive Gap: Hierarchical Description Learning for Artistic Image Aesthetics Assessment",
+      "title_zh": "彌合認知鴻溝：藝術圖像美學評估的階層式描述學習"
+    },
+    {
+      "slug": "20260423-ATTIQA",
+      "title": "ATTIQA: Attention-Guided No-Reference Image Quality Assessment for Remote Sensing Images",
+      "title_zh": "ATTIQA：遙感圖像的注意力引導無參考圖像品質評估"
+    },
+    {
+      "slug": "20260423-Boosting-IQA",
+      "title": "Boosting No-Reference Image Quality Assessment via Joint Distortion Synthesis and Discernment",
+      "title_zh": "通過聯合失真合成和辨別提升無參考圖像品質評估"
+    },
+    {
+      "slug": "20260423-Bridging-Synthetic",
+      "title": "Bridging the Gap Between Synthetic and Real-World Image Degradations for Blind Image Quality Assessment",
+      "title_zh": "縮小合成與真實世界圖像退化之間的鴻溝用於盲圖像品質評估"
+    },
+    {
+      "slug": "20260423-Charm",
+      "title": "Charm: The Missing Piece in ViT fine-tuning for Image Aesthetic Assessment",
+      "title_zh": "Charm：ViT 微調用於圖像美學評估的缺失環節"
+    },
+    {
+      "slug": "20260423-Co-Instruct",
+      "title": "Towards Open-ended Visual Quality Comparison",
+      "title_zh": "邁向開放式視覺品質比較"
+    },
+    {
+      "slug": "20260423-Decoupling-IQA",
+      "title": "Decoupling Perception and Calibration: Label-Efficient Image Quality Assessment Framework",
+      "title_zh": "感知與校準解耦：標籤高效的圖像品質評估框架"
+    },
+    {
+      "slug": "20260423-DepictQA-Wild",
+      "title": "DepictQA-Wild: Towards Open-ended Depicted Image Quality Assessment in the Wild",
+      "title_zh": "DepictQA-Wild：邁向野外場景中的開放式描述圖像品質評估"
+    },
+    {
+      "slug": "20260423-DepictQA",
+      "title": "DepictQA: Depicted Image Quality Assessment with Vision Language Models",
+      "title_zh": "DepictQA：利用視覺語言模型進行描述式圖像品質評估"
+    },
+    {
+      "slug": "20260423-DSL-FIQA",
+      "title": "DSL-FIQA: Assessing Facial Image Quality via Dual-Set Degradation Learning and Landmark-Guided Transformer",
+      "title_zh": "DSL-FIQA：透過雙集退化學習與地標引導 Transformer 評估人臉圖像品質"
+    },
+    {
+      "slug": "20260423-EduVQA",
+      "title": "EduVQA: Benchmarking AI-Generated Video Quality Assessment for Education",
+      "title_zh": "EduVQA：教育 AI 生成視頻品質評估基準測試"
+    },
+    {
+      "slug": "20260423-ELIQ",
+      "title": "ELIQ: A Label-Free Framework for Quality Assessment of Evolving AI-Generated Images",
+      "title_zh": "ELIQ：用於演化中 AI 生成圖像品質評估的無標籤框架"
+    },
+    {
+      "slug": "20260423-Enhanced-IQM",
+      "title": "Enhancing image quality prediction with self-supervised visual masking",
+      "title_zh": "利用自監督視覺遮罩增強圖像品質預測"
+    },
+    {
+      "slug": "20260423-ESIQA",
+      "title": "ESIQA: Perceptual Quality Assessment of Vision-Pro-based Egocentric Spatial Images",
+      "title_zh": "ESIQA：基於 Vision Pro 的自我中心空間圖像感知品質評估"
+    },
+    {
+      "slug": "20260423-Fine-Grained-Aesthetic",
+      "title": "Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks",
+      "title_zh": "細粒度圖像美學評估：從相對排名學習判別性分數"
+    },
+    {
+      "slug": "20260423-Grounding-IQA",
+      "title": "Grounding-IQA: Grounding Multimodal Language Model for Image Quality Assessment",
+      "title_zh": "Grounding-IQA：為圖像品質評估進行多模態語言模型的視覺定位"
+    },
+    {
+      "slug": "20260423-Guardians-IQA",
+      "title": "Guardians of Image Quality: Benchmarking Defenses Against Adversarial Attacks on Image Quality Metrics",
+      "title_zh": "圖像品質守護者：針對圖像品質指標對抗攻擊防禦方法的基準評測"
+    },
+    {
+      "slug": "20260423-IISA",
+      "title": "Image Intrinsic Scale Assessment: Bridging the Gap Between Quality and Resolution",
+      "title_zh": "圖像固有尺度評估：彌合品質與解析度之間的鴻溝"
+    },
+    {
+      "slug": "20260423-MLLM-IQA-Study",
+      "title": "A Comprehensive Study of Multimodal Large Language Models for Image Quality Assessment",
+      "title_zh": "多模態大型語言模型在圖像品質評估中的全面研究"
+    },
+    {
+      "slug": "20260423-MS-SWD",
+      "title": "Multiscale Sliced Wasserstein Distances as Perceptual Color Difference Measures",
+      "title_zh": "多尺度切片 Wasserstein 距離作為感知顏色差異度量"
+    },
+    {
+      "slug": "20260423-Personalized-Aesthetics",
+      "title": "Towards Personalized Image Aesthetics Assessment with Rich Feedback",
+      "title_zh": "邁向具有豐富反饋的個性化圖像美學評估"
+    },
+    {
+      "slug": "20260423-PromptIQA",
+      "title": "PromptIQA: Boosting the Performance and Generalization for No-Reference Image Quality Assessment via Prompts",
+      "title_zh": "PromptIQA：透過提示機制提升無參考圖像品質評估的性能與泛化能力"
+    },
+    {
+      "slug": "20260423-Q-Align",
+      "title": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+      "title_zh": "Q-Align：透過離散文字定義等級訓練大型多模態模型進行視覺評分"
+    },
+    {
+      "slug": "20260423-Q-Bench-Plus",
+      "title": "Q-Bench+: A Benchmark for Multi-modal Foundation Models on Low-level Vision from Single Images to Pairs",
+      "title_zh": "Q-Bench+：從單張圖像到圖像對的多模態基礎模型低階視覺基準測試"
+    },
+    {
+      "slug": "20260423-Q-Bench",
+      "title": "Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision",
+      "title_zh": "Q-Bench：通用基礎模型低階視覺能力基準測試"
+    },
+    {
+      "slug": "20260423-Q-Ground",
+      "title": "Q-Ground: Image Quality Grounding with Large Multi-modality Models",
+      "title_zh": "Q-Ground：利用大型多模態模型實現圖像品質定位"
+    },
+    {
+      "slug": "20260423-Q-Hawkeye",
+      "title": "Q-Hawkeye: Reliable Visual Policy Optimization for Image Quality Assessment",
+      "title_zh": "Q-Hawkeye：用於圖像品質評估的可靠視覺策略優化"
+    },
+    {
+      "slug": "20260423-Q-Insight",
+      "title": "Q-Insight: Understanding Image Quality via Visual Reinforcement Learning",
+      "title_zh": "Q-Insight：透過視覺強化學習理解圖像品質"
+    },
+    {
+      "slug": "20260423-Q-Instruct",
+      "title": "Q-Instruct: Improving Low-level Visual Abilities for Multi-modal Large Language Models",
+      "title_zh": "Q-Instruct：提升多模態大型語言模型的低階視覺能力"
+    },
+    {
+      "slug": "20260423-Q-Mamba",
+      "title": "Quality-Aware Mamba Network for No-Reference Image Quality Assessment",
+      "title_zh": "品質感知 Mamba 網絡用於無參考圖像品質評估"
+    },
+    {
+      "slug": "20260423-QCN",
+      "title": "Quality-Driven Contrastive Network for No-Reference Image Quality Assessment",
+      "title_zh": "品質驅動的對比網絡用於無參考圖像品質評估"
+    },
+    {
+      "slug": "20260423-QualiCLIP",
+      "title": "QualiCLIP: Self-supervised Signature-based Image Quality Assessment",
+      "title_zh": "QualiCLIP：基於自監督簽名的圖像品質評估"
+    },
+    {
+      "slug": "20260423-QualiRAG",
+      "title": "QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding",
+      "title_zh": "QualiRAG：用於視覺品質理解的檢索增強生成"
+    },
+    {
+      "slug": "20260423-RealQA",
+      "title": "Next Token Is Enough: Realistic Image Quality and Aesthetic Scoring with Multimodal Large Language Model",
+      "title_zh": "下一個 Token 就夠了：用多模態大語言模型進行真實感圖像品質與美學評分"
+    },
+    {
+      "slug": "20260423-RichHF",
+      "title": "Rich Human Feedback for Text-to-Image Generation",
+      "title_zh": "文字到圖像生成的豐富人類反饋"
+    },
+    {
+      "slug": "20260423-SEAGULL",
+      "title": "SEAGULL: No-reference Image Quality Assessment for Regions of Interest via Vision-Language Instruction Tuning",
+      "title_zh": "SEAGULL：透過視覺語言指令調優實現感興趣區域的無參考圖像品質評估"
+    },
+    {
+      "slug": "20260423-Self-Evolving-VLM-IQA",
+      "title": "Self-Evolving Vision-Language Models for Image Quality Assessment via Voting and Ranking",
+      "title_zh": "透過投票與排序機制自我演化的視覺語言模型圖像品質評估"
+    },
+    {
+      "slug": "20260423-SIQA",
+      "title": "SIQA: Toward Reliable Scientific Image Quality Assessment",
+      "title_zh": "SIQA：邁向可靠的科學圖像品質評估"
+    },
+    {
+      "slug": "20260423-UniPercept",
+      "title": "UniPercept: A Unified Perceptual Framework for Multi-task Image Quality Assessment",
+      "title_zh": "UniPercept：用於多任務圖像品質評估的統一感知框架"
+    },
+    {
+      "slug": "20260423-Venus",
+      "title": "Venus: Benchmarking and Empowering Multimodal Large Language Models for Aesthetic Guidance and Cropping",
+      "title_zh": "Venus：用於美學指導與圖像裁剪的多模態大語言模型基準測試與能力提升"
+    },
+    {
+      "slug": "20260423-VideoAesBench",
+      "title": "VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models",
+      "title_zh": "VideoAesBench：大型多模態模型視頻美學感知能力基準測試"
+    },
+    {
+      "slug": "20260423-VisualCritic",
+      "title": "VisualCritic: Making LMMs Perceive Just as Good as Humans",
+      "title_zh": "VisualCritic：讓大型多模態模型達到與人類同等水準的視覺感知"
+    },
+    {
+      "slug": "20260423-VisualQuality-R1",
+      "title": "VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank",
+      "title_zh": "VisualQuality-R1：透過排序強化學習誘導推理的圖像品質評估"
+    },
+    {
+      "slug": "20260423-Zoom-IQA",
+      "title": "Zoom-IQA: Image Quality Assessment with Reliable Region-Aware Reasoning",
+      "title_zh": "Zoom-IQA：具備可靠區域感知推理的圖像品質評估"
+    }
+  ],
   "ImageQualityMetrics": [
     {
       "slug": "20260416-BLIP-ITC-ITM",
