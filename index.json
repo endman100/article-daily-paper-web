@@ -1457,6 +1457,113 @@
       "title_zh": "什麼讓 LLM 成為好的優化器？LLM 引導演化搜尋的軌跡分析"
     }
   ],
+  "20260423": [
+    {
+      "slug": "20260423-AI-Scientists-Reasoning",
+      "title": "Do LLM-Based Scientific Agents Exhibit Scientific Reasoning?",
+      "title_zh": "AI 科學家只是在走程序：25000 次實驗揭露的認識論危機"
+    },
+    {
+      "slug": "20260423-Convergent-Evolution",
+      "title": "Convergent Evolution of Number Representations in Language Models",
+      "title_zh": "語言模型的收斂演化：為什麼不同模型都學到同樣的數字表示"
+    },
+    {
+      "slug": "20260423-Cortex-2.0",
+      "title": "Cortex 2.0: World Model-Based Planning for Industrial Robotic Manipulation",
+      "title_zh": "Cortex 2.0：用世界模型規劃取代反應式控制的工業機器人系統"
+    },
+    {
+      "slug": "20260423-CreativeGame",
+      "title": "CreativeGame: Toward Mechanic-Aware Creative Game Generation",
+      "title_zh": "CreativeGame：邁向機制感知的創意遊戲生成"
+    },
+    {
+      "slug": "20260423-DeVI",
+      "title": "DeVI: Dexterous Video Imitation",
+      "title_zh": "DeVI：從生成影片學習靈巧操作的機器人控制框架"
+    },
+    {
+      "slug": "20260423-Diverse-Dictionary-Learning",
+      "title": "Diverse Dictionary Learning",
+      "title_zh": "多樣化字典學習"
+    },
+    {
+      "slug": "20260423-DR-Venus",
+      "title": "DR-Venus: Frontier Edge-Scale Deep Research Agent with Only 10K Open Data",
+      "title_zh": "4B 模型憑什麼贏過 9B 對手"
+    },
+    {
+      "slug": "20260423-Exploring-Spatial-Intelligence",
+      "title": "Exploring Spatial Intelligence of Multimodal Large Language Models: A Benchmark Study",
+      "title_zh": "用生成式 AI 探索空間智慧：GSI-Bench 基準測試"
+    },
+    {
+      "slug": "20260423-LLaDA2.0-Uni",
+      "title": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+      "title_zh": "LLaDA2.0-Uni：用擴散大語言模型統一多模態理解與生成"
+    },
+    {
+      "slug": "20260423-MMCORE",
+      "title": "MMCORE: Unified Multimodal Image Generation and Editing via VLM Conditioning",
+      "title_zh": "MMCORE：讓視覺語言模型直接驅動擴散模型的統一多模態框架"
+    },
+    {
+      "slug": "20260423-Near-Future-Policy-Optimization",
+      "title": "Near-Future Policy Optimization",
+      "title_zh": "近未來策略優化：用未來版本的自己來加速 RL 訓練"
+    },
+    {
+      "slug": "20260423-ReImagine",
+      "title": "ReImagine: Rethinking Controllable High-Quality Human Video Generation via Image-First Synthesis",
+      "title_zh": "ReImagine：以圖像優先合成重新思考可控高品質人物影片生成"
+    },
+    {
+      "slug": "20260423-Reward-Hacking",
+      "title": "Reward Hacking in the Era of Large Models: A Survey",
+      "title_zh": "大模型時代的 Reward Hacking 全景調查"
+    },
+    {
+      "slug": "20260423-SAVOIR",
+      "title": "SAVOIR: Shapley Value for Social Reinforcement Learning",
+      "title_zh": "SAVOIR：用賽局理論解決 AI 社交對話的功勞分配問題"
+    },
+    {
+      "slug": "20260423-Scaling-Test-Time-Compute",
+      "title": "Scaling Test-Time Compute for Agentic Coding with Compact Rollout Representations",
+      "title_zh": "用緊湊的 rollout 表示擴展程式設計 agent 的測試時計算"
+    },
+    {
+      "slug": "20260423-Self-Evolving-LLM-Memory",
+      "title": "CluE: Cluster-Based Self-Evolving Memory Extraction for Heterogeneous LLM Assistants",
+      "title_zh": "CluE：解決 AI 助理記憶提取問題的群集自演化框架"
+    },
+    {
+      "slug": "20260423-Self-Evolving-Terminal-Agents",
+      "title": "A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression",
+      "title_zh": "透過觀測上下文壓縮實現高效 Terminal Agents 的自我演化框架"
+    },
+    {
+      "slug": "20260423-SWE-chat",
+      "title": "SWE-chat: A Large-Scale Dataset of Real-World Coding Agent Sessions",
+      "title_zh": "SWE-chat：6000 個真實 coding agent 對話的資料集與啟示"
+    },
+    {
+      "slug": "20260423-Tadabur",
+      "title": "Tadabur: A Large-Scale Quran Audio Dataset",
+      "title_zh": "Tadabur：大規模古蘭經音頻數據集"
+    },
+    {
+      "slug": "20260423-Visual-Reasoning-RL",
+      "title": "Visual Reasoning through Tool-supervised Reinforcement Learning",
+      "title_zh": "工具監督強化學習的視覺推理"
+    },
+    {
+      "slug": "20260423-WavAlign",
+      "title": "WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training",
+      "title_zh": "WavAlign：透過自適應混合後訓練提升語音對話模型的智能與表達力"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",

@@ -1,0 +1,86 @@
+[
+  {
+    "title": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+    "arxiv": "https://arxiv.org/abs/2604.20796"
+  },
+  {
+    "title": "Near-Future Policy Optimization",
+    "arxiv": "https://arxiv.org/abs/2604.20733"
+  },
+  {
+    "title": "DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data",
+    "arxiv": "https://arxiv.org/abs/2604.19859"
+  },
+  {
+    "title": "Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges",
+    "arxiv": "https://arxiv.org/abs/2604.13602"
+  },
+  {
+    "title": "Exploring Spatial Intelligence from a Generative Perspective",
+    "arxiv": "https://arxiv.org/abs/2604.20570"
+  },
+  {
+    "title": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation",
+    "arxiv": "https://arxiv.org/abs/2604.20841"
+  },
+  {
+    "title": "WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training",
+    "arxiv": "https://arxiv.org/abs/2604.14932"
+  },
+  {
+    "title": "SWE-chat: Coding Agent Interactions From Real Users in the Wild",
+    "arxiv": "https://arxiv.org/abs/2604.20779"
+  },
+  {
+    "title": "A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression",
+    "arxiv": "https://arxiv.org/abs/2604.19572"
+  },
+  {
+    "title": "Cortex 2.0: Grounding World Models in Real-World Industrial Deployment",
+    "arxiv": "https://arxiv.org/abs/2604.20246"
+  },
+  {
+    "title": "Convergent Evolution: How Different Language Models Learn Similar Number Representations",
+    "arxiv": "https://arxiv.org/abs/2604.20817"
+  },
+  {
+    "title": "SAVOIR: Learning Social Savoir-Faire via Shapley-based Reward Attribution",
+    "arxiv": "https://arxiv.org/abs/2604.18982"
+  },
+  {
+    "title": "ReImagine: Rethinking Controllable High-Quality Human Video Generation via Image-First Synthesis",
+    "arxiv": "https://arxiv.org/abs/2604.19720"
+  },
+  {
+    "title": "Visual Reasoning through Tool-supervised Reinforcement Learning",
+    "arxiv": "https://arxiv.org/abs/2604.19945"
+  },
+  {
+    "title": "Scaling Test-Time Compute for Agentic Coding",
+    "arxiv": "https://arxiv.org/abs/2604.16529"
+  },
+  {
+    "title": "Tadabur: A Large-Scale Quran Audio Dataset",
+    "arxiv": "https://arxiv.org/abs/2604.18932"
+  },
+  {
+    "title": "AI scientists produce results without reasoning scientifically",
+    "arxiv": "https://arxiv.org/abs/2604.18805"
+  },
+  {
+    "title": "Diverse Dictionary Learning",
+    "arxiv": "https://arxiv.org/abs/2604.17568"
+  },
+  {
+    "title": "Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks",
+    "arxiv": "https://arxiv.org/abs/2604.11610"
+  },
+  {
+    "title": "MMCORE: MultiModal COnnection with Representation Aligned Latent Embeddings",
+    "arxiv": "https://arxiv.org/abs/2604.19902"
+  },
+  {
+    "title": "CreativeGame:Toward Mechanic-Aware Creative Game Generation",
+    "arxiv": "https://arxiv.org/abs/2604.19926"
+  }
+]
