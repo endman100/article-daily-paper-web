@@ -1,0 +1,54 @@
+{
+  "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+  "title_zh": "FID：以雙時間尺度更新規則衡量生成圖片與真實圖片分布距離的 Fréchet Inception 距離",
+  "data": [
+    [
+      "AI 生成圖片的視覺品質評估在深度學習早期主要依賴人工主觀判斷，缺乏可重現的自動化指標",
+      "Inception Score（IS）雖能衡量生成品質，但完全不依賴真實圖片，無法反映生成分布的真實性",
+      "FID（Fréchet Inception Distance）的提出填補了自動化評估的核心空缺，成為圖像生成研究的標準度量",
+      "FID 透過 Inception-v3 網路提取兩組圖片的特徵分布，再計算其 Fréchet 距離",
+      "這種分布層面的比較使 FID 能同時反映圖片品質和多樣性，是早期單一指標難以兼顧的兩個維度",
+      "FID 至今仍是 T2I 和圖像生成研究中最廣泛引用的自動化評估基準 👇"
+    ],
+    [
+      "FID 計算流程的第一步是將生成圖片和真實圖片分別送入 Inception-v3 網路的中間層（pool3 層）",
+      "Inception-v3 輸出每張圖片的 2048 維特徵向量，形成生成圖片特徵集合和真實圖片特徵集合",
+      "對兩組特徵集合分別計算多元 Gaussian 分布的均值向量 μ 和協方差矩陣 Σ",
+      "FID 的計算公式為 ||μ_r - μ_g||² + Tr(Σ_r + Σ_g - 2(Σ_r Σ_g)^(1/2))",
+      "FID 數值越低，代表生成圖片的特徵分布越接近真實圖片，FID=0 表示兩組分布完全相同",
+      "FID 同時對均值偏移（模式缺失）和協方差差異（多樣性不足）都敏感，使其成為全面的評估工具"
+    ],
+    [
+      "Inception-v3 使用在 ImageNet（1000 類，120 萬張圖片）上預訓練的參數進行特徵提取",
+      "pool3 層的輸出（2048 維）比最終分類層更適合捕捉圖像的高層語意特徵",
+      "協方差矩陣平方根 (Σ_r Σ_g)^(1/2) 的計算使用 scipy 的矩陣平方根函數，計算複雜度較高",
+      "FID 的計算需要至少 50K 張圖片才能得到穩定的估計，樣本不足時數值會系統性偏高",
+      "圖片前處理標準：縮放至 299×299（bilinear 插值），使用 Inception-v3 對應的歸一化參數",
+      "不同的圖片縮放方式（bilinear vs bicubic）和對齊方式（center crop vs resize）會影響 FID 數值，需一致報告"
+    ],
+    [
+      "在 CIFAR-10 生成任務上，早期 GAN 模型的 FID 通常在 30-50 之間，頂尖模型已降至 3 以下",
+      "在 COCO 文字到圖像生成任務上，Stable Diffusion v1.5 的 FID 約為 23，DALL-E 2 約為 22",
+      "Imagen 在 COCO 上達到了當時最低的 FID 7.27（zero-shot），顯示 FID 能反映模型的世代進步",
+      "樣本數量的敏感性研究表明：FID 在 1K 樣本下比 50K 樣本偏高約 5-10 個單位",
+      "在同一模型的不同 checkpoint 比較中，FID 的排名與人類視覺評分高度一致",
+      "研究者發現 FID 對生成圖片的模式崩潰（mode collapse）極為敏感，是檢測 GAN 訓練問題的有效工具"
+    ],
+    [
+      "相比 Inception Score（IS），FID 引入了真實圖片的參考分布，使評估更接近真實圖片的視覺統計特性",
+      "CMMD 使用 CLIP 特徵替代 Inception-v3，並用無偏的 MMD 替代 Fréchet 距離，克服了 FID 的兩個主要問題",
+      "KID 使用相同的 Inception-v3 特徵但採用無偏的 MMD 統計量，在小樣本設定下比 FID 更穩定",
+      "FWD（Fréchet Wavelet Distance）使用小波特徵替代 Inception-v3，針對頻率域的評估提供補充視角",
+      "FID 對 ImageNet 類別以外的圖片類型（醫學影像、衛星圖）的評估可靠性低，因為 Inception-v3 在這些領域特徵不準確",
+      "CLIPScore 補充了 FID 在語意對齊維度上的空缺，研究者通常同時報告兩個指標"
+    ],
+    [
+      "FID 由 Martin Heusel 等人在 NeurIPS 2017 的 TTUR 論文中正式提出，arxiv：https://arxiv.org/abs/1706.08500",
+      "論文的主要貢獻是 TTUR 訓練策略和 FID 指標，FID 的廣泛傳播遠超 TTUR 本身的影響",
+      "開源實現（cleanfid 庫和 pytorch-fid）提供了標準化的計算流程，促進了跨研究的可比性",
+      "在 DALL-E 2、Imagen、Stable Diffusion、SDXL 等所有主要 T2I 模型的論文中，FID 均被報告",
+      "FID 的廣泛採用推動了 T2I 研究的量化標準化，為不同研究團隊的成果比較提供了共同基準",
+      "CMMD 等替代指標的出現表明社群正在積極尋找 FID 的繼任者，但 FID 的歷史積累仍難以取代"
+    ]
+  ]
+}

@@ -1,0 +1,80 @@
+<!-- ⚠️ 此檔案由程式自動產生，請勿直接修改。 如需更新內容，請修改來源 JSON 後重新執行 to_preview_md.py。 -->
+
+圖像字幕評估長期依賴 BLEU、METEOR、CIDEr 等基於 n-gram 匹配的有參考指標
+
+生成字幕語意正確但措辭與參考不同時，n-gram 指標給出虛假的低分，嚴重低估模型能力
+
+CLIPScore 利用 CLIP 的跨模態對齊能力，直接計算生成文字與圖像的語意相似度，無需參考字幕
+
+CLIP 在 4 億圖文對上的對比預訓練使其具備強大的零樣本跨模態理解能力
+
+在 T2I 評估的語境下，CLIPScore 被廣泛用於衡量生成圖片與文字提示之間的語意對齊程度
+
+其簡單的計算方式和無需參考的特性使其成為 T2I 研究中引用率最高的評估指標之一 👇
+
+----
+CLIPScore 的計算流程：圖像送入 CLIP 視覺編碼器，文字送入文字編碼器，計算嵌入向量的餘弦相似度
+
+原始 CLIPScore 定義為 cos(v, c) × 2.5 的 ReLU 裁剪形式，其中 v 為視覺嵌入，c 為文字嵌入
+
+也可使用無縮放的餘弦相似度作為分數，在 T2I 評估文獻中兩種形式均有使用
+
+RefCLIPScore 進一步引入參考圖片作為輔助信號，計算加權組合分數
+
+在 T2I 評估的具體應用中，通常使用文字 prompt 作為 c，生成圖片作為 v
+
+CLIP 的多語言版本（mCLIP）允許 CLIPScore 支援非英語的文字提示評估
+
+----
+CLIPScore 的性能高度依賴 CLIP 版本，ViT-B/32、ViT-B/16、ViT-L/14 的評估精度依次提升
+
+OpenCLIP 的 ViT-H/14（訓練於 LAION-2B）在部分任務上比 OpenAI CLIP 有更強的語意對齊能力
+
+CLIP 文字編碼器對 token 長度有 77 的限制，超長 prompt 會被截斷，影響複雜描述的評估準確性
+
+圖片預處理方式和歸一化方法與 CLIP 預訓練時保持一致，是確保分數可重現的關鍵
+
+在批量評估大量圖文對時，使用 GPU 並行計算可大幅提升吞吐量
+
+為確保跨研究的可比性，建議明確報告 CLIP 版本、圖片解析度、是否使用 ReLU 縮放等計算細節
+
+----
+在 Flickr8k-Expert 和 Flickr8k-CF 字幕品質評估資料集上，CLIPScore 與人類判斷的相關係數超過 CIDEr
+
+在 MS-COCO 的相關性研究中，CLIPScore（ViT-L/14）的 Spearman 相關係數達到 0.7 以上
+
+在 DrawBench 和 PartiPrompts 等 T2I 評估基準上，CLIPScore 被廣泛用作語意對齊的主要自動指標
+
+多項研究表明 CLIPScore 在「物件存在性」和「整體主題匹配」上評估能力最強，在空間關係上較弱
+
+在 DALL-E 2、Stable Diffusion 和 Imagen 的官方評估報告中，CLIPScore 均作為核心指標被報告
+
+在困難測試集（含有否定語意、計數要求的提示）上，CLIPScore 的排序可靠性顯著下降
+
+----
+相比 FID，CLIPScore 提供了針對單一圖文對的語意對齊分數，而非整體分布差異
+
+相比 BLIP-ITM，CLIPScore 計算更簡單高效，但對細粒度屬性的捕捉弱於 ITM 的跨注意力機制
+
+NegCLIP 和 MosaiCLIP 等改良版本針對 CLIPScore 對否定語意和組合語意的弱點進行了修正
+
+VQAScore 透過將評估轉換為視覺問答任務，在多個組合語意測試集上顯著超越 CLIPScore
+
+相比 TIFA 和 SoftTIFA 等問答式指標，CLIPScore 不需要問題分解和 VQA 推理，評估速度快數十倍
+
+HPS 和 PickScore 等偏好指標透過在人類偏好資料上微調 CLIP，在對齊程度上超越原始 CLIPScore
+
+----
+CLIPScore 由 Jack Hessel 等人提出，發表於 EMNLP 2021，arxiv：https://arxiv.org/abs/2104.08718
+
+CLIPScore 是 T2I 評估文獻中引用最廣泛的語意對齊自動指標，幾乎出現在所有主流 T2I 論文中
+
+其無參考設計啟發了後續大量基於 CLIP 的評估工作，包括 PickScore、HPS、VQAScore 等
+
+Hugging Face evaluate 庫和 torchmetrics 等主流框架均整合了 CLIPScore 的官方實現
+
+在 DALL-E 3、SDXL、Flux 等新一代 T2I 模型的技術報告中，CLIPScore 均作為標準指標被引用
+
+CLIPScore 對組合語意、空間關係、計數的弱點推動了大量後續改進工作，持續塑造著 T2I 評估方向
+
+----

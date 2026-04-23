@@ -1,0 +1,54 @@
+{
+  "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
+  "title_zh": "ImageReward：大規模人類偏好學習框架用於 T2I 生成品質的對齊評估與訓練",
+  "data": [
+    [
+      "T2I 模型在技術指標上的進步不能直接保證生成結果符合人類使用者的實際偏好",
+      "語意對齊、視覺清晰度、美學品質、有害內容過濾等多個因素共同決定了人類的偏好判斷",
+      "建立大規模、高質量的人類偏好資料集，並在此基礎上訓練偏好預測模型，是解決此問題的根本路徑",
+      "ImageReward 是首個系統性地收集大規模人類 T2I 偏好標注並訓練專用獎勵模型的工作",
+      "它同時提供了偏好評估指標和可用於 RLHF 訓練的獎勵模型兩個核心貢獻",
+      "ImageReward 的資料集和模型已成為 T2I 人類偏好對齊研究的重要基礎設施 👇"
+    ],
+    [
+      "ImageReward 資料集的收集採用成對比較（pairwise comparison）和排名（ranking）兩種標注形式",
+      "每個標注任務呈現同一 prompt 下的多張生成圖片，標注者依據詳細的指引進行偏好排序",
+      "標注指引明確定義了高偏好圖片的標準：語意對齊、視覺品質、美學吸引力、無有害內容",
+      "最終資料集包含 137K 個有標注的偏好對，由 250 名訓練有素的標注者完成",
+      "偏好模型基於 BLIP 架構，使用 image-text 對作為輸入，輸出人類偏好得分",
+      "訓練損失使用 Ranking Loss，確保模型能正確預測標注者標注的相對偏好排序"
+    ],
+    [
+      "BLIP 架構選擇的依據：BLIP 的 ITC 和 ITM 特徵同時捕捉了全域語意和細粒度匹配信息",
+      "在 BLIP 的圖像和文字編碼器基礎上，增加了一個 reward head 輸出標量偏好分數",
+      "訓練資料的多樣性：涵蓋攝影、繪畫、動畫、3D 渲染等多種圖片風格",
+      "對訓練資料進行了偏見分析，識別並減少了標注者在圖片位置和生成模型上的系統性偏見",
+      "模型提供了不同規模的版本（base、large），在評估精度和計算成本間提供選擇",
+      "開源的訓練代碼和模型權重允許研究者在特定領域或偏好標準上進行二次 fine-tuning"
+    ],
+    [
+      "在人類偏好預測任務上，ImageReward 的成對偏好預測準確率達到 65.1%，優於 CLIPScore（57.4%）",
+      "在全面的人工評估中，使用 ImageReward 引導的 T2I 模型在所有評估維度上均優於基線模型",
+      "RLHF 訓練實驗顯示，以 ImageReward 為獎勵信號訓練 500 步即可顯著提升人類偏好分數",
+      "在有害內容過濾維度，ImageReward 預測準確率顯著高於純 CLIPScore 的評估",
+      "在多模態評估基準（HPSv2、LAION Aesthetics）上的驗證顯示 ImageReward 跨資料集的泛化能力",
+      "研究者使用 ImageReward 排名多個主流 T2I 模型，排名與 Chatbot Arena 人類投票高度一致"
+    ],
+    [
+      "相比 CLIPScore，ImageReward 透過人類偏好標注學習到了語意對齊以外的視覺品質和美學維度",
+      "相比 HPS，ImageReward 的資料集規模更大（137K vs HPS v1 的較小資料集），覆蓋更多 prompt 類型",
+      "相比 PickScore，ImageReward 使用 BLIP 架構（而非 CLIP），在細粒度語意匹配上有優勢",
+      "ImageReward 的有害內容評估能力使其在安全性關鍵的 T2I 應用場景中具有獨特價值",
+      "HPS 和 PickScore 的後續研究中均提及了 ImageReward 作為基準對比，說明其在社群中的重要地位",
+      "ImageReward 的局限性是其偏好模型反映了特定標注者群體的偏好，可能存在文化和美學偏見"
+    ],
+    [
+      "ImageReward 由 Jiazheng Xu 等人提出，發表於 NeurIPS 2023，arxiv：https://arxiv.org/abs/2304.05977",
+      "開源資料集和模型（GitHub：THUDM/ImageReward）已被廣泛整合到 T2I 訓練和評估流程",
+      "ImageReward 作為獎勵模型的應用推動了 T2I 領域 RLHF 訓練實踐的系統化",
+      "其資料集被多個後續工作用於偏好模型研究，包括 HPS v2、PickScore 等的對比實驗",
+      "ImageReward 的有害內容評估能力在 T2I 安全對齊研究中具有直接的實用價值",
+      "人類偏好學習框架（資料集 + 獎勵模型 + RLHF 訓練）已成為 T2I 對齊研究的標準三段式流程"
+    ]
+  ]
+}

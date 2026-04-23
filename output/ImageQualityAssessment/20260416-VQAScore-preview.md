@@ -1,0 +1,80 @@
+<!-- ⚠️ 此檔案由程式自動產生，請勿直接修改。 如需更新內容，請修改來源 JSON 後重新執行 to_preview_md.py。 -->
+
+T2I 評估需要衡量生成圖片與文字 prompt 之間的語意符合程度
+
+CLIPScore 使用圖像-文字嵌入相似度，計算簡單但對細粒度語意不夠敏感
+
+TIFA 等問答框架需要先生成多個問題再逐一回答，計算流程複雜
+
+VQAScore 提出一種更簡潔的問答評估方法：對圖片直接提問「這張圖片是否精確地顯示了[prompt]？」
+
+使用 MLLM 計算回答「是」的條件概率 P(Yes | image, question) 作為評估分數
+
+這種單問題設計在保持 QA 框架優勢的同時，大幅簡化了評估流程 👇
+
+----
+VQAScore 的評估流程：構建標準化問題「Is this a photo that shows [prompt]?」
+
+使用視覺問答模型計算給定圖片條件下問題答案為「是」的概率
+
+選擇支持 token 概率輸出的 MLLM：InstructBLIP、LLaVA、CogVLM、Idefics2
+
+VQAScore 的核心假設：如果圖片與 prompt 高度符合，模型對「是否符合」問題回答「是」的概率應更高
+
+問題模板設計透過消融研究優化：不同模板導致的分數差異通常在 0.03 以內
+
+批次評估支持：多張圖片同時計算，利用 GPU 並行性提高效率
+
+----
+VQAScore 的計算效率：每張圖片只需一次 MLLM 前向傳播，比 TIFA（多次問答）快 5-10 倍
+
+支持的 MLLM 後端：BLIP-2-FlanT5、InstructBLIP-Vicuna、LLaVA-1.5、CogVLM
+
+溫度（temperature）設置對概率輸出的影響：低溫度使概率分布更尖銳，分數分佈更兩極化
+
+VQAScore 在概率計算時使用 log-softmax 增強數值穩定性
+
+在沒有 API 訪問的場景下，使用開源 MLLM（如 InstructBLIP）部署 VQAScore 的完整開源方案已公開
+
+問題模板可根據評估場景調整：藝術圖片使用「Is this an illustration that shows...」
+
+----
+在 Winoground 評估資料集上，VQAScore 的準確率比 CLIPScore 高約 25 個百分點
+
+在 EqBen 組合語意評估基準上，VQAScore 的 SRCC 為 0.79，顯著高於 CLIPScore（0.56）
+
+在 TIFA 基準資料集上，VQAScore 與 TIFA 分數的相關係數達 0.88，以更低計算成本達到相似性能
+
+VQAScore 在包含否定語意和物件關係的 prompt 上的評估準確率比 CLIPScore 高約 20%
+
+使用 GPT-4V 作為後端的 VQAScore 與人類評估的 Spearman 相關係數達 0.85
+
+消融研究顯示，使用單個標準問題的 VQAScore 比使用多個問題平均的方案計算量少但性能差異在 3% 以內
+
+----
+相比 CLIPScore，VQAScore 對細粒度語意元素的評估更準確，計算效率接近
+
+相比 TIFA，VQAScore 的單問題設計大幅簡化了評估流程，計算快 5-10 倍，性能差距通常在 5% 以內
+
+相比 VIEScore，VQAScore 不提供自然語言解釋，但計算成本顯著更低
+
+相比 ImageReward 和 PickScore，VQAScore 不依賴偏好標注資料訓練，泛化性更強
+
+VQAScore 的主要局限是概率輸出依賴 MLLM 的校準性：校準不好的模型影響分數的可靠性
+
+VQAScore 在評估具有多個複雜語意元素的 prompt 時，可能因單一問題設計遺漏細節
+
+----
+VQAScore 由 Lin 等人在 NeurIPS 2024 發表，arxiv：https://arxiv.org/abs/2404.01291
+
+VQAScore 提供了開源的 Python 實現（t2v-metrics 套件），支持多個 MLLM 後端的即插即用
+
+VQAScore 的條件概率計算框架可延伸到視頻生成（T2V）評估，已有相應的 Video-VQAScore 工作
+
+VQAScore 的成功驗證了「簡單的問答框架 + 強大的 MLLM」在 T2I 評估中的有效性
+
+隨著 MLLM 能力的快速進步，基於 VQA 的評估框架的準確率有望繼續提升
+
+VQAScore 在 T2I 評估工具生態中的地位：高效率、易部署的語意符合度評估的首選替代品
+
+----
