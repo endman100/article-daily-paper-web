@@ -1,0 +1,86 @@
+{
+  "title": "Contextual Chunk Headers",
+  "title_zh": "Contextual Chunk Headers：用章節上下文讓 Chunk 不再迷路",
+  "paper_url": "https://github.com/FareedKhan-dev/all-rag-techniques",
+  "data": [
+    [
+      "一段技術手冊的 chunk 被切出來，整段只剩下預設值 true 這句話和一個設定檔路徑",
+      "向量模型根本看不出這段屬於哪一章，也看不出它到底在講哪個功能",
+      "使用者問 JWT 要怎麼關掉，這段 chunk 很可能從頭到尾都沒被召回",
+      "問題不在向量模型不夠強，而在 chunk 被切下來那一刻，章節結構就整個掉光了",
+      "Contextual Chunk Headers 要做的事情很單純，就是在索引之前把它從哪裡來的資訊補回去",
+      "這篇整理兩條補法，一條叫標題路徑前置，純字串處理、零 API 成本",
+      "另一條是 Anthropic 在 2024 年提出的 Contextual Retrieval，得靠 LLM 替每段補一句語意說明",
+      "看完會知道，為什麼只是多一行前置文字，retrieval 失敗率就能掉到原本的一半"
+    ],
+    [
+      "傳統 RAG 的標準流程很直接，把文件切成固定大小的 chunk，再丟進 embedding 模型向量化",
+      "這個切法表面上合理，實際上有一個很難修的漏洞",
+      "原本文件裡的章節從屬、標題層級、段落之間的邏輯，切完之後幾乎全部消失",
+      "剩下來的 chunk 就像被撕下來丟進箱子的紙片，彼此失去原本的位置關係",
+      "同一個 timeout 參數，可能在快取設定出現一次，在網路設定裡又出現一次",
+      "字面幾乎一樣，真正區分它們的，是上方那層標題",
+      "embedding 模型只能看字面，看不到上層結構",
+      "召回怎麼調都不準，rerank 也救不回這種結構層級的資訊遺失"
+    ],
+    [
+      "第一條路徑的想法很樸素，把 H1、H2、H3 的標題一路串成 breadcrumb，黏在 chunk 前面",
+      "原本只有一句寫著預設值為 true 的片段，前面會接上第三章、認證設定、JWT Token 這串路徑",
+      "語意瞬間被改寫，embedding 讀到的是帶著章節座標的段落，不再是一段漂浮的文字",
+      "LangChain 的 MarkdownHeaderTextSplitter 剛好能把標題層級保留在 metadata 裡",
+      "拿到 metadata 之後，一個 join 就能組出完整路徑字串",
+      "整條 pipeline 沒有任何 LLM 呼叫，純字串處理，實作大概不會超過三十行",
+      "對 Markdown、HTML 這類結構清楚的文件特別吃香",
+      "缺點也很明顯，離開結構化文件就會失靈，部落格或新聞稿這種扁平文本幾乎沒東西可用"
+    ],
+    [
+      "第二條路徑由 Anthropic 在 2024 年提出，做法激進一些",
+      "對每個 chunk，把完整文件和這一段一起丟給 LLM，請它寫出一段短短的上下文說明",
+      "產出的格式是 context 加上原始 chunk，再一起送進向量索引",
+      "前提是整份文件能放進 context window，太長的文件得先做分段處理",
+      "單純跑一次會非常貴，因為每個 chunk 都要把完整文件重送一次",
+      "Anthropic 的解法叫 Prompt Caching，同一份文件的多個 chunk 共享同一份 cache",
+      "文件部分只付一次完整費用，後續 chunk 只算差異，長文件的成本降幅相當可觀",
+      "官方評估顯示，retrieval 失敗率被壓低到差不多基線的一半，再搭配 BM25 hybrid search 還能再往下掉一截"
+    ],
+    [
+      "真正上線的時候，兩條路徑其實可以疊在一起用",
+      "先用 MarkdownHeaderTextSplitter 按標題切，再對過長段落做第二次切割",
+      "每個子 chunk 繼承上層的 header path，接著交給 Claude 補一段語意說明",
+      "最終進入向量庫的內容會是章節路徑加上 LLM 生成說明，後面再接原始 chunk",
+      "這裡會碰到一個設計抉擇，向量索引到底要覆蓋 context，還是只對原始 chunk 做索引",
+      "Anthropic 的建議是整段一起索引，讓 context 的語意也被編碼進向量",
+      "索引時間會拉長，查詢延遲幾乎不受影響，因為 context 早就被算進 embedding 了",
+      "對線上服務來說這個取捨剛好，慢的部分全部壓在離線批次，快的部分留給使用者"
+    ],
+    [
+      "把兩條路徑的評估結果擺在一起看，幾個訊號特別清楚",
+      "Anthropic 自己的基線 retrieval 失敗率大約落在 5.7%，加上 Contextual Retrieval 會掉到 2.9%，再疊 BM25 hybrid search 還能被壓到 1.9%",
+      "換句話說，做到位的版本大概能把原本每二十個查詢錯一個的狀況，壓到每五十個才錯一個",
+      "標題路徑前置的那條路比較難給統一數字，因為成效完全吃文件結構本身乾不乾淨",
+      "在 API 文件、技術手冊這類 H2、H3 層級分明的材料上，光加 breadcrumb 就能吃掉相當比例的歧義召回",
+      "比較有意思的是 Prompt Caching 帶來的經濟性，長文件的多 chunk 處理，實際要付的費用遠比直覺低",
+      "最適合整套做法的場景集中在技術手冊、API 文件、法律條文、學術論文這類結構清楚的材料",
+      "部落格、短篇散文、聊天紀錄這種扁平文本，從這套方法拿到的額外收益相對有限"
+    ],
+    [
+      "Contextual Chunk Headers 的核心動作其實只有一件事，在 chunk 進到索引之前，把它從哪裡來的資訊補回去",
+      "兩條路徑各有適合的場景，選哪一條取決於文件結構和預算",
+      "手上有乾淨的 Markdown，把 MarkdownHeaderTextSplitter 的 metadata 前置進 chunk，就能先拿到立即可感的改善",
+      "預算允許的話，搭 Claude Haiku 加 Prompt Caching 跑一次 Contextual Retrieval，索引多付的成本會在後續查詢慢慢賺回來",
+      "評估改善幅度時，別只盯 NDCG 或 MRR 的小數點第三位",
+      "直接量那種問題明確、卻沒被召回的比例，才是 Contextual Chunk Headers 真正在救的指標",
+      "如果你的 RAG 最近一直被抱怨連簡單問題都答錯，很可能是 chunk 失去上下文，跟 retriever 夠不夠強沒太大關係",
+      "下次切文件之前，先停三秒想想 chunk 離開原文那一刻丟了什麼資訊，再決定要用哪一條把它接回去"
+    ]
+  ],
+  "figures": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+}

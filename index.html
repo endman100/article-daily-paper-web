@@ -270,11 +270,36 @@ kbd {
 }
 .lightbox-overlay.active { display: flex; }
 .lightbox-img {
-  max-width: 92vw; max-height: 92vh;
+  max-width: 92vw; max-height: 86vh;
   object-fit: contain; border-radius: 10px;
   cursor: default; box-shadow: 0 8px 48px rgba(0,0,0,.7);
   pointer-events: auto;
 }
+.lightbox-toolbar {
+  position: fixed; bottom: 28px; left: 50%;
+  transform: translateX(-50%);
+  display: none; gap: 8px; z-index: 1000;
+  background: rgba(20,20,20,.75);
+  padding: 9px 16px; border-radius: 50px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,.12);
+  pointer-events: auto;
+}
+.lightbox-overlay.active .lightbox-toolbar { display: flex; }
+.lightbox-btn {
+  padding: 7px 14px;
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 20px;
+  background: rgba(255,255,255,.1);
+  color: #fff; font-size: 13px;
+  cursor: pointer; white-space: nowrap;
+  transition: background .18s, border-color .18s;
+}
+.lightbox-btn:hover {
+  background: rgba(255,255,255,.25);
+  border-color: rgba(255,255,255,.55);
+}
+.lightbox-btn:active { transform: scale(.96); }
 </style>
 </head>
 <body>
@@ -303,6 +328,12 @@ kbd {
 <button class="theme-toggle" id="themeToggle" title="切換深色/淺色主題">🌙</button>
 <div class="lightbox-overlay" id="lightboxOverlay">
   <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  <div class="lightbox-toolbar">
+    <button class="lightbox-btn" onclick="lbDownload()">⬇ 下載圖片</button>
+    <button class="lightbox-btn" onclick="lbDownloadSquare()">⬜ 下載方形圖片</button>
+    <button class="lightbox-btn" onclick="lbDownload43()">▬ 下載 4:3 圖片</button>
+    <button class="lightbox-btn" onclick="lbGifToPng()">🖼 GIF → PNG</button>
+  </div>
 </div>
 
 <script>
@@ -675,8 +706,118 @@ function closeLightbox() {
   document.getElementById('lightboxImg').src = '';
 }
 document.getElementById('lightboxOverlay').addEventListener('click', (e) => {
-  if (e.target.id !== 'lightboxImg') closeLightbox();
+  if (e.target.id !== 'lightboxImg' && !e.target.closest('.lightbox-toolbar')) closeLightbox();
 });
+
+// ---- Lightbox Download Helpers ----
+async function _lbFetchBlob(src) {
+  const res = await fetch(src);
+  if (!res.ok) throw new Error('fetch failed');
+  return res.blob();
+}
+async function _lbLoadImgFromBlob(blob) {
+  const blobUrl = URL.createObjectURL(blob);
+  return new Promise((resolve, reject) => {
+    const i = new Image();
+    i.onload = () => resolve({ img: i, blobUrl });
+    i.onerror = () => { URL.revokeObjectURL(blobUrl); reject(new Error('load failed')); };
+    i.src = blobUrl;
+  });
+}
+function _lbTriggerDownload(url, filename) {
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+}
+function _lbBaseName(src) {
+  return decodeURIComponent(src.split('/').pop().split('?')[0]);
+}
+
+async function lbDownload() {
+  const src = document.getElementById('lightboxImg').src;
+  const filename = _lbBaseName(src) || 'image';
+  try {
+    const blob = await _lbFetchBlob(src);
+    const url = URL.createObjectURL(blob);
+    _lbTriggerDownload(url, filename);
+    URL.revokeObjectURL(url);
+  } catch { window.open(src, '_blank'); }
+}
+
+async function lbDownloadSquare() {
+  const src = document.getElementById('lightboxImg').src;
+  const baseName = _lbBaseName(src).replace(/\.[^.]+$/, '');
+  try {
+    const blob = await _lbFetchBlob(src);
+    const { img, blobUrl } = await _lbLoadImgFromBlob(blob);
+    const size = Math.max(img.naturalWidth, img.naturalHeight);
+    const canvas = document.createElement('canvas');
+    canvas.width = size; canvas.height = size;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, size, size);
+    ctx.drawImage(
+      img,
+      (size - img.naturalWidth)  / 2,
+      (size - img.naturalHeight) / 2,
+      img.naturalWidth, img.naturalHeight
+    );
+    URL.revokeObjectURL(blobUrl);
+    canvas.toBlob(outBlob => {
+      const url = URL.createObjectURL(outBlob);
+      _lbTriggerDownload(url, baseName + '-square.png');
+      URL.revokeObjectURL(url);
+    }, 'image/png');
+  } catch { alert('無法處理圖片（可能受 CORS 限制）'); }
+}
+
+async function lbDownload43() {
+  const src = document.getElementById('lightboxImg').src;
+  const baseName = _lbBaseName(src).replace(/\.[^.]+$/, '');
+  try {
+    const blob = await _lbFetchBlob(src);
+    const { img, blobUrl } = await _lbLoadImgFromBlob(blob);
+    // Smallest 4:3 canvas that contains the image without upscaling
+    const h = Math.max(img.naturalHeight, img.naturalWidth * 3 / 4);
+    const w = h * 4 / 3;
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.round(w); canvas.height = Math.round(h);
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(
+      img,
+      (canvas.width  - img.naturalWidth)  / 2,
+      (canvas.height - img.naturalHeight) / 2,
+      img.naturalWidth, img.naturalHeight
+    );
+    URL.revokeObjectURL(blobUrl);
+    canvas.toBlob(outBlob => {
+      const url = URL.createObjectURL(outBlob);
+      _lbTriggerDownload(url, baseName + '-4x3.png');
+      URL.revokeObjectURL(url);
+    }, 'image/png');
+  } catch { alert('無法處理圖片（可能受 CORS 限制）'); }
+}
+
+async function lbGifToPng() {
+  const src = document.getElementById('lightboxImg').src;
+  const baseName = _lbBaseName(src).replace(/\.[^.]+$/, '');
+  try {
+    const blob = await _lbFetchBlob(src);
+    const { img, blobUrl } = await _lbLoadImgFromBlob(blob);
+    const canvas = document.createElement('canvas');
+    canvas.width = img.naturalWidth; canvas.height = img.naturalHeight;
+    canvas.getContext('2d').drawImage(img, 0, 0);
+    URL.revokeObjectURL(blobUrl);
+    canvas.toBlob(outBlob => {
+      const url = URL.createObjectURL(outBlob);
+      _lbTriggerDownload(url, baseName + '-frame1.png');
+      URL.revokeObjectURL(url);
+    }, 'image/png');
+  } catch { alert('無法處理圖片（可能受 CORS 限制）'); }
+}
 mainArea.addEventListener('click', (e) => {
   const t = e.target.closest('.lightbox-trigger');
   if (t) { e.preventDefault(); openLightbox(t.dataset.src); }

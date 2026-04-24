@@ -1,0 +1,94 @@
+{
+  "title": "Semantic Chunking for RAG",
+  "title_zh": "Semantic Chunking，讓 RAG 不再切斷語義",
+  "paper_url": "https://github.com/FareedKhan-dev/all-rag-techniques",
+  "data": [
+    [
+      "一份技術報告在第 512 個 token 被切成兩半，前半講效能問題，後半講索引優化",
+      "使用者問怎麼解決這個效能問題，向量搜尋只撈回前半段，答案就這樣蒸發",
+      "這是 Fixed-size chunking 的結構缺陷，跟邊界運氣沒什麼關係",
+      "Semantic Chunking 換個思路，改用語義距離找切分點",
+      "這篇要拆解它的運作原理、三種閾值模式，以及實戰選擇建議",
+      "第一，為什麼固定字數切會讓 RAG 答非所問",
+      "第二，cosine distance 如何量化句子之間的語義落差",
+      "第三，Percentile、Standard Deviation、Interquartile 三種閾值怎麼挑",
+      "第四，什麼情境值得多花 embedding 費用升級到語義切分",
+      "後面一段一段拆給你看 👇"
+    ],
+    [
+      "Fixed-size chunking 的做法是把整份文件當成一條均勻的 token 串",
+      "每隔固定 token 數就切一刀，通常再加上一點 overlap 緩衝",
+      "這種切法快，不需要任何模型，建索引幾乎零成本",
+      "麻煩的地方是它對語言結構完全無感",
+      "一個完整的論述可能跨越 800 個 token",
+      "固定切到 512 就斷，後半段的重要結論被丟到下一個 chunk",
+      "RAG 檢索拿回來的只有片段，LLM 自然回答不出完整答案",
+      "overlap 雖然能緩解，遇到關鍵資訊剛好落在邊界還是會漏",
+      "文件越長、主題越多，這個缺陷放大得越明顯"
+    ],
+    [
+      "Semantic Chunking 的核心假設很直接",
+      "同一個 chunk 內的句子語義應該互相關聯",
+      "當相鄰句子群組的語義差異突然拉高，該位置就是切分點",
+      "要量化這個差異，工具是餘弦距離 cosine distance",
+      "計算方式是把句子轉成 embedding 向量再比較夾角",
+      "夾角越小，語義越接近，距離趨近於 0",
+      "夾角拉大代表兩句話講的東西差越遠，距離趨近於 1",
+      "整份文件跑完後會得到一條距離曲線，峰值就是主題切換的信號",
+      "剩下要做的就是把這些峰值挑出來，當成候選切點"
+    ],
+    [
+      "整個流程可以拆成四個步驟",
+      "第一步是把文件切成句子列表，實務上會用 NLTK 或 spaCy 處理斷句",
+      "第二步是滑動視窗組群，每個句子連同前後各一句合成一個三句群組",
+      "把三句群組丟進 embedding 模型，拿到一組代表局部語義的向量",
+      "第三步是計算每對相鄰群組的 cosine distance",
+      "距離值一路平穩，代表文件主題連貫",
+      "中間冒出一個明顯的高點，就是語義發生了跳躍",
+      "第四步設定閾值，距離超過閾值的位置切一刀",
+      "結果是 chunk 內部語義接近，邊界落在主題轉換點"
+    ],
+    [
+      "閾值要多高算高，有三種常見計算方式",
+      "第一種是 Percentile，取所有距離值的第 95 百分位當門檻",
+      "這個模式會跟著文件的語義密度調整，分布不均勻的文件也能處理",
+      "第二種是 Standard Deviation，用平均值加上 3 倍標準差當門檻",
+      "距離大致呈常態分布時效果穩定，對離群的語義跳躍特別敏感",
+      "第三種是 Interquartile Range，門檻是 Q3 加上 1.5 倍 IQR",
+      "這是統計學的經典離群值偵測方法，對非對稱分布的魯棒性較好",
+      "三種模式切出來的 chunk 數量會有差，Standard Deviation 最少、Percentile 居中、Interquartile 最多",
+      "學術論文適合 Standard Deviation，新聞文章適合 Interquartile，拿不定主意就從 Percentile 95 起跳"
+    ],
+    [
+      "Semantic Chunking 的優勢集中在語義完整度",
+      "切分點落在主題邊界，chunk 內部主題單一，retrieval 精準度通常更高",
+      "面對學術論文、法律合約、技術文檔這類主題轉換明確的內容表現最好",
+      "代價是建索引成本會上升",
+      "每個句子都要呼叫 embedding API，費用大約是 Fixed-size 的 3 到 5 倍",
+      "chunk 大小也變得不均勻，短主題出來很短，長主題可能塞滿整段",
+      "向量索引管理與 context window 控制都會變得比較麻煩",
+      "還有一個隱性成本是調閾值，不同文件類型的最佳模式不太一樣",
+      "LangChain 的 SemanticChunker 降低了實作門檻，調校還是要自己觀察與測試"
+    ],
+    [
+      "選擇 chunking 策略前，先回答三個問題",
+      "文件有多長、涵蓋幾個主題，超過 2000 字且主題超過三個就值得升級",
+      "建索引的預算夠不夠，百萬份文件先用 Fixed-size 驗證可行性再說",
+      "閾值模式從 Percentile 95 起跳，看切出來的 chunk 數量再往上或往下調",
+      "立即可做的事是用 LangChain 的 SemanticChunker 做一組 A/B 測試",
+      "對比 retrieval 的 MRR 或 Hit Rate，確認改進幅度是否值得成本",
+      "調校優先順序上，embedding 模型的品質影響通常大於閾值模式",
+      "text-embedding-3-large 的表現常常優於 text-embedding-3-small",
+      "切分效果還是不理想時，結合 Markdown 標題做 hierarchical chunking 會是下一步"
+    ]
+  ],
+  "figures": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+}

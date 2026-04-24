@@ -1,0 +1,105 @@
+{
+  "title": "Context-Enriched Retrieval",
+  "title_zh": "上下文增強檢索：用句子視窗與父文件策略修補 RAG 的斷裂",
+  "paper_url": "https://github.com/FareedKhan-dev/all-rag-techniques",
+  "data": [
+    [
+      "技術文件裡有這麼一句話，本方法的準確率比上一章節描述的基準方法高出 23%",
+      "這句話被切成一個獨立的 chunk，在向量搜尋中被命中後直接丟給 LLM",
+      "LLM 根本無從得知上一章節的基準方法是 BERT，TF-IDF 還是某個自訂演算法",
+      "最後只能回一句根據提供的資訊無法確定，整個 RAG pipeline 的價值瞬間崩掉",
+      "這就是標準 RAG 常見的盲點，切割本身只動了字元，讓文字產生意義的脈絡卻被一起帶走",
+      "Context-Enriched Retrieval 就是為了修補這個缺口而設計的檢索策略",
+      "文章會拆解 Sentence Window Retrieval 與 Parent Document Retrieval 兩條主流路線",
+      "也會對照標準 RAG，HyDE，Reranking 與 Graph RAG 看它在整個技術光譜裡的定位",
+      "最後給出一個可以在現有 pipeline 上立刻落地的改法，不需要換掉底層向量庫"
+    ],
+    [
+      "標準 RAG 的 chunk 策略建立在一個樂觀假設之上，每個文字片段都是自給自足的資訊單元",
+      "這個假設在真實文件裡幾乎從不成立",
+      "代詞像它，該方法，上述結果，一旦脫離上下文就失去指向",
+      "對比句更麻煩，前面的基準沒被抓進來，一個然而或相較之下就整段塌掉",
+      "步驟性說明也類似，接著怎麼做會依賴前一步是否完成",
+      "最明顯的是數據引用，高出 23% 這種寫法單獨抽出來只剩一個空懸的百分比",
+      "向量搜尋找的是語意相似度，切出來的 chunk 邊界常常把真正關鍵的上下文留在外面",
+      "根源出在輸入本身已經殘缺，模型再聰明也只能猜或交白卷",
+      "這是一個從切割階段就埋下的結構問題，放大模型參數並不能解決"
+    ],
+    [
+      "Context-Enriched Retrieval 的解法很直接",
+      "向量索引的精準度保持原樣，改的是把內容交給 LLM 那一步",
+      "檢索命中後，把該片段擴展成一個包含周圍文脈的版本再送進 prompt",
+      "這個方向在實務上長成兩條主流路線",
+      "第一條是 Sentence Window Retrieval，以單句為索引單位，回傳時擴展成鄰近句子群",
+      "第二條是 Parent Document Retrieval，以小 chunk 做向量搜尋，回傳時替換成對應的大 chunk 或整份父文件",
+      "兩條路線共享同一個底層邏輯，向量用小單位做搜尋，上下文用大單位做生成",
+      "這種分層策略同時兼顧搜尋精準度與回答完整度，不需要重建向量庫",
+      "實作上，LlamaIndex 原生支援第一種，LangChain 原生支援第二種，兩邊都可以直接接上既有 pipeline"
+    ],
+    [
+      "Sentence Window Retrieval 的索引階段，會把文件拆成單句",
+      "每一句單獨建立向量，同時在 metadata 裡記錄一個 window 欄位",
+      "window 欄位存的是這句話前後各 k 句的完整內容，k 常見設為 2 或 3",
+      "檢索階段，使用者的 query 跟每個單句向量做比對，找到最相似的那一句",
+      "回傳時，metadata replacement 這個後處理步驟會把單句 text 替換成 window 內容再交給 LLM",
+      "命中的句子可能只有十幾個字，擴展後的視窗可能包含幾十到幾百字的完整段落",
+      "以 LlamaIndex 為例，SentenceWindowNodeParser 搭配 MetadataReplacementPostProcessor 就能完成這整套流程",
+      "這個做法的好處是向量庫的索引粒度最細，語意搜尋最精準",
+      "代價是 window 範圍固定，如果關鍵資訊剛好落在 k 的邊界外，擴展還是蓋不到"
+    ],
+    [
+      "Parent Document Retrieval 走的是另一條思路，雙層 chunk 同時維護",
+      "父層是大 chunk，切成接近完整段落的長度，儲存在一個 docstore 裡，每筆有唯一 ID",
+      "子層是小 chunk，從同一份父文件切出來，metadata 裡記錄自己屬於哪個 parent_id",
+      "向量庫只存子 chunk 的向量，用來做精準語意搜尋",
+      "查詢時，小 chunk 的向量被命中後，系統讀出它的 parent_id，去 docstore 把完整父文件撈出來",
+      "真正交給 LLM 的內容是父文件，也就是命中小 chunk 所在的那個大段落",
+      "以 LangChain 為例，ParentDocumentRetriever 把這整條鏈路包成一個 API，child_splitter 與 parent_splitter 分別配置兩層的切割策略",
+      "原型階段可以用 InMemoryStore，生產環境通常換成 Redis 或 MongoDB 類的持久化儲存",
+      "相對於 Sentence Window，這個方法的上下文邊界是固定的，對有明確章節結構的文件比較友善"
+    ],
+    [
+      "兩種策略在四個面向上取捨不同，搜尋精準度，上下文完整度，token 消耗，索引複雜度",
+      "Sentence Window 的單句向量精準度最高，索引只有一層，調整時只要動 window_size 一個參數",
+      "代價是 window 範圍偏小，跨段落引用的情況容易漏掉",
+      "Parent Document 的上下文完整度最好，父文件通常能覆蓋整個章節",
+      "代價則是雙層索引維護成本高，父文件切得不好時 token 會爆掉，延遲也跟著上升",
+      "兩種做法共享一個代價，交給 LLM 的 token 數會變多，錢包跟延遲都會同步變重",
+      "它們也解不了同一件事，如果相關文件根本沒被索引進來，再怎麼擴展上下文都救不回來",
+      "判斷原則大致是這樣，文件以句子為邏輯單位偏 Sentence Window，以章節為邏輯單位的則走 Parent Document，實際還要看內容切出來的自然粒度",
+      "兩條路線也能跟 cross-encoder reranker 疊加，先擴展再重排，效果通常比任一方法單獨使用更好"
+    ],
+    [
+      "把兩種做法拉到真實文件上測試，差異會非常明顯",
+      "一段假設性的實驗文字寫著，基準模型 BERT-base 在 SQuAD 2.0 上拿到 F1 76.3%，改良方法則達到 93.9%",
+      "標準 RAG 只會回傳命中句，也就是那句高出 23% 的單獨陳述",
+      "LLM 在這個片段裡看不到 BERT-base，也看不到 76.3% 這個基準，只能回答無法確定",
+      "Sentence Window 把命中句前後各擴兩句抓回來，BERT-base 這個關鍵詞就進到 context 裡了",
+      "Parent Document 更進一步，整個第四章都會被回傳，連標準差 ±0.4% 這種佐證資訊都保留下來",
+      "在實務測試中，表現最穩定的通常是 Parent Document 加 cross-encoder reranker 的組合，因為上下文完整又能排序",
+      "表現最差的是純標準 RAG 搭配過小的 chunk，代詞與比較句大量失效",
+      "最有趣的觀察是，只加 Sentence Window 不換向量庫的情況下，很多問答題的正確率就會明顯上升，成本增加卻很有限"
+    ],
+    [
+      "Context-Enriched Retrieval 解決的是一個邊界清晰的問題，向量搜尋命中的片段因為切割邊界遺失了理解所需的上下文",
+      "它不改模型，不改向量算法，只改從索引到 prompt 之間的那一段拼裝邏輯",
+      "這種改動的好處是風險低，回滾容易，對現有 pipeline 幾乎沒有侵入性",
+      "落地的第一步可以在現有 RAG 裡先掛上 SentenceWindowNodeParser，window_size 從 2 開始試",
+      "接著用實際 query 跑一輪，比對標準 chunk 跟視窗擴展 chunk 送到 LLM 的內容差異",
+      "同時量一下 token 消耗的增加幅度，確認在預算允許範圍內",
+      "如果文件本身有清楚的章節結構，再切換到 ParentDocumentRetriever，讓父 chunk 直接對齊段落邊界",
+      "在這層之上疊加 cross-encoder reranker，通常能再把回答品質往上推一個檔次",
+      "上下文增強不是萬用解，在不動底層向量索引的前提下，它剛好是成本最低，效果又最直接的一條改良路線"
+    ]
+  ],
+  "figures": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+}

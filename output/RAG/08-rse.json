@@ -1,0 +1,88 @@
+{
+  "title": "Relevant Span Extraction for RAG",
+  "title_zh": "RSE，讓 RAG 只送真正相關的片段進 LLM",
+  "paper_url": "https://github.com/FareedKhan-dev/all-rag-techniques",
+  "data": [
+    [
+      "一份 500 token 的 RAG chunk 送進 LLM，實際跟問題有關的可能只有兩三句話",
+      "剩下的 480 個 token 佔住 context window，稀釋注意力，拉高延遲和 API 費用",
+      "Relevant Span Extraction 要解決的就是這個浪費",
+      "與其把整塊文件丟給 LLM，先挑出真正相關的片段，再交給生成階段",
+      "這篇要拆解 RSE 為什麼能省掉大量 token 卻不掉答案品質",
+      "第一，RSE 在 Contextual Compression 架構裡的定位",
+      "第二，三種主流實作方式各自適合什麼場景",
+      "第三，Reranker 和 RSE 如何疊加成為目前效果最好的 RAG 精排組合",
+      "第四，哪些場景最該導入，哪些場景反而不值得",
+      "下面一段一段拆開來看 👇"
+    ],
+    [
+      "標準 RAG 的流程是先做向量搜尋，取回 top-k 份 chunk，再把這些 chunk 全文塞進 prompt 給 LLM",
+      "每份 chunk 常常落在 300 到 500 token 之間，預設整段都會被送進去",
+      "困擾在於一份技術文件或長篇論文的內部，主題密度其實很稀疏",
+      "使用者問的只是其中一個小點，其他段落對這次生成沒有幫助",
+      "LLM 會被這些無關內容拖住注意力，這就是 Lost in the Middle 效應",
+      "Context window 的成本是線性增加的，百萬級查詢下費用和延遲的差距會被放大",
+      "早期 RAG 團隊用縮小 chunk size 來緩解，結果語義被切得太碎，召回率反而下降",
+      "RSE 改從另一端下手，保留原本的 chunk 邊界，只在送進 LLM 之前做一次片段提取"
+    ],
+    [
+      "Span 在 NLP 的定義是一段連續的子序列，可以是一句話、一段落、或任意長度的連續片段",
+      "RSE 的任務是找出 chunk 裡回答當前問題所需的最小充分片段",
+      "放到 LangChain 的架構裡，RSE 對應的是 ContextualCompressionRetriever 的 compressor 元件",
+      "這個 retriever 的設計是在原本的 base_retriever 外面加一層壓縮器",
+      "base_retriever 負責撈回相關文件，compressor 負責把每份文件再精煉一次",
+      "壓縮器有 LLMChainExtractor、LLMChainFilter、EmbeddingsFilter，以及可組合的 DocumentCompressorPipeline",
+      "其中 LLMChainExtractor 就是 RSE 最典型的實現，交由 LLM 直接挑出相關句子",
+      "把整個鏈路看成兩階段，前段擴召回，後段精簡內容，每一層都能獨立抽換或微調"
+    ],
+    [
+      "第一種做法是直接用 Prompt 請 LLM 抽出相關句子",
+      "做法是告訴模型問題內容，附上 chunk 全文，要求它只回傳與問題有關的原句，否則回覆沒有相關內容",
+      "這種方式語義理解力最強，遇到複雜問題也能抓得住意圖，缺點是每份候選文件都要多跑一次 LLM 推理",
+      "第二種做法借用 BERT-based QA 模型，把問題當 question，把 chunk 當 context",
+      "模型對每個 token 預測是不是答案的起點或終點，輸出一段 answer span",
+      "這條路線速度快，可以在本機推理，精準定位到具體字符位置，很適合數字、人名、日期這類短答案",
+      "但它只擅長短答案，需要好幾句話串起來的開放回答就不太合適",
+      "短答案交給 BERT QA，需要理解上下文的開放回答再換成 LLMChainExtractor"
+    ],
+    [
+      "第三種做法是組合式的壓縮管線，把速度和精準度拆成三段處理",
+      "第一段用 EmbeddingsFilter 做粗篩，直接用 embedding 相似度把明顯不相關的段落拿掉",
+      "這一步沒有 LLM 呼叫，延遲影響非常小，能把後面要處理的字數先砍一半以上",
+      "第二段用 EmbeddingsRedundantFilter 把語義重複的段落合併，避免同樣的資訊在多份文件裡重複送",
+      "第三段才進到 LLMChainExtractor，對已經瘦身過的內容做精準提取",
+      "DocumentCompressorPipeline 負責把這三段串起來，每一段的輸出就是下一段的輸入",
+      "這種組合的好處是把 LLM 只用在最需要語義判斷的地方，其他體力活交給 embedding",
+      "實務上平均 input token 壓到原本的一到三成是常見結果，延遲增加也遠低於單獨跑 LLMChainExtractor"
+    ],
+    [
+      "三種做法的取捨可以從四個維度觀察",
+      "Token 節省幅度上，LLMChainExtractor 和 Pipeline 做法都能把送進 LLM 的文字壓到原本的兩到三成",
+      "延遲表現最差的是純 LLMChainExtractor，因為每份候選文件都要額外呼叫一次模型",
+      "最快的是 EmbeddingsFilter，缺點是碰到語義轉折時容易誤判，常常把被反駁的前半句留下來當成相關內容",
+      "精準度最高的是 Pipeline 三層組合，靠前段過濾降低 LLM 負擔，靠後段 LLM 做細部語義判斷",
+      "最有趣的組合是 RSE 疊加 Reranker，前者決定哪份 chunk 排前面，後者決定 chunk 裡哪些句子進 prompt",
+      "兩者分工在不同層級，彼此不會互相覆蓋，是目前公開方案中效果最好的 RAG 精排架構之一",
+      "chunk 只有 100 到 150 token 時，壓縮空間太小，這層加上去只會增加成本，反而不划算"
+    ],
+    [
+      "RSE 在 RAG 優化清單上屬於 ROI 很高但常被跳過的一環",
+      "大部分精力會花在 chunking 策略和向量模型調優，卻忽略搜尋到的 chunk 裡只有兩成內容真的被用到",
+      "落地建議從量化問題規模開始，用 tiktoken 算目前每次查詢平均送進 LLM 多少 token",
+      "平均值超過 1500 token 就代表有壓縮空間，再決定要不要導入 RSE",
+      "第一個試的對象優先選 EmbeddingsFilter，省掉額外的 LLM 呼叫，花幾十行程式就能跑起來",
+      "精準度要求高的場景再升級到 LLMChainExtractor 或 Pipeline 組合",
+      "留意 chunk 大小門檻，建議 300 token 以下就直接全文傳遞，不要硬上壓縮",
+      "把 chunk 從頭到尾都當成整塊送給 LLM 的時代可以告一段落了"
+    ]
+  ],
+  "figures": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+}
