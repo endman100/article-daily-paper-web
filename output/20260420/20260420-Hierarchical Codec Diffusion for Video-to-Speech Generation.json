@@ -1,6 +1,7 @@
 {
   "title": "Hierarchical Codec Diffusion for Video-to-Speech Generation",
   "title_zh": "層次化編解碼器擴散模型的影片轉語音生成",
+  "paper_url": "https://arxiv.org/abs/2604.15923",
   "data": [
     [
       "當一個人在嘈雜的環境中說話時，我們往往能單靠觀察嘴形就大致理解其意思",

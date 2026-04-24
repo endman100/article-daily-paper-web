@@ -1,6 +1,7 @@
 {
   "title": "SemaClaw: A Step Towards General-Purpose Personal AI Agents through Harness Engineering",
   "title_zh": "SemaClaw：邁向通用型個人 AI 代理的關鍵——Harness 工程",
+  "paper_url": "https://arxiv.org/abs/2604.11548",
   "data": [
     [
       "這篇論文介紹 SemaClaw 框架，專注於推動個人 AI 代理的發展",
@@ -39,7 +40,7 @@
     [
       "SemaClaw 展現 Harness 工程在推動個人 AI 代理普及上的潛力",
       "未來，這類框架有望成為 AI 代理發展的主流基石",
-      "Harness 工程將持續驅動 AI 系統的創新與落地",
+      "Harness 工程將持續驅動 AI 全面的創新與落地",
       "個人 AI 代理將更貼近用戶生活，成為不可或缺的數位夥伴",
       "AI 技術的進步正逐步改變我們的日常"
     ]

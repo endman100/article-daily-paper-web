@@ -1,6 +1,7 @@
 {
   "title": "EvoMaster: A Foundational Agent Framework for Building Evolving Autonomous Scientific Agents at Scale",
   "title_zh": "EvoMaster：建構大規模進化自主科學 Agent 的基礎框架",
+  "paper_url": "https://arxiv.org/abs/2604.17406",
   "data": [
     [
       "AI 工具執行完任務就結束，然後呢，它不知道剛才發生了什麼，下次碰到類似問題還是從頭來過",
@@ -71,7 +72,7 @@
       "跟長期知識累積相比差距很大，長期實驗能否真正避免重複踩坑，取決於上下文管理策略",
       "EvoMaster 的工程貢獻在於，它把科學方法論的迭代邏輯直接編碼到了框架裡",
       "過去每個科研 Agent 項目都要自己重新發明這套邏輯，現在有了可以複用的基礎",
-      "下一個問題是這套框架能否真正在領域工程成本更高的科學分支上站穩，但那個問題現在還沒答案"
+      "下一個問題是這套框架能否真正在領域工程成本更高的科學分支上站穩，然而那個問題現在還沒答案"
     ]
   ],
   "figures": [

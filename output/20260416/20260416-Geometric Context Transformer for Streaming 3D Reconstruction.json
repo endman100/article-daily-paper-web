@@ -1,6 +1,7 @@
 {
   "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
   "title_zh": "幾何脈絡轉換器於串流式 3D 重建",
+  "paper_url": "https://arxiv.org/abs/2604.14141",
   "data": [
     [
       "本篇論文提出一種新型 3D 基礎模型 LingBot-Map，專為串流式 3D 重建設計。",

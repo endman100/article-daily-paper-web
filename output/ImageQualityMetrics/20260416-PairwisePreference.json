@@ -1,6 +1,7 @@
 {
   "title": "Pairwise Preference-based Evaluation for Text-to-Image Generation",
   "title_zh": "PairwisePreference：文字轉圖像生成的成對偏好評估",
+  "paper_url": "https://doi.org/10.1002/jcc.21287",
   "data": [
     [
       "讓人類直接用分數幫圖片打分有一個根本性的困難——不同人對分數的標準可能差很多",

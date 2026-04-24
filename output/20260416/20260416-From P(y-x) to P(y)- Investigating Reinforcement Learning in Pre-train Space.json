@@ -1,6 +1,7 @@
 {
   "title": "From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space",
   "title_zh": "從條件分佈到邊際分佈，探索強化學習在預訓練空間的潛力",
+  "paper_url": "https://arxiv.org/abs/2604.14142",
   "data": [
     [
       "當前主流的 LLM 推理增強方式，是在後訓練階段用帶有可驗證獎勵的強化學習（RLVR）去優化條件分佈 P(y|x)，也就是給定問題、生成答案的訓練方式",

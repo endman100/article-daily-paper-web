@@ -1,6 +1,7 @@
 {
   "title": "VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization",
   "title_zh": "VideoFlexTok：彈性長度粗到細的影片分詞",
+  "paper_url": "https://arxiv.org/abs/2604.12887",
   "data": [
     [
       "將影片壓縮成 token 序列是影片生成和理解模型的基礎步驟",

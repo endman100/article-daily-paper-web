@@ -1,6 +1,7 @@
 {
   "title": "Claude Opus 4.7",
   "title_zh": "Claude Opus 4.7，Anthropic 最新旗艦混合推理模型",
+  "paper_url": "https://doi.org/10.5281/zenodo.19636335",
   "data": [
     [
       "Anthropic 在 2026 年 4 月推出了 Claude Opus 4.7",

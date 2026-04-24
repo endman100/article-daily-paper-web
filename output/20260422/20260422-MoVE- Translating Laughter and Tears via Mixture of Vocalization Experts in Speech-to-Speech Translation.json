@@ -1,6 +1,7 @@
 {
   "title": "MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation",
   "title_zh": "MoVE：透過混合發音專家在語音轉語音翻譯中傳遞笑聲與淚聲",
+  "paper_url": "https://arxiv.org/abs/2604.17435",
   "date": "2026-04-22",
   "data": [
     [

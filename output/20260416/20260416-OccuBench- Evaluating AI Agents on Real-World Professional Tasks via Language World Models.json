@@ -1,6 +1,7 @@
 {
   "title": "OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
   "title_zh": "OccuBench：以語言世界模型評估 AI 代理人在真實職業任務的表現",
+  "paper_url": "https://arxiv.org/abs/2604.10866",
   "data": [
     [
       "這篇論文提出一個全新基準 OccuBench，專注於評估 AI 代理人在多元專業領域的真實任務能力",
@@ -21,7 +22,7 @@
       "研究設計了顯性錯誤、隱性資料劣化與混合故障等多種挑戰情境",
       "隱性錯誤如資料缺漏、截斷，對 AI 來說更難察覺與處理",
       "這些挑戰要求代理人具備主動發現問題的能力，而非僅依賴明顯錯誤訊號",
-      "測試結果顯示，環境模擬品質對評測可靠性有關鍵影響"
+      "測試結果顯示，環境模擬品質對評測穩定性有關鍵影響"
     ],
     [
       "團隊比較多個先進模型，發現規模較大、世代較新的模型與高推理強度能顯著提升表現",

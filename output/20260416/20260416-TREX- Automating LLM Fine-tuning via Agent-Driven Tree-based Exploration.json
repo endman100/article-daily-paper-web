@@ -1,6 +1,7 @@
 {
   "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
   "title_zh": "TREX 透過 Agent 驅動的樹狀探索，自動化 LLM 微調全流程",
+  "paper_url": "https://arxiv.org/abs/2604.14116",
   "data": [
     [
       "這套多 Agent 協作系統能從需求分析到模型訓練評估，無需人工介入地完成整個 LLM 微調工作流",

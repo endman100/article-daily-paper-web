@@ -1,6 +1,7 @@
 {
   "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
   "title_zh": "BLIP-ITC-ITM：以對比與匹配雙頭評估文字到圖像語意對齊的視覺語言預訓練框架",
+  "paper_url": "https://arxiv.org/abs/2201.12086",
   "data": [
     [
       "評估 T2I 模型生成結果是否忠實於文字提示，需要一種能跨越視覺與語言模態精確比對的工具",
@@ -29,9 +30,9 @@
     [
       "在 MSCOCO 圖文檢索（TR@1）任務上，BLIP fine-tuned 版本達到 82.4%，超越 CLIP 約 5 個百分點",
       "在 Flickr30K 零樣本圖文檢索任務上，BLIP-L 的 ITR@1 達到 90.3%，較當時 SOTA 顯著提升",
-      "在 VQA 2.0 基準上，BLIP fine-tuned 模型達到 78.25%，驗證了其多模態特徵的廣泛可遷移性",
+      "在 VQA 2.0 基準上，BLIP fine-tuned 模型達到 78.25%，驗證了其多模態特徵的廣泛遷移能力",
       "以 BLIP-ITM 分數對 T2I 生成結果排序，與人類偏好的 Spearman 相關係數高於純 CLIP 余弦相似度",
-      "在組合語意（如「紅色立方體在藍色球體左邊」）評估中，ITM 的區分能力明顯優於 ITC",
+      "在組合語意（如紅色立方體在藍色球體左邊）評估中，ITM 的區分能力明顯優於 ITC",
       "ImageReward 和 PickScore 等後續偏好指標均以 BLIP 預訓練特徵作為初始化，驗證了其特徵品質"
     ],
     [

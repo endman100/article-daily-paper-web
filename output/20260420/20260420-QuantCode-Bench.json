@@ -1,6 +1,7 @@
 {
   "title": "QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies",
   "title_zh": "QuantCode-Bench：評測大型語言模型生成可執行演算法交易策略能力的基準",
+  "paper_url": "https://arxiv.org/abs/2604.15151",
   "data": [
     [
       "當大型語言模型被要求撰寫一段能夠真實執行的量化交易策略時，它們究竟表現如何？",
@@ -9,7 +10,7 @@
       "然而量化交易策略要求程式碼必須同時具備金融邏輯的精確性、對特定交易框架 API 的熟悉度，以及在歷史資料上真正觸發交易的能力",
       "這三個條件疊加在一起，構成了截然不同的程式碼生成挑戰",
       "研究團隊正是從這個觀察出發，設計了一套名為 QuantCode-Bench 的評測基準",
-      "這份研究針對目前主流的大型語言模型進行了系統性的能力評測",
+      "這份研究針對目前主流的大型語言模型進行了全面的能力評測",
       "評測結果揭示了當前模型在金融程式碼生成領域中一些深具啟示性的弱點"
     ],
     [
@@ -63,5 +64,12 @@
       "如何在這類任務上取得突破，將是下一代語言模型發展的重要課題之一"
     ]
   ],
-  "figures": ["", "", "", "", "", ""]
+  "figures": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
 }

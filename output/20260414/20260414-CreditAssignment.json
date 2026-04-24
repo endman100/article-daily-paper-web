@@ -1,11 +1,12 @@
 {
   "title": "From Reasoning to Agentic: Credit Assignment in Reinforcement Learning for Large Language Models",
   "title_zh": "從推理到代理：LLM 強化學習中的信用分配",
+  "paper_url": "https://arxiv.org/abs/2509.16679",
   "data": [
     [
       "用強化學習訓練 LLM 時，模型只能在最後得到一個整體的結果獎勵",
       "但在一條包含數十個步驟的軌跡裡，到底是哪幾個關鍵行動導致了成功或失敗？",
-      "這個「哪個動作該負責」的問題叫做功勞分配（credit assignment），是整個 RL 訓練裡最難解決的核心挑戰之一",
+      "這個哪個動作該負責的問題叫做功勞分配（credit assignment），是整個 RL 訓練裡最難解決的核心挑戰之一",
       "這篇論文系統整理了近兩年內發表的幾十種功勞分配方法，為這個快速演進的領域建立了第一個完整的分類框架 👇"
     ],
     [

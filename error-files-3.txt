@@ -1,0 +1,225 @@
+D:\article-daily-paper-web\output\20260414\20260414-AdversarialFlow.json
+D:\article-daily-paper-web\output\20260414\20260414-ATANT.json
+D:\article-daily-paper-web\output\20260414\20260414-AttentionSink.json
+D:\article-daily-paper-web\output\20260414\20260414-AudioFlamingoNext.json
+D:\article-daily-paper-web\output\20260414\20260414-CodeTracer.json
+D:\article-daily-paper-web\output\20260414\20260414-CountingVLM.json
+D:\article-daily-paper-web\output\20260414\20260414-CreditAssignment.json
+D:\article-daily-paper-web\output\20260414\20260414-DataLineage.json
+D:\article-daily-paper-web\output\20260414\20260414-DiningBench.json
+D:\article-daily-paper-web\output\20260414\20260414-IceCache.json
+D:\article-daily-paper-web\output\20260414\20260414-IDLM.json
+D:\article-daily-paper-web\output\20260414\20260414-MEDS.json
+D:\article-daily-paper-web\output\20260414\20260414-MedSSR.json
+D:\article-daily-paper-web\output\20260414\20260414-MotionEmbeddings.json
+D:\article-daily-paper-web\output\20260414\20260414-NExt.json
+D:\article-daily-paper-web\output\20260414\20260414-OmniShow.json
+D:\article-daily-paper-web\output\20260414\20260414-PandaDistortion.json
+D:\article-daily-paper-web\output\20260414\20260414-PlayingAlong.json
+D:\article-daily-paper-web\output\20260414\20260414-PolyglotTeachers.json
+D:\article-daily-paper-web\output\20260414\20260414-QuanBench+.json
+D:\article-daily-paper-web\output\20260414\20260414-RoMem.json
+D:\article-daily-paper-web\output\20260414\20260414-SciPredict.json
+D:\article-daily-paper-web\output\20260414\20260414-SCOPE.json
+D:\article-daily-paper-web\output\20260414\20260414-SPEEDBench.json
+D:\article-daily-paper-web\output\20260414\20260414-SWEAGILE.json
+D:\article-daily-paper-web\output\20260414\20260414-TAIHRI.json
+D:\article-daily-paper-web\output\20260414\20260414-TIPO.json
+D:\article-daily-paper-web\output\20260414\20260414-TorchUMM.json
+D:\article-daily-paper-web\output\20260414\20260414-TRACE.json
+D:\article-daily-paper-web\output\20260414\20260414-ZeroShotWorldModel.json
+D:\article-daily-paper-web\output\20260415\20260415-3DTV.json
+D:\article-daily-paper-web\output\20260415\20260415-AiScientist.json
+D:\article-daily-paper-web\output\20260415\20260415-APEX.json
+D:\article-daily-paper-web\output\20260415\20260415-BERTJudge.json
+D:\article-daily-paper-web\output\20260415\20260415-BlindSpotAgentSafety.json
+D:\article-daily-paper-web\output\20260415\20260415-ClawGUI.json
+D:\article-daily-paper-web\output\20260415\20260415-CONSCIENTIA.json
+D:\article-daily-paper-web\output\20260415\20260415-DDTree.json
+D:\article-daily-paper-web\output\20260415\20260415-FeedForward3DScene.json
+D:\article-daily-paper-web\output\20260415\20260415-GlotOCRBench.json
+D:\article-daily-paper-web\output\20260415\20260415-Grid2Matrix.json
+D:\article-daily-paper-web\output\20260415\20260415-GRN.json
+D:\article-daily-paper-web\output\20260415\20260415-HabitatGS.json
+D:\article-daily-paper-web\output\20260415\20260415-HiVG.json
+D:\article-daily-paper-web\output\20260415\20260415-KnowRL.json
+D:\article-daily-paper-web\output\20260415\20260415-LARY.json
+D:\article-daily-paper-web\output\20260415\20260415-LASA.json
+D:\article-daily-paper-web\output\20260415\20260415-LightningOPD.json
+D:\article-daily-paper-web\output\20260415\20260415-Lyra2.json
+D:\article-daily-paper-web\output\20260415\20260415-ManyIH.json
+D:\article-daily-paper-web\output\20260415\20260415-MaskedConsensus.json
+D:\article-daily-paper-web\output\20260415\20260415-MedicalSR.json
+D:\article-daily-paper-web\output\20260415\20260415-OnPolicyDistill.json
+D:\article-daily-paper-web\output\20260415\20260415-Parcae.json
+D:\article-daily-paper-web\output\20260415\20260415-PokeRL.json
+D:\article-daily-paper-web\output\20260415\20260415-ReasoningNegotiation.json
+D:\article-daily-paper-web\output\20260415\20260415-Rethinking_On_Policy_Distillation_of_Large_Language_Models.json
+D:\article-daily-paper-web\output\20260415\20260415-SeeingThroughTouch.json
+D:\article-daily-paper-web\output\20260415\20260415-SemanticFixation.json
+D:\article-daily-paper-web\output\20260415\20260415-SpatialCompetence.json
+D:\article-daily-paper-web\output\20260415\20260415-SpecKitAgents.json
+D:\article-daily-paper-web\output\20260415\20260415-SpotSound.json
+D:\article-daily-paper-web\output\20260415\20260415-SPPO_Sequence_Level_PPO_for_Long_Horizon_Reasoning_Tasks.json
+D:\article-daily-paper-web\output\20260415\20260415-SPPO.json
+D:\article-daily-paper-web\output\20260415\20260415-ThoughtStreams.json
+D:\article-daily-paper-web\output\20260415\20260415-TouchDreaming.json
+D:\article-daily-paper-web\output\20260415\20260415-Turing_Test_on_Screen_A_Benchmark_for_Mobile_GUI_Agent_Humanization.json
+D:\article-daily-paper-web\output\20260415\20260415-TuringTestGUI.json
+D:\article-daily-paper-web\output\20260415\20260415-VideoFlexTok.json
+D:\article-daily-paper-web\output\20260415\20260415-YOJO.json
+D:\article-daily-paper-web\output\20260416\20260416-Anthropogenic Regional Adaptation in Multimodal Vision-Language Model.json
+D:\article-daily-paper-web\output\20260416\20260416-Do AI Coding Agents Log Like Humans- An Empirical Study.json
+D:\article-daily-paper-web\output\20260416\20260416-Exploration and Exploitation Errors Are Measurable for Language Model Agents.json
+D:\article-daily-paper-web\output\20260416\20260416-Free Geometry- Refining 3D Reconstruction from Longer Versions of Itself.json
+D:\article-daily-paper-web\output\20260416\20260416-From P(y-x) to P(y)- Investigating Reinforcement Learning in Pre-train Space.json
+D:\article-daily-paper-web\output\20260416\20260416-GameWorld- Towards Standardized and Verifiable Evaluation of Multimodal Game Agents.json
+D:\article-daily-paper-web\output\20260416\20260416-Geometric Context Transformer for Streaming 3D Reconstruction.json
+D:\article-daily-paper-web\output\20260416\20260416-HDR Video Generation via Latent Alignment with Logarithmic Encoding.json
+D:\article-daily-paper-web\output\20260416\20260416-LangFlow- Continuous Diffusion Rivals Discrete in Language Modeling.json
+D:\article-daily-paper-web\output\20260416\20260416-Memory Transfer Learning- How Memories are Transferred Across Domains in Coding Agents.json
+D:\article-daily-paper-web\output\20260416\20260416-MERRIN- A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments.json
+D:\article-daily-paper-web\output\20260416\20260416-Mobile GUI Agents under Real-world Threats- Are We There Yet-.json
+D:\article-daily-paper-web\output\20260416\20260416-Narrative-Driven Paper-to-Slide Generation via ArcDeck.json
+D:\article-daily-paper-web\output\20260416\20260416-OccuBench- Evaluating AI Agents on Real-World Professional Tasks via Language World Models.json
+D:\article-daily-paper-web\output\20260416\20260416-ReconPhys- Reconstruct Appearance and Physical Attributes from Single Video.json
+D:\article-daily-paper-web\output\20260416\20260416-ROSE- Retrieval-Oriented Segmentation Enhancement.json
+D:\article-daily-paper-web\output\20260416\20260416-Self-Distillation Zero- Self-Revision Turns Binary Rewards into Dense Supervision.json
+D:\article-daily-paper-web\output\20260416\20260416-Sema Code- Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure.json
+D:\article-daily-paper-web\output\20260416\20260416-SemaClaw- A Step Towards General-Purpose Personal AI Agents through Harness Engineering.json
+D:\article-daily-paper-web\output\20260416\20260416-SkVM- Compiling Skills for Efficient Execution Everywhere.json
+D:\article-daily-paper-web\output\20260416\20260416-SpatialEvo- Self-Evolving Spatial Intelligence via Deterministic Geometric Environments.json
+D:\article-daily-paper-web\output\20260416\20260416-Target Policy Optimization.json
+D:\article-daily-paper-web\output\20260416\20260416-TIP- Token Importance in On-Policy Distillation.json
+D:\article-daily-paper-web\output\20260416\20260416-TREX- Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration.json
+D:\article-daily-paper-web\output\20260416\20260416-UI-Copilot- Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization.json
+D:\article-daily-paper-web\output\20260416\20260416-UI-Zoomer- Uncertainty-Driven Adaptive Zoom-In for GUI Grounding.json
+D:\article-daily-paper-web\output\20260416\20260416-What do Language Models Learn and When- The Implicit Curriculum Hypothesis.json
+D:\article-daily-paper-web\output\20260417\20260417-C2- Scalable Rubric-Augmented Reward Modeling from Binary Preferences.json
+D:\article-daily-paper-web\output\20260417\20260417-DR3-Eval- Towards Realistic and Reproducible Deep Research Evaluation.json
+D:\article-daily-paper-web\output\20260417\20260417-RadAgent- A tool-using AI agent for stepwise interpretation of chest computed tomography.json
+D:\article-daily-paper-web\output\20260420\20260420-Can Large Language Models Reinvent Foundational Algorithms.json
+D:\article-daily-paper-web\output\20260420\20260420-Maximal Brain Damage Without Data or Optimization.json
+D:\article-daily-paper-web\output\20260420\20260420-PRL-Bench A Comprehensive Benchmark.json
+D:\article-daily-paper-web\output\20260420\20260420-TIPSv2 Advancing Vision-Language Pretraining.json
+D:\article-daily-paper-web\output\20260421\20260421-ClawEnvKit Automatic Environment Generation for Claw-Like Agents.json
+D:\article-daily-paper-web\output\20260421\20260421-Latent Preference Modeling for Cross-Session Personalized Tool Calling.json
+D:\article-daily-paper-web\output\20260421\20260421-MedConclusion A Benchmark for Biomedical Conclusion Generation from Structured Abstracts.json
+D:\article-daily-paper-web\output\20260421\20260421-Multiplication in Multimodal LLMs Computation with Text, Image, and Audio Inputs.json
+D:\article-daily-paper-web\output\20260421\20260421-OmniScript Towards Audio-Visual Script Generation for Long-Form Cinematic Video.json
+D:\article-daily-paper-web\output\20260421\20260421-OneVL One-Step Latent Reasoning and Planning with Vision-Language Explanation.json
+D:\article-daily-paper-web\output\20260421\20260421-Protecting Language Models Against Unauthorized Distillation through Trace Rewriting.json
+D:\article-daily-paper-web\output\20260421\20260421-The Geometric Canary Predicting Steerability and Detecting Drift via Representational Stability.json
+D:\article-daily-paper-web\output\20260421\20260421-The Illusion of Certainty Decoupling Capability and Calibration in On-Policy Distillation.json
+D:\article-daily-paper-web\output\20260422\20260422-AgentSPEX- An Agent SPecification and EXecution Language.json
+D:\article-daily-paper-web\output\20260422\20260422-Dual-View Training for Instruction-Following Information Retrieval.json
+D:\article-daily-paper-web\output\20260422\20260422-PlayCoder- Making LLM-Generated GUI Code Playable.json
+D:\article-daily-paper-web\output\20260422\20260422-Speculative Decoding for Autoregressive Video Generation.json
+D:\article-daily-paper-web\output\20260422\20260422-SPRITE- From Static Mockups to Engine-Ready Game UI.json
+D:\article-daily-paper-web\output\20260423\20260423-Diverse-Dictionary-Learning.json
+D:\article-daily-paper-web\output\20260423\20260423-Exploring-Spatial-Intelligence.json
+D:\article-daily-paper-web\output\CharacterEval\AtomicPersona.json
+D:\article-daily-paper-web\output\CharacterEval\CharacterBench.json
+D:\article-daily-paper-web\output\CharacterEval\CharacterBox.json
+D:\article-daily-paper-web\output\CharacterEval\CharacterEval.json
+D:\article-daily-paper-web\output\CharacterEval\InCharacter.json
+D:\article-daily-paper-web\output\CharacterEval\PersonaGym.json
+D:\article-daily-paper-web\output\CharacterEval\PersonalityInfused.json
+D:\article-daily-paper-web\output\CharacterEval\RoleLLM.json
+D:\article-daily-paper-web\output\CharacterEval\RolePlayEval.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-BLIP-ITC-ITM.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-cFreD.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-CLIPScore.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-CMMD.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-DAScore.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-DistilledMLLMJudge.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-EloRating.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-FID.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-FWD.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-GenEval.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-GPT4oJudge.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-HPS.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-ImageReward.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-IS.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-KID.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-MiFID.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-MOS.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-MosaiCLIP.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-NegCLIP.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-PairwisePreference.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-PickScore.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-Ranking.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-VISOR.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260416-VQAScore.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260420-wise.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Adaptive-IQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-AesBench.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-AesExpert.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Aesthetic-Camera-3D.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-ARNIQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-ArtiMuse.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-ArtQuant.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-ATTIQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Boosting-IQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Bridging-Synthetic.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Charm.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Co-Instruct.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Decoupling-IQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-DepictQA-Wild.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-DepictQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-DSL-FIQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-EduVQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-ELIQ.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-ESIQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Fine-Grained-Aesthetic.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Grounding-IQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Guardians-IQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-IISA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-MLLM-IQA-Study.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-MS-SWD.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Personalized-Aesthetics.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-PromptIQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Q-Ground.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Q-Hawkeye.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Q-Insight.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Q-Instruct.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Q-Mamba.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-QCN.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-QualiCLIP.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-QualiRAG.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-RealQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-RichHF.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-SEAGULL.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Self-Evolving-VLM-IQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-SIQA.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-UniPercept.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Venus.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-VideoAesBench.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-VisualCritic.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-VisualQuality-R1.json
+D:\article-daily-paper-web\output\ImageQualityAssessment\20260423-Zoom-IQA.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-BLIP-ITC-ITM.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-cFreD.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-CLIPScore.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-CMMD.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-DistilledMLLMJudge.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-EloRating.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-FID.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-FWD.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-GenEval.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-GPT4oJudge.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-HPS.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-ImageReward.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-IS.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-KID.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-MiFID.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-MosaiCLIP.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-NegCLIP.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-PairwisePreference.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-PickScore.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-Ranking.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-SoftTIFA.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-TIFA.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-VIEScore.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-VISOR.json
+D:\article-daily-paper-web\output\ImageQualityMetrics\20260416-VQAScore.json

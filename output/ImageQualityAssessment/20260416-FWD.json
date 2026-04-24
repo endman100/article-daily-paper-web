@@ -1,10 +1,11 @@
 {
   "title": "Fréchet Wavelet Distance: A Domain-Agnostic Metric for Image Generation",
   "title_zh": "FWD：以小波特徵取代 Inception 特徵的領域無關圖像生成評估指標",
+  "paper_url": "https://arxiv.org/abs/2312.15289",
   "data": [
     [
       "FID 依賴在 ImageNet 上預訓練的 Inception-v3 網路作為特徵提取器，對非自然圖片的評估存在領域偏差",
-      "醫學影像、衛星遙感圖片、藝術風格圖片等領域的生成評估使用 FID 時，結果的可靠性存疑",
+      "醫學影像、衛星遙感圖片、藝術風格圖片等領域的生成評估使用 FID 時，結果的穩定性存疑",
       "理想的圖像生成評估指標應該在不依賴特定訓練資料集的前提下，捕捉圖像的統計品質特性",
       "小波變換是一種與訓練資料無關的信號分析工具，能捕捉圖像在不同尺度和方向上的頻率特徵",
       "FWD（Fréchet Wavelet Distance）使用離散小波變換（DWT）提取圖像特徵，完全不依賴任何預訓練模型",

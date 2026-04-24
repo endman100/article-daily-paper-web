@@ -1,6 +1,7 @@
 {
   "title": "Human Preference Score: Better Aligning Text-to-Image Models with Human Preference",
   "title_zh": "HPS：人類偏好分數：更好地將文字到圖像模型與人類偏好對齊",
+  "paper_url": "https://arxiv.org/abs/2303.14420",
   "data": [
     [
       "人類偏好分數在 T2I 評估中扮演越來越關鍵的角色，因為技術指標跟人類感受之間的鴻溝始終存在",

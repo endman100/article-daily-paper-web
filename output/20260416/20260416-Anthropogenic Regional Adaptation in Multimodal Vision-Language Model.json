@@ -1,6 +1,7 @@
 {
   "title": "Anthropogenic Regional Adaptation in Multimodal Vision-Language Model",
   "title_zh": "多模態視覺語言模型中的人為區域適應",
+  "paper_url": "https://arxiv.org/abs/2604.11490",
   "data": [
     [
       "這篇論文提出一個全新的人本區域適應框架，專注於提升模型對特定地區的文化貼合度",
@@ -23,7 +24,7 @@
       ""
     ],
     [
-      "研究強調，Anthropogenic Regional Adaptation 不僅是一種技術路徑，更是推動多模態 AI 在多元地區落地的基石",
+      "研究強調，Anthropogenic Regional Adaptation 除了是一種技術路徑，還是推動多模態 AI 在多元地區落地的基石",
       "這種方法為未來 LLM 與 VLM 的區域化應用提供了新方向",
       "團隊的成果展現了簡單策略也能帶來顯著成效，降低了區域適應的門檻",
       "未來，這類方法有望推廣至更多語言與文化場域，促進 AI 公平與多元發展",

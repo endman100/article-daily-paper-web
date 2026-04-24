@@ -1,6 +1,7 @@
 {
   "title": "CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation",
   "title_zh": "CharacterEval：角色扭演對話代理評估的中文基準",
+  "paper_url": "https://arxiv.org/abs/2401.01275",
   "data": [
     [
       "LLM 能扮演小說角色跟你聊天，但它真的懂那個角色嗎？",
@@ -21,7 +22,7 @@
       "評測設計是 CharacterEval 的一大亮點，採用了多面向的評估架構",
       "它將角色扮演能力拆分為四大維度，從不同角度去審視 Agent 的表現",
       "總共設計了 13 項具體指標，分別衡量角色的知識掌握，語言風格，情感表達和行為一致性",
-      "這套評測框架的好處在於，它不只看像不像，還看懂不懂和穩不穩",
+      "這套評測框架的好處在於，它除了看像不像，也看懂不懂和穩不穩",
       "透過如此精細的拆解，研究者能更準確地找出 Agent 在角色扮演中的弱項"
     ],
     [

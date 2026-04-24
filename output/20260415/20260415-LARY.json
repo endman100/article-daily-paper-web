@@ -1,6 +1,7 @@
 {
   "title": "LARY: A Latent Action Representation Yielding Benchmark for Generalizable Vision-to-Action Alignment",
   "title_zh": "LARY：用於可泛化視覺到動作對齊的潛在動作表示生成基準",
+  "paper_url": "https://arxiv.org/abs/2604.11689",
   "data": [
     [
       "視覺語言動作（VLA）模型的訓練需要大量帶有動作標注的資料，而這類資料的取得代價極高",

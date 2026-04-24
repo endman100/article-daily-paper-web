@@ -1,6 +1,7 @@
 {
   "title": "SPPO：序列級 PPO 的長視野推理突破",
   "title_zh": "Sequence-Level PPO for Long-Horizon Reasoning Tasks",
+  "paper_url": "https://arxiv.org/abs/2604.08865",
   "data": [
     [
       "在對齐大語言模型進行長鏈推理時，如何高效地進行獎勵優化一直是關鍵難題。",

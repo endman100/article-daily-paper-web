@@ -1,6 +1,7 @@
 {
   "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
   "title_zh": "QuanBench+：基於 LLM 的量子程式碼生成統一多框架基準",
+  "paper_url": "https://arxiv.org/abs/2604.08570",
   "data": [
     [
       "LLM 寫程式的能力在各類任務上快速成長，量子程式碼生成也逐漸成為研究者關注的新方向",

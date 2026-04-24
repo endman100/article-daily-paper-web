@@ -1,6 +1,7 @@
 {
   "title": "The Cognitive Penalty: Ablating System 1 and System 2 Reasoning in Edge-Native SLMs for Decentralized Consensus",
   "title_zh": "認知代價：在去中心化共識場景下消融 Edge-Native SLMs 的 System 1 與 System 2 推理",
+  "paper_url": "https://arxiv.org/abs/2604.16913",
   "data": [
     [
       "當 AI 開始慢慢思考，它的裁決反而崩潰了",
@@ -30,7 +31,7 @@
       "資料集取自 Optimism DAO 的真實提案，分為基準層（10 個正常提案）和對抗層（10 個惡意注入版本）",
       "惡意注入的方式是在合法提案裡插入一段違反財產權的條款，但用生態永續等正面修辭包裝",
       "每個提案各執行 20 次獨立試驗，溫度設為 0.6，所有輸出必須符合結構化 JSON 格式",
-      "若模型完成生成但無法輸出有效二元裁決，直接記為認知崩潰失敗，不重試"
+      "若模型完成生成然而無法輸出有效二元裁決，直接記為認知崩潰失敗，不重試"
     ],
     [
       "論文識別出 System 2 失敗的兩種主要模式",

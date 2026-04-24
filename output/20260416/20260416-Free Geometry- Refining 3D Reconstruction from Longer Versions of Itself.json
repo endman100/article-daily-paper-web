@@ -1,6 +1,7 @@
 {
   "title": "Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself",
   "title_zh": "從更長版本的自身精煉三維重建",
+  "paper_url": "https://arxiv.org/abs/2604.14048",
   "data": [
     [
       "這項研究提出 Free Geometry 框架，讓前饋式三維重建模型在測試階段自主精煉幾何預測，過程中完全不需要三維標注資料",

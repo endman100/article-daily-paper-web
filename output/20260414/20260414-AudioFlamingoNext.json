@@ -1,12 +1,13 @@
 {
   "title": "Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music",
   "title_zh": "Audio Flamingo Next：適用於語音、聲音與音樂的下一代開放音頻語言模型",
+  "paper_url": "https://arxiv.org/abs/1908.02590",
   "data": [
     [
       "大型語言模型近年來快速擴展到音訊領域，讓機器理解語音、聲音和音樂的能力大幅提升",
       "但現有的音訊語言模型在長音訊處理、時間推理和大規模資料訓練上仍然有明顯的瓶頸",
       "如何讓模型真正聽懂一段很長的錄音，並準確定位其中的關鍵事件，是一個還沒解決好的問題",
-      "Audio Flamingo Next 是 Audio Flamingo 系列的最新一代，針對這些弱點提出了系統性的解方 👇"
+      "Audio Flamingo Next 是 Audio Flamingo 系列的最新一代，針對這些弱點提出了全面的解方 👇"
     ],
     [
       "AF-Next 在前一代的基礎上帶來了幾個重要的升級",

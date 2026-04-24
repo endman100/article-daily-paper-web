@@ -1,6 +1,7 @@
 {
   "title": "VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation",
   "title_zh": "VisionReward：影像與影片生成的細粒度多維度人類偏好學習",
+  "paper_url": "https://arxiv.org/abs/2412.21059",
   "data": [
     [
       "朋友看你剛生成的圖只回一句還行，你完全學不到能改的地方",

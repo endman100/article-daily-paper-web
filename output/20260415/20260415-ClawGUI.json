@@ -1,6 +1,7 @@
 {
   "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
   "title_zh": "ClawGUI：訓練、評估與部署 GUI 代理的統一框架",
+  "paper_url": "https://arxiv.org/abs/2604.11784",
   "data": [
     [
       "如果 AI 能像人類一樣直接操作螢幕上的任何軟體，不依賴任何特殊 API，只靠點擊和滑動完成任務",

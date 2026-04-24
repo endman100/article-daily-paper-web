@@ -1,6 +1,7 @@
 {
   "title": "Crowded in B-Space: Calibrating Shared Directions for LoRA Merging",
   "title_zh": "B 空間裡的擁擠：校準 LoRA 合併中的共享方向",
+  "paper_url": "https://arxiv.org/abs/2604.16826",
   "data": [
     [
       "LoRA 合併效能下滑這件事，長期被歸咎於不同任務之間的方向衝突",
@@ -20,7 +21,7 @@
       "Task Arithmetic 等方法讓這件事看起來可行，做法是直接把多個任務的 LoRA 更新向量相加",
       "但問題馬上出現，合併後的效能幾乎普遍低於各個單任務版本",
       "TIES 嘗試透過符號多數決來處理衝突，TSV-M 在奇異向量空間對齊更新，DARE 透過稀疏化減少干擾",
-      "這些方法各有改善，但沒有哪一個找到問題真正的根"
+      "這些方法各有改善，卻未能哪一個找到問題真正的根"
     ],
     [
       "論文拿 4 個分別針對數學，程式碼，金融，醫療訓練的 Llama-3.1-8B LoRA，直接量化 B 和 A 矩陣之間的跨任務方向重疊程度",

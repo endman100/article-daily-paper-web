@@ -1,6 +1,7 @@
 {
   "title": "Accelerating Speculative Decoding with Block Diffusion Draft Trees",
   "title_zh": "DDTree：用區塊擴散草稿樹加速推測解碼",
+  "paper_url": "https://arxiv.org/abs/2604.12989",
   "data": [
     [
       "推測解碼（speculative decoding）是目前最受關注的 LLM 推論加速技術之一",

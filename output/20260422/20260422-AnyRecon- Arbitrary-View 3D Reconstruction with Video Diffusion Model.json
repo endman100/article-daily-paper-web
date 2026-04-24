@@ -1,6 +1,7 @@
 {
   "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
   "title_zh": "AnyRecon：任意視角 3D 重建與 Video Diffusion Model",
+  "paper_url": "https://arxiv.org/abs/2604.19747",
   "data": [
     [
       "手邊只有幾張角度零散的照片，要從這些輸入拼出一個可以自由移動視角的完整 3D 場景，這件事長期以來被認為在技術上難以實現",
@@ -64,8 +65,8 @@
     ],
     [
       "AnyRecon 的框架解決了現有方法的幾個核心問題，但幾個面向值得繼續觀察",
-      "初始幾何估計的品質會直接影響系統的整體表現，如果稀疏輸入本身有嚴重遮擋或極端光線，初始點雲的精度就有限",
-      "4-step distillation 雖然大幅提升效率，但和完整的多步 diffusion 相比，細節生成仍有品質上的取捨",
+      "初始幾何估計的品質會直接影響全面的整體表現，如果稀疏輸入本身有嚴重遮擋或極端光線，初始點雲的精度就有限",
+      "4-step distillation 雖然大幅提升效率，然而和完整的多步 diffusion 相比，細節生成仍有品質上的取捨",
       "目前的框架需要事先指定目標軌跡，對完全自由探索的使用場景，這還是一個現實限制",
       "生成模型固有的幻覺問題在複雜場景中依然存在，幾何記憶的累積誤差如何控制也還是開放問題",
       "從整體框架來看，AnyRecon 提供了一條將 video diffusion 和明確 3D 幾何記憶結合的可行路徑",

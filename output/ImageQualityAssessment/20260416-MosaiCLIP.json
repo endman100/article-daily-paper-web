@@ -1,9 +1,10 @@
 {
   "title": "MosaiCLIP: Improving CLIP via Fusing Multiple Aligned Modalities",
   "title_zh": "MosaiCLIP：透過多模態信息融合提升 CLIP 語意對齊能力的 T2I 評估改良框架",
+  "paper_url": "https://arxiv.org/abs/2306.01879",
   "data": [
     [
-      "CLIP 在 T2I 評估中的廣泛應用揭示了其組合語意理解的系統性弱點",
+      "CLIP 在 T2I 評估中的廣泛應用揭示了其組合語意理解的全面弱點",
       "標準 CLIPScore 在評估包含多個物件、屬性和關係的複雜提示時，區分能力顯著下降",
       "CLIP 的弱點部分源於其訓練資料：網路爬取的圖文對中，精確描述細粒度屬性的樣本比例有限",
       "引入多模態輔助信號（如物件偵測標注、場景圖（Scene Graph））可以補充 CLIP 的訓練信號",
@@ -38,7 +39,7 @@
       "相比標準 CLIP，MosaiCLIP 在組合語意評估上更為精確，適用於需要評估屬性綁定和關係正確性的任務",
       "相比 NegCLIP，MosaiCLIP 的改進範圍更廣（不僅限於否定語意），但針對否定語意的改進幅度不如 NegCLIP",
       "與 BLIP-ITM 相比，MosaiCLIP 維持了餘弦相似度的計算框架，計算效率更高",
-      "TIFA 和 VQAScore 等問答式指標在細粒度語意評估上通常優於 MosaiCLIP，但計算成本高很多",
+      "TIFA 和 VQAScore 等問答式指標在細粒度語意評估上通常優於 MosaiCLIP，然而計算成本高很多",
       "MosaiCLIP 的訓練需要物件偵測和場景圖標注資料，資料準備成本高於標準 CLIP 微調",
       "MosaiCLIP 的改進在簡單語意對齊任務上與標準 CLIP 差距不大，主要優勢在複雜組合場景"
     ],

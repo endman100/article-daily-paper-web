@@ -1,6 +1,7 @@
 {
   "title": "Lyra 2.0: Explorable Generative 3D Worlds",
   "title_zh": "Lyra2：可探索的生成式 3D 世界",
+  "paper_url": "https://arxiv.org/abs/2604.13036",
   "data": [
     [
       "AI 生成的 3D 世界，正從靜態場景走向可以自由探索的大型環境",

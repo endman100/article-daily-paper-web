@@ -1,6 +1,7 @@
 {
   "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
   "title_zh": "BLIP-ITC-ITM：BLIP：用於統一視覺語言理解與生成的自舉語言-圖像預訓練",
+  "paper_url": "https://arxiv.org/abs/2201.12086",
   "data": [
     [
       "CLIPScore 是目前最常用的文字與圖片對齊指標，但它的計算方式其實相當粗糙",
@@ -14,13 +15,13 @@
       "這種方式的好處是速度快，但缺點是文字跟圖片在整個過程中完全沒有互動",
       "兩個編碼器各做各的，最後只靠一個相似度數值來判斷它們有多匹配",
       "這讓 CLIPScore 在面對需要細緻語義理解的 prompt 時容易失準",
-      "例如「一隻白色的貓坐在黑色的椅子上」跟「一隻黑色的貓坐在白色的椅子上」，CLIPScore 可能給出相近的分數"
+      "例如一隻白色的貓坐在黑色的椅子上跟一隻黑色的貓坐在白色的椅子上，CLIPScore 可能給出相近的分數"
     ],
     [
       "BLIP 的 ITC 全名是 Image-Text Contrastive，跟 CLIP 的做法概念類似但訓練策略更精進",
       "ITC 同樣計算圖片向量跟文字向量之間的對比分數",
       "不同的是 BLIP 在訓練過程中加入了動量蒸餾和硬負例挖掘等技巧",
-      "這讓 BLIP 的 ITC 分數在區分相似但不同的圖文配對時比 CLIPScore 更敏銳",
+      "這讓 BLIP 的 ITC 分數在區分相似然而不同的圖文配對時比 CLIPScore 更敏銳",
       "在需要快速粗篩大量圖片時，ITC 是效率和品質之間的良好平衡"
     ],
     [

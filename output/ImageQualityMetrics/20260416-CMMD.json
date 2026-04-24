@@ -1,6 +1,7 @@
 {
   "title": "Rethinking FID: Towards a Better Evaluation Metric for Image Generation",
   "title_zh": "CMMD：重新思考 FID：邁向更好的圖像生成評估指標",
+  "paper_url": "https://arxiv.org/abs/2401.09603",
   "data": [
     [
       "FID 幾乎壟斷了生成模型評估指標的地位，但它有兩個根本假設一直被研究者詬病",
@@ -32,7 +33,7 @@
     ],
     [
       "用 CLIP 替換 Inception 帶來了另一層改進",
-      "Inception 是在分類任務上訓練的，它的特徵主要關注「這是什麼物體」",
+      "Inception 是在分類任務上訓練的，它的特徵主要關注這是什麼物體",
       "CLIP 的特徵則同時編碼了視覺內容和語義關聯，對圖片品質的感知更全面",
       "在跟人類評估結果做比對時，CMMD 展現出比 FID 更高的相關性",
       "這代表 CMMD 的判斷更接近人類的感知標準"

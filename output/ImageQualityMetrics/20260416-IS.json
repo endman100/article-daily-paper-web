@@ -1,6 +1,7 @@
 {
   "title": "Improved Techniques for Training GANs",
   "title_zh": "IS：改善 GAN 訓練技術",
+  "paper_url": "https://arxiv.org/abs/1606.03498",
   "data": [
     [
       "在 FID 出現之前，IS 是最早被廣泛採用的生成圖片品質評估指標之一",

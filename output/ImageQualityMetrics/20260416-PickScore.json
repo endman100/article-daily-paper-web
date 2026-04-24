@@ -1,6 +1,7 @@
 {
   "title": "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation",
   "title_zh": "PickScore：用於文字轉圖像生成的開放使用者偏好資料集",
+  "paper_url": "https://arxiv.org/abs/2305.01569",
   "data": [
     [
       "CLIPScore 衡量的是文字跟影像之間的語意吻合度，但它跟人類的主觀偏好之間其實存在一段落差",

@@ -1,10 +1,11 @@
 {
   "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
   "title_zh": "GenEval：以物件為中心的文字到圖像對齊評估框架",
+  "paper_url": "https://arxiv.org/abs/2310.11513",
   "data": [
     [
       "現有的 T2I 評估指標各有各的專長，但缺乏一個統一的框架來全面測試模型的各項基本能力",
-      "一個模型可能 CLIPScore 很高但空間關係一塌糊塗，也可能生成品質很好但數量計數完全錯誤",
+      "一個模型可能 CLIPScore 很高然而空間關係一塌糊塗，也可能生成品質很好但數量計數完全錯誤",
       "零散的指標各自評估不同的面向，卻很難拼湊出模型能力的完整圖像",
       "GenEval 被設計成一個系統化的評估基準，專門用來測試 T2I 模型在各項核心能力上的表現",
       "它定義了一組結構化的測試項目，涵蓋從單一物件到複雜場景的各種生成挑戰",

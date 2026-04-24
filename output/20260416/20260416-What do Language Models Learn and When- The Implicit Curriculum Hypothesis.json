@@ -1,9 +1,10 @@
 {
   "title": "What do Language Models Learn and When? The Implicit Curriculum Hypothesis",
   "title_zh": "語言模型學習了什麼？又是何時學會的？隱性課程假說",
+  "paper_url": "https://arxiv.org/abs/2604.08510",
   "data": [
     [
-      "這篇論文深入探討 LLM 在預訓練過程中能力出現的順序與規律",
+      "這篇論文仔細分析 LLM 在預訓練過程中能力出現的順序與規律",
       "研究團隊提出隱性課程假說，認為模型學習路徑具有組合性與可預測性",
       "他們設計多種簡單且可組合的任務，觀察不同模型家族的學習歷程",
       "👇"

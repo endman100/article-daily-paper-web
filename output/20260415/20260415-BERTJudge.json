@@ -1,12 +1,13 @@
 {
   "title": "BERT-as-a-Judge: A Robust Alternative to Lexical Methods for Efficient Reference-Based LLM Evaluation",
   "title_zh": "BERTJudge：BERT 作為評判者用於高效參考型 LLM 評估的髙健替代方案",
+  "paper_url": "https://arxiv.org/abs/2604.09497",
   "data": [
     [
       "LLM 評估框架的品質，直接決定了整個模型開發生態的走向",
       "然而，目前廣泛使用的詞彙比對方法存在一個根本性缺陷",
       "它們把模型是否生成了正確答案，和模型是否按照特定格式輸出，混為一談",
-      "一個推理能力強但輸出格式不同的模型，可能因此被系統性低估",
+      "一個推理能力強但輸出格式不同的模型，可能因此被全面低估",
       "研究團隊提出的 BERT-as-a-Judge，試圖在成本效益上找到一個更好的平衡點 👇"
     ],
     [

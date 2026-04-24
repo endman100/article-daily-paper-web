@@ -1,6 +1,7 @@
 {
   "title": "UDM-GRPO: Stable and Efficient Group Relative Policy Optimization for Uniform Discrete Diffusion Models",
   "title_zh": "UDM-GRPO：Uniform Discrete Diffusion Models 的穩定高效 Group Relative Policy Optimization",
+  "paper_url": "https://arxiv.org/abs/2604.18518",
   "data": [
     [
       "一個訓練技巧，讓文字生成圖片的 OCR 準確率從 8% 跳到 57%，GenEval 從 69% 直衝 96%",
@@ -24,7 +25,7 @@
       "這個失敗讓研究者決定直接深挖根本原因，找到能真正解決問題的修法"
     ],
     [
-      "研究者做了系統性的分析，找到了訓練不穩定的核心原因",
+      "研究者做了全面的分析，找到了訓練不穩定的核心原因",
       "GRPO 在訓練時需要評估每個決策的優劣，也就是定義什麼是一個動作",
       "傳統套用方式把去噪過程的每個中間狀態當成動作",
       "問題是這些中間狀態本身就充滿了均勻隨機的替換噪聲",
@@ -70,7 +71,7 @@
     [
       "57% 的 OCR 準確率雖然比出發點高了很多，但距離實用化還有一段距離",
       "廣告設計，UI 生成，海報製作這些場景對文字準確度的要求通常接近 100%",
-      "GenEval 跑到 96% 是亮眼的數字，但 benchmark 的樣本集和真實世界的多樣性之間永遠有落差",
+      "GenEval 跑到 96% 是亮眼的數字，然而 benchmark 的樣本集和真實世界的多樣性之間永遠有落差",
       "研究者把直接套 GRPO 為什麼失敗這件事說清楚了，這比那些數字本身更有參考價值",
       "動作定義和軌跡重建這兩個分析框架，對其他離散生成模型的 RL 訓練同樣適用",
       "訓練技術正在成為圖片生成領域的核心差異，跟模型架構和數據的重要性並列",

@@ -1,11 +1,12 @@
 {
   "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
   "title_zh": "TAIHRI：任務感知 3D 人體關鍵點定位用於近距離人機互動",
+  "paper_url": "https://arxiv.org/abs/2604.08921",
   "data": [
     [
       "機器人要安全地協助人類，首先要知道人的手在哪裡、腳在哪裡",
       "傳統三維姿態估計以全身重建品質為目標，卻忽略了機器人真正需要的任務相關資訊",
-      "近距離人機互動需要的不是整個人體的模型，而是特定關節在機器人座標系下的精確位置",
+      "近距離人機互動需要的真正的重點不在於整個人體的模型，，而在於特定關節在機器人座標系下的精確位置",
       "TAIHRI 是第一個針對近距離人機互動設計的視覺語言模型，能理解動作指令並定位關鍵關節 👇"
     ],
     [

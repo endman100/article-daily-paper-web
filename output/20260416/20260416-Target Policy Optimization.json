@@ -1,6 +1,7 @@
 {
   "title": "Target Policy Optimization",
   "title_zh": "目標策略最佳化",
+  "paper_url": "https://arxiv.org/abs/2604.06159",
   "data": [
     [
       "在用強化學習訓練 LLM 時，每一步都要同時解決兩件事，包括應該讓哪些生成結果獲得更高機率，以及怎麼調整模型參數來實現這個目標",

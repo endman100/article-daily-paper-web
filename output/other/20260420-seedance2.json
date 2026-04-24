@@ -1,6 +1,7 @@
 {
   "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
   "title_zh": "Seedance 2.0 技術報告解讀，多模態影片生成的統一架構",
+  "paper_url": "https://arxiv.org/abs/2604.14148",
   "data": [
     [
       "Seedance 2.0 paper出來了，重新回顧其技術重點",
@@ -15,7 +16,7 @@
     [
       "報告雖然缺乏訓練細節，但架構層面的演進脈絡仍然清楚",
       "1.0 只做基本影片生成",
-      "1.5 Pro 加入音視頻聯合生成，但模態整合仍然是拼接式的",
+      "1.5 Pro 加入音視頻聯合生成，然而模態整合仍然是拼接式的",
       "到了 2.0 整個架構推倒重來，核心換成大規模多模態 Transformer，文字，圖片，音訊，影片四種訊號在同一個 latent space 裡對齊",
       "模態之間不再需要額外的對齊 pipeline，跨模態語意理解在架構層級直接處理",
       "支援的輸入組合很廣，最多同時接受 3 段影片，9 張圖片，3 段音訊，再加上文字提示",

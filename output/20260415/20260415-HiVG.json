@@ -1,6 +1,7 @@
 {
   "title": "Hierarchical SVG Tokenization: Learning Compact Visual Programs for Scalable Vector Graphics Modeling",
   "title_zh": "HiVG：層次化 SVG 分詞：學習可縮放向量圖形建模的緊湊視覺程式",
+  "paper_url": "https://arxiv.org/abs/2604.05072",
   "data": [
     [
       "可縮放向量圖形（SVG）用程式碼描述圖形，具有解析度無損的特性",

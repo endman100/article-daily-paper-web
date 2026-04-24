@@ -1,6 +1,7 @@
 {
   "title": "讓 LLM 扮演 100 個角色，最後連開源小模型也能演得跟 GPT-4 一樣好",
   "title_zh": "RoleLLM 不只是一個 Benchmark，而是一套從建構角色到訓練模型的完整框架",
+  "paper_url": "https://arxiv.org/abs/2310.00746",
   "data": [
     [
       "它涵蓋了角色設定建構，知識提取，風格模仿，再到模型微調的四個階段",

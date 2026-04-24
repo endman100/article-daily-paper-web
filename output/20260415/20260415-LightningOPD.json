@@ -1,6 +1,7 @@
 {
   "title": "Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation",
   "title_zh": "LightningOPD：以離線在策略蔓陶對大型推理模型的高效後訓練",
+  "paper_url": "https://arxiv.org/abs/2604.13010",
   "data": [
     [
       "OPD 已成為訓練強推理 LLM 的重要技術，但它有一個令人頭疼的工程問題",

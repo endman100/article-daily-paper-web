@@ -1,6 +1,7 @@
 {
   "title": "如果 AI 聊天夥伴沒有個性，對話體驗就像跟一台自動販賣機互動",
   "title_zh": "角色扮演 Agent 的核心挑戰之一，就是如何把個性注入到對話生成中",
+  "paper_url": "https://doi.org/10.1038/npp.2012.227",
   "data": [
     [
       "Personality-Infused 方法不只是在 prompt 裡寫上性格描述就了事",

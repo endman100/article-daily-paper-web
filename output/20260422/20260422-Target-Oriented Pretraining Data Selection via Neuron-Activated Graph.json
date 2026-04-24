@@ -1,6 +1,7 @@
 {
   "title": "Target-Oriented Pretraining Data Selection via Neuron-Activated Graph",
   "title_zh": "利用 Neuron-Activated Graph 的目標導向預訓練數據選擇",
+  "paper_url": "https://arxiv.org/abs/2604.15706",
   "data": [
     [
       "訓練 LLM 之前，數據選哪些一直是個沒有好答案的問題",
@@ -18,7 +19,7 @@
       "如果目標是讓模型在某個任務上表現好，預訓練時選到無關數據，訓練資源就浪費了",
       "質量導向的篩選方法優化的是文字整體品質，對特定任務的對齊效果有限",
       "target-oriented 方法嘗試更進一步，選那些和目標任務最相關的候選文件",
-      "但主流做法還是把目標和候選都 encode 成 embedding，再算相似度",
+      "然而主流做法還是把目標和候選都 encode 成 embedding，再算相似度",
       "embedding 相似度的問題在於它是整體語義的壓縮，不代表激活了相似的功能",
       "語義上接近的兩份文件，在 LLM 內部可能激活完全不同的神經元路徑"
     ],

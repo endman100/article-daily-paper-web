@@ -1,6 +1,7 @@
 {
   "title": "HDR Video Generation via Latent Alignment with Logarithmic Encoding",
   "title_zh": "高動態範圍影片生成：潛在空間對齊與對數編碼的新突破",
+  "paper_url": "https://arxiv.org/abs/2604.11788",
   "data": [
     [
       "本研究提出一種全新 HDR 影片生成方法，結合對數編碼與潛在空間對齊技術",

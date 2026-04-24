@@ -1,9 +1,10 @@
 {
   "title": "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation",
   "title_zh": "PickScore：基於真實用戶成對偏好資料訓練的 T2I 生成品質自動評估模型",
+  "paper_url": "https://arxiv.org/abs/2305.01569",
   "data": [
     [
-      "現有的 T2I 評估指標（CLIPScore、FID）在捕捉人類實際偏好方面存在系統性偏差",
+      "現有的 T2I 評估指標（CLIPScore、FID）在捕捉人類實際偏好方面存在全面偏差",
       "訓練符合人類偏好的評估模型需要大規模、真實的人類偏好標注資料，而非合成資料",
       "PickScore 基於 Pick-a-Pic 平台收集的真實用戶互動偏好資料訓練，反映了真實使用行為",
       "Pick-a-Pic 資料集包含超過 50 萬組由真實用戶在使用 T2I 工具時做出的成對偏好標注",
@@ -21,7 +22,7 @@
     [
       "Pick-a-Pic 資料集的收集方法：在真實 T2I 應用中嵌入 A/B 測試界面，記錄用戶的自然選擇",
       "資料多樣性：涵蓋藝術、照片、插圖、概念藝術等多種風格，prompt 來自真實用戶的自然語言輸入",
-      "數據清洗：過濾掉明顯的隨機點擊（停留時間極短的判斷）和重複用戶的系統性偏見",
+      "數據清洗：過濾掉明顯的隨機點擊（停留時間極短的判斷）和重複用戶的全面偏見",
       "訓練使用 AdamW 優化器，學習率 warmup 策略，在 A100 GPU 上訓練約 10 萬步",
       "CLIP ViT-H/14 的大規模預訓練使 PickScore 能夠利用豐富的視覺語言語意知識",
       "PickScore 的推論速度與 CLIPScore 相近，可以在評估流程中作為直接替換"
@@ -48,7 +49,7 @@
       "PickScore 被廣泛用作 T2I 模型優化的 reward model，特別是在 RLHF 訓練流程中",
       "基於 PickScore 的 reward signal 已被用於 Stable Diffusion 的 RLHF 微調，驗證了其作為訓練信號的有效性",
       "PickScore 的成功推動了多個開放 T2I 偏好資料集的建立（如 HPD v2、ImageReward 資料集擴充）",
-      "未來方向包括使用更多元化的用戶群體資料更新訓練集，以減少 Stable Diffusion 用戶偏好的系統性偏差"
+      "未來方向包括使用更多元化的用戶群體資料更新訓練集，以減少 Stable Diffusion 用戶偏好的全面偏差"
     ]
   ]
 }

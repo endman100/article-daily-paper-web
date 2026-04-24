@@ -1,6 +1,7 @@
 {
   "title": "Toward Autonomous Long-Horizon Engineering for ML Research",
   "title_zh": "AiScientist：邁向 ML 研究的自主長程工程",
+  "paper_url": "https://arxiv.org/abs/2604.13018",
   "data": [
     [
       "讓 AI 自主進行機器學習研究，不只是生成一段程式碼",
@@ -38,7 +39,7 @@
       "這有力地說明，持久狀態管理是整套系統效能的核心支柱"
     ],
     [
-      "AiScientist 的成功暗示，自主 AI 研究系統的瓶頸不只在於模型的推理能力",
+      "AiScientist 的成功暗示，自主 AI 研究全面的瓶頸不只在於模型的推理能力",
       "如何讓 Agent 在跨越數十步的複雜任務中保持一致的工作記憶，才是系統設計的關鍵",
       "File-as-Bus 這種以檔案作為溝通媒介的設計，提供了一個可複製的架構模板",
       "隨著 AI Agent 承擔越來越複雜的研究任務，這類系統設計思路的影響將越來越廣",

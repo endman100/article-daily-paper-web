@@ -1,16 +1,17 @@
 {
   "title": "Contrastive Attribution in the Wild: An Interpretability Analysis of LLM Failures on Realistic Benchmarks",
   "title_zh": "野外環境的 Contrastive Attribution：LLM 在真實 Benchmark 上失敗的可解釋性分析",
+  "paper_url": "https://arxiv.org/abs/2604.17761",
   "data": [
     [
       "LLM 答錯了，我們習慣去看答案，卻很少追問它的決策過程到底發生了什麼",
       "行為分析可以找出哪類題目容易失敗，但對於為什麼失敗這個問題，它基本上沉默",
-      "interpretability 工具理論上更有力，但這些工具幾乎只在短 prompt 或精心設計的玩具場景下被驗證過",
+      "interpretability 工具理論上更有力，然而這些工具幾乎只在短 prompt 或精心設計的玩具場景下被驗證過",
       "真實 benchmark 的長輸入和複雜任務，一直是個沒有被正面觸碰的場景",
       "這份研究直接把 interpretability 分析工具丟進四個主流 benchmark，做壓力測試",
       "核心方法叫 Contrastive Attribution，把 logit 差值反向傳播，找出每個 token 對失敗的貢獻度",
       "研究覆蓋四個方向，分別是指令跟隨，長上下文 agentic 任務，數學推理，程式碼生成",
-      "結論很直白：有用，但不是每次都管用，兩種情況的邊界比預期中清晰"
+      "結論很直白：有用，卻不是每次都管用，兩種情況的邊界比預期中清晰"
     ],
     [
       "LLM 的失敗分析目前有兩條主要路徑",
@@ -18,9 +19,9 @@
       "這種分析在找出失敗類型、量化弱點分布這件事上很有效",
       "但行為分析有個根本限制，它只能說什麼在失敗，說不了為什麼失敗",
       "第二條是 interpretability 分析，試圖進入模型內部，追蹤注意力和梯度訊號，找出決策的根源",
-      "interpretability 工具理論上能回答為什麼，但實際驗證幾乎都停留在短 prompt 或人工設計的情境",
+      "interpretability 工具理論上能回答為什麼，然而實際驗證幾乎都停留在短 prompt 或人工設計的情境",
       "真實 benchmark 的輸入可以從幾百到幾萬個 token，遠超多數工具的設計假設",
-      "這造成了一個明顯的缺口：interpretability 工具在真實場景中到底有多少實用性，至今缺乏系統性的驗證"
+      "這造成了一個明顯的缺口：interpretability 工具在真實場景中到底有多少實用性，至今缺乏全面的驗證"
     ],
     [
       "研究核心方法是 Contrastive Attribution",
@@ -44,7 +45,7 @@
       "對於輸入層分析找不到解釋的失敗案例，歸因圖提供了更深一層的診斷線索"
     ],
     [
-      "研究辨識出兩種主要的失敗模式，並在所有 benchmark 中對失敗案例進行了系統性分類",
+      "研究辨識出兩種主要的失敗模式，並在所有 benchmark 中對失敗案例進行了全面分類",
       "第一種是 URT，也就是 Underweight Relevant Tokens，模型對本應關注的關鍵 token 給予了過少的注意力",
       "在跟隨指令的任務中，指令裡明確寫了加逗號這個要求，但模型在生成時低估了這個指令 token 的重要性",
       "第二種是 OIT，也就是 Overweight Irrelevant Tokens，模型對不相關的 token 給予了過多的注意力",
@@ -58,7 +59,7 @@
       "研究把 Contrastive Attribution 進一步用在兩個比較問題上",
       "第一個是模型規模的影響：當更大的模型糾正了較小模型的錯誤，這個糾正在歸因層面長什麼樣子",
       "結果顯示大多數情況下，更大的模型確實糾正了較小模型的失敗",
-      "歸因分析找到了可解釋的系統性變化：更大的模型對指令相關 token 的負相關性顯著增加",
+      "歸因分析找到了可解釋的全面變化：更大的模型對指令相關 token 的負相關性顯著增加",
       "這代表更大的模型學會了更準確地降低錯誤方向上的 token 權重，決策更加收斂在正確的資訊上",
       "第二個問題是訓練過程的影響：歸因模式如何在不同訓練階段演化",
       "研究追蹤了 Olmo3-7B-Think 在 SFT，DPO，RLVR 三個訓練階段的歸因模式變化",

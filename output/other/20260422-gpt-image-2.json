@@ -1,6 +1,7 @@
 {
   "title": "gpt-image-2 vs Nano Banana: what it does, where it wins, and the prompts that unlock it",
   "title_zh": "gpt-image-2 對上 Nano Banana，它能幹嘛，贏在哪，prompt 怎麼寫",
+  "paper_url": "https://arxiv.org/abs/2602.12205",
   "data": [
     [
       "OpenAI 這週把 gpt-image-2 推上線",

@@ -1,12 +1,13 @@
 {
   "title": "Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness",
   "title_zh": "MaskedConsensus：透過共識去管翣分離 LLM 正確性中的特權知識",
+  "paper_url": "https://arxiv.org/abs/2604.12373",
   "data": [
     [
       "LLM 知道自己在什麼時候會回答錯嗎",
       "這是 AI 自知能力研究中最核心的問題之一",
       "Technion 研究團隊用一個精巧的實驗設計，給出了一個比以往更細緻的答案",
-      "他們發現，LLM 的自知能力不是全面存在的，而是高度取決於任務類型",
+      "他們發現，LLM 的自知能力真正的重點不在於全面存在的，，而在於高度取決於任務類型",
       "更關鍵的是，過去的研究方法隱藏了真正的信號，讓這個問題長期被錯誤回答 👇"
     ],
     [

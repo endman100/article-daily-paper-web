@@ -1,6 +1,7 @@
 {
   "title": "Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
   "title_zh": "理解並強制執行 Task Arithmetic 中的權重解耦",
+  "paper_url": "https://arxiv.org/abs/2604.17078",
   "data": [
     [
       "把多個 AI 模型的技能合在一起，聽起來像在講科幻小說",
@@ -64,7 +65,7 @@
     ],
     [
       "這篇論文打通了一個懸了很久的理論問題，但有幾個值得留意的地方",
-      "TFS 是 weight disentanglement 的充分條件，但研究者沒有證明它是必要條件",
+      "TFS 是 weight disentanglement 的充分條件，然而研究者沒有證明它是必要條件",
       "這代表現實中可能存在其他路徑，同樣能達到良好的 model merging 效果",
       "目前所有實驗都在視覺模型 ViT 上進行，語言模型的情況完全沒有被驗證",
       "任務向量在語言任務中的干擾模式可能和視覺任務很不一樣",

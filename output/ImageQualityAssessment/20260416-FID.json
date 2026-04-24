@@ -1,6 +1,7 @@
 {
   "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
   "title_zh": "FID：以雙時間尺度更新規則衡量生成圖片與真實圖片分布距離的 Fréchet Inception 距離",
+  "paper_url": "https://arxiv.org/abs/1706.08500",
   "data": [
     [
       "AI 生成圖片的視覺品質評估在深度學習早期主要依賴人工主觀判斷，缺乏可重現的自動化指標",
@@ -22,7 +23,7 @@
       "Inception-v3 使用在 ImageNet（1000 類，120 萬張圖片）上預訓練的參數進行特徵提取",
       "pool3 層的輸出（2048 維）比最終分類層更適合捕捉圖像的高層語意特徵",
       "協方差矩陣平方根 (Σ_r Σ_g)^(1/2) 的計算使用 scipy 的矩陣平方根函數，計算複雜度較高",
-      "FID 的計算需要至少 50K 張圖片才能得到穩定的估計，樣本不足時數值會系統性偏高",
+      "FID 的計算需要至少 50K 張圖片才能得到穩定的估計，樣本不足時數值會全面偏高",
       "圖片前處理標準：縮放至 299×299（bilinear 插值），使用 Inception-v3 對應的歸一化參數",
       "不同的圖片縮放方式（bilinear vs bicubic）和對齊方式（center crop vs resize）會影響 FID 數值，需一致報告"
     ],
@@ -39,7 +40,7 @@
       "CMMD 使用 CLIP 特徵替代 Inception-v3，並用無偏的 MMD 替代 Fréchet 距離，克服了 FID 的兩個主要問題",
       "KID 使用相同的 Inception-v3 特徵但採用無偏的 MMD 統計量，在小樣本設定下比 FID 更穩定",
       "FWD（Fréchet Wavelet Distance）使用小波特徵替代 Inception-v3，針對頻率域的評估提供補充視角",
-      "FID 對 ImageNet 類別以外的圖片類型（醫學影像、衛星圖）的評估可靠性低，因為 Inception-v3 在這些領域特徵不準確",
+      "FID 對 ImageNet 類別以外的圖片類型（醫學影像、衛星圖）的評估穩定性低，因為 Inception-v3 在這些領域特徵不準確",
       "CLIPScore 補充了 FID 在語意對齊維度上的空缺，研究者通常同時報告兩個指標"
     ],
     [

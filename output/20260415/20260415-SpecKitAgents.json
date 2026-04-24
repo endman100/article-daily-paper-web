@@ -1,6 +1,7 @@
 {
   "title": "Spec Kit Agents: Context-Grounded Agentic Workflows",
   "title_zh": "規格套件代理，以情境為基礎的 AI 代理工作流程",
+  "paper_url": "https://arxiv.org/abs/2604.05278",
   "data": [
     [
       "AI coding agent 在大型程式庫中執行多步驟開發任務時，常因缺乏情境感知而產生幻覺 API 與架構違規。",
@@ -54,7 +55,7 @@
       "將 Discovery 與 Validation 從 agent 的核心 prompt 中獨立出來，使整個流程更具重現性與透明度。",
       "這套設計體現了最小權限原則，每個階段的工具存取僅限於該階段所需的範圍。",
       "隨著 AI 開發工具逐漸走入真實大型程式庫的日常工作流程，情境感知的能力將成為衡量 agent 穩健程度的關鍵指標。",
-      "Spec Kit Agents 提供了一個具體可行的參考框架，讓 AI agent 的開發工作從依賴運氣走向系統性的品質保障。"
+      "Spec Kit Agents 提供了一個具體可行的參考框架，讓 AI agent 的開發工作從依賴運氣走向全面的品質保障。"
     ]
   ]
 }

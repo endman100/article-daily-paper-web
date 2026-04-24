@@ -1,6 +1,7 @@
 {
   "title": "You Only Judge Once: Multi-response Reward Modeling in a Single Forward Pass",
   "title_zh": "YOJO：只判斷一次：單次前向傳播中的多回應獎勵建模",
+  "paper_url": "https://arxiv.org/abs/2604.10966",
   "data": [
     [
       "多模態獎勵模型是訓練高品質 AI 的關鍵元件",

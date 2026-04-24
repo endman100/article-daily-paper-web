@@ -1,6 +1,7 @@
 {
   "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
   "title_zh": "LeapAlign：在任意生成步驟建構兩步軌跡以後訓練 Flow Matching 模型",
+  "paper_url": "https://arxiv.org/abs/2604.15311",
   "data": [
     [
       "你請了一位畫師，給他一份超詳細的規格書",

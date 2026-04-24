@@ -1,6 +1,7 @@
 {
   "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
   "title_zh": "CLIPScore：基於 CLIP 視覺語言對齊的無參考圖像文字評估指標",
+  "paper_url": "https://arxiv.org/abs/2104.08718",
   "data": [
     [
       "圖像字幕評估長期依賴 BLEU、METEOR、CIDEr 等基於 n-gram 匹配的有參考指標",
@@ -30,9 +31,9 @@
       "在 Flickr8k-Expert 和 Flickr8k-CF 字幕品質評估資料集上，CLIPScore 與人類判斷的相關係數超過 CIDEr",
       "在 MS-COCO 的相關性研究中，CLIPScore（ViT-L/14）的 Spearman 相關係數達到 0.7 以上",
       "在 DrawBench 和 PartiPrompts 等 T2I 評估基準上，CLIPScore 被廣泛用作語意對齊的主要自動指標",
-      "多項研究表明 CLIPScore 在「物件存在性」和「整體主題匹配」上評估能力最強，在空間關係上較弱",
+      "多項研究表明 CLIPScore 在物件存在性和整體主題匹配上評估能力最強，在空間關係上較弱",
       "在 DALL-E 2、Stable Diffusion 和 Imagen 的官方評估報告中，CLIPScore 均作為核心指標被報告",
-      "在困難測試集（含有否定語意、計數要求的提示）上，CLIPScore 的排序可靠性顯著下降"
+      "在困難測試集（含有否定語意、計數要求的提示）上，CLIPScore 的排序穩定性顯著下降"
     ],
     [
       "相比 FID，CLIPScore 提供了針對單一圖文對的語意對齊分數，而非整體分布差異",

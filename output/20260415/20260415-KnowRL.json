@@ -1,6 +1,7 @@
 {
   "title": "KnowRL: Boosting LLM Reasoning via Reinforcement Learning with Minimal-Sufficient Knowledge Guidance",
   "title_zh": "KnowRL：透過最小充分知識引導的強化學習提升 LLM 推理",
+  "paper_url": "https://arxiv.org/abs/2604.12627",
   "data": [
     [
       "訓練 LLM 推理能力時，強化學習碰上了一道難題",

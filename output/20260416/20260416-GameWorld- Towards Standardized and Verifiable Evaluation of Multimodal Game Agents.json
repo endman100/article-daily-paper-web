@@ -1,6 +1,7 @@
 {
   "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
   "title_zh": "《GameWorld：走向多模態遊戲代理的標準化與可驗證評估》",
+  "paper_url": "https://arxiv.org/abs/2604.07429",
   "data": [
     [
       "這篇研究的核心在於為 MLLM 在電玩遊戲中的表現，建立一套標準化且可驗證的評估框架",
