@@ -536,6 +536,12 @@ function renderArticle(meta, articleObj, idx) {
   if (paperUrl) html += `<a href="${esc(paperUrl)}" target="_blank" rel="noopener">${esc(paperUrl)}</a>`;
   html += `</div>`;
 
+  // 找出最後一個非空段落的索引，用於追加論文連結
+  let lastParaIdx = -1;
+  for (let i = paragraphs.length - 1; i >= 0; i--) {
+    if (paragraphs[i] && paragraphs[i].length > 0) { lastParaIdx = i; break; }
+  }
+
   paragraphs.forEach((para, pi) => {
     if (!para || para.length === 0) return;
     html += `<div class="paragraph-block${pi === 0 ? ' first' : ''}">`;
@@ -547,6 +553,9 @@ function renderArticle(meta, articleObj, idx) {
         html += `<p>${esc(line)}</p>`;
       }
     });
+    if (pi === lastParaIdx && paperUrl) {
+      html += `<p class="link-line">論文連結 : <a href="${esc(paperUrl)}" target="_blank" rel="noopener">${esc(paperUrl)}</a></p>`;
+    }
     html += `</div>`;
 
     const figureUrl = figures[pi];
