@@ -1,0 +1,78 @@
+[
+  {
+    "title": "LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics",
+    "arxiv": "https://arxiv.org/abs/2604.17295"
+  },
+  {
+    "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+    "arxiv": "https://arxiv.org/abs/2604.21686"
+  },
+  {
+    "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+    "arxiv": "https://arxiv.org/abs/2604.19734"
+  },
+  {
+    "title": "StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition",
+    "arxiv": "https://arxiv.org/abs/2604.21689"
+  },
+  {
+    "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+    "arxiv": "https://arxiv.org/abs/2604.21931"
+  },
+  {
+    "title": "TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale",
+    "arxiv": "https://arxiv.org/abs/2604.21889"
+  },
+  {
+    "title": "Hybrid Policy Distillation for LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.20244"
+  },
+  {
+    "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+    "arxiv": "https://arxiv.org/abs/2604.20987"
+  },
+  {
+    "title": "VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
+    "arxiv": "https://arxiv.org/abs/2604.21375"
+  },
+  {
+    "title": "Context Unrolling in Omni Models",
+    "arxiv": "https://arxiv.org/abs/2604.21921"
+  },
+  {
+    "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
+    "arxiv": "https://arxiv.org/abs/2604.10268"
+  },
+  {
+    "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+    "arxiv": "https://arxiv.org/abs/2604.21904"
+  },
+  {
+    "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+    "arxiv": "https://arxiv.org/abs/2604.20398"
+  },
+  {
+    "title": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.21193"
+  },
+  {
+    "title": "Encoder-Free Human Motion Understanding via Structured Motion Descriptions",
+    "arxiv": "https://arxiv.org/abs/2604.21668"
+  },
+  {
+    "title": "Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI",
+    "arxiv": "https://arxiv.org/abs/2604.21300"
+  },
+  {
+    "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+    "arxiv": "https://arxiv.org/abs/2604.21915"
+  },
+  {
+    "title": "Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts",
+    "arxiv": "https://arxiv.org/abs/2604.16926"
+  },
+  {
+    "title": "PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents",
+    "arxiv": "https://arxiv.org/abs/2506.17001"
+  }
+]

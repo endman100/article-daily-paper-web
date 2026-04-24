@@ -1564,6 +1564,103 @@
       "title_zh": "WavAlign：透過自適應混合後訓練提升語音對話模型的智能與表達力"
     }
   ],
+  "20260424": [
+    {
+      "slug": "20260424-Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+      "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+      "title_zh": "協同進化的 LLM 決策與 Skill Bank Agent 應用於長視野任務"
+    },
+    {
+      "slug": "20260424-Context Unrolling in Omni Models",
+      "title": "Context Unrolling in Omni Models",
+      "title_zh": "Omni Models 中的 Context Unrolling"
+    },
+    {
+      "slug": "20260424-EditCrafter- Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
+      "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
+      "title_zh": "EditCrafter：免調參高解析度圖像編輯，基於預訓練 Diffusion Model"
+    },
+    {
+      "slug": "20260424-Encoder-Free Human Motion Understanding via Structured Motion Descriptions",
+      "title": "Encoder-Free Human Motion Understanding via Structured Motion Descriptions",
+      "title_zh": "無編碼器動作理解"
+    },
+    {
+      "slug": "20260424-Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI",
+      "title": "Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI",
+      "title_zh": "可解釋作者歸因框架"
+    },
+    {
+      "slug": "20260424-Hybrid Policy Distillation for LLMs",
+      "title": "Hybrid Policy Distillation for LLMs",
+      "title_zh": "LLM 的 Hybrid Policy Distillation"
+    },
+    {
+      "slug": "20260424-LLaTiSA- Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics",
+      "title": "LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics",
+      "title_zh": "時序推理新框架"
+    },
+    {
+      "slug": "20260424-PersonalAI- A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents",
+      "title": "PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents",
+      "title_zh": "PersonalAI：知識圖譜儲存與檢索方法的全面比較，為個人化 LLM Agent 服務"
+    },
+    {
+      "slug": "20260424-Seeing Fast and Slow- Learning the Flow of Time in Videos",
+      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+      "title_zh": "快看與慢看：學習影片中的時間流動"
+    },
+    {
+      "slug": "20260424-StyleID- A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition",
+      "title": "StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition",
+      "title_zh": "StyleID：感知導向的風格無關人臉身份辨識資料集與指標"
+    },
+    {
+      "slug": "20260424-Test-Time Adaptation for EEG Foundation Models",
+      "title": "Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts",
+      "title_zh": "EEG Foundation Model 的 Test-Time Adaptation：真實世界分布偏移下的全面研究"
+    },
+    {
+      "slug": "20260424-TingIS- Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale",
+      "title": "TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale",
+      "title_zh": "TingIS：企業規模下從雜訊客戶申訴即時發現風險事件"
+    },
+    {
+      "slug": "20260424-Trust but Verify- Introducing DAVinCI",
+      "title": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+      "title_zh": "信任但驗證：DAVinCI 雙重歸因與驗證框架"
+    },
+    {
+      "slug": "20260424-UniGenDet- A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+      "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+      "title_zh": "生圖偵測共演化"
+    },
+    {
+      "slug": "20260424-UniT- Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+      "title_zh": "UniT：建立人類到人形機器人的統一物理語言，用於策略學習與世界模型"
+    },
+    {
+      "slug": "20260424-Vista4D- Video Reshooting with 4D Point Clouds",
+      "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+      "title_zh": "Vista4D：用 4D 點雲重拍影片"
+    },
+    {
+      "slug": "20260424-VLAA-GUI- Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
+      "title": "VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
+      "title_zh": "VLAA-GUI：知道何時停止、恢復與搜尋的 GUI 自動化模組化框架"
+    },
+    {
+      "slug": "20260424-WebGen-R1- Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+      "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+      "title_zh": "強化學習生成網站"
+    },
+    {
+      "slug": "20260424-WorldMark- A Unified Benchmark Suite for Interactive Video World Models",
+      "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+      "title_zh": "WorldMark：互動影片世界模型統一 Benchmark 套件"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",
