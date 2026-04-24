@@ -2273,5 +2273,92 @@
       "title": "gpt-image-2 vs Nano Banana: what it does, where it wins, and the prompts that unlock it",
       "title_zh": "gpt-image-2 對上 Nano Banana，它能幹嘛，贏在哪，prompt 怎麼寫"
     }
+  ],
+  "RAG": [
+    {
+      "slug": "01-simple-rag",
+      "title": "Simple RAG",
+      "title_zh": "Simple RAG：用向量搜尋讓 LLM 說出你的資料"
+    },
+    {
+      "slug": "02-semantic-chunking",
+      "title": "Semantic Chunking for RAG",
+      "title_zh": "Semantic Chunking，讓 RAG 不再切斷語義"
+    },
+    {
+      "slug": "03-context-enriched",
+      "title": "Context-Enriched Retrieval",
+      "title_zh": "上下文增強檢索：用句子視窗與父文件策略修補 RAG 的斷裂"
+    },
+    {
+      "slug": "04-contextual-headers",
+      "title": "Contextual Chunk Headers",
+      "title_zh": "Contextual Chunk Headers：用章節上下文讓 Chunk 不再迷路"
+    },
+    {
+      "slug": "05-document-augmentation",
+      "title": "Document Augmentation for RAG: Multi-View Indexing to Close the Semantic Gap",
+      "title_zh": "Document Augmentation：用多視圖索引拉近查詢與文件的語義距離"
+    },
+    {
+      "slug": "06-query-transformation",
+      "title": "Query Transformation for RAG: Rewriting, Multi-Query, HyDE, and Step-Back Prompting",
+      "title_zh": "Query Transformation for RAG：用查詢改寫突破語義檢索的天花板"
+    },
+    {
+      "slug": "07-reranker",
+      "title": "Reranker for RAG: Two-Stage Retrieval with Cross-Encoder",
+      "title_zh": "Reranker for RAG：用 Cross-Encoder 把向量搜尋的結果二次精排"
+    },
+    {
+      "slug": "08-rse",
+      "title": "Relevant Span Extraction for RAG",
+      "title_zh": "RSE，讓 RAG 只送真正相關的片段進 LLM"
+    },
+    {
+      "slug": "09-contextual-compression",
+      "title": "Contextual Compression for RAG: Cutting LLM Noise and Token Cost with a Smart Filtering Layer",
+      "title_zh": "Contextual Compression for RAG：用壓縮層同時砍掉 LLM 雜訊與 Token 成本"
+    },
+    {
+      "slug": "10-hybrid-retrieval",
+      "title": "Hybrid Retrieval: Combining Vector Search and BM25 for Production RAG",
+      "title_zh": "Hybrid Retrieval：結合向量搜尋與 BM25 的混合檢索策略"
+    },
+    {
+      "slug": "11-feedback-loop",
+      "title": "Feedback Loop RAG: Continuously Improving Retrieval and Answer Quality via User Feedback",
+      "title_zh": "Feedback Loop RAG：用使用者回饋持續改善檢索與回答品質"
+    },
+    {
+      "slug": "12-adaptive-rag",
+      "title": "Adaptive RAG: Dynamic Strategy Selection Based on Query Complexity",
+      "title_zh": "Adaptive RAG：依查詢複雜度動態切換最佳檢索策略"
+    },
+    {
+      "slug": "13-self-rag",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "title_zh": "Self-RAG：讓 LLM 自己決定何時檢索、如何評估"
+    },
+    {
+      "slug": "14-knowledge-graph-rag",
+      "title": "Knowledge Graph RAG: Augmenting Retrieval with Structured Relational Reasoning",
+      "title_zh": "Knowledge Graph RAG：用知識圖譜補上向量檢索的關係推理盲點"
+    },
+    {
+      "slug": "15-hierarchical-indices",
+      "title": "Hierarchical Indices for RAG: Small-to-Big Retrieval Beats the Chunk Size Dilemma",
+      "title_zh": "Hierarchical Indices for RAG：Small-to-Big 檢索破解 Chunk 大小兩難"
+    },
+    {
+      "slug": "16-hyde",
+      "title": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+      "title_zh": "精準的零樣本密集檢索：不需標註資料的 HyDE 方法"
+    },
+    {
+      "slug": "17-crag",
+      "title": "Corrective Retrieval Augmented Generation",
+      "title_zh": "CRAG：糾錯式檢索增強生成"
+    }
   ]
 }
