@@ -1613,6 +1613,151 @@
   ],
   "ImageQualityAssessment": [
     {
+      "slug": "20260416-BLIP-ITC-ITM",
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "title_zh": "BLIP-ITC-ITM：以對比與匹配雙頭評估文字到圖像語意對齊的視覺語言預訓練框架"
+    },
+    {
+      "slug": "20260416-cFreD",
+      "title": "cFreD: Conditional Fréchet Distance for Evaluating Text-to-Image Generation",
+      "title_zh": "cFreD：捕捉文字條件下生成圖片分布差異的條件弗雷歇距離評估框架"
+    },
+    {
+      "slug": "20260416-CLIPScore",
+      "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+      "title_zh": "CLIPScore：基於 CLIP 視覺語言對齊的無參考圖像文字評估指標"
+    },
+    {
+      "slug": "20260416-CMMD",
+      "title": "Rethinking FID: Towards a Better Evaluation Metric for Image Generation",
+      "title_zh": "CMMD：以 CLIP 特徵和最大平均差異取代 FID 的圖像生成評估指標"
+    },
+    {
+      "slug": "20260416-DAScore",
+      "title": "Divide, Evaluate, and Refine: Evaluating and Improving Text-to-Image Alignment with Iterative VQA Feedback",
+      "title_zh": "DAScore：以分解-評估-精化迭代流程衡量並提升文字到圖像對齊品質"
+    },
+    {
+      "slug": "20260416-DistilledMLLMJudge",
+      "title": "Distilled Multimodal Large Language Model as Judge for Text-to-Image Evaluation",
+      "title_zh": "DistilledMLLMJudge：以知識蒸餾壓縮多模態大型語言模型裁判用於 T2I 評估"
+    },
+    {
+      "slug": "20260416-EloRating",
+      "title": "Elo Rating-based Evaluation for Text-to-Image Generation",
+      "title_zh": "EloRating：以競技評分系統構建 T2I 模型相對能力的動態排名框架"
+    },
+    {
+      "slug": "20260416-FID",
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "title_zh": "FID：以雙時間尺度更新規則衡量生成圖片與真實圖片分布距離的 Fréchet Inception 距離"
+    },
+    {
+      "slug": "20260416-FWD",
+      "title": "Fréchet Wavelet Distance: A Domain-Agnostic Metric for Image Generation",
+      "title_zh": "FWD：以小波特徵取代 Inception 特徵的領域無關圖像生成評估指標"
+    },
+    {
+      "slug": "20260416-GenEval",
+      "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
+      "title_zh": "GenEval：以物件為中心的文字到圖像對齊能力細粒度評估框架"
+    },
+    {
+      "slug": "20260416-GPT4oJudge",
+      "title": "GPT-4o as a Judge for Text-to-Image Evaluation",
+      "title_zh": "GPT4oJudge：以 GPT-4o 多模態推理能力作為 T2I 生成品質的高精度評估裁判"
+    },
+    {
+      "slug": "20260416-HPS",
+      "title": "Human Preference Score: Better Aligning Text-to-Image Models with Human Preference",
+      "title_zh": "HPS：透過大規模人類偏好資料學習對齊人類審美判斷的 T2I 評估指標"
+    },
+    {
+      "slug": "20260416-ImageReward",
+      "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
+      "title_zh": "ImageReward：大規模人類偏好學習框架用於 T2I 生成品質的對齊評估與訓練"
+    },
+    {
+      "slug": "20260416-IS",
+      "title": "Improved Techniques for Training GANs",
+      "title_zh": "IS：基於 Inception 分類器的生成圖片品質與多樣性自評估指標"
+    },
+    {
+      "slug": "20260416-KID",
+      "title": "Demystifying MMD GANs",
+      "title_zh": "KID：以無偏最大平均差異取代 Fréchet 距離的核心inception距離評估指標"
+    },
+    {
+      "slug": "20260416-LikertScale",
+      "title": "Likert Scale-based Subjective Evaluation for Text-to-Image Generation",
+      "title_zh": "LikertScale：以五點李克特量表系統化收集人類對 T2I 生成品質的主觀評分"
+    },
+    {
+      "slug": "20260416-MiFID",
+      "title": "Memorization-informed Fréchet Inception Distance",
+      "title_zh": "MiFID：偵測訓練集記憶化的 Fréchet Inception 距離改良版本"
+    },
+    {
+      "slug": "20260416-MOS",
+      "title": "Mean Opinion Score for Subjective Quality Assessment of Image Generation",
+      "title_zh": "MOS：以平均意見分數系統化量化 T2I 生成品質的主觀評估標準"
+    },
+    {
+      "slug": "20260416-MosaiCLIP",
+      "title": "MosaiCLIP: Improving CLIP via Fusing Multiple Aligned Modalities",
+      "title_zh": "MosaiCLIP：透過多模態信息融合提升 CLIP 語意對齊能力的 T2I 評估改良框架"
+    },
+    {
+      "slug": "20260416-NegCLIP",
+      "title": "When and Why Vision-Language Models Behave like Bags-of-Words, and What to Do About It?",
+      "title_zh": "NegCLIP：針對 CLIP 否定語意盲區的強化訓練框架及組合語意評估改進"
+    },
+    {
+      "slug": "20260416-PairwisePreference",
+      "title": "Pairwise Preference-based Evaluation for Text-to-Image Generation",
+      "title_zh": "PairwisePreference：以成對偏好比較量化人類對 T2I 生成結果相對品質的判斷框架"
+    },
+    {
+      "slug": "20260416-PickScore",
+      "title": "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation",
+      "title_zh": "PickScore：基於真實用戶成對偏好資料訓練的 T2I 生成品質自動評估模型"
+    },
+    {
+      "slug": "20260416-Ranking",
+      "title": "Learning to Rank: From Pairwise Approach to Listwise Approach for Text-to-Image Evaluation",
+      "title_zh": "Ranking：以排名學習框架系統化評估和比較 T2I 生成模型的相對品質"
+    },
+    {
+      "slug": "20260416-SoftTIFA",
+      "title": "SoftTIFA: Text-Image Faithfulness Assessment via Soft Question Answering",
+      "title_zh": "SoftTIFA：透過軟性問答評分解決 TIFA 二元評估局限性的語意符合度改良指標"
+    },
+    {
+      "slug": "20260416-TIFA",
+      "title": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
+      "title_zh": "TIFA：以視覺問答系統化評估 T2I 生成語意忠實度的可解釋評估框架"
+    },
+    {
+      "slug": "20260416-VIEScore",
+      "title": "VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation",
+      "title_zh": "VIEScore：以多模態大語言模型提供可解釋性評分的 T2I 條件生成品質評估框架"
+    },
+    {
+      "slug": "20260416-VISOR",
+      "title": "VISOR: Visual Spatial Reasoning for Text-to-Image Generation",
+      "title_zh": "VISOR：針對空間關係語意的視覺問答評估框架及 T2I 空間理解能力基準"
+    },
+    {
+      "slug": "20260416-VQAScore",
+      "title": "Evaluating Text-to-Visual Generation with Image-to-Text Generation",
+      "title_zh": "VQAScore：以視覺問答條件概率統一評估 T2I 生成語意符合度的精簡高效框架"
+    },
+    {
+      "slug": "20260420-wise",
+      "title": "WISE: Rethinking the Knowledge-Based Evaluation of T2I Models",
+      "title_zh": "WISE：以世界知識推理評估 T2I 模型超越表面視覺符合度的深層語意理解能力"
+    },
+    {
       "slug": "20260423-Adaptive-IQA",
       "title": "Adaptive Multi-modal Cross-Entropy Loss for Stereo Image Quality Assessment",
       "title_zh": "用於立體圖像品質評估的自適應多模態交叉熵損失"
@@ -1846,6 +1991,11 @@
       "slug": "20260423-VideoAesBench",
       "title": "VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models",
       "title_zh": "VideoAesBench：大型多模態模型視頻美學感知能力基準測試"
+    },
+    {
+      "slug": "20260423-visionreward",
+      "title": "VisionReward: Fine-Grained Multi-Dimensional Human Preference Learning for Image and Video Generation",
+      "title_zh": "VisionReward：影像與影片生成的細粒度多維度人類偏好學習"
     },
     {
       "slug": "20260423-VisualCritic",
