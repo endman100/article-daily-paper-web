@@ -1661,6 +1661,58 @@
       "title_zh": "WorldMark：互動影片世界模型統一 Benchmark 套件"
     }
   ],
+  "20260427": [
+    {
+      "slug": "20260427-Agentic World Modeling- Foundations, Capabilities, Laws, and Beyond",
+      "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+      "title_zh": "Agentic World Modeling：基礎、能力、法則與展望"
+    },
+    {
+      "slug": "20260427-AgentSearchBench- A Benchmark for AI Agent Search in the Wild",
+      "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+      "title_zh": "AgentSearchBench：AI Agent 搜尋野外大規模 Benchmark"
+    },
+    {
+      "slug": "20260427-AgriIR- A Scalable Framework for Domain-Specific Knowledge Retrieval",
+      "title": "AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval",
+      "title_zh": "AgriIR：特定領域知識檢索的可擴展 RAG 框架"
+    },
+    {
+      "slug": "20260427-Contexts are Never Long Enough- Structured Reasoning for Scalable Question Answering over Long Document Sets",
+      "title": "Contexts are Never Long Enough: Structured Reasoning for Scalable Question Answering over Long Document Sets",
+      "title_zh": "情境永遠不夠長：以結構化推理實現大規模文件集問答"
+    },
+    {
+      "slug": "20260427-DiffNR- Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction",
+      "title": "DiffNR: Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction",
+      "title_zh": "DiffNR：稀疏視角3D斷層重建的Diffusion增強Neural Representation優化"
+    },
+    {
+      "slug": "20260427-dWorldEval- Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
+      "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
+      "title_zh": "dWorldEval：透過離散擴散世界模型進行大規模機器人策略評估"
+    },
+    {
+      "slug": "20260427-FlowAnchor- Stabilizing the Editing Signal for Inversion-Free Video Editing",
+      "title": "FlowAnchor: Stabilizing the Editing Signal for Inversion-Free Video Editing",
+      "title_zh": "FlowAnchor：穩定 Inversion-Free 影片編輯訊號的框架"
+    },
+    {
+      "slug": "20260427-Learning Evidence Highlighting for Frozen LLMs",
+      "title": "Learning Evidence Highlighting for Frozen LLMs",
+      "title_zh": "為凍結 LLM 學習 Evidence Highlighting"
+    },
+    {
+      "slug": "20260427-LLM Safety From Within- Detecting Harmful Content with Internal Representations",
+      "title": "LLM Safety From Within: Detecting Harmful Content with Internal Representations",
+      "title_zh": "LLM 安全由內而生：用 Internal Representations 偵測有害內容"
+    },
+    {
+      "slug": "20260427-Sessa- Selective State Space Attention",
+      "title": "Sessa: Selective State Space Attention",
+      "title_zh": "Sessa：選擇性狀態空間 Attention"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",

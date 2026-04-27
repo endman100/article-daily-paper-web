@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+    "arxiv": "https://arxiv.org/abs/2604.22748"
+  },
+  {
+    "title": "DiffNR: Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction",
+    "arxiv": "https://arxiv.org/abs/2604.21518"
+  },
+  {
+    "title": "LLM Safety From Within: Detecting Harmful Content with Internal Representations",
+    "arxiv": "https://arxiv.org/abs/2604.18519"
+  },
+  {
+    "title": "Contexts are Never Long Enough: Structured Reasoning for Scalable Question Answering over Long Document Sets",
+    "arxiv": "https://arxiv.org/abs/2604.22294"
+  },
+  {
+    "title": "FlowAnchor: Stabilizing the Editing Signal for Inversion-Free Video Editing",
+    "arxiv": "https://arxiv.org/abs/2604.22586"
+  },
+  {
+    "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
+    "arxiv": "https://arxiv.org/abs/2604.22152"
+  },
+  {
+    "title": "AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval",
+    "arxiv": "https://arxiv.org/abs/2604.16353"
+  },
+  {
+    "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+    "arxiv": "https://arxiv.org/abs/2604.22436"
+  },
+  {
+    "title": "Learning Evidence Highlighting for Frozen LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.22565"
+  },
+  {
+    "title": "Sessa: Selective State Space Attention",
+    "arxiv": "https://arxiv.org/abs/2604.18580"
+  }
+]
