@@ -1678,9 +1678,19 @@
       "title_zh": "AgriIR：特定領域知識檢索的可擴展 RAG 框架"
     },
     {
+      "slug": "20260427-Building a Precise Video Language with Human-AI Oversight",
+      "title": "Building a Precise Video Language with Human-AI Oversight",
+      "title_zh": "用人機協作監督，建立精準影片語言"
+    },
+    {
       "slug": "20260427-Contexts are Never Long Enough- Structured Reasoning for Scalable Question Answering over Long Document Sets",
       "title": "Contexts are Never Long Enough: Structured Reasoning for Scalable Question Answering over Long Document Sets",
       "title_zh": "情境永遠不夠長：以結構化推理實現大規模文件集問答"
+    },
+    {
+      "slug": "20260427-DiagramBank- A Large-scale Dataset of Diagram Design Exemplars with Paper Metadata for Retrieval-Augmented Generation",
+      "title": "DiagramBank: A Large-scale Dataset of Diagram Design Exemplars with Paper Metadata for Retrieval-Augmented Generation",
+      "title_zh": "DiagramBank：含論文元資料的大規模示意圖設計範例資料集，用於 RAG"
     },
     {
       "slug": "20260427-DiffNR- Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction",
@@ -1691,6 +1701,16 @@
       "slug": "20260427-dWorldEval- Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
       "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
       "title_zh": "dWorldEval：透過離散擴散世界模型進行大規模機器人策略評估"
+    },
+    {
+      "slug": "20260427-EmbodiedMidtrain- Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training",
+      "title": "EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training",
+      "title_zh": "EmbodiedMidtrain：透過中間訓練填補 VLM 與 VLA 之間的落差"
+    },
+    {
+      "slug": "20260427-Emergent Strategic Reasoning Risks in AI- A Taxonomy-Driven Evaluation Framework",
+      "title": "Emergent Strategic Reasoning Risks in AI: A Taxonomy-Driven Evaluation Framework",
+      "title_zh": "AI 中的湧現式策略推理風險：分類法驅動評測框架"
     },
     {
       "slug": "20260427-FlowAnchor- Stabilizing the Editing Signal for Inversion-Free Video Editing",
@@ -1708,9 +1728,19 @@
       "title_zh": "LLM 安全由內而生：用 Internal Representations 偵測有害內容"
     },
     {
+      "slug": "20260427-Memanto- Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+      "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+      "title_zh": "Memanto：Long-Horizon Agent 的類型化語義記憶與資訊理論檢索"
+    },
+    {
       "slug": "20260427-Sessa- Selective State Space Attention",
       "title": "Sessa: Selective State Space Attention",
       "title_zh": "Sessa：選擇性狀態空間 Attention"
+    },
+    {
+      "slug": "20260427-Video Analysis and Generation via a Semantic Progress Function",
+      "title": "Video Analysis and Generation via a Semantic Progress Function",
+      "title_zh": "透過 Semantic Progress Function 分析與生成影片"
     }
   ],
   "CharacterEval": [

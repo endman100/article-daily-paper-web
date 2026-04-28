@@ -4,6 +4,10 @@
     "arxiv": "https://arxiv.org/abs/2604.22748"
   },
   {
+    "title": "Video Analysis and Generation via a Semantic Progress Function",
+    "arxiv": "https://arxiv.org/abs/2604.22554"
+  },
+  {
     "title": "DiffNR: Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction",
     "arxiv": "https://arxiv.org/abs/2604.21518"
   },
@@ -20,6 +24,30 @@
     "arxiv": "https://arxiv.org/abs/2604.22586"
   },
   {
+    "title": "Building a Precise Video Language with Human-AI Oversight",
+    "arxiv": "https://arxiv.org/abs/2604.21718"
+  },
+  {
+    "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+    "arxiv": "https://arxiv.org/abs/2604.22436"
+  },
+  {
+    "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+    "arxiv": "https://arxiv.org/abs/2604.22085"
+  },
+  {
+    "title": "Sessa: Selective State Space Attention",
+    "arxiv": "https://arxiv.org/abs/2604.18580"
+  },
+  {
+    "title": "Learning Evidence Highlighting for Frozen LLMs",
+    "arxiv": "https://arxiv.org/abs/2604.22565"
+  },
+  {
+    "title": "EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training",
+    "arxiv": "https://arxiv.org/abs/2604.20012"
+  },
+  {
     "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
     "arxiv": "https://arxiv.org/abs/2604.22152"
   },
@@ -28,15 +56,11 @@
     "arxiv": "https://arxiv.org/abs/2604.16353"
   },
   {
-    "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
-    "arxiv": "https://arxiv.org/abs/2604.22436"
+    "title": "DiagramBank: A Large-scale Dataset of Diagram Design Exemplars with Paper Metadata for Retrieval-Augmented Generation",
+    "arxiv": "https://arxiv.org/abs/2604.20857"
   },
   {
-    "title": "Learning Evidence Highlighting for Frozen LLMs",
-    "arxiv": "https://arxiv.org/abs/2604.22565"
-  },
-  {
-    "title": "Sessa: Selective State Space Attention",
-    "arxiv": "https://arxiv.org/abs/2604.18580"
+    "title": "Emergent Strategic Reasoning Risks in AI: A Taxonomy-Driven Evaluation Framework",
+    "arxiv": "https://arxiv.org/abs/2604.22119"
   }
 ]
