@@ -2324,6 +2324,11 @@
       "slug": "20260422-gpt-image-2",
       "title": "gpt-image-2 vs Nano Banana: what it does, where it wins, and the prompts that unlock it",
       "title_zh": "gpt-image-2 對上 Nano Banana，它能幹嘛，贏在哪，prompt 怎麼寫"
+    },
+    {
+      "slug": "20260422-privacy-filter",
+      "title": "Introducing OpenAI Privacy Filter",
+      "title_zh": "OpenAI Privacy Filter 登場"
     }
   ],
   "RAG": [
