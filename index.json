@@ -1743,6 +1743,153 @@
       "title_zh": "透過 Semantic Progress Function 分析與生成影片"
     }
   ],
+  "20260428": [
+    {
+      "slug": "20260428-Agentic Safety Specifications",
+      "title": "Discovering Agentic Safety Specifications from 1-Bit Danger Signals",
+      "title_zh": "從單一位元危險訊號中探索代理人安全規格"
+    },
+    {
+      "slug": "20260428-ATTN-FIQA",
+      "title": "ATTN-FIQA: Interpretable Attention-based Face Image Quality Assessment with Vision Transformers",
+      "title_zh": "ATTN-FIQA：基於視覺轉換器注意力機制的可解釋人臉影像品質評估"
+    },
+    {
+      "slug": "20260428-ClawMark",
+      "title": "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents",
+      "title_zh": "ClawMark：多輪、多日、多模態 Coworker Agent 的動態世界 Benchmark"
+    },
+    {
+      "slug": "20260428-Credal Concept Bottleneck Models",
+      "title": "Credal Concept Bottleneck Models for Epistemic-Aleatoric Uncertainty Decomposition",
+      "title_zh": "Credal 概念瓶頸模型的認識性與偶然性不確定性分解"
+    },
+    {
+      "slug": "20260428-Dialectical Alignment",
+      "title": "Taming Actor-Observer Asymmetry in Agents via Dialectical Alignment",
+      "title_zh": "用辯證對齊馴服 AI Agent 中的行為者-觀察者不對稱"
+    },
+    {
+      "slug": "20260428-Disentangled Robot Learning",
+      "title": "Disentangled Robot Learning via Separate Forward and Inverse Dynamics Pretraining",
+      "title_zh": "解耦機器人學習：分離前向與逆向動力學預訓練"
+    },
+    {
+      "slug": "20260428-Efficient Agent Evaluation",
+      "title": "Efficient Agent Evaluation via Diversity-Guided User Simulation",
+      "title_zh": "高效 Agent 評估：多樣性引導的使用者模擬"
+    },
+    {
+      "slug": "20260428-EX-FIQA",
+      "title": "EX-FIQA: Leveraging Intermediate Early eXit Representations from Vision Transformers for Face Image Quality Assessment",
+      "title_zh": "EX-FIQA：利用 Vision Transformer 中間層 Early Exit 特徵進行人臉圖像品質評估"
+    },
+    {
+      "slug": "20260428-For-Value",
+      "title": "For-Value: Efficient Forward-Only Data Valuation for finetuning LLMs and VLMs",
+      "title_zh": "For-Value：僅用前向傳播就能高效評估訓練資料影響力的新框架"
+    },
+    {
+      "slug": "20260428-From Skills to Talent",
+      "title": "From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company",
+      "title_zh": "從技能到人才：將異質代理組織為真實公司"
+    },
+    {
+      "slug": "20260428-How Much Is One Recurrence Worth",
+      "title": "How Much Is One Recurrence Worth? Iso-Depth Scaling Laws for Looped Language Models",
+      "title_zh": "一次循環值多少？循環式語言模型的等深度縮放定律"
+    },
+    {
+      "slug": "20260428-Learning to Identify Out-of-Distribution Objects",
+      "title": "Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation",
+      "title_zh": "學習辨識 3D LiDAR 異常分割中的 OoD 物體"
+    },
+    {
+      "slug": "20260428-OmniShotCut",
+      "title": "OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer",
+      "title_zh": "OmniShotCut：整體關係式鏡頭邊界偵測與 Shot-Query Transformer"
+    },
+    {
+      "slug": "20260428-PageGuide",
+      "title": "PageGuide: Browser extension to assist users in navigating a webpage and locating information",
+      "title_zh": "PageGuide：協助使用者在網頁中導覽與定位資訊的瀏覽器擴充功能"
+    },
+    {
+      "slug": "20260428-Perception-centric PRM",
+      "title": "Improving Vision-language Models with Perception-centric Process Reward Models",
+      "title_zh": "以感知為核心的過程獎勵模型強化視覺語言模型"
+    },
+    {
+      "slug": "20260428-ProEval",
+      "title": "ProEval: Proactive Failure Discovery and Efficient Performance Estimation for Generative AI Evaluation",
+      "title_zh": "ProEval：用於 GenAI 評估的主動失敗發現與高效效能估計"
+    },
+    {
+      "slug": "20260428-Quantum Kernel Advantage",
+      "title": "Quantum Kernel Advantage over Classical Collapse in Medical Foundation Model Embeddings",
+      "title_zh": "量子核心優勢超越傳統崩塌：醫療基礎模型嵌入向量分析"
+    },
+    {
+      "slug": "20260428-RaV-IDP",
+      "title": "RaV-IDP: A Reconstruction-as-Validation Framework for Faithful Intelligent Document Processing",
+      "title_zh": "RaV-IDP：以重建驗證為核心的忠實智能文件處理框架"
+    },
+    {
+      "slug": "20260428-ReVSI",
+      "title": "ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for Accurate Assessment of VLM 3D Reasoning",
+      "title_zh": "ReVSI：重建視覺空間智慧評估以精準衡量 VLM 的 3D 推理能力"
+    },
+    {
+      "slug": "20260428-Rewarding the Scientific Process",
+      "title": "Rewarding the Scientific Process",
+      "title_zh": "DataPRM：讓數據分析代理學會識別沉默錯誤"
+    },
+    {
+      "slug": "20260428-SketchVLM",
+      "title": "SketchVLM: Vision language models can annotate images to explain thoughts and guide users",
+      "title_zh": "SketchVLM：視覺語言模型透過圖像標注解釋思維並引導使用者"
+    },
+    {
+      "slug": "20260428-Stabilizing Efficient Reasoning",
+      "title": "Stabilizing Efficient Reasoning with Step-Level Advantage Selection",
+      "title_zh": "以步驟層級優勢選擇穩定高效推理"
+    },
+    {
+      "slug": "20260428-Stochastic KV Routing",
+      "title": "Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing",
+      "title_zh": "隨機 KV 路由：實現自適應跨層快取共享"
+    },
+    {
+      "slug": "20260428-TexOCR",
+      "title": "TexOCR: Advancing Document OCR Models for Compilable Page-to-LaTeX Reconstruction",
+      "title_zh": "TexOCR：推進文件OCR模型以實現可編譯頁面至LaTeX的精確重建"
+    },
+    {
+      "slug": "20260428-Tuna-2",
+      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+      "title_zh": "Tuna-2：像素嵌入超越視覺編碼器，統一多模態理解與生成"
+    },
+    {
+      "slug": "20260428-UniGeo",
+      "title": "UniGeo",
+      "title_zh": "UniGeo：三層統一幾何引導的相機可控圖像編輯"
+    },
+    {
+      "slug": "20260428-Vision-Language-Action Safety",
+      "title": "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms",
+      "title_zh": "VLA 安全：威脅、挑戰、評估與防禦機制"
+    },
+    {
+      "slug": "20260428-World-R1",
+      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+      "title_zh": "World-R1：強化文字轉影片生成的 3D 約束"
+    },
+    {
+      "slug": "20260428-Zero-to-CAD",
+      "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+      "title_zh": "Zero-to-CAD：無真實資料、百萬規模可解釋 CAD 程式的代理合成"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",

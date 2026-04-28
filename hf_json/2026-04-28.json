@@ -1,0 +1,118 @@
+[
+  {
+    "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.24764"
+  },
+  {
+    "title": "From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company",
+    "arxiv": "https://arxiv.org/abs/2604.22446"
+  },
+  {
+    "title": "ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for Accurate Assessment of VLM 3D Reasoning",
+    "arxiv": "https://arxiv.org/abs/2604.24300"
+  },
+  {
+    "title": "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms",
+    "arxiv": "https://arxiv.org/abs/2604.23775"
+  },
+  {
+    "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+    "arxiv": "https://arxiv.org/abs/2604.24763"
+  },
+  {
+    "title": "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents",
+    "arxiv": "https://arxiv.org/abs/2604.23781"
+  },
+  {
+    "title": "SketchVLM: Vision language models can annotate images to explain thoughts and guide users",
+    "arxiv": "https://arxiv.org/abs/2604.22875"
+  },
+  {
+    "title": "Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis",
+    "arxiv": "https://arxiv.org/abs/2604.24198"
+  },
+  {
+    "title": "Taming Actor-Observer Asymmetry in Agents via Dialectical Alignment",
+    "arxiv": "https://arxiv.org/abs/2604.19548"
+  },
+  {
+    "title": "Efficient Agent Evaluation via Diversity-Guided User Simulation",
+    "arxiv": "https://arxiv.org/abs/2604.21480"
+  },
+  {
+    "title": "For-Value: Efficient Forward-Only Data Valuation for finetuning LLMs and VLMs",
+    "arxiv": "https://arxiv.org/abs/2508.10180"
+  },
+  {
+    "title": "OmniShotCut: Holistic Relational Shot Boundary Detection with Shot-Query Transformer",
+    "arxiv": "https://arxiv.org/abs/2604.24762"
+  },
+  {
+    "title": "UniGeo: Unifying Geometric Guidance for Camera-Controllable Image Editing via Video Models",
+    "arxiv": "https://arxiv.org/abs/2604.17565"
+  },
+  {
+    "title": "TexOCR: Advancing Document OCR Models for Compilable Page-to-LaTeX Reconstruction",
+    "arxiv": "https://arxiv.org/abs/2604.22880"
+  },
+  {
+    "title": "Stabilizing Efficient Reasoning with Step-Level Advantage Selection",
+    "arxiv": "https://arxiv.org/abs/2604.24003"
+  },
+  {
+    "title": "How Much Is One Recurrence Worth? Iso-Depth Scaling Laws for Looped Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.21106"
+  },
+  {
+    "title": "PageGuide: Browser extension to assist users in navigating a webpage and locating information",
+    "arxiv": "https://arxiv.org/abs/2604.23772"
+  },
+  {
+    "title": "Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation",
+    "arxiv": "https://arxiv.org/abs/2604.23604"
+  },
+  {
+    "title": "ATTN-FIQA: Interpretable Attention-based Face Image Quality Assessment with Vision Transformers",
+    "arxiv": "https://arxiv.org/abs/2604.22841"
+  },
+  {
+    "title": "Improving Vision-language Models with Perception-centric Process Reward Models",
+    "arxiv": "https://arxiv.org/abs/2604.24583"
+  },
+  {
+    "title": "RaV-IDP: A Reconstruction-as-Validation Framework for Faithful Intelligent Document Processing",
+    "arxiv": "https://arxiv.org/abs/2604.23644"
+  },
+  {
+    "title": "ProEval: Proactive Failure Discovery and Efficient Performance Estimation for Generative AI Evaluation",
+    "arxiv": "https://arxiv.org/abs/2604.23099"
+  },
+  {
+    "title": "Discovering Agentic Safety Specifications from 1-Bit Danger Signals",
+    "arxiv": "https://arxiv.org/abs/2604.23210"
+  },
+  {
+    "title": "EX-FIQA: Leveraging Intermediate Early eXit Representations from Vision Transformers for Face Image Quality Assessment",
+    "arxiv": "https://arxiv.org/abs/2604.22842"
+  },
+  {
+    "title": "Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing",
+    "arxiv": "https://arxiv.org/abs/2604.22782"
+  },
+  {
+    "title": "Disentangled Robot Learning via Separate Forward and Inverse Dynamics Pretraining",
+    "arxiv": "https://arxiv.org/abs/2604.16391"
+  },
+  {
+    "title": "Credal Concept Bottleneck Models for Epistemic-Aleatoric Uncertainty Decomposition",
+    "arxiv": "https://arxiv.org/abs/2604.24170"
+  },
+  {
+    "title": "Quantum Kernel Advantage over Classical Collapse in Medical Foundation Model Embeddings",
+    "arxiv": "https://arxiv.org/abs/2604.24597"
+  },
+  {
+    "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+    "arxiv": "https://arxiv.org/abs/2604.24479"
+  }
+]
