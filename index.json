@@ -1890,6 +1890,108 @@
       "title_zh": "Zero-to-CAD：無真實資料、百萬規模可解釋 CAD 程式的代理合成"
     }
   ],
+  "20260429": [
+    {
+      "slug": "20260429-AutoGUI-v2",
+      "title": "AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark",
+      "title_zh": "AutoGUI-v2：多模態 GUI 功能理解綜合評測基準"
+    },
+    {
+      "slug": "20260429-AutoResearchBench",
+      "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+      "title_zh": "AI文獻搜尋能力測試"
+    },
+    {
+      "slug": "20260429-BARRED",
+      "title": "BARRED: Synthetic Training of Custom Policy Guardrails via Asymmetric Debate",
+      "title_zh": "辯論生成護欄訓練法"
+    },
+    {
+      "slug": "20260429-Co-Director",
+      "title": "Co-Director: Agentic Generative Video Storytelling",
+      "title_zh": "Co-Director：用多智能體框架解決生成式影片的敘事一致性問題"
+    },
+    {
+      "slug": "20260429-DV-World",
+      "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+      "title_zh": "DV-World：評測真實場景中資料視覺化 AI Agent 的表現"
+    },
+    {
+      "slug": "20260429-GoClick",
+      "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+      "title_zh": "GoClick：2.3億參數的輕量視覺模型，讓手機端GUI定位成真"
+    },
+    {
+      "slug": "20260429-IAM",
+      "title": "IAM: Identity-Aware Human Motion and Shape Joint Generation",
+      "title_zh": "IAM：身份感知人體動作與體型聯合生成"
+    },
+    {
+      "slug": "20260429-MAIC-UI",
+      "title": "MAIC-UI: Making Interactive Courseware with Generative UI",
+      "title_zh": "MAIC-UI：生成式 UI 驅動的零程式碼互動教材工具"
+    },
+    {
+      "slug": "20260429-Meta-CoT",
+      "title": "Meta-CoT: Enhancing Granularity and Generalization in Image Editing",
+      "title_zh": "圖像編輯思維鏈進化論"
+    },
+    {
+      "slug": "20260429-Mutual-Forcing",
+      "title": "Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation",
+      "title_zh": "雙模式自進化的快速自迴歸音視頻角色生成"
+    },
+    {
+      "slug": "20260429-Offline-Fairness-RecSys",
+      "title": "Offline Evaluation Measures of Fairness in Recommender Systems",
+      "title_zh": "推薦系統公平評估解析"
+    },
+    {
+      "slug": "20260429-Post-Train-Video-Gen",
+      "title": "A Systematic Post-Train Framework for Video Generation",
+      "title_zh": "影片生成的四階段後訓練框架"
+    },
+    {
+      "slug": "20260429-Programming-with-Data",
+      "title": "Programming with Data: Test-Driven Data Engineering for Self-Improving LLMs from Raw Corpora",
+      "title_zh": "以資料作為程式：從原始語料出發，打造能自我改進的 LLM 的測試驅動資料工程"
+    },
+    {
+      "slug": "20260429-Recursive-Multi-Agent-Systems",
+      "title": "Recursive Multi-Agent Systems",
+      "title_zh": "遞歸多 AI 系統"
+    },
+    {
+      "slug": "20260429-Refinement-via-Regeneration",
+      "title": "Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models",
+      "title_zh": "精煉即重生成：擴大修改空間提升統一多模態模型的圖片精煉效果"
+    },
+    {
+      "slug": "20260429-Seeing-Isnt-Believing",
+      "title": "Seeing Isn't Believing: Uncovering Blind Spots in Evaluator Vision-Language Models",
+      "title_zh": "VLM評估者的視覺盲區"
+    },
+    {
+      "slug": "20260429-Skill-Graphs",
+      "title": "Toward Scalable Terminal Task Synthesis via Skill Graphs",
+      "title_zh": "技能圖驅動的終端任務可擴展合成"
+    },
+    {
+      "slug": "20260429-Step-Audio-R1.5",
+      "title": "Step-Audio-R1.5 Technical Report",
+      "title_zh": "突破可驗證獎勵陷阱：音訊推理模型轉向人類偏好對齊"
+    },
+    {
+      "slug": "20260429-TCOD",
+      "title": "TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents",
+      "title_zh": "TCOD：用時序課程穩定多回合代理的在線策略蒸餾訓練"
+    },
+    {
+      "slug": "20260429-TTS-Indian-Languages",
+      "title": "Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages",
+      "title_zh": "聲音優先的國度：印度語言 TTS 大規模成對評估與偏好解析"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",

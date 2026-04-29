@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Recursive Multi-Agent Systems",
+    "arxiv": "https://arxiv.org/abs/2604.25917"
+  },
+  {
+    "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+    "arxiv": "https://arxiv.org/abs/2604.25914"
+  },
+  {
+    "title": "Programming with Data: Test-Driven Data Engineering for Self-Improving LLMs from Raw Corpora",
+    "arxiv": "https://arxiv.org/abs/2604.24819"
+  },
+  {
+    "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+    "arxiv": "https://arxiv.org/abs/2604.25256"
+  },
+  {
+    "title": "Meta-CoT: Enhancing Granularity and Generalization in Image Editing",
+    "arxiv": "https://arxiv.org/abs/2604.24625"
+  },
+  {
+    "title": "Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models",
+    "arxiv": "https://arxiv.org/abs/2604.25636"
+  },
+  {
+    "title": "Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation",
+    "arxiv": "https://arxiv.org/abs/2604.25819"
+  },
+  {
+    "title": "Step-Audio-R1.5 Technical Report",
+    "arxiv": "https://arxiv.org/abs/2604.25719"
+  },
+  {
+    "title": "Co-Director: Agentic Generative Video Storytelling",
+    "arxiv": "https://arxiv.org/abs/2604.24842"
+  },
+  {
+    "title": "Toward Scalable Terminal Task Synthesis via Skill Graphs",
+    "arxiv": "https://arxiv.org/abs/2604.25727"
+  },
+  {
+    "title": "BARRED: Synthetic Training of Custom Policy Guardrails via Asymmetric Debate",
+    "arxiv": "https://arxiv.org/abs/2604.25203"
+  },
+  {
+    "title": "TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents",
+    "arxiv": "https://arxiv.org/abs/2604.24005"
+  },
+  {
+    "title": "MAIC-UI: Making Interactive Courseware with Generative UI",
+    "arxiv": "https://arxiv.org/abs/2604.25806"
+  },
+  {
+    "title": "IAM: Identity-Aware Human Motion and Shape Joint Generation",
+    "arxiv": "https://arxiv.org/abs/2604.25164"
+  },
+  {
+    "title": "A Systematic Post-Train Framework for Video Generation",
+    "arxiv": "https://arxiv.org/abs/2604.25427"
+  },
+  {
+    "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+    "arxiv": "https://arxiv.org/abs/2604.23941"
+  },
+  {
+    "title": "AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark",
+    "arxiv": "https://arxiv.org/abs/2604.24441"
+  },
+  {
+    "title": "Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages",
+    "arxiv": "https://arxiv.org/abs/2604.21481"
+  },
+  {
+    "title": "Seeing Isn't Believing: Uncovering Blind Spots in Evaluator Vision-Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.21523"
+  },
+  {
+    "title": "Offline Evaluation Measures of Fairness in Recommender Systems",
+    "arxiv": "https://arxiv.org/abs/2604.25032"
+  }
+]
