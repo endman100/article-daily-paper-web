@@ -1,0 +1,74 @@
+[
+  {
+    "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+    "arxiv": "https://arxiv.org/abs/2604.26752"
+  },
+  {
+    "title": "RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
+    "arxiv": "https://arxiv.org/abs/2604.26067"
+  },
+  {
+    "title": "Large Language Models Explore by Latent Distilling",
+    "arxiv": "https://arxiv.org/abs/2604.24927"
+  },
+  {
+    "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.26951"
+  },
+  {
+    "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+    "arxiv": "https://arxiv.org/abs/2604.26904"
+  },
+  {
+    "title": "Diffusion Templates: A Unified Plugin Framework for Controllable Diffusion",
+    "arxiv": "https://arxiv.org/abs/2604.24351"
+  },
+  {
+    "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+    "arxiv": "https://arxiv.org/abs/2604.25135"
+  },
+  {
+    "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+    "arxiv": "https://arxiv.org/abs/2604.26694"
+  },
+  {
+    "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
+    "arxiv": "https://arxiv.org/abs/2604.26779"
+  },
+  {
+    "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+    "arxiv": "https://arxiv.org/abs/2604.26091"
+  },
+  {
+    "title": "A Survey on LLM-based Conversational User Simulation",
+    "arxiv": "https://arxiv.org/abs/2604.24977"
+  },
+  {
+    "title": "FASH-iCNN: Making Editorial Fashion Identity Inspectable Through Multimodal CNN Probing",
+    "arxiv": "https://arxiv.org/abs/2604.26186"
+  },
+  {
+    "title": "Praxy Voice: Voice-Prompt Recovery + BUPS for Commercial-Class Indic TTS from a Frozen Non-Indic Base at Zero Commercial-Training-Data Cost",
+    "arxiv": "https://arxiv.org/abs/2604.25441"
+  },
+  {
+    "title": "PSP: An Interpretable Per-Dimension Accent Benchmark for Indic Text-to-Speech",
+    "arxiv": "https://arxiv.org/abs/2604.25476"
+  },
+  {
+    "title": "Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductors Discovery",
+    "arxiv": "https://arxiv.org/abs/2604.23758"
+  },
+  {
+    "title": "Sample Selection Using Multi-Task Autoencoders in Federated Learning with Non-IID Data",
+    "arxiv": "https://arxiv.org/abs/2604.26116"
+  },
+  {
+    "title": "Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
+    "arxiv": "https://arxiv.org/abs/2604.23426"
+  },
+  {
+    "title": "Probing Visual Planning in Image Editing Models",
+    "arxiv": "https://arxiv.org/abs/2604.22868"
+  }
+]
