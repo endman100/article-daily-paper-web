@@ -4,20 +4,20 @@
     "arxiv": "https://arxiv.org/abs/2604.26752"
   },
   {
-    "title": "RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
-    "arxiv": "https://arxiv.org/abs/2604.26067"
-  },
-  {
     "title": "Large Language Models Explore by Latent Distilling",
     "arxiv": "https://arxiv.org/abs/2604.24927"
   },
   {
-    "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
-    "arxiv": "https://arxiv.org/abs/2604.26951"
+    "title": "RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
+    "arxiv": "https://arxiv.org/abs/2604.26067"
   },
   {
     "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
     "arxiv": "https://arxiv.org/abs/2604.26904"
+  },
+  {
+    "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+    "arxiv": "https://arxiv.org/abs/2604.26951"
   },
   {
     "title": "Diffusion Templates: A Unified Plugin Framework for Controllable Diffusion",
@@ -28,12 +28,12 @@
     "arxiv": "https://arxiv.org/abs/2604.25135"
   },
   {
-    "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
-    "arxiv": "https://arxiv.org/abs/2604.26694"
-  },
-  {
     "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
     "arxiv": "https://arxiv.org/abs/2604.26779"
+  },
+  {
+    "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+    "arxiv": "https://arxiv.org/abs/2604.26694"
   },
   {
     "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
