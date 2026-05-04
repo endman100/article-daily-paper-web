@@ -1,0 +1,74 @@
+{
+  "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+  "title_zh": "Learning while Deploying：用車隊規模強化學習訓練通用機器人策略",
+  "paper_url": "https://arxiv.org/abs/2605.00416",
+  "data": [
+    [
+      "16台雙臂機器人同時學做事啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "LWD把部署現場，接回訓練迴路啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "任務含茶、果汁和補貨啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "同一套VLA策略要扛住長流程（含失敗）啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "最難看的資料：其實是救命線索啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "人類接手後，紀錄仍能回流、再訓練啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "失敗不再只被剪掉，原因：它進了緩衝區啊啊啊啊啊啊啊啊啊啊啊",
+      null
+    ],
+    [
+      "離線預訓練給了機器人底子啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "到真實廚房，桌高和器具會變啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "物品形狀、擺放也會漂啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "長尾情境補不到（這很麻煩）啊啊啊啊啊啊啊啊啊啊啊啊",
+      "過去部署像期末考：錯了就記分啊啊啊啊啊啊啊啊啊啊",
+      "LWD邊用，邊吸收、再修啊啊啊啊啊啊啊啊啊啊啊",
+      "一台跌倒，代價：整隊少踩坑啊啊啊啊啊啊啊啊啊",
+      null,
+      null
+    ],
+    [
+      "流程先用示範和歷史軌跡做RL起步啊啊啊啊啊",
+      "接著策略，被推到多台機器人啊啊啊啊啊啊啊",
+      "操作回傳畫面、動作和獎勵啊啊啊啊啊啊啊",
+      "成功入庫（失敗也留下）啊啊啊啊啊啊啊",
+      "中央learner：混新舊資料啊啊",
+      "ckpt下發/再收啊啊啊啊啊啊啊",
+      "飛輪靠環境轉，資料：貼近現場啊",
+      null,
+      null,
+      null
+    ],
+    [
+      "長任務難啊啊啊啊啊啊啊啊啊啊",
+      "泡茶時，早一步抓歪啊啊啊啊",
+      "後面、才會爆啊啊啊啊啊啊",
+      "平均值會糊掉（常見）啊",
+      "DIVL：學分布啊啊",
+      "少見%成功啊啊啊啊",
+      "TD把獎勵/前傳",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "快",
+      "9/",
+      "Q:A",
+      "95%了",
+      "能，回流啊",
+      "梯(能)用啊",
+      "部署、還會學啊",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "figures": [
+    "https://finch-static.agibot.com/LWD/videos/teaser.mp4",
+    "https://finch-static.agibot.com/LWD/blog/teaser.png",
+    "https://finch-static.agibot.com/LWD/blog/method.png",
+    "https://finch-static.agibot.com/LWD/videos/1.mp4",
+    "https://finch-static.agibot.com/LWD/blog/exp_res.png"
+  ]
+}

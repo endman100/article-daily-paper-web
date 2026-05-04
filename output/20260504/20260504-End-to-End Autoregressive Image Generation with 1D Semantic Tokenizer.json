@@ -1,0 +1,74 @@
+{
+  "title": "End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
+  "title_zh": "使用 1D Semantic Tokenizer 的端到端自回歸圖像生成",
+  "paper_url": "https://arxiv.org/abs/2605.00503",
+  "data": [
+    [
+      "難",
+      "AR像，寫字",
+      "EOSTok：兩步合訓",
+      "NTP看似會降？生成圖仍可能差掉",
+      "解碼器拿代碼、mask token重建畫面",
+      "APR把預測代碼解回像素，再拿結果：對齊原圖細節問題",
+      "限制仍在；訓練成本與資料條件仍然沒有一起消失掉光也要重新估算過",
+      "若後續釋出新訓練碼，先看APR是否真能穩定復現？再決定能否採用再下結論"
+    ],
+    [
+      "圖長",
+      "先將圖：壓縮碼",
+      "生成器；再學固定代碼序列",
+      "模型預測下一碼？答案其實藏在前文裡",
+      "EOSTok-L也用較小AR，壓過不少舊基準",
+      "隱式對齊放在隱層（生成分數更好看且訓練比較順而且可靠）",
+      "研究團隊還測了亂序，原始順序；分數明顯真的較好很多這點其實關鍵了",
+      null,
+      null
+    ],
+    [
+      "碼很少",
+      "舊流程（先分學）",
+      "一旦壓縮器凍住，後面難補救",
+      "編碼器丟掉patch：只留下潛在序列",
+      "最佳點落在中段：256 tokens剛好卡甜區",
+      "解碼器對齊最管用；重建收斂也明顯加快許多對AR更友善不少",
+      "1D tokenizer若只會還原？遇到生成任務仍會露出破口很明顯",
+      null,
+      null,
+      null
+    ],
+    [
+      "圖像太長",
+      "AR逐步？補代碼串",
+      "順序很要緊；反向訓練品質會掉",
+      "直接對齊會塞入2D偏見，1D序列吃不消",
+      "離散代碼會卡住梯度：作者改寫AR嵌入層來處理它們",
+      "EOSTok-H做到1.48 gFID無需guidance",
+      "讀者若想復現／最好先盯APR loss與VFM對齊細節才行再跑一次看",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "生成很慢嗎",
+      "結果、才回修壓縮器了",
+      "舊法，先訓練tokenizer",
+      "VFM語意進場：DINOv2提供全局提示",
+      "Tokenizer切patch（並接查詢碼才好用）",
+      "序列越長；重建更細但AR負擔也會同步上升不少成本不是小事多了",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "figures": [
+    "https://arxiv.org/html/2605.00503v1/x1.png",
+    "https://arxiv.org/html/2605.00503v1/x2.png",
+    "https://arxiv.org/html/2605.00503v1/x3.png",
+    "https://arxiv.org/html/2605.00503v1/x4.png",
+    "https://arxiv.org/html/2605.00503v1/x6.png"
+  ]
+}

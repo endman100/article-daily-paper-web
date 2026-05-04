@@ -1,0 +1,74 @@
+{
+  "title": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
+  "title_zh": "UniVidX：透過 Diffusion Priors 實現多用途影片生成的統一多模態框架",
+  "paper_url": "https://arxiv.org/abs/2605.00658",
+  "data": [
+    [
+      "UniVidX先把任務收進同一框架",
+      "它能處理RGB、法線和透明層",
+      "研究團隊：不再為每種輸入另開模型",
+      "同一套骨幹（文字或影像線索）都能接了",
+      "條件/目標會隨機改派",
+      null,
+      null,
+      null
+    ],
+    [
+      "過去影片生成常像單行道",
+      "RGB進去，深度或遮罩出來",
+      "換成重打光：流程又得重訓一套了呢吧喔些",
+      "模型很難讀出材質（幾何）彼此關係了呢吧喔",
+      "UniVidX把多模態、放進共享空間裡了呢",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "SCM是第一個機關",
+      "訓練時，部分模態保持乾淨當條件了呢吧喔些點端",
+      "其餘模態：加噪後交給模型補回了呢吧喔些點端側層",
+      "今天用文字生反照率（明天換法線）了呢吧喔些點端側",
+      "任務順序被打亂、模型少了固定捷徑了呢吧喔些點端側層",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "DGL負責避免適配器打架",
+      "每種目標模態，都有自己的LoRA了呢吧喔些點端側層感",
+      "它只是條件時：對應LoRA會關閉了呢吧喔些點端側層感線",
+      "輪到它被生成（閘門才打開）了呢吧喔些點端側層感線面影路法",
+      "VDM原本懂動態、那部分被保留下來了呢吧喔些點端側層感線面",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "CMSA處理最後一個麻煩了呢吧喔些點端側層感線面影路法招圖版",
+      "多模態同時生成，畫面容易各唱各的了呢吧喔些點端側層感線面影路法",
+      "它共享key與value：query保留身份了呢吧喔些點端側層感",
+      "透明邊界（前景背景）因此能對齊了呢吧喔些點端側層感線面影路法招圖版",
+      "少量影片訓練後、野外案例仍能跑了呢吧喔些點端側層感線面影路法招圖版稿",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "figures": [
+    "https://raw.githubusercontent.com/houyuanchen111/UniVidX/382b9002757f4d5f04a90ec23b784dce11d56221/assets/teaser.png",
+    "https://houyuanchen111.github.io/UniVidX.github.io/assets/method.png",
+    "https://raw.githubusercontent.com/houyuanchen111/UniVidX/382b9002757f4d5f04a90ec23b784dce11d56221/assets/video_editing/rgb_gen.gif",
+    "https://raw.githubusercontent.com/houyuanchen111/UniVidX/382b9002757f4d5f04a90ec23b784dce11d56221/assets/video_inpainting/input_bl.gif",
+    "https://raw.githubusercontent.com/houyuanchen111/UniVidX/382b9002757f4d5f04a90ec23b784dce11d56221/assets/video_inpainting/inpaint_bl.gif"
+  ]
+}

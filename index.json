@@ -2226,6 +2226,103 @@
       "title_zh": "World2Minecraft：以佔用驅動建構模擬場景"
     }
   ],
+  "20260504": [
+    {
+      "slug": "20260504-AnalogRetriever_ Learning Cross-Modal Representations for Analog Circuit Retrieval",
+      "title": "AnalogRetriever: Learning Cross-Modal Representations for Analog Circuit Retrieval",
+      "title_zh": "AnalogRetriever：學習跨模態表徵用於類比電路檢索"
+    },
+    {
+      "slug": "20260504-Better Models, Faster Training_ Sigmoid Attention for single-cell Foundation Models",
+      "title": "Better Models, Faster Training: Sigmoid Attention for single-cell Foundation Models",
+      "title_zh": "更好的模型，更快的訓練：用於 single-cell Foundation Models 的 Sigmoid Attention"
+    },
+    {
+      "slug": "20260504-End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
+      "title": "End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
+      "title_zh": "使用 1D Semantic Tokenizer 的端到端自回歸圖像生成"
+    },
+    {
+      "slug": "20260504-From Skill Text to Skill Structure_ The Scheduling-Structural-Logical Representation for Agent Skills",
+      "title": "From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills",
+      "title_zh": "從技能文字到技能結構：代理技能的 Scheduling-Structural-Logical Representation"
+    },
+    {
+      "slug": "20260504-LASE_ Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation",
+      "title": "LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation",
+      "title_zh": "LASE：用語言對抗式說話人編碼保留 Indic 跨腳本身份"
+    },
+    {
+      "slug": "20260504-Learning to Act and Cooperate for Distributed Black-Box Consensus Optimization",
+      "title": "Learning to Act and Cooperate for Distributed Black-Box Consensus Optimization",
+      "title_zh": "Learning to Act and Cooperate 用於分散式黑箱共識最佳化"
+    },
+    {
+      "slug": "20260504-Learning while Deploying_ Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "title_zh": "Learning while Deploying：用車隊規模強化學習訓練通用機器人策略"
+    },
+    {
+      "slug": "20260504-Let ViT Speak_ Generative Language-Image Pre-training",
+      "title": "Let ViT Speak: Generative Language-Image Pre-training",
+      "title_zh": "讓 ViT 說話：生成式語言圖像預訓練"
+    },
+    {
+      "slug": "20260504-Map2World_ Segment Map Conditioned Text to 3D World Generation",
+      "title": "Map2World: Segment Map Conditioned Text to 3D World Generation",
+      "title_zh": "Map2World：以分割地圖作為條件的文字到3D世界生成"
+    },
+    {
+      "slug": "20260504-MASCing_ Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
+      "title": "MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
+      "title_zh": "MASCing：透過 Activation Steering Masks 配置 Mixture-of-Experts 行為"
+    },
+    {
+      "slug": "20260504-Online Self-Calibration Against Hallucination in Vision-Language Models",
+      "title": "Online Self-Calibration Against Hallucination in Vision-Language Models",
+      "title_zh": "針對 Vision-Language Models 幻覺的 Online Self-Calibration"
+    },
+    {
+      "slug": "20260504-Prox-E_ Fine-Grained 3D Shape Editing via Primitive-Based Abstractions",
+      "title": "Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions",
+      "title_zh": "Prox-E：透過 Primitive-Based Abstractions 進行細粒度 3D 形狀編輯"
+    },
+    {
+      "slug": "20260504-Stable-GFlowNet_ Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
+      "title": "Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
+      "title_zh": "Stable-GFlowNet：透過 Contrastive Trajectory Balance 走向多樣且強韌的 LLM Red-Teaming"
+    },
+    {
+      "slug": "20260504-Talker-T2AV_ Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling",
+      "title": "Talker-T2AV: Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling",
+      "title_zh": "Talker-T2AV：以自回歸擴散建模進行聯合說話音訊影片生成"
+    },
+    {
+      "slug": "20260504-Themis_ Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring",
+      "title": "Themis: Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring",
+      "title_zh": "Themis：訓練穩健多語言程式獎勵模型，用於彈性多準則評分"
+    },
+    {
+      "slug": "20260504-Trees to Flows and Back_ Unifying Decision Trees and Diffusion Models",
+      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "title_zh": "Trees to Flows and Back：統一決策樹與擴散模型"
+    },
+    {
+      "slug": "20260504-UniVidX_ A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
+      "title": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
+      "title_zh": "UniVidX：透過 Diffusion Priors 實現多用途影片生成的統一多模態框架"
+    },
+    {
+      "slug": "20260504-Web2BigTable_ A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+      "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+      "title_zh": "Web2BigTable：用於網際網路規模資訊搜尋與抽取的雙層多代理 LLM 系統"
+    },
+    {
+      "slug": "20260504-When Do Diffusion Models learn to Generate Multiple Objects_",
+      "title": "When Do Diffusion Models learn to Generate Multiple Objects?",
+      "title_zh": "Diffusion Models 何時學會生成多個物件"
+    }
+  ],
   "CharacterEval": [
     {
       "slug": "AtomicPersona",

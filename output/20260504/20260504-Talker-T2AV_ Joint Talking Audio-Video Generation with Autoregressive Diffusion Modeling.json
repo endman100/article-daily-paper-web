@@ -1,0 +1,74 @@
+{
+  "title": "Talker-T2AV: Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling",
+  "title_zh": "Talker-T2AV：以自回歸擴散建模進行聯合說話音訊影片生成",
+  "paper_url": "https://arxiv.org/abs/2604.23586",
+  "data": [
+    [
+      "嘴型貼上聲音，臉還要自然",
+      "Talker-T2AV同時生成聲音與影片",
+      "它先規劃節奏：再各自渲染細節",
+      "舊模型全程互看、算力負擔偏重不少",
+      "研究團隊只在高層做對齊",
+      null,
+      null,
+      null
+    ],
+    [
+      "傳統流程常先做TTS再畫臉",
+      "前段語速一歪，後段很難救回來了",
+      "雙分支DiT讓兩路全程交叉：同步靠互看",
+      "同步會改善；低層細節也被纏在一起且難清理也難拆分",
+      "說話頭像其實只需時間對準（多半如此）",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "方法前半像一個時間導演，先安排節拍",
+      "文字先進序列：提供完整劇本給後續步驟與節拍",
+      "音訊patch、影片patch在同一刻對齊，不靠後段硬猜",
+      "兩種嵌入相加；共同token再送入LM保留同步線索",
+      "ARLM往右產生共享隱狀態供後段解碼使用和收尾",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "方法後半換成兩個輕量DiThead分工，避免互相拖累",
+      "音訊端還原聲學latent：少受畫面干擾和牽制住也保留語音清楚度",
+      "影片端還原臉部動作latent、專心處理表情和頭動路徑",
+      "同一隱狀態；餵給兩條解碼路維持節奏和身份一致",
+      "停止預測器讓片長跟文字走（不用額外裁切或壓縮片段也能跟住）",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "實驗亮點是同一模型能換任務，沒有重搭架構或微調流程與訓練成本",
+      "給音訊它能生成說話頭像；給靜音影片它能補配音幾乎由一套模型吃下",
+      "相加設計缺哪一路就預測哪一路：工程上少很多分支與成本也少維護長鏈路",
+      "對比MoVA、Ovi、LTX-2等基線時，唇同步和畫質靠前表現也好些",
+      "限制也沒藏，長句會累積誤差，視覺上限仍受VAE牽制，後續仍要看新編碼器",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "figures": [
+    "https://talker-t2av.github.io/demo/6b4afddc-b473-4282-9e5c-f292a0c97d85.mp4",
+    "https://talker-t2av.github.io/demo/c85cbd75-8d15-4d4c-a7a8-53c980e2506b.mp4",
+    "https://talker-t2av.github.io/demo/18ec5ff19ebbb7618e6ed80146492ff5.mp4",
+    "https://talker-t2av.github.io/av/LeCun_gen1.mp4",
+    "https://talker-t2av.github.io/av/Trump_gen1.mp4"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "title": "From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills",
+  "title_zh": "從技能文字到技能結構：代理技能的 Scheduling-Structural-Logical Representation",
+  "paper_url": "https://arxiv.org/abs/2604.24026",
+  "data": [
+    [
+      "風險在行動裡浮現嗯嗯嗯",
+      "研究把技能，拆成三圖嗯嗯",
+      "人讀全文；代理讀線索嗯嗯嗯",
+      "同一技能/能被多任務查嗯嗯嗯",
+      "排程卡：目標輸入輸出依賴嗯嗯嗯",
+      null,
+      null,
+      null
+    ],
+    [
+      "場景圖顯示準備到驗證嗯嗯嗯嗯嗯嗯",
+      "邏輯圖，記錄讀寫呼叫資源嗯嗯嗯嗯嗯",
+      "若證據不足？欄位寧可留空嗯嗯嗯嗯嗯嗯",
+      "正規化器/只抽來源支撐內容嗯嗯嗯嗯嗯嗯",
+      "驗證步驟（ID與轉移）會重查嗯嗯嗯嗯嗯嗯",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "搜尋任務測出結構摘要更好用嗯嗯嗯嗯嗯嗯嗯嗯",
+      "短描述加SSL，勝過直接塞全文嗯嗯嗯嗯嗯嗯嗯",
+      "原因很樸素；雜訊少了，線索近了嗯嗯嗯嗯嗯嗯嗯嗯",
+      "風險評估：完整文本仍有價值嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "因嚴重程度？常要看保護條件嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "外洩刪除憑證接觸適合結構化嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "全文加SSL，雙視角成為較穩做法嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "GitHub倉庫；目前可見資料有限嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "HF頁面：只留下摘要與收藏訊號嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "arXiv圖/展示三層從文字抽出嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "它像技能旁邊索引卡不像新語言嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "代理日後可用它挑技能，或先標紅線嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "限制也清楚；靜態抽取看不到執行時嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "下一步：把技能圖連成倉庫地圖嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      "先別把它當安全銀彈/拿來減少盲讀較實際嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯嗯",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "figures": [
+    "https://arxiv.org/html/2604.24026v3/x1.png",
+    "https://arxiv.org/html/2604.24026v3/x1.png",
+    "https://arxiv.org/html/2604.24026v3/x1.png",
+    "https://arxiv.org/html/2604.24026v3/x1.png",
+    "https://arxiv.org/html/2604.24026v3/x1.png"
+  ]
+}

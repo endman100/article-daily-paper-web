@@ -1,0 +1,74 @@
+{
+  "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+  "title_zh": "Web2BigTable：用於網際網路規模資訊搜尋與抽取的雙層多代理 LLM 系統",
+  "paper_url": "https://arxiv.org/abs/2604.27221",
+  "data": [
+    [
+      "表",
+      "任務，拆查也",
+      "網頁：轉成表格也留痕可",
+      "編排者分工；工人各自找證據也留痕",
+      "共享板？讓片段結果先被看見再合併也留痕可回",
+      "WideSearch（廣搜）覆蓋率和格子準度拉高也留",
+      "XBench上；深搜：仍能處理長線索也留痕可回查能核對少返工較",
+      "看點是，規劃和執行；兩邊都記住查證教訓也留痕可回查能核對少返工較清楚來"
+    ],
+    [
+      "AI",
+      "舊代理，塞線索",
+      "資料越多：脈絡越擠也留痕",
+      "表格任務；同時照顧列與欄也留痕可回",
+      "深搜？像解一個很長的線索謎題也留痕可回查能核",
+      "廣搜（wide）像替上百筆資料對帳也留痕可回查能核對少",
+      "Web2BigTable：把兩類搜尋；放進同套流程也留痕可回查能",
+      null,
+      null
+    ],
+    [
+      "查，表",
+      "上層：先判斷也留",
+      "切法照人名；時間或類別也留",
+      "每個子題？交給不同工人代理也留痕可回",
+      "工人會讀技能庫（Sw）再決定動作也留痕可回查能",
+      "共享工作板：記錄已查；過哪些線索也留痕可回查能核對少返工",
+      "編排者最後把局部表格收束成BigTable也留痕可回查能核對少返工",
+      null,
+      null,
+      null
+    ],
+    [
+      "證：源頭",
+      "訓練時，會反省也留",
+      "輸出和答案；規格做比對也留痕",
+      "錯誤被整理成可讀記憶也留痕可回查能核對",
+      "編排技能（So）學會更好的切法也留痕可回查能核對",
+      "工人技能？累積搜尋和驗證習慣也留痕可回查能核對少返工較清楚",
+      "模型權重不動，外部記憶；流程在變也留痕可回查能核對少返工較清楚來源穩",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "",
+      "工人，查證",
+      "代理寫區塊；互讀也留",
+      "來源先出現：少走回頭路也留痕可",
+      "碰到衝突？工作板保留線索核對也留痕可回查",
+      "開源庫給了TUI（終端介面）看進展也留痕可回查能核",
+      "大型抽取任務，比較像一支；臨時研究隊也留痕可回查能核對少返工",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "figures": [
+    "https://raw.githubusercontent.com/web2bigtable/Web2BigTable/main/figures/terminal-demo.gif",
+    "https://raw.githubusercontent.com/web2bigtable/Web2BigTable/main/figures/team.png",
+    "https://raw.githubusercontent.com/web2bigtable/Web2BigTable/main/figures/train_flow.png",
+    "https://raw.githubusercontent.com/web2bigtable/Web2BigTable/main/figures/inference_flow.png",
+    "https://raw.githubusercontent.com/web2bigtable/Web2BigTable/main/figures/widesearch.png"
+  ]
+}
