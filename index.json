@@ -2024,11 +2024,6 @@
       "title_zh": "Diffusion Templates：統一的可控擴散插件框架"
     },
     {
-      "slug": "20260430-Diffusion Templates_ A Unified Plugin Framework for Controllable Diffusion",
-      "title": "Diffusion Templates: A Unified Plugin Framework for Controllable Diffusion",
-      "title_zh": "Diffusion Templates：用於可控 Diffusion 的統一插件框架"
-    },
-    {
       "slug": "20260430-Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
       "title": "Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
       "title_zh": "以 Adaptive Quantization 與 Differential Privacy 提升 Non-IID Federated Learning 中的隱私與通訊效率"
@@ -2037,11 +2032,6 @@
       "slug": "20260430-FAMA- Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
       "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
       "title_zh": "FAMA：面向互動式工具使用環境中開源LLM的失敗感知Meta-Agent框架"
-    },
-    {
-      "slug": "20260430-FAMA_ Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
-      "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
-      "title_zh": "FAMA：面向互動式工具使用環境中開源LLM的失敗感知Meta-Agentic框架"
     },
     {
       "slug": "20260430-FASH-iCNN- Making Editorial Fashion Identity Inspectable Through Multimodal CNN Probing",
