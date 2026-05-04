@@ -1994,94 +1994,151 @@
   ],
   "20260430": [
     {
-      "slug": "20260430-A Survey on LLM-based Conversational User Simulation",
-      "title": "A Survey on LLM-based Conversational User Simulation",
-      "title_zh": "LLM 對話式使用者模擬綜述"
-    },
-    {
-      "slug": "20260430-Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
-      "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
-      "title_zh": "透過系統整合式 Speculative Decoding 加速 RL 後訓練 Rollouts"
-    },
-    {
-      "slug": "20260430-Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductors Discovery",
-      "title": "Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductors Discovery",
-      "title_zh": "融合大型原子模型與語言模型代理以加速超導材料發現"
-    },
-    {
       "slug": "20260430-ClawGym_ A Scalable Framework for Building Effective Claw Agents",
       "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
-      "title_zh": "ClawGym：建構有效 Claw Agents 的可擴充框架"
-    },
-    {
-      "slug": "20260430-Diffusion Templates_ A Unified Plugin Framework for Controllable Diffusion",
-      "title": "Diffusion Templates: A Unified Plugin Framework for Controllable Diffusion",
-      "title_zh": "Diffusion Templates：可控 Diffusion 的統一外掛框架"
-    },
-    {
-      "slug": "20260430-Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
-      "title": "Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
-      "title_zh": "以自適應量化與差分隱私提升非 IID 聯邦學習的隱私與通訊效率"
-    },
-    {
-      "slug": "20260430-FAMA_ Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
-      "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
-      "title_zh": "FAMA：開源 LLM 互動工具使用環境中的失敗感知 Meta Agent 框架"
-    },
-    {
-      "slug": "20260430-FASH-iCNN_ Making Editorial Fashion Identity Inspectable Through Multimodal CNN Probing",
-      "title": "FASH-iCNN: Making Editorial Fashion Identity Inspectable Through Multimodal CNN Probing",
-      "title_zh": "FASH-iCNN：透過多模態 CNN 探針讓編輯時尚識別可檢查"
+      "title_zh": "ClawGym：打造有效 Claw Agents 的大規模框架"
     },
     {
       "slug": "20260430-GLM-5V-Turbo_ Toward a Native Foundation Model for Multimodal Agents",
       "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
-      "title_zh": "GLM-5V-Turbo：邁向多模態代理的原生基礎模型"
+      "title_zh": "GLM-5V-Turbo：邁向多模態代理原生基礎模型"
     },
     {
       "slug": "20260430-Large Language Models Explore by Latent Distilling",
       "title": "Large Language Models Explore by Latent Distilling",
-      "title_zh": "大型語言模型透過 Latent Distilling 進行探索"
-    },
-    {
-      "slug": "20260430-Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
-      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
-      "title_zh": "真實資本下鏈上語言模型代理的操作層控制"
-    },
-    {
-      "slug": "20260430-Praxy Voice_ Voice-Prompt Recovery + BUPS for Commercial-Class Indic TTS from a Frozen Non-Indic Base at Zero Commercial-Training-Data Cost",
-      "title": "Praxy Voice: Voice-Prompt Recovery + BUPS for Commercial-Class Indic TTS from a Frozen Non-Indic Base at Zero Commercial-Training-Data Cost",
-      "title_zh": "Praxy Voice：從凍結非 Indic 基底恢復語音提示並建構商用品質 Indic TTS"
-    },
-    {
-      "slug": "20260430-Probing Visual Planning in Image Editing Models",
-      "title": "Probing Visual Planning in Image Editing Models",
-      "title_zh": "探測影像編輯模型中的視覺規劃能力"
-    },
-    {
-      "slug": "20260430-PSP_ An Interpretable Per-Dimension Accent Benchmark for Indic Text-to-Speech",
-      "title": "PSP: An Interpretable Per-Dimension Accent Benchmark for Indic Text-to-Speech",
-      "title_zh": "PSP：Indic TTS 的逐維度口音解釋基準"
+      "title_zh": "大型語言模型透過 Latent Distilling 探索"
     },
     {
       "slug": "20260430-RADIO-ViPE_ Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
       "title": "RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
-      "title_zh": "RADIO-ViPE：動態環境中開放詞彙語意 SLAM 的線上多模態融合"
-    },
-    {
-      "slug": "20260430-Sample Selection Using Multi-Task Autoencoders in Federated Learning with Non-IID Data",
-      "title": "Sample Selection Using Multi-Task Autoencoders in Federated Learning with Non-IID Data",
-      "title_zh": "非 IID 聯邦學習中使用多任務 Autoencoders 進行樣本選擇"
+      "title_zh": "RADIO-ViPE：用於動態環境開放詞彙 Semantic SLAM 的線上緊耦合多模態融合"
     },
     {
       "slug": "20260430-Turning the TIDE_ Cross-Architecture Distillation for Diffusion Large Language Models",
       "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
-      "title_zh": "TIDE：跨架構蒸餾擴散型 LLM"
+      "title_zh": "Turning the TIDE：Diffusion Large Language Models 的跨架構蒸餾"
+    }
+  ],
+  "20260501": [
+    {
+      "slug": "20260501-Claw-Eval-Live- A Live Agent Benchmark for Evolving Real-World Workflows",
+      "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+      "title_zh": "Claw-Eval-Live：面向演進中真實世界工作流的即時 Agent 基準"
     },
     {
-      "slug": "20260430-Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
-      "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
-      "title_zh": "從影片先驗與非同步去噪統一建模 4D 世界動作"
+      "slug": "20260501-Co-Evolving Policy Distillation",
+      "title": "Co-Evolving Policy Distillation",
+      "title_zh": "共同演化的 Policy Distillation"
+    },
+    {
+      "slug": "20260501-Compliance versus Sensibility- On the Reasoning Controllability in Large Language Models",
+      "title": "Compliance versus Sensibility: On the Reasoning Controllability in Large Language Models",
+      "title_zh": "合規與合理：大型語言模型中的推理控制能力"
+    },
+    {
+      "slug": "20260501-Efficient Training on Multiple Consumer GPUs with RoundPipe",
+      "title": "Efficient Training on Multiple Consumer GPUs with RoundPipe",
+      "title_zh": "使用 RoundPipe 在多張消費級 GPU 上高效率訓練"
+    },
+    {
+      "slug": "20260501-ExoActor- Exocentric Video Generation as Generalizable Interactive Humanoid Control",
+      "title": "ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control",
+      "title_zh": "ExoActor：作為通用互動式人形控制方法的第三人稱影片生成"
+    },
+    {
+      "slug": "20260501-FlashRT- Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption",
+      "title": "FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption",
+      "title_zh": "FlashRT：邁向計算與記憶體高效的 Prompt Injection 與 Knowledge Corruption 紅隊測試"
+    },
+    {
+      "slug": "20260501-Heterogeneous Scientific Foundation Model Collaboration",
+      "title": "Heterogeneous Scientific Foundation Model Collaboration",
+      "title_zh": "異質科學基礎模型協作"
+    },
+    {
+      "slug": "20260501-Instruction-Guided Poetry Generation in Arabic and Its Dialects",
+      "title": "Instruction-Guided Poetry Generation in Arabic and Its Dialects",
+      "title_zh": "阿拉伯語及其方言中的指令引導詩歌生成"
+    },
+    {
+      "slug": "20260501-InteractWeb-Bench- Can Multimodal Agent Escape Blind Execution in Interactive Website Generation-",
+      "title": "InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?",
+      "title_zh": "InteractWeb-Bench：多模態 Agent 能否逃出互動式網站生成中的盲目執行"
+    },
+    {
+      "slug": "20260501-Intern-Atlas- A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "title_zh": "Intern-Atlas：作為 AI 科學家研究基礎設施的方法演化圖"
+    },
+    {
+      "slug": "20260501-Learning from Noisy Preferences- A Semi-Supervised Learning Approach to Direct Preference Optimization",
+      "title": "Learning from Noisy Preferences: A Semi-Supervised Learning Approach to Direct Preference Optimization",
+      "title_zh": "從嘈雜偏好中學習：用於 Direct Preference Optimization 的半監督學習方法"
+    },
+    {
+      "slug": "20260501-Length Value Model- Scalable Value Pretraining for Token-Level Length Modeling",
+      "title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
+      "title_zh": "Length Value Model：Token-Level Length Modeling 的可規模化 Value Pretraining"
+    },
+    {
+      "slug": "20260501-Leveraging Verifier-Based Reinforcement Learning in Image Editing",
+      "title": "Leveraging Verifier-Based Reinforcement Learning in Image Editing",
+      "title_zh": "在圖像編輯中運用基於驗證器的強化學習"
+    },
+    {
+      "slug": "20260501-MoCapAnything V2- End-to-End Motion Capture for Arbitrary Skeletons",
+      "title": "MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons",
+      "title_zh": "MoCapAnything V2：任意骨架端到端動作捕捉"
+    },
+    {
+      "slug": "20260501-Nemotron 3 Nano Omni- Efficient and Open Multimodal Intelligence",
+      "title": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+      "title_zh": "Nemotron 3 Nano Omni：高效率且開放的多模態智慧"
+    },
+    {
+      "slug": "20260501-PhyCo- Learning Controllable Physical Priors for Generative Motion",
+      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+      "title_zh": "PhyCo：為生成式動作學習能控制的物理先驗"
+    },
+    {
+      "slug": "20260501-Representation Fréchet Loss for Visual Generation",
+      "title": "Representation Fréchet Loss for Visual Generation",
+      "title_zh": "視覺生成的Representation Fréchet Loss"
+    },
+    {
+      "slug": "20260501-Safety Drift After Fine-Tuning- Evidence from High-Stakes Domains",
+      "title": "Safety Drift After Fine-Tuning: Evidence from High-Stakes Domains",
+      "title_zh": "微調後的安全漂移：來自高風險領域的證據"
+    },
+    {
+      "slug": "20260501-Step-level Optimization for Efficient Computer-use Agents",
+      "title": "Step-level Optimization for Efficient Computer-use Agents",
+      "title_zh": "高效率 Computer-use Agents 的步驟層級最佳化"
+    },
+    {
+      "slug": "20260501-Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "title_zh": "用於長期生產力模擬的大規模 Synthetic Computers"
+    },
+    {
+      "slug": "20260501-The Last Human-Written Paper- Agent-Native Research Artifacts",
+      "title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+      "title_zh": "最後一篇人類寫成的論文：Agent-Native Research Artifacts"
+    },
+    {
+      "slug": "20260501-ViPO- Visual Preference Optimization at Scale",
+      "title": "ViPO: Visual Preference Optimization at Scale",
+      "title_zh": "ViPO：大規模視覺偏好最佳化"
+    },
+    {
+      "slug": "20260501-Visual Generation in the New Era- An Evolution from Atomic Mapping to Agentic World Modeling",
+      "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+      "title_zh": "新時代的視覺生成：從 Atomic Mapping 到 Agentic World Modeling 的演進"
+    },
+    {
+      "slug": "20260501-World2Minecraft- Occupancy-Driven Simulated Scenes Construction",
+      "title": "World2Minecraft: Occupancy-Driven Simulated Scenes Construction",
+      "title_zh": "World2Minecraft：以佔用驅動建構模擬場景"
     }
   ],
   "CharacterEval": [

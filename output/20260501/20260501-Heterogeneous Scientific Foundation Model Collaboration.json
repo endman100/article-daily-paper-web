@@ -1,0 +1,90 @@
+{
+  "title": "Heterogeneous Scientific Foundation Model Collaboration",
+  "title_zh": "異質科學基礎模型協作",
+  "paper_url": "https://arxiv.org/abs/2604.27351",
+  "data": [
+    [
+      "科學任務卡住時，LLM 常常先把表格或時間序列壓成文字再硬算",
+      "Eywa 直接把專門模型拉進代理流程，讓預測任務回到原本擅長的資料形狀",
+      "它呈現的重點很扎實，跨物理、生命、社會科學都看到改善",
+      "最吸睛的結果在於，EywaAgent 同時提升效用，還降低 token 消耗",
+      "到了多代理版本，EywaMAS 在固定配置中拿到最高整體效用 ",
+      "EywaOrchestra 則像調度員，知道何時該叫專家，何時不用擺出大陣仗 ",
+      "這篇論文真正戳到痛點：科學 AI 不能把所有世界都翻譯成聊天紀錄",
+      "讀完會有個很現實的問題，下一代科研代理到底該會說話，還是該會找對工具"
+    ],
+    [
+      "背景其實不複雜：現在很多代理框架把 LLM 當成萬用介面",
+      "文字推理很方便，遇到表格、序列、分子或臨床資料時卻容易繞遠路   ",
+      "研究社群早就有不少 domain-specific foundation model，像 Chronos 處理時間序列",
+      "TabPFN 則擅長表格任務，尤其適合小資料與快速預測場景",
+      "問題卡在接口，專門模型通常不會自然語言對話，LLM 也不懂它們的內部偏好",
+      "Eywa 的出發點很乾脆，把兩邊接起來，別再要求其中一方假裝成另一方   ",
+      "作者把接口取名 Tsaheylu，借用 Avatar 裡神經連結的意象     ",
+      "這名字有點中二，但拿來描述模型之間的穩定通道，意外貼切",
+      "所以論文沒有再造一個更會聊天的代理，它在代理裡安排能動手的科學專家        "
+    ],
+    [
+      "EywaAgent 是最小單元：LLM 負責理解任務，專門模型負責核心推斷     ",
+      "流程裡有 query compiler，會把任務狀態轉成 foundation model 能接收的呼叫",
+      "接著 response adapter 把輸出整理成代理能繼續使用的上下文      ",
+      "這樣做的好處很明顯，LLM 不必把一長串數值塞進 prompt 裡慢慢猜        ",
+      "它可以先決定該問什麼，再把預測、分類或回歸交給合適模型                  ",
+      "專門模型算完之後，LLM 再把結果放回任務需求，產生最後答案                ",
+      "整條鏈路聽起來像工具使用，但差別在於專家模型有固定角色與穩定契約               ",
+      "作者也把它設計成 drop-in replacement，原本單代理 pipeline 可以直接替換",
+      "對工程團隊來說，這比重寫整套代理框架更容易落地",
+      "麻煩仍在環境建置，repo 需要 AutoGluon、TabPFN、MCP server 與多組 API key"
+    ],
+    [
+      "往上走一步，EywaMAS 把 EywaAgent 放進多代理系統裡              ",
+      "原本的 planner、summarizer、worker 不一定要全部換掉，只替換真正需要專家的節點",
+      "論文測了 sequential、looped、hierarchical 與混合拓撲，沒有把方案綁死在單一路線 ",
+      "這點對科研任務很要緊，因為材料、藥物、經濟資料的工作流差很多                   ",
+      "有些任務適合一名專家快速算完，有些需要語言代理先拆題再交給不同模組                    ",
+      "EywaOrchestra 補上最後一層，讓 planner 依任務選模型組合、代理數量與是否啟用 Eywa",
+      "換句話說，架構不再預設多代理一定比較好，判斷本身也交給系統完成                          ",
+      "論文裡的結果支持這種做法，某些 domain 用單一 EywaAgent 已經夠強                 ",
+      "另一些 domain 則真的受惠於多代理合作，尤其需要跨模態線索時                           ",
+      "這裡有個不太漂亮的現實，調度越聰明，追蹤錯誤來源也越費力                                 ",
+      "如果科研團隊要採用，logging、快取與可重跑實驗會比模型名稱更重要                           "
+    ],
+    [
+      "另一個重點是 EywaBench，因為它刻意保留科學資料的形狀                                ",
+      "基準涵蓋 9 個子領域，包含材料、能源、太空、生物、臨床、藥物、經濟、商業與基礎設施                      ",
+      "資料型態分成自然語言、時間序列與表格，避免所有任務都被壓成普通問答                                ",
+      "目前公開切分有 200 個任務，來自更大的建構管線",
+      "評分也不是只看文字是否相似，時間序列與回歸任務會看預測誤差轉成的 utility                          ",
+      "分類任務看 accuracy，物理原理與 MMLU 類任務則採用較柔性的匹配方式                           ",
+      "這套設計讓 Eywa 的優勢比較站得住腳，因為它剛好處理那些語言介面不舒服的資料                            ",
+      "不過任務量仍偏小，現階段更像一張方法驗證地圖，而非最終排行榜                                       ",
+      "我會把它看成提醒：科學代理評測不能只問模型會不會解釋，還要看它會不會保留資料結構                              ",
+      "若後續 benchmark 擴大，最值得看的會是哪些 domain 真的需要專門模型                             ",
+      "也可能出現反例，有些任務被強行接入 foundation model 反而增加操作成本                             ",
+      "這種灰色地帶，會決定 Eywa 是科研工具箱，還是只停在漂亮框架                                         "
+    ],
+    [
+      "實驗結果的方向很清楚：語言代理加上科學專家，通常比純語言代理更划算                                         ",
+      "單代理設定裡，EywaAgent 的整體 utility 從 0.6154 升到 0.6558                            ",
+      "同組比較中，token 從 4469 降到 3137，時間也從 25.22 降到 22.78                              ",
+      "多代理設定裡，EywaMAS 的整體 utility 達到 0.6761，是固定多代理方法裡最高                             ",
+      "EywaOrchestra 的 utility 接近 EywaMAS，token 與時間成本卻明顯更低                           ",
+      "最好看的 domain 是商業與基礎設施，Eywa 系列把效率和效用一起往前推                                        ",
+      "比較尷尬的是生物與部分材料任務，提升幅度沒有其他領域那麼乾淨                                                  ",
+      "這反而讓結果更可信，因為專門模型不是魔法，只在資料型態吻合時占便宜                                                ",
+      "如果你在做科研代理，這篇給的行動方向很清楚：先盤點任務資料長什麼樣                                                 ",
+      "接著找出 LLM 正在用文字硬模擬的步驟，把那段交給真正的 foundation model                                     ",
+      "最後別急著堆代理數，先測單一 EywaAgent 是否已經吃掉大半收益                                                 ",
+      "我最在意的後續其實偏向更多可重跑的科學專家接口 ",
+      "沒有那些接口，LLM 再會規劃，也只是站在實驗室門口比手畫腳                                                       "
+    ]
+  ],
+  "figures": [
+    "https://www.zihao.website/eywa.github.io/static/images/hero_figure.png",
+    "https://www.zihao.website/eywa.github.io/static/images/eywa_framework.png",
+    "https://www.zihao.website/eywa.github.io/static/images/eywa_agent.png",
+    "https://www.zihao.website/eywa.github.io/static/images/eywa_mas.png",
+    "https://www.zihao.website/eywa.github.io/static/images/benchmark_fig8.png",
+    "https://www.zihao.website/eywa.github.io/static/images/utility_token_tradeoff.png"
+  ]
+}
