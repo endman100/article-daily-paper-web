@@ -1994,9 +1994,64 @@
   ],
   "20260430": [
     {
+      "slug": "20260430-A Survey on LLM-based Conversational User Simulation",
+      "title": "A Survey on LLM-based Conversational User Simulation",
+      "title_zh": "基於 LLM 的對話式使用者模擬綜述"
+    },
+    {
+      "slug": "20260430-Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
+      "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
+      "title_zh": "透過 System-Integrated Speculative Decoding 加速 RL 後訓練 Rollout"
+    },
+    {
+      "slug": "20260430-Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductors Discovery",
+      "title": "Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductors Discovery",
+      "title_zh": "大型原子模型與語言模型的代理式融合以加速超導體發現"
+    },
+    {
+      "slug": "20260430-ClawGym- A Scalable Framework for Building Effective Claw Agents",
+      "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+      "title_zh": "ClawGym：建構有效 Claw 代理的可擴展框架"
+    },
+    {
       "slug": "20260430-ClawGym_ A Scalable Framework for Building Effective Claw Agents",
       "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
       "title_zh": "ClawGym：打造有效 Claw Agents 的大規模框架"
+    },
+    {
+      "slug": "20260430-Diffusion Templates- A Unified Plugin Framework for Controllable Diffusion",
+      "title": "Diffusion Templates: A Unified Plugin Framework for Controllable Diffusion",
+      "title_zh": "Diffusion Templates：統一的可控擴散插件框架"
+    },
+    {
+      "slug": "20260430-Diffusion Templates_ A Unified Plugin Framework for Controllable Diffusion",
+      "title": "Diffusion Templates: A Unified Plugin Framework for Controllable Diffusion",
+      "title_zh": "Diffusion Templates：用於可控 Diffusion 的統一插件框架"
+    },
+    {
+      "slug": "20260430-Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
+      "title": "Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
+      "title_zh": "以 Adaptive Quantization 與 Differential Privacy 提升 Non-IID Federated Learning 中的隱私與通訊效率"
+    },
+    {
+      "slug": "20260430-FAMA- Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+      "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+      "title_zh": "FAMA：面向互動式工具使用環境中開源LLM的失敗感知Meta-Agent框架"
+    },
+    {
+      "slug": "20260430-FAMA_ Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+      "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+      "title_zh": "FAMA：面向互動式工具使用環境中開源LLM的失敗感知Meta-Agentic框架"
+    },
+    {
+      "slug": "20260430-FASH-iCNN- Making Editorial Fashion Identity Inspectable Through Multimodal CNN Probing",
+      "title": "FASH-iCNN: Making Editorial Fashion Identity Inspectable Through Multimodal CNN Probing",
+      "title_zh": "FASH-iCNN：透過多模態 CNN 探測讓編輯時尚身份可檢視"
+    },
+    {
+      "slug": "20260430-GLM-5V-Turbo- Toward a Native Foundation Model for Multimodal Agents",
+      "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "title_zh": "GLM-5V-Turbo：邁向多模態 Agent 的原生基座模型"
     },
     {
       "slug": "20260430-GLM-5V-Turbo_ Toward a Native Foundation Model for Multimodal Agents",
@@ -2006,7 +2061,32 @@
     {
       "slug": "20260430-Large Language Models Explore by Latent Distilling",
       "title": "Large Language Models Explore by Latent Distilling",
-      "title_zh": "大型語言模型透過 Latent Distilling 探索"
+      "title_zh": "大型語言模型透過 Latent Distilling 進行探索"
+    },
+    {
+      "slug": "20260430-Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+      "title_zh": "真實資本下 Onchain Language-Model Agents 的 Operating-Layer Controls"
+    },
+    {
+      "slug": "20260430-Praxy Voice- Voice-Prompt Recovery + BUPS for Commercial-Class Indic TTS from a Frozen Non-Indic Base at Zero Commercial-Training-Data Cost",
+      "title": "Praxy Voice: Voice-Prompt Recovery + BUPS for Commercial-Class Indic TTS from a Frozen Non-Indic Base at Zero Commercial-Training-Data Cost",
+      "title_zh": "Praxy Voice：從凍結非 Indic 基座用 Voice-Prompt Recovery 加 BUPS 做到商用品質 Indic TTS 且零商業訓練資料成本"
+    },
+    {
+      "slug": "20260430-Probing Visual Planning in Image Editing Models",
+      "title": "Probing Visual Planning in Image Editing Models",
+      "title_zh": "探測圖像編輯模型中的視覺規劃"
+    },
+    {
+      "slug": "20260430-PSP- An Interpretable Per-Dimension Accent Benchmark for Indic Text-to-Speech",
+      "title": "PSP: An Interpretable Per-Dimension Accent Benchmark for Indic Text-to-Speech",
+      "title_zh": "PSP：面向 Indic 文字轉語音的逐維度可解釋口音基準"
+    },
+    {
+      "slug": "20260430-RADIO-ViPE- Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
+      "title": "RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
+      "title_zh": "RADIO-ViPE：動態環境中用於開放詞彙語義 SLAM 的線上緊耦合多模態融合"
     },
     {
       "slug": "20260430-RADIO-ViPE_ Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments",
@@ -2014,9 +2094,24 @@
       "title_zh": "RADIO-ViPE：用於動態環境開放詞彙 Semantic SLAM 的線上緊耦合多模態融合"
     },
     {
+      "slug": "20260430-Sample Selection Using Multi-Task Autoencoders in Federated Learning with Non-IID Data",
+      "title": "Sample Selection Using Multi-Task Autoencoders in Federated Learning with Non-IID Data",
+      "title_zh": "在 Non-IID 資料的聯邦學習中使用 Multi-Task Autoencoders 進行樣本選擇"
+    },
+    {
+      "slug": "20260430-Turning the TIDE- Cross-Architecture Distillation for Diffusion Large Language Models",
+      "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+      "title_zh": "Turning the TIDE：Diffusion 大型語言模型的跨架構蒸餾"
+    },
+    {
       "slug": "20260430-Turning the TIDE_ Cross-Architecture Distillation for Diffusion Large Language Models",
       "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
       "title_zh": "Turning the TIDE：Diffusion Large Language Models 的跨架構蒸餾"
+    },
+    {
+      "slug": "20260430-Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+      "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+      "title_zh": "從 Video Priors 與 Asynchronous Denoising 統一建模 4D World Action"
     }
   ],
   "20260501": [

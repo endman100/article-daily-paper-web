@@ -1,0 +1,74 @@
+{
+  "title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+  "title_zh": "FAMA：面向互動式工具使用環境中開源LLM的失敗感知Meta-Agentic框架",
+  "paper_url": "https://arxiv.org/abs/2604.25135",
+  "data": [
+    [
+      "客服agent最麻煩的錯常在第5輪才冒出來",
+      "前面查單、改地址都正常，下一步卻突然選錯工具",
+      "FAMA抓住的點很務實：開源LLM工具agent常常不是一開始就壞",
+      "錯誤會沿著對話往後滾；越後面越難追到哪一步開始歪掉",
+      "作者沒有只看最後答對或答錯、而是把整段失敗軌跡仔細拆開",
+      "它先讓baselineagent單獨跑任務（失敗案例才進入診斷流程）",
+      "接著由多個分析agent讀取軌跡，判斷常見病灶；再交給orchestrator收斂主因",
+      "最有看點的結果是，少量針對式支援：在多個工具使用benchmark裡最高帶來約27%提升"
+    ],
+    [
+      "背景其實很好懂，工具agent像一個會查庫存也會填表的助理",
+      "它要讀需求、守政策、選API，還得記住前面聊過什麼才行​",
+      "封閉式大模型能用更長上下文硬撐：開源LLM就比較吃緊",
+      "小參數量和短上下文放到多輪任務裡；很快會露出判斷縫隙與雜音​",
+      "常見補法是改prompt、開ReAct流程，或把很多helperagent一起叫進來",
+      "上下文不是免費倉庫（多塞一個agent就多一份噪音和延遲成本）",
+      "IRMA這類方法在部分任務有效，卻不會穩定幫到所有模型；論文表格很清楚",
+      "FAMA的切入點更像工程事故處理：先問失敗長什麼樣，再決定要請誰進來支援",
+      "所以它比較像故障診斷台、也不像又一個更厚的提示模板​​​​​​​"
+    ],
+    [
+      "FAMA第一階段像事故復盤，先記錄baselineagent失敗前後的完整行為",
+      "成功案例先放旁邊；真正有價值的材料，是那些沒完成的任務軌跡紀錄​​​​​​",
+      "每條軌跡會交給4類錯誤分析agent：分別看規則、檢索、語境和完成度來源​​",
+      "DomainConstraintViolation指agent做了被政策禁止的動作：也可能漏掉必做步驟",
+      "WrongRetrievalFromComplexToolOutputs處理工具回傳很長時、agent拿錯欄位的情況",
+      "ContextualMisinterpretation比較像聽懂字面（卻沒抓到使用者真正想辦的事與限制）",
+      "IncompleteFulfillment則是任務遇到阻力就停下；明明還有替代路徑可以試下去",
+      "這些分析結果被合併後，orchestrator會判斷主因；不是讓每個診斷各說各話",
+      "它也會檢查後續回合，看agent是否靠環境回饋把錯誤救回來：這點特別關鍵​​​​​",
+      "所以FAMA診斷的是整段行為，而不是一句輸出裡最刺眼的錯、這讓誤判少一點​​​​​​​​​"
+    ],
+    [
+      "第二階段才輪到helperagent上場，這裡是FAMA和傳統多agent拼裝的差別所在​​​",
+      "它有預先準備的agentpool；包含DCE、TSA、TOR、Planner、Verifier、Memory",
+      "DCE負責重新抽出領域規則：避免agent忘記退貨政策或航空改票限制細節​​​​​​​​​​​​",
+      "TOR把複雜工具輸出整理得更好讀，尤其適合訂單清單、航班列表和醫療紀錄資料​​​​​​​​​​​​",
+      "Planner把多步任務拆回可執行路線；Verifier則檢查最後是否真的完成任務​​​​​​​​​",
+      "Memory保留最近使用者問題（補上開源模型在長對話裡最容易掉的線索片段）​​​​​​​​​​​​​​​​",
+      "mitigationagent會依orchestrator診斷結果，挑出最小必要組合；不是全員上陣救火​​​​",
+      "最小組合很重要，因為全部開啟看似保險：實際上可能把上下文擠爆​​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "論文把FAMA稱為meta-agentic、理由也在這裡，它不直接操作外部環境本身​​​​​​​​​​​​​​​​",
+      "它站在工具agent上方觀察失敗，分派支援，重新塑造決策前的上下文材料​​​​​​​​​​​​​​​​​​​​​​​​",
+      "換句話說：FAMA管的是誰該進會議室，不是自己下去按API按鈕​​​​​​​​​​​​​​​​​​​​​​​​​​​​​"
+    ],
+    [
+      "實驗部分給了幾個有用訊號，不只是把成功率表格堆在一起展示​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "作者在tau-bench的airline與retail、tau-trait的telehealth與telecom，還有ACEBench上測試",
+      "模型主角是開源Qwen系列：從4B到72B都有，焦點放在資源受限agent​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "baseline包含ReAct、FunctionCalling與IRMA；FAMA在多數情境都壓過它們​​​​​​​​​​​​",
+      "在tau-bench裡，FAMA平均相對ReAct與FC都有明顯提升、對IRMA也不是只贏一兩格​​​​​​​​​​​​​​​​",
+      "ACEBench上最醒目的案例是Qwen2.5-72B（FAMA-Base把端到端結果推到50.0%附近）​​​​​​​​​​​​",
+      "tau-trait裡的Telecom也很有意思，72B模型用FAMA可在pass5保住39.00%水位​​​​​​​​​​​​​​​",
+      "論文還發現thinking版本模型不一定討便宜；推理痕跡可能吃掉上下文預算空間​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "錯誤分析圖裡，DomainConstraintViolation與ContextualMisinterpretation反覆出現：很像真實客服會踩的坑",
+      "成本面沒有被藏起來，FAMA仍有額外token與延遲；只是低於把所有agent都叫上的IRMA​​​​​​​​​​​​​​​​​​​​​",
+      "如果只看一句話，最有趣的結論是少派一點人、反而讓agent做事更穩一點​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "實務上可先從最常壞的3條流程試起：比直接重訓模型更像能落地的起點​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​"
+    ]
+  ],
+  "figures": [
+    "https://arxiv.org/html/2604.25135v1/figures/FAMA-Page-3.png",
+    "https://arxiv.org/html/2604.25135v1/x1.png",
+    "https://arxiv.org/html/2604.25135v1/x3.png",
+    "https://arxiv.org/html/2604.25135v1/x4.png",
+    "https://arxiv.org/html/2604.25135v1/x6.png"
+  ]
+}
