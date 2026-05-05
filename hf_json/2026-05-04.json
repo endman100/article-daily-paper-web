@@ -12,36 +12,44 @@
     "arxiv": "https://arxiv.org/abs/2605.00781"
   },
   {
-    "title": "Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions",
-    "arxiv": "https://arxiv.org/abs/2604.23774"
-  },
-  {
-    "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
-    "arxiv": "https://arxiv.org/abs/2605.00416"
-  },
-  {
     "title": "Let ViT Speak: Generative Language-Image Pre-training",
     "arxiv": "https://arxiv.org/abs/2605.00809"
   },
   {
-    "title": "Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
-    "arxiv": "https://arxiv.org/abs/2605.00553"
+    "title": "Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions",
+    "arxiv": "https://arxiv.org/abs/2604.23774"
   },
   {
     "title": "From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills",
     "arxiv": "https://arxiv.org/abs/2604.24026"
   },
   {
-    "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
-    "arxiv": "https://arxiv.org/abs/2605.00414"
+    "title": "Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
+    "arxiv": "https://arxiv.org/abs/2605.00553"
+  },
+  {
+    "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+    "arxiv": "https://arxiv.org/abs/2605.00416"
+  },
+  {
+    "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
+    "arxiv": "https://arxiv.org/abs/2605.00347"
   },
   {
     "title": "When Do Diffusion Models learn to Generate Multiple Objects?",
     "arxiv": "https://arxiv.org/abs/2605.00273"
   },
   {
+    "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+    "arxiv": "https://arxiv.org/abs/2605.00414"
+  },
+  {
     "title": "End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
     "arxiv": "https://arxiv.org/abs/2605.00503"
+  },
+  {
+    "title": "Better Models, Faster Training: Sigmoid Attention for single-cell Foundation Models",
+    "arxiv": "https://arxiv.org/abs/2604.27124"
   },
   {
     "title": "Online Self-Calibration Against Hallucination in Vision-Language Models",
@@ -56,23 +64,23 @@
     "arxiv": "https://arxiv.org/abs/2605.00754"
   },
   {
-    "title": "LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation",
-    "arxiv": "https://arxiv.org/abs/2605.00777"
-  },
-  {
     "title": "MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
     "arxiv": "https://arxiv.org/abs/2604.27818"
   },
   {
-    "title": "Better Models, Faster Training: Sigmoid Attention for single-cell Foundation Models",
-    "arxiv": "https://arxiv.org/abs/2604.27124"
+    "title": "AnalogRetriever: Learning Cross-Modal Representations for Analog Circuit Retrieval",
+    "arxiv": "https://arxiv.org/abs/2604.23195"
+  },
+  {
+    "title": "LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation",
+    "arxiv": "https://arxiv.org/abs/2605.00777"
   },
   {
     "title": "Talker-T2AV: Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling",
     "arxiv": "https://arxiv.org/abs/2604.23586"
   },
   {
-    "title": "AnalogRetriever: Learning Cross-Modal Representations for Analog Circuit Retrieval",
-    "arxiv": "https://arxiv.org/abs/2604.23195"
+    "title": "Soft Anisotropic Diagrams for Differentiable Image Representation",
+    "arxiv": "https://arxiv.org/abs/2604.21984"
   }
 ]
